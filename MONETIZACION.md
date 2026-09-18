@@ -166,3 +166,10 @@ Conversión típica freemium app: **2-5%** de usuarios activos → pagando.
 | Bloqueo de actualizaciones | Auto-update ya implementado (v3.3.0) |
 
 **Siguiente versión del producto tras dinero en caja:** sincronización de progreso entre dispositivos, analytics propio, app móvil Flutter, certificados verificables online (endpoint propio).
+
+---
+
+## 10. 📎 Documentos hermanos de esta carpeta
+
+- 🇺🇾 **[COBROS-UY.md](COBROS-UY.md)** — cómo cobrar las ganancias con **Santander (SWIFT BSCHUYMMXXX)**, **Prex** (PayPal→Prex U$S 4+IVA) y **MiDinero** (punto final de gasto), con comisiones reales 2026, calendario de payouts (días 14 y 28, hold 13 días, mín U$S 50) e impuestos.
+- 🤖 **[MODO-AGENTE.md](MODO-AGENTE.md)** — playbook de despliegue autónomo: lo que hace el humano (cuenta+KYC+banco, 20 min) vs. lo que ejecuta el agente (todo lo demás: enlaces → JSON → verificación E2E → lanzamiento). Incluye prompt listo para pegar.
