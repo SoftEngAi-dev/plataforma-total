@@ -44,20 +44,21 @@ El workflow `.github/workflows/build.yml` compila los **3 ejecutables en la nube
 2. Pestaña **Actions** → "🖥️ Compilar ejecutables desktop" → descarga los artefactos
 3. Tienes: **Windows.zip (con .exe)**, **macOS.tar.gz (con .app)** y **Linux.tar.gz**
 
-## 📤 Subir a GitHub en 2 minutos
+## 📤 Subir a GitHub (guía completa: [`SUBIR_A_GITHUB.md`](SUBIR_A_GITHUB.md))
 
-Este proyecto **ya es un repositorio git** con commits — solo falta empujarlo:
+**🪟 Windows (recomendado):** descarga `plataforma-total-completo.zip`, extráelo y haz **doble clic en `SUBIR_A_GITHUB.bat`** — te pide usuario, repo y token, **crea el repo en tu GitHub por API** y sube los 3.600+ archivos solo.
+
+**🍎 macOS / 🐧 Linux:** `./subir_a_github.sh` (interactivo) o manual:
 
 ```bash
-# Opción asistida (script que guía todo):
-GITHUB_USER=tu-usuario REPO=plataforma-total ./subir_a_github.sh
-
-# O manualmente: crea el repo vacío en https://github.com/new y luego:
+# github.com/new → crea el repo VACÍO, luego:
 git remote add origin https://github.com/TU-USUARIO/plataforma-total.git
 git push -u origin main        # contraseña = tu Personal Access Token
 ```
 
-> 🔐 ¿Sin token? github.com → **Settings → Developer settings → Tokens (classic)** → permisos `repo` + `workflow`. El script `subir_a_github.sh` te lo explica paso a paso.
+> 🔐 Token: github.com → **Settings → Developer settings → Tokens (classic)** → scopes `repo` + `workflow`.
+
+**🖥️ Descargar tu `.exe` tras el push:** pestaña **Actions** → run ✅ → **Artifacts** → `PlataformaTotal-Windows` (ZIP con `PlataformaTotal.exe` dentro). Para descargas **permanentes**: `git tag v3.0 && git push origin v3.0` → los 3 ejecutables quedan en **Releases** sin caducidad.
 
 ## 🖥️ Icono de escritorio (Linux)
 
