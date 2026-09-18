@@ -1,0 +1,13 @@
+[Desktop Entry]
+# 🎓 Lanzador de escritorio Linux para Plataforma Total
+# Instalación: cp PlataformaTotal.desktop ~/.local/share/applications/
+#              y ajusta Icon/Exec a tus rutas reales
+Name=Plataforma Total
+Comment=Escuela local de programación con IA (41 cursos, 482 quizzes, 100% offline)
+Exec=/opt/PlataformaTotal/PlataformaTotal
+Icon=applications-education-university
+Terminal=false
+Type=Application
+Categories=Education;Development;
+Keywords=programación;aprender;cursos;dev;estudio;IA;
+StartupWMClass=ctk

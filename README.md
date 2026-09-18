@@ -44,6 +44,33 @@ El workflow `.github/workflows/build.yml` compila los **3 ejecutables en la nube
 2. Pestaña **Actions** → "🖥️ Compilar ejecutables desktop" → descarga los artefactos
 3. Tienes: **Windows.zip (con .exe)**, **macOS.tar.gz (con .app)** y **Linux.tar.gz**
 
+## 📤 Subir a GitHub en 2 minutos
+
+Este proyecto **ya es un repositorio git** con commits — solo falta empujarlo:
+
+```bash
+# Opción asistida (script que guía todo):
+GITHUB_USER=tu-usuario REPO=plataforma-total ./subir_a_github.sh
+
+# O manualmente: crea el repo vacío en https://github.com/new y luego:
+git remote add origin https://github.com/TU-USUARIO/plataforma-total.git
+git push -u origin main        # contraseña = tu Personal Access Token
+```
+
+> 🔐 ¿Sin token? github.com → **Settings → Developer settings → Tokens (classic)** → permisos `repo` + `workflow`. El script `subir_a_github.sh` te lo explica paso a paso.
+
+## 🖥️ Icono de escritorio (Linux)
+
+Tras descomprimir el ejecutable:
+
+```bash
+tar -xzf ejecutable/PlataformaTotal-Linux-x86_64.tar.gz -C /opt  # o cualquier carpeta
+sed -i "s|/opt/PlataformaTotal|$(pwd)/PlataformaTotal|" PlataformaTotal.desktop
+cp PlataformaTotal.desktop ~/.local/share/applications/
+```
+
+La app aparece en tu menú de aplicaciones como 🎓 **Plataforma Total**.
+
 ---
 
 ## 📚 El curriculum (41 cursos)
