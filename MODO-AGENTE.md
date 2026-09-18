@@ -66,14 +66,18 @@ git add monetizacion.json && git commit -m "💰 activar checkout real Lemon Squ
 
 ---
 
-## 📣 BLOQUE C — Lanzamiento (el agente lo ejecuta en cuanto B esté DONE)
+## 📣 BLOQUE C — Lanzamiento (✅ ASSETS YA GENERADOS en `marketing/`)
 
-1. **Landing SEO:** regenerar `docs/index.html` con una sección por cada uno de los 47 cursos (contenido ya en `expansion/`) → push → GitHub Pages indexa.
-2. **Artículo de lanzamiento** (Dev.to/Medium ES) + post en r/programacion: *"Hice una app offline-first con 47 cursos de programación en español, 15 gratis"* → enlaza landing.
-3. **Guion de 3 TikToks/Shorts** (20 seg): problema → demo → CTA a bio.
-4. **Product Hunt:** preparar tagline, descripción y 3 capturas con la misma app.
-5. **Afiliados:** activar el programa de LS (Settings → Affiliates, 30%) y redactar el kit del afiliado (textos + capturas).
-6. Reporte al dueño con: checklist ✅/❌ por punto y próximos experimentos de conversión.
+Todo el material está **listo y commiteado** — tras el Bloque B solo hay que publicar:
+
+1. ✅ **Landing SEO**: `docs/index.html` ya incluye #cursos-seo (47 cursos indexables) + FAQ + JSON-LD.
+2. ✅ **Artículo** en `marketing/LANZAMIENTO-DEVTO.md` — publicar en Dev.to/Medium/LinkedIn el día 0.
+3. ✅ **Posts comunidades** en `marketing/REDDIT-Y-COMUNIDADES.md` (con regla 9:1 y respuestas tipo).
+4. ✅ **3 guiones TikTok/Shorts** en `marketing/TIKTOKS.md` (cadencia 2-3/semana).
+5. ✅ **Product Hunt kit** en `marketing/PRODUCT-HUNT.md` (lanzar martes/miércoles 00:01 PT).
+6. ✅ **Kit afiliados 30%** en `marketing/KIT-AFILIADOS.md` (activar en LS → invitar 5 creadores).
+7. Índice y orden de ejecución: `marketing/README-LANZAMIENTO.md`.
+8. Reporte al dueño con: checklist ✅/❌ por punto y próximos experimentos de conversión.
 
 ---
 
