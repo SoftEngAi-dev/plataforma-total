@@ -1,0 +1,32 @@
+{
+  "curso": "💚 Vue 3 — Composition API en Serio",
+  "leccion": 2,
+  "titulo": "2. computed, watch y las directivas esenciales",
+  "total": 2,
+  "aprobado_con": 2,
+  "preguntas": [
+    {
+      "p": "¿Qué hace computed() en Vue 3?",
+      "ops": [
+        "Calcula un valor derivado con caché, recalculando solo si cambian las dependencias",
+        "Lanza peticiones HTTP",
+        "Define rutas",
+        "Compila CSS"
+      ],
+      "ok": 0,
+      "exp": "El computed memoriza: si las dependencias no cambian, devuelve el valor cacheado."
+    },
+    {
+      "p": "¿Qué hace v-model en un input?",
+      "ops": [
+        "Enlace bidireccional: el input escribe el estado y el estado actualiza el input",
+        "Importa módulos",
+        "Crea bucles",
+        "Registra eventos globales"
+      ],
+      "ok": 0,
+      "exp": "v-model azucara value + @input: la vía rápida para formularios."
+    }
+  ],
+  "generado": "2026-09-18"
+}

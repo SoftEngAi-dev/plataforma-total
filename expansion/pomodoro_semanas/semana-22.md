@@ -1,6 +1,6 @@
 # 🍅 Plan de la semana 22 (52)
 
-> Lecciones recomendadas esta semana: 4 («8» … «1»)
+> Lecciones recomendadas esta semana: 5 («2» … «6»)
 
 | Día | 🍅 meta | Bloque sugerido | Hecho |
 |-----|--------|-----------------|-------|

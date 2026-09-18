@@ -1,0 +1,32 @@
+{
+  "curso": "🔥 SvelteKit & Svelte 5 — Apps Completas",
+  "leccion": 4,
+  "titulo": "4. Endpoints +server.js, adapters y despliegue",
+  "total": 2,
+  "aprobado_con": 2,
+  "preguntas": [
+    {
+      "p": "¿Cómo creas un endpoint JSON en SvelteKit?",
+      "ops": [
+        "Con un archivo +server.js que exporta funciones GET/POST",
+        "Con una carpeta /api de Next",
+        "Con localStorage",
+        "Con ngrok"
+      ],
+      "ok": 0,
+      "exp": "+server.js en una ruta define handlers HTTP que devuelven json() personalizados."
+    },
+    {
+      "p": "¿Qué adapter eliges para desplegar SvelteKit en tu propio contenedor Docker?",
+      "ops": [
+        "adapter-node",
+        "adapter-static",
+        "adapter-auto",
+        "ninguno"
+      ],
+      "ok": 0,
+      "exp": "adapter-node genera un servidor Node independiente, perfecto para VPS o Docker."
+    }
+  ],
+  "generado": "2026-09-18"
+}

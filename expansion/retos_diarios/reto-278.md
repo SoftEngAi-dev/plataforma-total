@@ -1,17 +1,17 @@
 # 🥊 Reto del día 278
 
-> Hoy tu cerebro ataca: **15. Asincronía: setTimeout, promesas y async/await** (JavaScript — De Cero a Experto)
+> Hoy tu cerebro ataca: **3. Instalar y gestionar paquetes (todo por terminal)** (Herramientas del Desarrollador)
 
 1. Explica en voz alta este tema durante 2 minutos, sin notas.
 2. Relee la lección solo si el paso 1 trabó.
 3. Reescribe desde cero el ejemplo clave de la lección.
 
 ## 🥊 Desafío exprés (sin mirar)
-**¿Qué devuelve inmediatamente una función async?**
+**¿Para qué sirve un virtualenv en Python?**
 
 <details><summary>👁 Ver respuesta</summary>
 
-✅ Una promesa — async significa 'esto devolverá una promesa'; await desenvuelve su valor.
+✅ Aislar las dependencias de cada proyecto para que no choquen — Cada proyecto tiene su propio set de paquetes/versions; nunca chocan.
 </details>
 
 💰 Vale 1 punto de maestría. Acumula 30 → date un premio real.

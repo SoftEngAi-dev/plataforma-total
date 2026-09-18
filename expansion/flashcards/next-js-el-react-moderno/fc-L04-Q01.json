@@ -1,0 +1,10 @@
+{
+  "tarjeta": "next-js-el-react-moderno-L04-Q01",
+  "curso": "▲ Next.js — El React Moderno",
+  "leccion": 4,
+  "frente": "¿Qué es una Server Action?",
+  "reversa": "Una función que corre en el servidor invocable desde la UI sin escribir un endpoint",
+  "explicacion": "Con 'use server' declaras funciones backend llamables: Next genera el canal seguro automáticamente.",
+  "algoritmo": "repaso espaciado: 1d, 3d, 7d, 21d",
+  "generada": "2026-09-18"
+}

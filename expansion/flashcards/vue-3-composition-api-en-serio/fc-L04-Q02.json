@@ -1,0 +1,10 @@
+{
+  "tarjeta": "vue-3-composition-api-en-serio-L04-Q02",
+  "curso": "💚 Vue 3 — Composition API en Serio",
+  "leccion": 4,
+  "frente": "En un store de Pinia, ¿qué es un getter?",
+  "reversa": "Un valor derivado del estado con caché (como computed)",
+  "explicacion": "Los getters son computed del store: se recalculan cuando cambia el estado base.",
+  "algoritmo": "repaso espaciado: 1d, 3d, 7d, 21d",
+  "generada": "2026-09-18"
+}

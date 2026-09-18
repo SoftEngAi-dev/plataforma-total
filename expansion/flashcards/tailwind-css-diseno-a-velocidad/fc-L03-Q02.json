@@ -1,0 +1,10 @@
+{
+  "tarjeta": "tailwind-css-diseno-a-velocida-L03-Q02",
+  "curso": "🎨 Tailwind CSS — Diseño a Velocidad",
+  "leccion": 3,
+  "frente": "¿Qué hace la clase transition en un botón?",
+  "reversa": "Anima suavemente los cambios de propiedades (color, escala…) entre estados",
+  "explicacion": "transition + duration-* suaviza hover/active/focus sin escribir @keyframes.",
+  "algoritmo": "repaso espaciado: 1d, 3d, 7d, 21d",
+  "generada": "2026-09-18"
+}

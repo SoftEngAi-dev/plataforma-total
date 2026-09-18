@@ -1,0 +1,10 @@
+{
+  "tarjeta": "vue-3-composition-api-en-serio-L03-Q02",
+  "curso": "💚 Vue 3 — Composition API en Serio",
+  "leccion": 3,
+  "frente": "¿Para qué sirve provide/inject?",
+  "reversa": "Pasar datos a descendientes lejanos sin retransmitir props intermedias",
+  "explicacion": "provide publica un valor en el árbol; inject lo consume a cualquier profundidad.",
+  "algoritmo": "repaso espaciado: 1d, 3d, 7d, 21d",
+  "generada": "2026-09-18"
+}

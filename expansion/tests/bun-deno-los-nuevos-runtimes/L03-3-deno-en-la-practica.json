@@ -1,0 +1,32 @@
+{
+  "curso": "🍞 Bun & Deno — Los Nuevos Runtimes",
+  "leccion": 3,
+  "titulo": "3. Deno en la práctica",
+  "total": 2,
+  "aprobado_con": 2,
+  "preguntas": [
+    {
+      "p": "¿Qué pasa si un script de Deno usa la red sin --allow-net?",
+      "ops": [
+        "Deno lanza PermissionDenied y bloquea la operación",
+        "Funciona igual",
+        "Lo reporta por email",
+        "Se reinicia el PC"
+      ],
+      "ok": 0,
+      "exp": "El sandbox de Deno exige permisos explícitos por recurso: seguridad real por defecto."
+    },
+    {
+      "p": "¿Qué herramientas trae Deno integradas sin configuración?",
+      "ops": [
+        "fmt, lint y test (además de compile)",
+        "Solo el runtime",
+        "Photoshop",
+        "Docker"
+      ],
+      "ok": 0,
+      "exp": "deno fmt, deno lint, deno test y deno compile vienen de serie: toolchain todo-en-uno."
+    }
+  ],
+  "generado": "2026-09-18"
+}

@@ -4,6 +4,17 @@ Todas las versiones publicadas en: https://github.com/SoftEngAi-dev/plataforma-t
 
 ---
 
+## [3.2.0] — 2026-09-18 · 🚀 Stack Moderno (Astro & friends)
+
+### Añadido
+- 🚀 **Curso de Astro** (5 lecciones): islas, .astro, rutas, Content Collections y despliegue
+- 💚 **Curso de Vue 3** (5): SFC, Composition API, Pinia y Nuxt 3
+- ▲ **Curso de Next.js** (5): App Router, Server Components, Server Actions, SEO
+- 🎨 **Curso de Tailwind CSS** (5): utility-first, responsive, dark:, @theme y shadcn/ui
+- 🔥 **Curso de SvelteKit & Svelte 5** (4): runas, +page, form actions, adapters
+- 🍞 **Curso de Bun & Deno** (4): los nuevos runtimes, Fresh, Elysia, Hono, edge
+- **47 cursos · 269 lecciones · 538 quizzes** · **3.941 archivos** de material de expansión
+
 ## [3.1.0] — 2026-09-18 · 🏁 Proyecto Final
 
 ### Añadido

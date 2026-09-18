@@ -1,0 +1,10 @@
+{
+  "tarjeta": "astro-la-web-de-contenido-mode-L03-Q02",
+  "curso": "🚀 Astro — La Web de Contenido Moderna",
+  "leccion": 3,
+  "frente": "¿Para qué sirve un layout con <slot /> en Astro?",
+  "reversa": "Envolver páginas repitiendo cabecera y pie, metiendo el contenido dentro",
+  "explicacion": "El layout aporta la estructura común y cada página inyecta su contenido en el slot.",
+  "algoritmo": "repaso espaciado: 1d, 3d, 7d, 21d",
+  "generada": "2026-09-18"
+}

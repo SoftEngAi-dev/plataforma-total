@@ -1,0 +1,32 @@
+{
+  "curso": "🎨 Tailwind CSS — Diseño a Velocidad",
+  "leccion": 3,
+  "titulo": "3. Estados y variantes: hover, dark: y group",
+  "total": 2,
+  "aprobado_con": 2,
+  "preguntas": [
+    {
+      "p": "¿Cómo haces que un hijo cambie cuando el padre recibe hover?",
+      "ops": [
+        "Con group en el padre y group-hover: en el hijo",
+        "Con JavaScript obligatorio",
+        "Con media queries",
+        "No se puede con CSS"
+      ],
+      "ok": 0,
+      "exp": "group marca el contenedor; group-hover:aplica-estilo solo cuando el grupo está en hover."
+    },
+    {
+      "p": "¿Qué hace la clase transition en un botón?",
+      "ops": [
+        "Anima suavemente los cambios de propiedades (color, escala…) entre estados",
+        "Oculta el botón",
+        "Cambia el tipo de letra",
+        "Añade un borde"
+      ],
+      "ok": 0,
+      "exp": "transition + duration-* suaviza hover/active/focus sin escribir @keyframes."
+    }
+  ],
+  "generado": "2026-09-18"
+}

@@ -19,9 +19,9 @@ BASE = Path(__file__).parent.resolve()
 sys.path.insert(0, str(BASE))
 
 # ─── CONTENIDO: 41 cursos / 243 lecciones / 486 quizzes ───
-import contenido_a, contenido_b, contenido_c
+import contenido_a, contenido_b, contenido_c, contenido_d, contenido_e
 _LECCIONES = {}
-for _mod in (contenido_a, contenido_b, contenido_c):
+for _mod in (contenido_a, contenido_b, contenido_c, contenido_d, contenido_e):
     _LECCIONES.update(_mod.CURSOS_MOD)
 CURSOS = {c: [{"titulo": t, "contenido": cc} for (t, cc, q) in lec] for c, lec in _LECCIONES.items()}
 QUIZZES = {c: {i: [{"p": p, "ops": list(ops), "ok": ok, "exp": exp} for (p, ops, ok, exp) in lec[i][2]]

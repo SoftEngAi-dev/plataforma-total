@@ -1,0 +1,10 @@
+{
+  "tarjeta": "bun-deno-los-nuevos-runtimes-L04-Q01",
+  "curso": "🍞 Bun & Deno — Los Nuevos Runtimes",
+  "leccion": 4,
+  "frente": "¿Qué framework corre el MISMO código en Deno, Bun, Node y workers del edge?",
+  "reversa": "Hono",
+  "explicacion": "Hono es ultraligero y multi-runtime: una API escrita una vez despliega en todos los runtimes.",
+  "algoritmo": "repaso espaciado: 1d, 3d, 7d, 21d",
+  "generada": "2026-09-18"
+}

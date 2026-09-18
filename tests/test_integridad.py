@@ -20,11 +20,11 @@ sys.path.insert(0, RAIZ)
 def main():
     # 1) Cargar los 3 módulos de contenido
     cursos = {}
-    for nombre in ("contenido_a", "contenido_b", "contenido_c"):
+    for nombre in ("contenido_a", "contenido_b", "contenido_c", "contenido_d", "contenido_e"):
         mod = __import__(nombre)
         cursos.update(mod.CURSOS_MOD)
 
-    assert len(cursos) == 41, f"❌ se esperaban 41 cursos, hay {len(cursos)}"
+    assert len(cursos) == 47, f"❌ se esperaban 47 cursos, hay {len(cursos)}"
 
     # 2) Validar lecciones y quizzes
     n_lecciones = n_preguntas = 0
@@ -45,7 +45,7 @@ def main():
             n_preguntas += len(quiz)
         n_lecciones += len(lecciones)
 
-    assert n_lecciones == 241, f"❌ se esperaban 241 lecciones, hay {n_lecciones}"
+    assert n_lecciones == 269, f"❌ se esperaban 269 lecciones, hay {n_lecciones}"
     assert n_preguntas == 2 * n_lecciones, "❌ cobertura de quiz ≠ 2 por lección"
     print(f"✅ 41 cursos · {n_lecciones} lecciones · {n_preguntas} preguntas — íntegro")
 

@@ -1,0 +1,10 @@
+{
+  "tarjeta": "tailwind-css-diseno-a-velocida-L05-Q02",
+  "curso": "🎨 Tailwind CSS — Diseño a Velocidad",
+  "leccion": 5,
+  "frente": "¿Qué clase de Tailwind muestra un texto solo a lectores de pantalla?",
+  "reversa": "sr-only",
+  "explicacion": "sr-only lo oculta visualmente pero mantiene accesibilidad para tecnologías asistivas.",
+  "algoritmo": "repaso espaciado: 1d, 3d, 7d, 21d",
+  "generada": "2026-09-18"
+}

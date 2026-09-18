@@ -1,0 +1,10 @@
+{
+  "tarjeta": "next-js-el-react-moderno-L01-Q02",
+  "curso": "▲ Next.js — El React Moderno",
+  "leccion": 1,
+  "frente": "¿Qué archivo crea la ruta /dashboard en el App Router?",
+  "reversa": "app/dashboard/page.tsx",
+  "explicacion": "En app/, cada carpeta con page.tsx es una ruta; layouts y loading se anidan por segmento.",
+  "algoritmo": "repaso espaciado: 1d, 3d, 7d, 21d",
+  "generada": "2026-09-18"
+}

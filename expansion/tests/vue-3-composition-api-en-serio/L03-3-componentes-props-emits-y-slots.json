@@ -1,0 +1,32 @@
+{
+  "curso": "💚 Vue 3 — Composition API en Serio",
+  "leccion": 3,
+  "titulo": "3. Componentes: props, emits y slots",
+  "total": 2,
+  "aprobado_con": 2,
+  "preguntas": [
+    {
+      "p": "¿Cómo comunica un componente hijo a su padre en Vue?",
+      "ops": [
+        "Emitiendo un evento personalizado con emit()",
+        "Mutando la prop directamente",
+        "Escribiendo en localStorage",
+        "Con variables globales"
+      ],
+      "ok": 0,
+      "exp": "Las props bajan, los eventos suben: el hijo emite, el padre decide qué hacer."
+    },
+    {
+      "p": "¿Para qué sirve provide/inject?",
+      "ops": [
+        "Pasar datos a descendientes lejanos sin retransmitir props intermedias",
+        "Hacer peticiones HTTP",
+        "Definir rutas",
+        "Ejecutar tests"
+      ],
+      "ok": 0,
+      "exp": "provide publica un valor en el árbol; inject lo consume a cualquier profundidad."
+    }
+  ],
+  "generado": "2026-09-18"
+}

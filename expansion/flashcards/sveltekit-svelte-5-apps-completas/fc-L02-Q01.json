@@ -1,0 +1,10 @@
+{
+  "tarjeta": "sveltekit-svelte-5-apps-comple-L02-Q01",
+  "curso": "🔥 SvelteKit & Svelte 5 — Apps Completas",
+  "leccion": 2,
+  "frente": "¿Qué archivo dentro de src/routes/blog crea la ruta /blog?",
+  "reversa": "+page.svelte",
+  "explicacion": "La convención de SvelteKit: +page.svelte marca la página; los directorios definen el path.",
+  "algoritmo": "repaso espaciado: 1d, 3d, 7d, 21d",
+  "generada": "2026-09-18"
+}

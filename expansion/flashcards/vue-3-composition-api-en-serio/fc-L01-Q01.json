@@ -1,0 +1,10 @@
+{
+  "tarjeta": "vue-3-composition-api-en-serio-L01-Q01",
+  "curso": "💚 Vue 3 — Composition API en Serio",
+  "leccion": 1,
+  "frente": "¿Cómo incrementas un ref dentro del <script setup>?",
+  "reversa": "contador.value++",
+  "explicacion": "En el script los refs se manipulan con .value; en el template Vue lo desenvuelve automáticamente.",
+  "algoritmo": "repaso espaciado: 1d, 3d, 7d, 21d",
+  "generada": "2026-09-18"
+}

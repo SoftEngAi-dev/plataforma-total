@@ -1,0 +1,10 @@
+{
+  "tarjeta": "bun-deno-los-nuevos-runtimes-L01-Q01",
+  "curso": "🍞 Bun & Deno — Los Nuevos Runtimes",
+  "leccion": 1,
+  "frente": "¿Qué incluye Bun además del runtime?",
+  "reversa": "Bundler, test runner y gestor de paquetes",
+  "explicacion": "Bun unifica herramientas: bun install, bun test y el bundler vienen de serie, todo muy rápido.",
+  "algoritmo": "repaso espaciado: 1d, 3d, 7d, 21d",
+  "generada": "2026-09-18"
+}

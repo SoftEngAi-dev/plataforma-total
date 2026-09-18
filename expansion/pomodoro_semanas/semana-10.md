@@ -1,6 +1,6 @@
 # 🍅 Plan de la semana 10 (52)
 
-> Lecciones recomendadas esta semana: 4 («15» … «18»)
+> Lecciones recomendadas esta semana: 5 («6» … «3»)
 
 | Día | 🍅 meta | Bloque sugerido | Hecho |
 |-----|--------|-----------------|-------|

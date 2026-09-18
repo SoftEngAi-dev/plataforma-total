@@ -1,0 +1,32 @@
+{
+  "curso": "▲ Next.js — El React Moderno",
+  "leccion": 4,
+  "titulo": "4. Server Actions: mutaciones sin escribir APIs",
+  "total": 2,
+  "aprobado_con": 2,
+  "preguntas": [
+    {
+      "p": "¿Qué es una Server Action?",
+      "ops": [
+        "Una función que corre en el servidor invocable desde la UI sin escribir un endpoint",
+        "Un Service Worker",
+        "Un middleware de Express",
+        "Un hook de React"
+      ],
+      "ok": 0,
+      "exp": "Con 'use server' declaras funciones backend llamables: Next genera el canal seguro automáticamente."
+    },
+    {
+      "p": "¿Qué debes hacer SIEMPRE dentro de una Server Action?",
+      "ops": [
+        "Validar entradas y comprobar permisos",
+        "Confiar en los datos del formulario",
+        "Guardar en localStorage",
+        "Llamar a alert()"
+      ],
+      "ok": 0,
+      "exp": "El cliente puede enviar cualquier cosa: la action es tu última línea de defensa (zod + auth)."
+    }
+  ],
+  "generado": "2026-09-18"
+}

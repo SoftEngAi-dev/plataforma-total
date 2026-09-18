@@ -1,6 +1,6 @@
 # 🍅 Plan de la semana 20 (52)
 
-> Lecciones recomendadas esta semana: 4 («16» … «3»)
+> Lecciones recomendadas esta semana: 5 («3» … «2»)
 
 | Día | 🍅 meta | Bloque sugerido | Hecho |
 |-----|--------|-----------------|-------|

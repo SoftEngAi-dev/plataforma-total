@@ -1,0 +1,32 @@
+{
+  "curso": "🎨 Tailwind CSS — Diseño a Velocidad",
+  "leccion": 2,
+  "titulo": "2. Layout: flexbox, grid y responsive móvil primero",
+  "total": 2,
+  "aprobado_con": 2,
+  "preguntas": [
+    {
+      "p": "¿Qué significa la clase md:grid-cols-3?",
+      "ops": [
+        "3 columnas a partir del breakpoint md (768px) hacia arriba",
+        "3 columnas solo en móvil",
+        "3 filas",
+        "Un margen de 3 píxeles"
+      ],
+      "ok": 0,
+      "exp": "Tailwind es mobile-first: el base es móvil y los prefijos md:/lg: aplican hacia arriba."
+    },
+    {
+      "p": "¿Cómo centras horizontalmente un contenedor con ancho máximo?",
+      "ops": [
+        "con la clase mx-auto (más max-w-* o container)",
+        "con text-center",
+        "con float:center",
+        "con grid"
+      ],
+      "ok": 0,
+      "exp": "mx-auto reparte el margen lateral; text-center solo alinea texto en línea."
+    }
+  ],
+  "generado": "2026-09-18"
+}

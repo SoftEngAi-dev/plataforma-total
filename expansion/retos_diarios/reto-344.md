@@ -1,17 +1,17 @@
 # 🥊 Reto del día 344
 
-> Hoy tu cerebro ataca: **5. Scripts Bash: automatiza tu propia vida** (Linux y Terminal — El Superpoder del Dev)
+> Hoy tu cerebro ataca: **14. Librería estándar: 10 joyas incluidas** (Python — De Cero a Profesional)
 
 1. Explica en voz alta este tema durante 2 minutos, sin notas.
 2. Relee la lección solo si el paso 1 trabó.
 3. Reescribe desde cero el ejemplo clave de la lección.
 
 ## 🥊 Desafío exprés (sin mirar)
-**¿Por qué siempre "comillas dobles" en variables de bash?**
+**¿Qué aporta Path de pathlib frente a strings de rutas?**
 
 <details><summary>👁 Ver respuesta</summary>
 
-✅ Sin ellas, valores con espacios se rompen en múltiples argumentos (bugs y desastres) — rm $f → rm dos cosas si f="mi archivo.txt"; rm "$f" → correcto.
+✅ Rutas portables Windows/Linux con operadores / y métodos read_text/exists — p = Path.home() / 'x' funciona igual en todos los SO — el estándar moderno de Python.
 </details>
 
 💰 Vale 1 punto de maestría. Acumula 30 → date un premio real.

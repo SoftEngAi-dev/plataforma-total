@@ -1,0 +1,10 @@
+{
+  "tarjeta": "bun-deno-los-nuevos-runtimes-L01-Q02",
+  "curso": "🍞 Bun & Deno — Los Nuevos Runtimes",
+  "leccion": 1,
+  "frente": "¿Cuál es el principio de seguridad por defecto de Deno?",
+  "reversa": "Permisos explícitos (--allow-net, --allow-read…)",
+  "explicacion": "Sin --allow-* el código no puede salir de su caja de arena: ideal para scripts de terceros.",
+  "algoritmo": "repaso espaciado: 1d, 3d, 7d, 21d",
+  "generada": "2026-09-18"
+}

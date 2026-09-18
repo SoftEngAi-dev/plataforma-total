@@ -1,0 +1,10 @@
+{
+  "tarjeta": "vue-3-composition-api-en-serio-L02-Q01",
+  "curso": "💚 Vue 3 — Composition API en Serio",
+  "leccion": 2,
+  "frente": "¿Qué hace computed() en Vue 3?",
+  "reversa": "Calcula un valor derivado con caché, recalculando solo si cambian las dependencias",
+  "explicacion": "El computed memoriza: si las dependencias no cambian, devuelve el valor cacheado.",
+  "algoritmo": "repaso espaciado: 1d, 3d, 7d, 21d",
+  "generada": "2026-09-18"
+}

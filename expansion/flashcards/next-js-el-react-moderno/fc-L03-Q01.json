@@ -1,0 +1,10 @@
+{
+  "tarjeta": "next-js-el-react-moderno-L03-Q01",
+  "curso": "▲ Next.js — El React Moderno",
+  "leccion": 3,
+  "frente": "¿Cómo se cargan datos en un Server Component de Next.js?",
+  "reversa": "Con await fetch directamente en el cuerpo async del componente",
+  "explicacion": "Al ejecutarse en el servidor, hacer await fetch en el componente es la vía natural y eficiente.",
+  "algoritmo": "repaso espaciado: 1d, 3d, 7d, 21d",
+  "generada": "2026-09-18"
+}

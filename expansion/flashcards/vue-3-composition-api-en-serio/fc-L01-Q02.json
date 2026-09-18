@@ -1,0 +1,10 @@
+{
+  "tarjeta": "vue-3-composition-api-en-serio-L01-Q02",
+  "curso": "💚 Vue 3 — Composition API en Serio",
+  "leccion": 1,
+  "frente": "¿Qué tres bloques suele tener un Single File Component?",
+  "reversa": "script, template y style",
+  "explicacion": "El SFC agrupa lógica (script), vista (template) y estilos (style) en un solo archivo .vue.",
+  "algoritmo": "repaso espaciado: 1d, 3d, 7d, 21d",
+  "generada": "2026-09-18"
+}

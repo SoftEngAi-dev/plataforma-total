@@ -1,0 +1,10 @@
+{
+  "tarjeta": "bun-deno-los-nuevos-runtimes-L02-Q02",
+  "curso": "🍞 Bun & Deno — Los Nuevos Runtimes",
+  "leccion": 2,
+  "frente": "¿Cómo levanta Bun un servidor HTTP sin Express?",
+  "reversa": "Con Bun.serve({ fetch })",
+  "explicacion": "Bun.serve es el servidor nativo de alto rendimiento con handlers fetch estándar Web.",
+  "algoritmo": "repaso espaciado: 1d, 3d, 7d, 21d",
+  "generada": "2026-09-18"
+}

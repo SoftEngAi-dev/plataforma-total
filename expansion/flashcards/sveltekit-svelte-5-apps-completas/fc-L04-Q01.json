@@ -1,0 +1,10 @@
+{
+  "tarjeta": "sveltekit-svelte-5-apps-comple-L04-Q01",
+  "curso": "🔥 SvelteKit & Svelte 5 — Apps Completas",
+  "leccion": 4,
+  "frente": "¿Cómo creas un endpoint JSON en SvelteKit?",
+  "reversa": "Con un archivo +server.js que exporta funciones GET/POST",
+  "explicacion": "+server.js en una ruta define handlers HTTP que devuelven json() personalizados.",
+  "algoritmo": "repaso espaciado: 1d, 3d, 7d, 21d",
+  "generada": "2026-09-18"
+}

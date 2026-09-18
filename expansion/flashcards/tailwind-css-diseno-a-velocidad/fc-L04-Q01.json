@@ -1,0 +1,10 @@
+{
+  "tarjeta": "tailwind-css-diseno-a-velocida-L04-Q01",
+  "curso": "🎨 Tailwind CSS — Diseño a Velocidad",
+  "leccion": 4,
+  "frente": "En Tailwind v4, ¿dónde defines colores de marca personalizados?",
+  "reversa": "En el bloque @theme de tu archivo CSS",
+  "explicacion": "@theme genera tokens (p. ej. --color-marca) que se convierten en clases como bg-marca automáticamente.",
+  "algoritmo": "repaso espaciado: 1d, 3d, 7d, 21d",
+  "generada": "2026-09-18"
+}

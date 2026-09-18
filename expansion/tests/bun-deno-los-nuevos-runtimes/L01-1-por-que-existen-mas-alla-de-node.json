@@ -1,0 +1,32 @@
+{
+  "curso": "🍞 Bun & Deno — Los Nuevos Runtimes",
+  "leccion": 1,
+  "titulo": "1. Por qué existen: más allá de Node",
+  "total": 2,
+  "aprobado_con": 2,
+  "preguntas": [
+    {
+      "p": "¿Qué incluye Bun además del runtime?",
+      "ops": [
+        "Bundler, test runner y gestor de paquetes",
+        "Una base de datos",
+        "Un editor de código",
+        "Un navegador"
+      ],
+      "ok": 0,
+      "exp": "Bun unifica herramientas: bun install, bun test y el bundler vienen de serie, todo muy rápido."
+    },
+    {
+      "p": "¿Cuál es el principio de seguridad por defecto de Deno?",
+      "ops": [
+        "Permisos explícitos (--allow-net, --allow-read…)",
+        "Ejecuta todo como root",
+        "Bloquea la red para siempre",
+        "Solo permite HTTPS"
+      ],
+      "ok": 0,
+      "exp": "Sin --allow-* el código no puede salir de su caja de arena: ideal para scripts de terceros."
+    }
+  ],
+  "generado": "2026-09-18"
+}

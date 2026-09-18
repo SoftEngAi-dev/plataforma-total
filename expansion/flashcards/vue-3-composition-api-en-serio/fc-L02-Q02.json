@@ -1,0 +1,10 @@
+{
+  "tarjeta": "vue-3-composition-api-en-serio-L02-Q02",
+  "curso": "💚 Vue 3 — Composition API en Serio",
+  "leccion": 2,
+  "frente": "¿Qué hace v-model en un input?",
+  "reversa": "Enlace bidireccional: el input escribe el estado y el estado actualiza el input",
+  "explicacion": "v-model azucara value + @input: la vía rápida para formularios.",
+  "algoritmo": "repaso espaciado: 1d, 3d, 7d, 21d",
+  "generada": "2026-09-18"
+}

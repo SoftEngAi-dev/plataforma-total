@@ -1,0 +1,10 @@
+{
+  "tarjeta": "astro-la-web-de-contenido-mode-L04-Q02",
+  "curso": "🚀 Astro — La Web de Contenido Moderna",
+  "leccion": 4,
+  "frente": "¿Cómo obtienes todas las entradas de la colección blog?",
+  "reversa": "getCollection('blog')",
+  "explicacion": "getCollection devuelve las entradas tipadas; con entry.render() obtienes el HTML.",
+  "algoritmo": "repaso espaciado: 1d, 3d, 7d, 21d",
+  "generada": "2026-09-18"
+}

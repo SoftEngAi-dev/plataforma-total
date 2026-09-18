@@ -1,0 +1,10 @@
+{
+  "tarjeta": "tailwind-css-diseno-a-velocida-L02-Q01",
+  "curso": "🎨 Tailwind CSS — Diseño a Velocidad",
+  "leccion": 2,
+  "frente": "¿Qué significa la clase md:grid-cols-3?",
+  "reversa": "3 columnas a partir del breakpoint md (768px) hacia arriba",
+  "explicacion": "Tailwind es mobile-first: el base es móvil y los prefijos md:/lg: aplican hacia arriba.",
+  "algoritmo": "repaso espaciado: 1d, 3d, 7d, 21d",
+  "generada": "2026-09-18"
+}

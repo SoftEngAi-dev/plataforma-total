@@ -1,0 +1,10 @@
+{
+  "tarjeta": "tailwind-css-diseno-a-velocida-L01-Q01",
+  "curso": "🎨 Tailwind CSS — Diseño a Velocidad",
+  "leccion": 1,
+  "frente": "¿Qué es el enfoque utility-first de Tailwind?",
+  "reversa": "Componer el diseño con muchas clases de un solo propósito en el HTML",
+  "explicacion": "Muchas utilidades pequeñas y predecibles que se combinan: el diseño vive junto al marcado.",
+  "algoritmo": "repaso espaciado: 1d, 3d, 7d, 21d",
+  "generada": "2026-09-18"
+}

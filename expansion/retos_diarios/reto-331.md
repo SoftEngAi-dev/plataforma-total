@@ -1,17 +1,17 @@
 # 🥊 Reto del día 331
 
-> Hoy tu cerebro ataca: **3. Deshacer: checkout, restore, revert, reset (la tabla salvadora)** (Git y GitHub — Tu Historia Nunca Se Pierde)
+> Hoy tu cerebro ataca: **1. Python: instalación y primer programa** (Python — De Cero a Profesional)
 
 1. Explica en voz alta este tema durante 2 minutos, sin notas.
 2. Relee la lección solo si el paso 1 trabó.
 3. Reescribe desde cero el ejemplo clave de la lección.
 
 ## 🥊 Desafío exprés (sin mirar)
-**git revert vs git reset — ¿cuál es seguro en commits compartidos?**
+**¿Qué delimita los bloques de código en Python?**
 
 <details><summary>👁 Ver respuesta</summary>
 
-✅ revert (crea commit inverso sin reescribir la historia ya publicada) — Reescribir historia compartida rompe a tus compañeros; revert es la forma polite.
+✅ La indentación (sangría) de 4 espacios — La sangría forzada hace el código universalmente legible — la idea nuclear de Python.
 </details>
 
 💰 Vale 1 punto de maestría. Acumula 30 → date un premio real.

@@ -1,0 +1,10 @@
+{
+  "tarjeta": "bun-deno-los-nuevos-runtimes-L02-Q01",
+  "curso": "🍞 Bun & Deno — Los Nuevos Runtimes",
+  "leccion": 2,
+  "frente": "¿Qué comando ejecuta los tests integrados de Bun?",
+  "reversa": "bun test",
+  "explicacion": "bun test incluye runner con API estilo Jest (describe/test/expect), sin instalar nada.",
+  "algoritmo": "repaso espaciado: 1d, 3d, 7d, 21d",
+  "generada": "2026-09-18"
+}

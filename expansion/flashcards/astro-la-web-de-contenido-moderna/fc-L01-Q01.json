@@ -1,0 +1,10 @@
+{
+  "tarjeta": "astro-la-web-de-contenido-mode-L01-Q01",
+  "curso": "🚀 Astro — La Web de Contenido Moderna",
+  "leccion": 1,
+  "frente": "¿Qué envía Astro al navegador por defecto?",
+  "reversa": "Solo HTML + CSS estático (cero JS)",
+  "explicacion": "Esa es su superpotencia: HTML estático sin JS salvo que añadas islas interactivas.",
+  "algoritmo": "repaso espaciado: 1d, 3d, 7d, 21d",
+  "generada": "2026-09-18"
+}

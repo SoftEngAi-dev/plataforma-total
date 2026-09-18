@@ -1,0 +1,32 @@
+{
+  "curso": "🍞 Bun & Deno — Los Nuevos Runtimes",
+  "leccion": 4,
+  "titulo": "4. Frameworks modernos y despliegue edge",
+  "total": 2,
+  "aprobado_con": 2,
+  "preguntas": [
+    {
+      "p": "¿Qué framework corre el MISMO código en Deno, Bun, Node y workers del edge?",
+      "ops": [
+        "Hono",
+        "Rails",
+        "Django",
+        "Laravel"
+      ],
+      "ok": 0,
+      "exp": "Hono es ultraligero y multi-runtime: una API escrita una vez despliega en todos los runtimes."
+    },
+    {
+      "p": "¿Qué es Fresh?",
+      "ops": [
+        "El framework de islas para Deno, sin paso de build",
+        "Un gestor de paquetes",
+        "Un bundler",
+        "Una base de datos"
+      ],
+      "ok": 0,
+      "exp": "Fresh aplica arquitectura de islas (como Astro) sobre Deno con Preact: cero build, súper rápido."
+    }
+  ],
+  "generado": "2026-09-18"
+}

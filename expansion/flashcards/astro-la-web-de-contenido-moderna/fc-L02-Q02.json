@@ -1,0 +1,10 @@
+{
+  "tarjeta": "astro-la-web-de-contenido-mode-L02-Q02",
+  "curso": "🚀 Astro — La Web de Contenido Moderna",
+  "leccion": 2,
+  "frente": "¿Cómo aplica por defecto Astro las reglas de un <style> dentro de un componente?",
+  "reversa": "Con scope automático solo a ese componente",
+  "explicacion": "Astro hashea las clases para que el estilo no se escape del componente.",
+  "algoritmo": "repaso espaciado: 1d, 3d, 7d, 21d",
+  "generada": "2026-09-18"
+}

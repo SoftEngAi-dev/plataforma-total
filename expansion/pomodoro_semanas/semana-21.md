@@ -1,6 +1,6 @@
 # 🍅 Plan de la semana 21 (52)
 
-> Lecciones recomendadas esta semana: 4 («4» … «7»)
+> Lecciones recomendadas esta semana: 5 («3» … «1»)
 
 | Día | 🍅 meta | Bloque sugerido | Hecho |
 |-----|--------|-----------------|-------|

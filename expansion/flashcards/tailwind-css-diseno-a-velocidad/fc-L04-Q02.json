@@ -1,0 +1,10 @@
+{
+  "tarjeta": "tailwind-css-diseno-a-velocida-L04-Q02",
+  "curso": "🎨 Tailwind CSS — Diseño a Velocidad",
+  "leccion": 4,
+  "frente": "¿Para qué sirve @apply?",
+  "reversa": "Reutilizar un conjunto de utilidades dentro de una clase propia",
+  "explicacion": "@apply incrusta utilidades en .mi-clase (útil para patrones repetidos), aunque los componentes suelen abstraer mejor.",
+  "algoritmo": "repaso espaciado: 1d, 3d, 7d, 21d",
+  "generada": "2026-09-18"
+}

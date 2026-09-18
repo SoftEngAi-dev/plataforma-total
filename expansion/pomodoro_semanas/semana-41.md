@@ -1,6 +1,6 @@
 # 🍅 Plan de la semana 41 (52)
 
-> Lecciones recomendadas esta semana: 4 («5» … «3»)
+> Lecciones recomendadas esta semana: 5 («4» … «4»)
 
 | Día | 🍅 meta | Bloque sugerido | Hecho |
 |-----|--------|-----------------|-------|

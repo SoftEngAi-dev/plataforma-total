@@ -1,0 +1,10 @@
+{
+  "tarjeta": "vue-3-composition-api-en-serio-L04-Q01",
+  "curso": "💚 Vue 3 — Composition API en Serio",
+  "leccion": 4,
+  "frente": "¿Cuál es la forma reactiva de compartir estado global en Vue 3 moderno?",
+  "reversa": "Un store de Pinia con defineStore",
+  "explicacion": "Pinia es el store oficial: central, tipado y con Devtools; window es un hack frágil.",
+  "algoritmo": "repaso espaciado: 1d, 3d, 7d, 21d",
+  "generada": "2026-09-18"
+}

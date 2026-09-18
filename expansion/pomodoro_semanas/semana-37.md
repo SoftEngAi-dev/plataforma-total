@@ -1,6 +1,6 @@
 # 🍅 Plan de la semana 37 (52)
 
-> Lecciones recomendadas esta semana: 4 («4» … «2»)
+> Lecciones recomendadas esta semana: 5 («2» … «3»)
 
 | Día | 🍅 meta | Bloque sugerido | Hecho |
 |-----|--------|-----------------|-------|

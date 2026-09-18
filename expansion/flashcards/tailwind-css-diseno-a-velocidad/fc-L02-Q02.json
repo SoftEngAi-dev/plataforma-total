@@ -1,0 +1,10 @@
+{
+  "tarjeta": "tailwind-css-diseno-a-velocida-L02-Q02",
+  "curso": "🎨 Tailwind CSS — Diseño a Velocidad",
+  "leccion": 2,
+  "frente": "¿Cómo centras horizontalmente un contenedor con ancho máximo?",
+  "reversa": "con la clase mx-auto (más max-w-* o container)",
+  "explicacion": "mx-auto reparte el margen lateral; text-center solo alinea texto en línea.",
+  "algoritmo": "repaso espaciado: 1d, 3d, 7d, 21d",
+  "generada": "2026-09-18"
+}

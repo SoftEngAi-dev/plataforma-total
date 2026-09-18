@@ -1,6 +1,6 @@
 # 🍅 Plan de la semana 47 (52)
 
-> Lecciones recomendadas esta semana: 4 («3» … «2»)
+> Lecciones recomendadas esta semana: 5 («3» … «3»)
 
 | Día | 🍅 meta | Bloque sugerido | Hecho |
 |-----|--------|-----------------|-------|

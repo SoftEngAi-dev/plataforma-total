@@ -1,0 +1,32 @@
+{
+  "curso": "💚 Vue 3 — Composition API en Serio",
+  "leccion": 5,
+  "titulo": "5. Nuxt 3: Vue full-stack",
+  "total": 2,
+  "aprobado_con": 2,
+  "preguntas": [
+    {
+      "p": "¿Qué carpeta de Nuxt genera las rutas automáticamente?",
+      "ops": [
+        "routes/",
+        "pages/",
+        "views/",
+        "public/"
+      ],
+      "ok": 1,
+      "exp": "Cada .vue dentro de pages/ se convierte en ruta sin configurar ningún router."
+    },
+    {
+      "p": "¿Dónde defines endpoints de backend en Nuxt 3?",
+      "ops": [
+        "en server/api/",
+        "en la carpeta pages/",
+        "en un Express aparte obligatorio",
+        "en nuxt.config solo"
+      ],
+      "ok": 0,
+      "exp": "server/api/*.ts son endpoints Node del mismo proyecto, con despliegue integrado vía Nitro."
+    }
+  ],
+  "generado": "2026-09-18"
+}

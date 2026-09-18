@@ -1,0 +1,10 @@
+{
+  "tarjeta": "tailwind-css-diseno-a-velocida-L01-Q02",
+  "curso": "🎨 Tailwind CSS — Diseño a Velocidad",
+  "leccion": 1,
+  "frente": "¿Por qué el CSS final en producción con Tailwind es pequeño?",
+  "reversa": "Porque solo se generan las clases que realmente usas",
+  "explicacion": "El compilador detecta las clases presentes en tus archivos y emite únicamente esas reglas.",
+  "algoritmo": "repaso espaciado: 1d, 3d, 7d, 21d",
+  "generada": "2026-09-18"
+}

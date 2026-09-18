@@ -1,0 +1,10 @@
+{
+  "tarjeta": "bun-deno-los-nuevos-runtimes-L03-Q02",
+  "curso": "🍞 Bun & Deno — Los Nuevos Runtimes",
+  "leccion": 3,
+  "frente": "¿Qué herramientas trae Deno integradas sin configuración?",
+  "reversa": "fmt, lint y test (además de compile)",
+  "explicacion": "deno fmt, deno lint, deno test y deno compile vienen de serie: toolchain todo-en-uno.",
+  "algoritmo": "repaso espaciado: 1d, 3d, 7d, 21d",
+  "generada": "2026-09-18"
+}

@@ -1,0 +1,32 @@
+{
+  "curso": "🚀 Astro — La Web de Contenido Moderna",
+  "leccion": 3,
+  "titulo": "3. Rutas por archivo, dinámicas y layouts",
+  "total": 2,
+  "aprobado_con": 2,
+  "preguntas": [
+    {
+      "p": "¿Qué combinación crea rutas estáticas tipo /blog/mi-post en Astro?",
+      "ops": [
+        "src/pages/blog/[slug].astro + getStaticPaths",
+        "next.config.js",
+        "un archivo routes.json",
+        "server.js con Express"
+      ],
+      "ok": 0,
+      "exp": "El [param].astro en src/pages + getStaticPaths enumera las rutas a generar en build."
+    },
+    {
+      "p": "¿Para qué sirve un layout con <slot /> en Astro?",
+      "ops": [
+        "Envolver páginas repitiendo cabecera y pie, metiendo el contenido dentro",
+        "Optimizar imágenes",
+        "Crear endpoints",
+        "Minificar el HTML"
+      ],
+      "ok": 0,
+      "exp": "El layout aporta la estructura común y cada página inyecta su contenido en el slot."
+    }
+  ],
+  "generado": "2026-09-18"
+}

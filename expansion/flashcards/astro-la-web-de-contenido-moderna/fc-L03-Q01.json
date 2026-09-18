@@ -1,0 +1,10 @@
+{
+  "tarjeta": "astro-la-web-de-contenido-mode-L03-Q01",
+  "curso": "🚀 Astro — La Web de Contenido Moderna",
+  "leccion": 3,
+  "frente": "¿Qué combinación crea rutas estáticas tipo /blog/mi-post en Astro?",
+  "reversa": "src/pages/blog/[slug].astro + getStaticPaths",
+  "explicacion": "El [param].astro en src/pages + getStaticPaths enumera las rutas a generar en build.",
+  "algoritmo": "repaso espaciado: 1d, 3d, 7d, 21d",
+  "generada": "2026-09-18"
+}

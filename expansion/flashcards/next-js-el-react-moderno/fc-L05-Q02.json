@@ -1,0 +1,10 @@
+{
+  "tarjeta": "next-js-el-react-moderno-L05-Q02",
+  "curso": "▲ Next.js — El React Moderno",
+  "leccion": 5,
+  "frente": "¿Cómo defines el <title> y la descripción de una página en el App Router?",
+  "reversa": "export const metadata en page.tsx",
+  "explicacion": "metadata por segmento (objeto o generateMetadata async) alimenta <title>, meta y Open Graph.",
+  "algoritmo": "repaso espaciado: 1d, 3d, 7d, 21d",
+  "generada": "2026-09-18"
+}

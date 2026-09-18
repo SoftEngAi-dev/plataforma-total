@@ -1,0 +1,10 @@
+{
+  "tarjeta": "next-js-el-react-moderno-L01-Q01",
+  "curso": "▲ Next.js — El React Moderno",
+  "leccion": 1,
+  "frente": "¿Qué es un React Server Component en Next.js App Router?",
+  "reversa": "Un componente que se renderiza en el servidor y no envía su JS al cliente",
+  "explicacion": "Corre en el servidor: puede usar async/await y recursos backend sin exponerlos al navegador.",
+  "algoritmo": "repaso espaciado: 1d, 3d, 7d, 21d",
+  "generada": "2026-09-18"
+}

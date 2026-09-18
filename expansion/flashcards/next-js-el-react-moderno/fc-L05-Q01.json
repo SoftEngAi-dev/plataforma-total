@@ -1,0 +1,10 @@
+{
+  "tarjeta": "next-js-el-react-moderno-L05-Q01",
+  "curso": "▲ Next.js — El React Moderno",
+  "leccion": 5,
+  "frente": "¿Qué ventaja principal da next/image frente a una <img> normal?",
+  "reversa": "Optimiza tamaño/formato y evita saltos de layout (CLS)",
+  "explicacion": "Reserva el espacio, sirve webp/avif responsive y carga diferida: métricas Core Web Vitals sanas.",
+  "algoritmo": "repaso espaciado: 1d, 3d, 7d, 21d",
+  "generada": "2026-09-18"
+}

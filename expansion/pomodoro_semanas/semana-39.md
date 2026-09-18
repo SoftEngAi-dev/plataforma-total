@@ -1,6 +1,6 @@
 # 🍅 Plan de la semana 39 (52)
 
-> Lecciones recomendadas esta semana: 4 («2» … «5»)
+> Lecciones recomendadas esta semana: 5 («5» … «3»)
 
 | Día | 🍅 meta | Bloque sugerido | Hecho |
 |-----|--------|-----------------|-------|

@@ -1,0 +1,10 @@
+{
+  "tarjeta": "next-js-el-react-moderno-L02-Q02",
+  "curso": "▲ Next.js — El React Moderno",
+  "leccion": 2,
+  "frente": "¿Dónde conviene ubicar la directiva 'use client' para optimizar el bundle?",
+  "reversa": "En los componentes hoja interactivos, lo más abajo posible",
+  "explicacion": "Cuanto más abajo, menos JS viaja: el resto del árbol permanece como Server Components.",
+  "algoritmo": "repaso espaciado: 1d, 3d, 7d, 21d",
+  "generada": "2026-09-18"
+}

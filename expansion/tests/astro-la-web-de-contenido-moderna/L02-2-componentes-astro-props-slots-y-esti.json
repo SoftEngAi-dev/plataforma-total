@@ -1,0 +1,32 @@
+{
+  "curso": "🚀 Astro — La Web de Contenido Moderna",
+  "leccion": 2,
+  "titulo": "2. Componentes Astro: props, slots y estilos con scope",
+  "total": 2,
+  "aprobado_con": 2,
+  "preguntas": [
+    {
+      "p": "¿Dónde se ejecuta el código del frontmatter (---) de un componente Astro?",
+      "ops": [
+        "En el navegador del usuario",
+        "En el servidor o en build time",
+        "En un Web Worker",
+        "En el CDN"
+      ],
+      "ok": 1,
+      "exp": "El frontmatter corre fuera del cliente; al navegador solo llega el HTML resultante."
+    },
+    {
+      "p": "¿Cómo aplica por defecto Astro las reglas de un <style> dentro de un componente?",
+      "ops": [
+        "Siempre globales",
+        "Con scope automático solo a ese componente",
+        "Las ignora",
+        "Exige CSS-in-JS"
+      ],
+      "ok": 1,
+      "exp": "Astro hashea las clases para que el estilo no se escape del componente."
+    }
+  ],
+  "generado": "2026-09-18"
+}

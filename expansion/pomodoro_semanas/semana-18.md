@@ -1,6 +1,6 @@
 # 🍅 Plan de la semana 18 (52)
 
-> Lecciones recomendadas esta semana: 4 («8» … «11»)
+> Lecciones recomendadas esta semana: 5 («9» … «3»)
 
 | Día | 🍅 meta | Bloque sugerido | Hecho |
 |-----|--------|-----------------|-------|

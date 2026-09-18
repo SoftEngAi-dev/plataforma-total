@@ -1,0 +1,32 @@
+{
+  "curso": "🎨 Tailwind CSS — Diseño a Velocidad",
+  "leccion": 5,
+  "titulo": "5. Producción: shadcn/ui, accesibilidad y buenas prácticas",
+  "total": 2,
+  "aprobado_con": 2,
+  "preguntas": [
+    {
+      "p": "¿Qué es shadcn/ui?",
+      "ops": [
+        "Componentes accesibles (Radix + Tailwind) que copias a tu proyecto y son tuyos",
+        "Un framework de CSS rival",
+        "Un plugin de jQuery",
+        "Una librería de iconos"
+      ],
+      "ok": 0,
+      "exp": "No es una dependencia: copia el código del componente a tu repo, con accesibilidad Radix y estilos Tailwind incluidos."
+    },
+    {
+      "p": "¿Qué clase de Tailwind muestra un texto solo a lectores de pantalla?",
+      "ops": [
+        "sr-only",
+        "hidden",
+        "invisible",
+        "opacity-0"
+      ],
+      "ok": 0,
+      "exp": "sr-only lo oculta visualmente pero mantiene accesibilidad para tecnologías asistivas."
+    }
+  ],
+  "generado": "2026-09-18"
+}

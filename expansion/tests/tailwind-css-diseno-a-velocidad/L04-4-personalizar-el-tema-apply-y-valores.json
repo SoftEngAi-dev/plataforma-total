@@ -1,0 +1,32 @@
+{
+  "curso": "🎨 Tailwind CSS — Diseño a Velocidad",
+  "leccion": 4,
+  "titulo": "4. Personalizar el tema, @apply y valores arbitrarios",
+  "total": 2,
+  "aprobado_con": 2,
+  "preguntas": [
+    {
+      "p": "En Tailwind v4, ¿dónde defines colores de marca personalizados?",
+      "ops": [
+        "En el bloque @theme de tu archivo CSS",
+        "En un XML",
+        "En el HTML",
+        "En package.json"
+      ],
+      "ok": 0,
+      "exp": "@theme genera tokens (p. ej. --color-marca) que se convierten en clases como bg-marca automáticamente."
+    },
+    {
+      "p": "¿Para qué sirve @apply?",
+      "ops": [
+        "Reutilizar un conjunto de utilidades dentro de una clase propia",
+        "Importar fuentes",
+        "Hacer responsive",
+        "Generar el build"
+      ],
+      "ok": 0,
+      "exp": "@apply incrusta utilidades en .mi-clase (útil para patrones repetidos), aunque los componentes suelen abstraer mejor."
+    }
+  ],
+  "generado": "2026-09-18"
+}

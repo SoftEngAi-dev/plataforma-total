@@ -1,0 +1,10 @@
+{
+  "tarjeta": "vue-3-composition-api-en-serio-L03-Q01",
+  "curso": "💚 Vue 3 — Composition API en Serio",
+  "leccion": 3,
+  "frente": "¿Cómo comunica un componente hijo a su padre en Vue?",
+  "reversa": "Emitiendo un evento personalizado con emit()",
+  "explicacion": "Las props bajan, los eventos suben: el hijo emite, el padre decide qué hacer.",
+  "algoritmo": "repaso espaciado: 1d, 3d, 7d, 21d",
+  "generada": "2026-09-18"
+}

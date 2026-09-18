@@ -1,0 +1,32 @@
+{
+  "curso": "🔥 SvelteKit & Svelte 5 — Apps Completas",
+  "leccion": 2,
+  "titulo": "2. SvelteKit: rutas +page y datos con load",
+  "total": 2,
+  "aprobado_con": 2,
+  "preguntas": [
+    {
+      "p": "¿Qué archivo dentro de src/routes/blog crea la ruta /blog?",
+      "ops": [
+        "+page.svelte",
+        "index.html",
+        "routes.js",
+        "blog.svelte"
+      ],
+      "ok": 0,
+      "exp": "La convención de SvelteKit: +page.svelte marca la página; los directorios definen el path."
+    },
+    {
+      "p": "¿Cuándo se ejecuta la función load universal de +page.js?",
+      "ops": [
+        "En la primera carga en el servidor y después en el cliente al navegar",
+        "Solo en build",
+        "Nunca en el servidor",
+        "Solo en tests"
+      ],
+      "ok": 0,
+      "exp": "Es universal: SSR primero, y hidratación cliente en las navegaciones siguientes (con fetch especial)."
+    }
+  ],
+  "generado": "2026-09-18"
+}

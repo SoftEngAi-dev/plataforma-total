@@ -1,0 +1,32 @@
+{
+  "curso": "🎨 Tailwind CSS — Diseño a Velocidad",
+  "leccion": 1,
+  "titulo": "1. Utility-first: pensar en clases pequeñas",
+  "total": 2,
+  "aprobado_con": 2,
+  "preguntas": [
+    {
+      "p": "¿Qué es el enfoque utility-first de Tailwind?",
+      "ops": [
+        "Componer el diseño con muchas clases de un solo propósito en el HTML",
+        "Escribir todo el CSS a mano con !important",
+        "Usar solo CSS-in-JS",
+        "Poner estilos inline en cada etiqueta"
+      ],
+      "ok": 0,
+      "exp": "Muchas utilidades pequeñas y predecibles que se combinan: el diseño vive junto al marcado."
+    },
+    {
+      "p": "¿Por qué el CSS final en producción con Tailwind es pequeño?",
+      "ops": [
+        "Porque solo se generan las clases que realmente usas",
+        "Porque se borra todo el CSS",
+        "Porque se usa el CDN",
+        "Porque Tailwind no genera CSS"
+      ],
+      "ok": 0,
+      "exp": "El compilador detecta las clases presentes en tus archivos y emite únicamente esas reglas."
+    }
+  ],
+  "generado": "2026-09-18"
+}

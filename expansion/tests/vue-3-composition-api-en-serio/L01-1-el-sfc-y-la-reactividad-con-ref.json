@@ -1,0 +1,32 @@
+{
+  "curso": "💚 Vue 3 — Composition API en Serio",
+  "leccion": 1,
+  "titulo": "1. El SFC y la reactividad con ref()",
+  "total": 2,
+  "aprobado_con": 2,
+  "preguntas": [
+    {
+      "p": "¿Cómo incrementas un ref dentro del <script setup>?",
+      "ops": [
+        "contador++",
+        "contador.value++",
+        "setContador(contador + 1)",
+        "this.contador++"
+      ],
+      "ok": 1,
+      "exp": "En el script los refs se manipulan con .value; en el template Vue lo desenvuelve automáticamente."
+    },
+    {
+      "p": "¿Qué tres bloques suele tener un Single File Component?",
+      "ops": [
+        "script, template y style",
+        "html, css y js",
+        "setup, render y mount",
+        "props, state y emits"
+      ],
+      "ok": 0,
+      "exp": "El SFC agrupa lógica (script), vista (template) y estilos (style) en un solo archivo .vue."
+    }
+  ],
+  "generado": "2026-09-18"
+}

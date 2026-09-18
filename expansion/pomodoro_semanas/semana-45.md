@@ -1,6 +1,6 @@
 # 🍅 Plan de la semana 45 (52)
 
-> Lecciones recomendadas esta semana: 4 («2» … «1»)
+> Lecciones recomendadas esta semana: 5 («1» … «1»)
 
 | Día | 🍅 meta | Bloque sugerido | Hecho |
 |-----|--------|-----------------|-------|

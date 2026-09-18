@@ -1,0 +1,10 @@
+{
+  "tarjeta": "next-js-el-react-moderno-L02-Q01",
+  "curso": "▲ Next.js — El React Moderno",
+  "leccion": 2,
+  "frente": "¿Qué obliga escribir 'use client' al inicio de un componente?",
+  "reversa": "Usar useState, useEffect o manejadores como onClick",
+  "explicacion": "Esas APIs son del navegador; sin la directiva el componente se trata como Server Component y falla.",
+  "algoritmo": "repaso espaciado: 1d, 3d, 7d, 21d",
+  "generada": "2026-09-18"
+}

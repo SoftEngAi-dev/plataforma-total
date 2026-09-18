@@ -1,0 +1,10 @@
+{
+  "tarjeta": "tailwind-css-diseno-a-velocida-L03-Q01",
+  "curso": "🎨 Tailwind CSS — Diseño a Velocidad",
+  "leccion": 3,
+  "frente": "¿Cómo haces que un hijo cambie cuando el padre recibe hover?",
+  "reversa": "Con group en el padre y group-hover: en el hijo",
+  "explicacion": "group marca el contenedor; group-hover:aplica-estilo solo cuando el grupo está en hover.",
+  "algoritmo": "repaso espaciado: 1d, 3d, 7d, 21d",
+  "generada": "2026-09-18"
+}

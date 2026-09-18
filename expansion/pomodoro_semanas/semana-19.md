@@ -1,6 +1,6 @@
 # 🍅 Plan de la semana 19 (52)
 
-> Lecciones recomendadas esta semana: 4 («12» … «15»)
+> Lecciones recomendadas esta semana: 5 («4» … «2»)
 
 | Día | 🍅 meta | Bloque sugerido | Hecho |
 |-----|--------|-----------------|-------|

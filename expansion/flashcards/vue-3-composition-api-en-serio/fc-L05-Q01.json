@@ -1,0 +1,10 @@
+{
+  "tarjeta": "vue-3-composition-api-en-serio-L05-Q01",
+  "curso": "💚 Vue 3 — Composition API en Serio",
+  "leccion": 5,
+  "frente": "¿Qué carpeta de Nuxt genera las rutas automáticamente?",
+  "reversa": "pages/",
+  "explicacion": "Cada .vue dentro de pages/ se convierte en ruta sin configurar ningún router.",
+  "algoritmo": "repaso espaciado: 1d, 3d, 7d, 21d",
+  "generada": "2026-09-18"
+}

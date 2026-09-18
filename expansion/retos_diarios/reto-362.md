@@ -1,17 +1,17 @@
 # 🥊 Reto del día 362
 
-> Hoy tu cerebro ataca: **5. MVC en Laravel: flujo completo de una petición** (PHP y Laravel — El Backend Que Alimenta la Web)
+> Hoy tu cerebro ataca: **6. Proyecto final: flujo completo de punta a punta** (Git y GitHub — Tu Historia Nunca Se Pierde)
 
 1. Explica en voz alta este tema durante 2 minutos, sin notas.
 2. Relee la lección solo si el paso 1 trabó.
 3. Reescribe desde cero el ejemplo clave de la lección.
 
 ## 🥊 Desafío exprés (sin mirar)
-**¿Qué hace Route Model Binding en Laravel?**
+**¿Qué hace `git pull` tras hacer merge del PR en la web?**
 
 <details><summary>👁 Ver respuesta</summary>
 
-✅ Inyecta directo el modelo por ID (404 automático si no existe) sin hacer find manual — function show(Tarea $tarea) — el framework busca el id y te da el modelo o 404.
+✅ Trae e integra los cambios del remoto a tu rama local — La web integró tu PR; tu main local está vieja hasta que pullas.
 </details>
 
 💰 Vale 1 punto de maestría. Acumula 30 → date un premio real.

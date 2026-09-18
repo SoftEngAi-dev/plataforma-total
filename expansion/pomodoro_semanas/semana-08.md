@@ -1,6 +1,6 @@
 # 🍅 Plan de la semana 08 (52)
 
-> Lecciones recomendadas esta semana: 4 («7» … «10»)
+> Lecciones recomendadas esta semana: 5 («14» … «18»)
 
 | Día | 🍅 meta | Bloque sugerido | Hecho |
 |-----|--------|-----------------|-------|

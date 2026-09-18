@@ -1,0 +1,32 @@
+{
+  "curso": "🚀 Astro — La Web de Contenido Moderna",
+  "leccion": 4,
+  "titulo": "4. Content Collections: Markdown con tipos",
+  "total": 2,
+  "aprobado_con": 2,
+  "preguntas": [
+    {
+      "p": "¿Qué valida el esquema zod de una Content Collection?",
+      "ops": [
+        "El frontmatter de cada Markdown durante el build",
+        "El CSS",
+        "Las llamadas HTTP",
+        "Nada, es decorativo"
+      ],
+      "ok": 0,
+      "exp": "Si un post incumple el esquema, el build falla: contenido corrupto nunca llega a producción."
+    },
+    {
+      "p": "¿Cómo obtienes todas las entradas de la colección blog?",
+      "ops": [
+        "getCollection('blog')",
+        "leyendo el directorio con fs",
+        "fetch('/api/blog')",
+        "una consulta SQL"
+      ],
+      "ok": 0,
+      "exp": "getCollection devuelve las entradas tipadas; con entry.render() obtienes el HTML."
+    }
+  ],
+  "generado": "2026-09-18"
+}

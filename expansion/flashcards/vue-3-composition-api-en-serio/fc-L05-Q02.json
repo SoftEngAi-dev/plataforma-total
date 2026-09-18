@@ -1,0 +1,10 @@
+{
+  "tarjeta": "vue-3-composition-api-en-serio-L05-Q02",
+  "curso": "💚 Vue 3 — Composition API en Serio",
+  "leccion": 5,
+  "frente": "¿Dónde defines endpoints de backend en Nuxt 3?",
+  "reversa": "en server/api/",
+  "explicacion": "server/api/*.ts son endpoints Node del mismo proyecto, con despliegue integrado vía Nitro.",
+  "algoritmo": "repaso espaciado: 1d, 3d, 7d, 21d",
+  "generada": "2026-09-18"
+}

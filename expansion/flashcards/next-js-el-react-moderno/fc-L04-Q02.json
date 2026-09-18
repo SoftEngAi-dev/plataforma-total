@@ -1,0 +1,10 @@
+{
+  "tarjeta": "next-js-el-react-moderno-L04-Q02",
+  "curso": "▲ Next.js — El React Moderno",
+  "leccion": 4,
+  "frente": "¿Qué debes hacer SIEMPRE dentro de una Server Action?",
+  "reversa": "Validar entradas y comprobar permisos",
+  "explicacion": "El cliente puede enviar cualquier cosa: la action es tu última línea de defensa (zod + auth).",
+  "algoritmo": "repaso espaciado: 1d, 3d, 7d, 21d",
+  "generada": "2026-09-18"
+}

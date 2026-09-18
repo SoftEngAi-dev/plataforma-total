@@ -1,17 +1,17 @@
 # 🥊 Reto del día 330
 
-> Hoy tu cerebro ataca: **2. Ramas: el multiverso de tu proyecto** (Git y GitHub — Tu Historia Nunca Se Pierde)
+> Hoy tu cerebro ataca: **6. Proyecto: API REST real con Express** (Node.js — JavaScript en el Servidor)
 
 1. Explica en voz alta este tema durante 2 minutos, sin notas.
 2. Relee la lección solo si el paso 1 trabó.
 3. Reescribe desde cero el ejemplo clave de la lección.
 
 ## 🥊 Desafío exprés (sin mirar)
-**¿Qué es un merge conflict?**
+**¿Qué códigos HTTP usan POST-crear y 'recurso no encontrado' respectivamente?**
 
 <details><summary>👁 Ver respuesta</summary>
 
-✅ Dos ramas editaron las mismas líneas: git te pide elegir manualmente entre marcadores <<<< — Los conflictos son decisiones pendientes, no errores: resuelves, add, commit.
+✅ 201 y 404 — 201 = creado; 404 = not found. La semántica HTTP es el idioma de las APIs.
 </details>
 
 💰 Vale 1 punto de maestría. Acumula 30 → date un premio real.

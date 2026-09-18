@@ -1,0 +1,10 @@
+{
+  "tarjeta": "sveltekit-svelte-5-apps-comple-L03-Q01",
+  "curso": "🔥 SvelteKit & Svelte 5 — Apps Completas",
+  "leccion": 3,
+  "frente": "¿Funciona un <form> de SvelteKit sin JavaScript?",
+  "reversa": "Sí: enhancement progresivo, funciona como formulario clásico",
+  "explicacion": "Ese es su punto fuerte: con JS es SPA; sin JS sigue funcionando vía POST estándar.",
+  "algoritmo": "repaso espaciado: 1d, 3d, 7d, 21d",
+  "generada": "2026-09-18"
+}

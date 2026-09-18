@@ -1,6 +1,6 @@
 # 🍅 Plan de la semana 17 (52)
 
-> Lecciones recomendadas esta semana: 4 («4» … «7»)
+> Lecciones recomendadas esta semana: 5 («4» … «8»)
 
 | Día | 🍅 meta | Bloque sugerido | Hecho |
 |-----|--------|-----------------|-------|

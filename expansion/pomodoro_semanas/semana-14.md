@@ -1,6 +1,6 @@
 # 🍅 Plan de la semana 14 (52)
 
-> Lecciones recomendadas esta semana: 4 («6» … «1»)
+> Lecciones recomendadas esta semana: 5 («5» … «9»)
 
 | Día | 🍅 meta | Bloque sugerido | Hecho |
 |-----|--------|-----------------|-------|

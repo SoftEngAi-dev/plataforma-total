@@ -1,0 +1,10 @@
+{
+  "tarjeta": "sveltekit-svelte-5-apps-comple-L02-Q02",
+  "curso": "🔥 SvelteKit & Svelte 5 — Apps Completas",
+  "leccion": 2,
+  "frente": "¿Cuándo se ejecuta la función load universal de +page.js?",
+  "reversa": "En la primera carga en el servidor y después en el cliente al navegar",
+  "explicacion": "Es universal: SSR primero, y hidratación cliente en las navegaciones siguientes (con fetch especial).",
+  "algoritmo": "repaso espaciado: 1d, 3d, 7d, 21d",
+  "generada": "2026-09-18"
+}

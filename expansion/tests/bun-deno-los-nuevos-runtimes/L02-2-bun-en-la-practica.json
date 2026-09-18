@@ -1,0 +1,32 @@
+{
+  "curso": "🍞 Bun & Deno — Los Nuevos Runtimes",
+  "leccion": 2,
+  "titulo": "2. Bun en la práctica",
+  "total": 2,
+  "aprobado_con": 2,
+  "preguntas": [
+    {
+      "p": "¿Qué comando ejecuta los tests integrados de Bun?",
+      "ops": [
+        "bun test",
+        "npm test",
+        "bun check",
+        "deno test"
+      ],
+      "ok": 0,
+      "exp": "bun test incluye runner con API estilo Jest (describe/test/expect), sin instalar nada."
+    },
+    {
+      "p": "¿Cómo levanta Bun un servidor HTTP sin Express?",
+      "ops": [
+        "Con Bun.serve({ fetch })",
+        "Con http.createServer solamente",
+        "Con nginx",
+        "No puede"
+      ],
+      "ok": 0,
+      "exp": "Bun.serve es el servidor nativo de alto rendimiento con handlers fetch estándar Web."
+    }
+  ],
+  "generado": "2026-09-18"
+}

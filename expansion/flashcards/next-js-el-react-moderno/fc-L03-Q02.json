@@ -1,0 +1,10 @@
+{
+  "tarjeta": "next-js-el-react-moderno-L03-Q02",
+  "curso": "▲ Next.js — El React Moderno",
+  "leccion": 3,
+  "frente": "¿Para qué sirve loading.tsx en una ruta?",
+  "reversa": "Muestra un fallback al instante mientras el segmento termina de cargar",
+  "explicacion": "Es un boundary de Suspense declarativo: el usuario ve esqueleto/UI de carga sin programarla.",
+  "algoritmo": "repaso espaciado: 1d, 3d, 7d, 21d",
+  "generada": "2026-09-18"
+}

@@ -1,0 +1,10 @@
+{
+  "tarjeta": "astro-la-web-de-contenido-mode-L05-Q02",
+  "curso": "🚀 Astro — La Web de Contenido Moderna",
+  "leccion": 5,
+  "frente": "¿Qué produce `astro build` por defecto?",
+  "reversa": "La carpeta dist/ estática lista para cualquier hosting",
+  "explicacion": "Salida 100% estática: la subes a cualquier CDN/hosting estático y vuela.",
+  "algoritmo": "repaso espaciado: 1d, 3d, 7d, 21d",
+  "generada": "2026-09-18"
+}

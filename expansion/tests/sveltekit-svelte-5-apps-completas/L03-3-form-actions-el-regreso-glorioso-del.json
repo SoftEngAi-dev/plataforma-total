@@ -1,0 +1,32 @@
+{
+  "curso": "🔥 SvelteKit & Svelte 5 — Apps Completas",
+  "leccion": 3,
+  "titulo": "3. Form actions: el regreso glorioso del <form>",
+  "total": 2,
+  "aprobado_con": 2,
+  "preguntas": [
+    {
+      "p": "¿Funciona un <form> de SvelteKit sin JavaScript?",
+      "ops": [
+        "Sí: enhancement progresivo, funciona como formulario clásico",
+        "No, siempre requiere JS",
+        "Solo en Chrome",
+        "Solo con use:enhance"
+      ],
+      "ok": 0,
+      "exp": "Ese es su punto fuerte: con JS es SPA; sin JS sigue funcionando vía POST estándar."
+    },
+    {
+      "p": "¿Cómo devuelves un error de validación al formulario desde una action?",
+      "ops": [
+        "Con fail(422, { error })",
+        "Con alert()",
+        "Con console.log",
+        "Con redirect(404)"
+      ],
+      "ok": 0,
+      "exp": "fail devuelve al navegador el estado y un objeto que la página lee en la prop form."
+    }
+  ],
+  "generado": "2026-09-18"
+}

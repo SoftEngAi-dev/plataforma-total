@@ -1,0 +1,32 @@
+{
+  "curso": "🔥 SvelteKit & Svelte 5 — Apps Completas",
+  "leccion": 1,
+  "titulo": "1. Svelte 5 con runas: reactividad sin Virtual DOM",
+  "total": 2,
+  "aprobado_con": 2,
+  "preguntas": [
+    {
+      "p": "¿Cómo se declara estado reactivo en Svelte 5?",
+      "ops": [
+        "Con la runa $state()",
+        "Con setState()",
+        "Con data()",
+        "Con new Reactive()"
+      ],
+      "ok": 0,
+      "exp": "$state(0) crea una variable reactiva; $derived deriva valores y $effect ejecuta efectos."
+    },
+    {
+      "p": "¿Qué NO utiliza Svelte en tiempo de ejecución?",
+      "ops": [
+        "El Virtual DOM",
+        "JavaScript",
+        "CSS",
+        "HTML"
+      ],
+      "ok": 0,
+      "exp": "Svelte compila a actualizaciones quirúrgicas del DOM real: sin VDOM, menos memoria y más velocidad."
+    }
+  ],
+  "generado": "2026-09-18"
+}

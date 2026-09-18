@@ -1,0 +1,32 @@
+{
+  "curso": "▲ Next.js — El React Moderno",
+  "leccion": 2,
+  "titulo": "2. 'use client': el borde servidor/navegador",
+  "total": 2,
+  "aprobado_con": 2,
+  "preguntas": [
+    {
+      "p": "¿Qué obliga escribir 'use client' al inicio de un componente?",
+      "ops": [
+        "Usar useState, useEffect o manejadores como onClick",
+        "Hacer fetch de datos",
+        "Devolver JSX",
+        "Exportar metadata"
+      ],
+      "ok": 0,
+      "exp": "Esas APIs son del navegador; sin la directiva el componente se trata como Server Component y falla."
+    },
+    {
+      "p": "¿Dónde conviene ubicar la directiva 'use client' para optimizar el bundle?",
+      "ops": [
+        "En la raíz de toda la app",
+        "En los componentes hoja interactivos, lo más abajo posible",
+        "En todos los archivos por igual",
+        "En el layout.tsx"
+      ],
+      "ok": 1,
+      "exp": "Cuanto más abajo, menos JS viaja: el resto del árbol permanece como Server Components."
+    }
+  ],
+  "generado": "2026-09-18"
+}

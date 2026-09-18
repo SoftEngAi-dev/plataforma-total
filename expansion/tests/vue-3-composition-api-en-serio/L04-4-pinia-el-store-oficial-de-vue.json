@@ -1,0 +1,32 @@
+{
+  "curso": "💚 Vue 3 — Composition API en Serio",
+  "leccion": 4,
+  "titulo": "4. Pinia: el store oficial de Vue",
+  "total": 2,
+  "aprobado_con": 2,
+  "preguntas": [
+    {
+      "p": "¿Cuál es la forma reactiva de compartir estado global en Vue 3 moderno?",
+      "ops": [
+        "Variables globales en window",
+        "Un store de Pinia con defineStore",
+        "Props encadenadas",
+        "Cookies"
+      ],
+      "ok": 1,
+      "exp": "Pinia es el store oficial: central, tipado y con Devtools; window es un hack frágil."
+    },
+    {
+      "p": "En un store de Pinia, ¿qué es un getter?",
+      "ops": [
+        "Un valor derivado del estado con caché (como computed)",
+        "Una llamada HTTP",
+        "Un middleware",
+        "Un hook de montaje"
+      ],
+      "ok": 0,
+      "exp": "Los getters son computed del store: se recalculan cuando cambia el estado base."
+    }
+  ],
+  "generado": "2026-09-18"
+}

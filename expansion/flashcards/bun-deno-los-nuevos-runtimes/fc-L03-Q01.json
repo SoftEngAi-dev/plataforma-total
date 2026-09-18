@@ -1,0 +1,10 @@
+{
+  "tarjeta": "bun-deno-los-nuevos-runtimes-L03-Q01",
+  "curso": "🍞 Bun & Deno — Los Nuevos Runtimes",
+  "leccion": 3,
+  "frente": "¿Qué pasa si un script de Deno usa la red sin --allow-net?",
+  "reversa": "Deno lanza PermissionDenied y bloquea la operación",
+  "explicacion": "El sandbox de Deno exige permisos explícitos por recurso: seguridad real por defecto.",
+  "algoritmo": "repaso espaciado: 1d, 3d, 7d, 21d",
+  "generada": "2026-09-18"
+}

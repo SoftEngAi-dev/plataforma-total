@@ -1,0 +1,32 @@
+{
+  "curso": "▲ Next.js — El React Moderno",
+  "leccion": 3,
+  "titulo": "3. Datos: fetch con caché, loading.tsx y error.tsx",
+  "total": 2,
+  "aprobado_con": 2,
+  "preguntas": [
+    {
+      "p": "¿Cómo se cargan datos en un Server Component de Next.js?",
+      "ops": [
+        "Con await fetch directamente en el cuerpo async del componente",
+        "Solo con useEffect",
+        "Únicamente desde una API externa",
+        "Con jQuery"
+      ],
+      "ok": 0,
+      "exp": "Al ejecutarse en el servidor, hacer await fetch en el componente es la vía natural y eficiente."
+    },
+    {
+      "p": "¿Para qué sirve loading.tsx en una ruta?",
+      "ops": [
+        "Muestra un fallback al instante mientras el segmento termina de cargar",
+        "Bloquea la navegación",
+        "Define la página 404",
+        "Minifica el JS"
+      ],
+      "ok": 0,
+      "exp": "Es un boundary de Suspense declarativo: el usuario ve esqueleto/UI de carga sin programarla."
+    }
+  ],
+  "generado": "2026-09-18"
+}

@@ -1,6 +1,6 @@
 # 🍅 Plan de la semana 13 (52)
 
-> Lecciones recomendadas esta semana: 4 («2» … «5»)
+> Lecciones recomendadas esta semana: 5 («6» … «4»)
 
 | Día | 🍅 meta | Bloque sugerido | Hecho |
 |-----|--------|-----------------|-------|

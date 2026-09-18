@@ -1,0 +1,10 @@
+{
+  "tarjeta": "astro-la-web-de-contenido-mode-L04-Q01",
+  "curso": "🚀 Astro — La Web de Contenido Moderna",
+  "leccion": 4,
+  "frente": "¿Qué valida el esquema zod de una Content Collection?",
+  "reversa": "El frontmatter de cada Markdown durante el build",
+  "explicacion": "Si un post incumple el esquema, el build falla: contenido corrupto nunca llega a producción.",
+  "algoritmo": "repaso espaciado: 1d, 3d, 7d, 21d",
+  "generada": "2026-09-18"
+}

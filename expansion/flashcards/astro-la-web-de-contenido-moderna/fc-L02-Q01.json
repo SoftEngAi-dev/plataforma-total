@@ -1,0 +1,10 @@
+{
+  "tarjeta": "astro-la-web-de-contenido-mode-L02-Q01",
+  "curso": "🚀 Astro — La Web de Contenido Moderna",
+  "leccion": 2,
+  "frente": "¿Dónde se ejecuta el código del frontmatter (---) de un componente Astro?",
+  "reversa": "En el servidor o en build time",
+  "explicacion": "El frontmatter corre fuera del cliente; al navegador solo llega el HTML resultante.",
+  "algoritmo": "repaso espaciado: 1d, 3d, 7d, 21d",
+  "generada": "2026-09-18"
+}

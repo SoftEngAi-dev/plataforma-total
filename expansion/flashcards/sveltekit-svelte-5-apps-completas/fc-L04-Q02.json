@@ -1,0 +1,10 @@
+{
+  "tarjeta": "sveltekit-svelte-5-apps-comple-L04-Q02",
+  "curso": "🔥 SvelteKit & Svelte 5 — Apps Completas",
+  "leccion": 4,
+  "frente": "¿Qué adapter eliges para desplegar SvelteKit en tu propio contenedor Docker?",
+  "reversa": "adapter-node",
+  "explicacion": "adapter-node genera un servidor Node independiente, perfecto para VPS o Docker.",
+  "algoritmo": "repaso espaciado: 1d, 3d, 7d, 21d",
+  "generada": "2026-09-18"
+}

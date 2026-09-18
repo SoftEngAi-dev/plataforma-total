@@ -1,0 +1,10 @@
+{
+  "tarjeta": "sveltekit-svelte-5-apps-comple-L03-Q02",
+  "curso": "🔥 SvelteKit & Svelte 5 — Apps Completas",
+  "leccion": 3,
+  "frente": "¿Cómo devuelves un error de validación al formulario desde una action?",
+  "reversa": "Con fail(422, { error })",
+  "explicacion": "fail devuelve al navegador el estado y un objeto que la página lee en la prop form.",
+  "algoritmo": "repaso espaciado: 1d, 3d, 7d, 21d",
+  "generada": "2026-09-18"
+}

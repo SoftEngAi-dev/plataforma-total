@@ -1,0 +1,10 @@
+{
+  "tarjeta": "tailwind-css-diseno-a-velocida-L05-Q01",
+  "curso": "🎨 Tailwind CSS — Diseño a Velocidad",
+  "leccion": 5,
+  "frente": "¿Qué es shadcn/ui?",
+  "reversa": "Componentes accesibles (Radix + Tailwind) que copias a tu proyecto y son tuyos",
+  "explicacion": "No es una dependencia: copia el código del componente a tu repo, con accesibilidad Radix y estilos Tailwind incluidos.",
+  "algoritmo": "repaso espaciado: 1d, 3d, 7d, 21d",
+  "generada": "2026-09-18"
+}

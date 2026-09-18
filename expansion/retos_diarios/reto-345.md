@@ -1,17 +1,17 @@
 # 🥊 Reto del día 345
 
-> Hoy tu cerebro ataca: **6. Proyecto: pone tu PC a trabajar sola** (Linux y Terminal — El Superpoder del Dev)
+> Hoy tu cerebro ataca: **15. Python para datos: tu primer análisis real** (Python — De Cero a Profesional)
 
 1. Explica en voz alta este tema durante 2 minutos, sin notas.
 2. Relee la lección solo si el paso 1 trabó.
 3. Reescribe desde cero el ejemplo clave de la lección.
 
 ## 🥊 Desafío exprés (sin mirar)
-**¿Qué ventaja tiene $fecha=$(date +%F) en el nombre del backup?**
+**¿Qué hace csv.DictReader?**
 
 <details><summary>👁 Ver respuesta</summary>
 
-✅ Cada respaldo es distinto: nunca sobreescribes el de ayer — Backups fechados = historia de restauración; sin fecha solo tienes una copia.
+✅ Convierte cada fila del CSV en un dict usando el encabezado como claves — fila['precio'] directo — parseo CSV robusto con nada instalado.
 </details>
 
 💰 Vale 1 punto de maestría. Acumula 30 → date un premio real.

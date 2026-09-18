@@ -1,17 +1,17 @@
 # 🥊 Reto del día 356
 
-> Hoy tu cerebro ataca: **5. GitHub Pages y Netlify: tu estática en 5 minutos** (Despliegue y Servidores — Tu App al Mundo)
+> Hoy tu cerebro ataca: **10. Diseño final: modelar una app real en SQL** (SQL y Bases de Datos — Datos que Persisten)
 
 1. Explica en voz alta este tema durante 2 minutos, sin notas.
 2. Relee la lección solo si el paso 1 trabó.
 3. Reescribe desde cero el ejemplo clave de la lección.
 
 ## 🥊 Desafío exprés (sin mirar)
-**¿Qué se sube al hosting estático cuando usas React con Vite?**
+**¿Por qué CASCADE en comentarios de un post borrado?**
 
 <details><summary>👁 Ver respuesta</summary>
 
-✅ La carpeta dist/ generada por npm run build (HTMl/CSS/JS puro) — El navegador no entiende JSX/TS: el build los compila a estático; eso es lo que se publica.
+✅ No quedan comentarios huérfanos de posts inexistentes — La integridad referencial gestionada por la base: consistencia siempre.
 </details>
 
 💰 Vale 1 punto de maestría. Acumula 30 → date un premio real.
