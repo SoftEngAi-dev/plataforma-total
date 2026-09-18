@@ -1,9 +1,10 @@
 name: 🖥️ Compilar ejecutables desktop
 
-# Se ejecuta en cada push a main, o manualmente desde Actions → Run workflow
+# Se ejecuta en cada push a main, con tags v* (para la Release) o manualmente
 on:
   push:
     branches: [main]
+    tags: ["v*"]
   workflow_dispatch:
 
 jobs:
