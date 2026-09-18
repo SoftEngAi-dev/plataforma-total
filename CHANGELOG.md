@@ -1,5 +1,11 @@
 # Changelog
 
+## [4.1.0] - 2026-09-18
+### 🪟 ¡Ejecutable Windows de doble clic!
+- **`PlataformaTotal-Windows.exe`** compilado gratis en GitHub Actions (PyInstaller onefile, icono oficial) — descarga y úsala como cualquier app, sin Python
+- Auto-update consciente del formato: si la app corre como `.exe`, descarga y reemplaza el propio ejecutable (rama frozen en `_url_asset` + `_lanzar_reinstalador`)
+- GitHub Pages estrena **Web App gratis + PWA instalable** (la `app/` generada en el ciclo anterior se mantiene vigente)
+- FIX: paquetes de Release vuelven a llevar carpeta `PlataformaTotal/` interna (formato que espera el auto-instalador)
 ## [4.0.0] - 2026-09-18
 ### 💎 Monetización — la app ahora factura
 - **Modelo freemium**: 15 cursos de fundamentos GRATIS · 32 cursos PRO (desbloqueo con clave de licencia)
