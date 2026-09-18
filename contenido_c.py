@@ -149,7 +149,7 @@ Lenguaje de Apple desde 2014 (reemplazando Objective-C). Abierto, compilado, le�
 
   let nombre = "Ada"               // let = constante (inmutable)
   var edad = 36                    // var = variable
-  print("Hola, \(nombre)!")        // interpolación: \(expr)
+  print("Hola, \\(nombre)!")        // interpolación: \\(expr)
   edad += 1
 
   let frutas = ["🍎", "🍌"]           // Array literal, tipo inferido [String]
@@ -175,7 +175,7 @@ En Swift un valor SÍ puede faltar, pero el tipo te obliga a encararlo:
 
 DESEMPAQUETAR (las 4 formas de la vida real)
 1. IF LET (la más segura y común):
-   if let a = apodo { print("Se llama \(a)") } else { print("sin apodo") }
+   if let a = apodo { print("Se llama \\(a)") } else { print("sin apodo") }
 2. GUARD LET (salida temprana — el favorito en funciones):
    guard let a = apodo else { return }   // si nil, te vas ya; abajo 'a' es String real
    print(a.count)
@@ -210,7 +210,7 @@ class cuando necesites referencia compartida o herencia.
 PROTOCOLOS (el interface de Swift — mucho más potente que herencia):
   protocol Describible { var descripcion: String { get } }
   extension Tarea: Describible {
-      var descripcion: String { "Tarea: \(titulo)\(hecha ? " ✅" : "")" }
+      var descripcion: String { "Tarea: \\(titulo)\\(hecha ? " ✅" : "")" }
   }
   func imprimir(_ cosa: Describible) { print(cosa.descripcion) }
 
@@ -228,7 +228,7 @@ Desde 2019, la forma moderna: describís la UI y SwiftUI la redibuja al cambiar 
 
       var body: some View {                         // TODO view devuelve 'some View'
           VStack(spacing: 16) {                     // apila vertical (HStack horizontal)
-              Text("Clicks: \(cuenta)")
+              Text("Clicks: \\(cuenta)")
                   .font(.largeTitle)
               Button("¡Tócame!") { cuenta += 1 }    // acción con closure
               HStack {

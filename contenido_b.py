@@ -379,7 +379,7 @@ SCRIPT 1 — respaldo.sh (el indispensable)
 SCRIPT 2 — limpieza.sh (espacio en disco)
   #!/bin/bash
   echo "Temporales grandes:"
-  find /tmp -type f -size +50M -exec ls -lh {} \; 2>/dev/null
+  find /tmp -type f -size +50M -exec ls -lh {} \\; 2>/dev/null
   read -p "¿Borrar? (s/n) " sn
   [[ "$sn" == s ]] && find /tmp -type f -size +50M -delete && echo "🧹 limpio"
 
@@ -778,7 +778,7 @@ VALIDATION EN ESPAÑOL MENTAL: required|email|min:8|max:255|unique:tareas,titulo
 
 EL FLUJO VISUAL: petición → Route → (optional middleware auth) → Controller (valida) → Model (datos) → View (presenta) → respuesta. Una separación clara = mantenimiento feliz.""",
   [("¿Qué hace Route Model Binding en Laravel?", ["Nada especial", "Inyecta directo el modelo por ID (404 automático si no existe) sin hacer find manual", "Valida forms", "Sirve estáticos"], 1, 'function show(Tarea $tarea) — el framework busca el id y te da el modelo o 404.'),
-   ("¿Para qué sirve \$fillable en el modelo?", ["Indexar", "Anti mass-assignment: lista blanca de campos rellenables vía create/update (evita inyectar campos no previstos)", "Migraciones", "Nada"], 1, "Tarea::create($request->all()) protegido: solo pasa lo autorizado.")]),
+   ("¿Para qué sirve \\$fillable en el modelo?", ["Indexar", "Anti mass-assignment: lista blanca de campos rellenables vía create/update (evita inyectar campos no previstos)", "Migraciones", "Nada"], 1, "Tarea::create($request->all()) protegido: solo pasa lo autorizado.")]),
  ("6. Proyecto: CRUD completo en Laravel", """CONSTRUYE: MINI-BLOG LARAVEL EN ~1 HORA
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━
 1. composer create-project laravel/laravel miniblog && cd miniblog
