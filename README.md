@@ -13,7 +13,7 @@
 
 ```
 47 cursos · 269 lecciones · 538 quizzes (100% cobertura) · 3.941 archivos de material
-Buscador 🔍 · Quizzes 📝 · Pomodoro 🍅 · Racha 🔥 · Certificados 🎓 · Chat IA con memoria 🤖
+Buscador 🔍 · Quizzes 📝 · Pomodoro 🍅 · Racha 🔥 · Certificados 🎓 · Chat IA con memoria 🤖 · Auto-actualización 🔄
 Linux · Windows · macOS · 100% offline · Ejecutables con icono oficial 🖼️
 ```
 

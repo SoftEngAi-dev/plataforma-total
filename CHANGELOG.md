@@ -4,6 +4,14 @@ Todas las versiones publicadas en: https://github.com/SoftEngAi-dev/plataforma-t
 
 ---
 
+## [3.3.0] — 2026-09-18 · 🔄 Auto-actualización desde la app
+
+### Añadido
+- 🔄 **La app se actualiza a sí misma**: chequea GitHub Releases al iniciar (silencioso) y con botón "🔄 Buscar actualización" en el sidebar
+- ⬇ **Instalación con 1 clic**: descarga la Release correcta para tu SO y se reinstala sola mediante un reinstalador externo (`.bat`/`.sh`) que reemplaza la app al cerrarse y la relanza
+- 💻 Modo código fuente: el botón guía con `git pull`
+- Indicador de versión v3.3.0 en el sidebar
+
 ## [3.2.0] — 2026-09-18 · 🚀 Stack Moderno (Astro & friends)
 
 ### Añadido

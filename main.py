@@ -2,7 +2,7 @@
 """🎓 PLATAFORMA TOTAL v3.0 — Escuela local de programación con IA.
 41 cursos · 243 lecciones · 486 quizzes · Buscador · Pomodoro · Racha 🔥
 Certificados 🎓 · Chat IA con memoria · 100% offline (Ollama opcional)."""
-import os, sys, json, threading, subprocess, shutil, webbrowser, datetime, platform, hashlib, random
+import os, sys, json, threading, subprocess, shutil, webbrowser, datetime, platform, hashlib, random, tempfile
 from pathlib import Path
 import customtkinter as ctk
 from tkinter import messagebox, filedialog, simpledialog
@@ -20,6 +20,10 @@ sys.path.insert(0, str(BASE))
 
 # ─── CONTENIDO: 41 cursos / 243 lecciones / 486 quizzes ───
 import contenido_a, contenido_b, contenido_c, contenido_d, contenido_e
+
+# 🔁 Versión instalada — la auto-actualización la compara con GitHub Releases
+VERSION_APP = "3.3.0"
+REPO_GH = "SoftEngAi-dev/plataforma-total"
 _LECCIONES = {}
 for _mod in (contenido_a, contenido_b, contenido_c, contenido_d, contenido_e):
     _LECCIONES.update(_mod.CURSOS_MOD)
@@ -332,6 +336,7 @@ class App(ctk.CTk):
         self.quiz = {"activo": False, "preguntas": [], "idx": 0, "puntos": 0, "curso": None, "leccion": 0}
         self.build_sidebar()
         self.main = ctk.CTkFrame(self); self.main.pack(side="right", fill="both", expand=True, padx=10, pady=10)
+        self.after(4500, lambda: self.buscar_actualizacion(silencioso=True))  # 🔄 chequeo suave al iniciar
         self.show("🏠 Inicio")
 
     # ── sidebar ──
@@ -351,7 +356,16 @@ class App(ctk.CTk):
         self.pomo_btn = ctk.CTkButton(fila, text="▶", width=44, command=self.pomo_toggle); self.pomo_btn.pack(side="left", padx=3, pady=4)
         ctk.CTkButton(fila, text="↺", width=44, fg_color="gray", command=self.pomo_reset).pack(side="left", padx=3, pady=4)
         self.pomo_hoy = ctk.CTkLabel(pf, text=f"Hoy: {'🍅' * min(db_pomodoros_hoy(), 8) or '—'} ({db_pomodoros_hoy()})", font=("Arial", 10)); self.pomo_hoy.pack(pady=(0, 8))
-        ctk.CTkLabel(sb, text="v3.0 · 100% local", font=("Arial", 9), text_color="gray").pack(side="bottom", pady=8)
+        # 🔄 Auto-actualización desde GitHub Releases (zona inferior del sidebar)
+        upd = ctk.CTkFrame(sb, fg_color="transparent")
+        upd.pack(side="bottom", fill="x", padx=8, pady=(0, 6))
+        ctk.CTkLabel(upd, text=f"v{VERSION_APP} · 100% local", font=("Arial", 9), text_color="gray").pack()
+        self.lbl_update = ctk.CTkLabel(upd, text="", font=("Arial", 10), wraplength=170)
+        self.lbl_update.pack()
+        self.btn_instalar = ctk.CTkButton(upd, text="⬇ INSTALAR", height=26, fg_color="#7c3aed",
+                                          command=self.actualizar_ahora)  # se muestra solo si hay novedad
+        ctk.CTkButton(upd, text="🔄 Buscar actualización", height=24, fg_color="gray",
+                      command=lambda: self.buscar_actualizacion(False)).pack(fill="x", pady=(3, 0))
 
     def show(self, tab):
         for w in self.main.winfo_children():
@@ -379,6 +393,101 @@ class App(ctk.CTk):
         bar = ctk.CTkFrame(f); bar.pack(pady=6)
         ctk.CTkButton(bar, text="🧭 ¿Qué estudio hoy? (IA)", fg_color="#6f42c1", command=self.recomendar_con_ia).pack(side="left", padx=6)
         ctk.CTkButton(bar, text="🔄 Refrescar", fg_color="gray", command=lambda: self.show("🏠 Inicio")).pack(side="left", padx=6)
+
+    # ══════════ 🔄 AUTO-ACTUALIZACIÓN (GitHub Releases) ══════════
+    def buscar_actualizacion(self, silencioso=False):
+        """Consulta la última Release en GitHub y avisa si hay versión nueva."""
+        if requests is None:
+            if not silencioso:
+                self.lbl_update.configure(text="⚠ Falta 'requests' (pip install requests)")
+            return
+        def trabajo():
+            try:
+                r = requests.get(f"https://api.github.com/repos/{REPO_GH}/releases/latest", timeout=8)
+                tag = r.json().get("tag_name", "v0.0.0")
+                def tup(v):
+                    s = "".join(c if (c.isdigit() or c == ".") else " " for c in v)
+                    return tuple(int(x) for x in s.split(".") if x.strip())
+                hay = tup(tag) > tup(VERSION_APP)
+                self.after(0, lambda: self._aviso_update(hay, tag, silencioso))
+            except Exception:
+                if not silencioso:
+                    self.after(0, lambda: self.lbl_update.configure(text="⚠ Sin conexión ahora mismo"))
+        threading.Thread(target=trabajo, daemon=True).start()
+
+    def _url_asset(self):
+        nombre = ("PlataformaTotal-Windows.zip" if sys.platform == "win32"
+                  else "PlataformaTotal-macOS.tar.gz" if sys.platform == "darwin"
+                  else "PlataformaTotal-Linux.tar.gz")
+        return f"https://github.com/{REPO_GH}/releases/latest/download/{nombre}", nombre
+
+    def _aviso_update(self, hay, tag, silencioso):
+        if hay:
+            self.lbl_update.configure(text=f"✨ ¡Nueva {tag} lista! (tienes v{VERSION_APP})", text_color="#22d3ee")
+            self.btn_instalar.configure(text=f"⬇ INSTALAR {tag}")
+            self.btn_instalar.pack(fill="x", pady=(3, 0))
+        elif not silencioso:
+            self.lbl_update.configure(text=f"✅ Estás al día (v{VERSION_APP})", text_color="gray")
+
+    def actualizar_ahora(self):
+        """Descarga la última versión y se reinstala sola; en código fuente, guía con git pull."""
+        if not getattr(sys, "frozen", False):
+            webbrowser.open(f"https://github.com/{REPO_GH}")
+            messagebox.showinfo("Modo código fuente",
+                                "Ejecutas desde código fuente: actualiza con\n\n    git pull\n\ny reinicia la app.")
+            return
+        url, nombre = self._url_asset()
+        self.lbl_update.configure(text="⬇ Descargando nueva versión…", text_color="#f59e0b")
+        self.btn_instalar.configure(state="disabled")
+        def trabajo():
+            try:
+                tmp = os.path.join(tempfile.gettempdir(), nombre)
+                with requests.get(url, timeout=120, stream=True) as r:
+                    r.raise_for_status()
+                    with open(tmp, "wb") as f:
+                        for chunk in r.iter_content(262144):
+                            if chunk:
+                                f.write(chunk)
+                self.after(0, lambda: self._lanzar_reinstalador(tmp))
+            except Exception as e:
+                self.after(0, lambda: self.lbl_update.configure(text=f"⚠ Error de descarga: {e}"))
+                self.after(0, lambda: self.btn_instalar.configure(state="normal"))
+        threading.Thread(target=trabajo, daemon=True).start()
+
+    def _lanzar_reinstalador(self, paquete):
+        """Lanza un reinstalador EXTERNO que sustituye la app al cerrarse y la relanza."""
+        if sys.platform == "darwin":
+            webbrowser.open(f"https://github.com/{REPO_GH}/releases/latest")
+            messagebox.showinfo("Descargada", f"Nueva versión en:\n{paquete}\n\nEn macOS reemplaza la app manualmente.")
+            return
+        exe_dir = os.path.dirname(os.path.abspath(sys.executable))
+        base = os.path.dirname(exe_dir)
+        try:
+            if sys.platform == "win32":
+                bat = os.path.join(base, "_actualizar.bat")
+                with open(bat, "w", encoding="cp850", errors="ignore") as f:
+                    f.write("@echo off\r\n"
+                            "timeout /t 2 /nobreak >nul\r\n"
+                            f"powershell -NoProfile -Command \"Expand-Archive -Force '{paquete}' '{base}\\_pt_new'\"\r\n"
+                            f"xcopy \"{base}\\_pt_new\\PlataformaTotal\" \"{exe_dir}\\\" /E /Y /I >nul\r\n"
+                            f"rmdir /s /q \"{base}\\_pt_new\"\r\n"
+                            f"del \"{paquete}\"\r\n"
+                            f"start \"\" \"{sys.executable}\"\r\n"
+                            "del \"%~f0\"\r\n")
+                subprocess.Popen(["cmd", "/c", bat], creationflags=getattr(subprocess, "CREATE_NO_WINDOW", 0))
+            else:
+                sh = os.path.join(base, "_actualizar.sh")
+                with open(sh, "w") as f:
+                    f.write("#!/bin/sh\nsleep 2\n"
+                            f"mkdir -p \"{base}/_pt_new\" && tar -xzf \"{paquete}\" -C \"{base}/_pt_new\"\n"
+                            f"cp -Rf \"{base}/_pt_new/PlataformaTotal/.\" \"{exe_dir}/\"\n"
+                            f"rm -rf \"{base}/_pt_new\" \"{paquete}\" \"{sh}\"\n"
+                            f"nohup \"{sys.executable}\" >/dev/null 2>&1 &\n")
+                os.chmod(sh, 0o755)
+                subprocess.Popen(["/bin/sh", sh], start_new_session=True)
+            self.destroy()  # la app se cierra; el reinstalador la reemplaza y la vuelve a abrir
+        except Exception as e:
+            self.lbl_update.configure(text=f"⚠ No se pudo reinstalar: {e}")
 
     def info_sistema(self):
         t = CFG["tools"]
