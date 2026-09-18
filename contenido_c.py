@@ -156,7 +156,7 @@ Lenguaje de Apple desde 2014 (reemplazando Objective-C). Abierto, compilado, le�
   var precios: [String: Int] = ["café": 120]   // Dictionary
   precios["té"] = 80
   for (fruta) in frutas { print(fruta) }
-  for (producto, precio) in precios { print("\(producto): $\(precio)") }
+  for (producto, precio) in precios { print("\\(producto): $\\(precio)") }
 
   func area(base: Int, altura: Int) -> Int {   // -> Tipo de retorno
       base * altura                            // return implícito si es 1 expresión
