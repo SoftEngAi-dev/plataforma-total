@@ -313,6 +313,15 @@ PROYECTOS_IDEAS = [
 class App(ctk.CTk):
     def __init__(self):
         super().__init__()
+        try:  # 🖼️ icono de ventana/barra de tareas (empaquetado con --add-data)
+            from tkinter import PhotoImage
+            _base = getattr(sys, "_MEIPASS", os.path.dirname(os.path.abspath(__file__)))
+            _ico = os.path.join(_base, "assets", "icono.png")
+            if os.path.exists(_ico):
+                self._imagen_icono = PhotoImage(file=_ico)
+                self.iconphoto(True, self._imagen_icono)
+        except Exception:
+            pass
         self.title(f"Plataforma Total — {CFG['modo']} · {CFG['ai_backend']}")
         self.geometry("1400x900")
         ctk.set_appearance_mode("dark")

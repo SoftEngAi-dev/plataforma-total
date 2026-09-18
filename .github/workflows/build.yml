@@ -14,9 +14,9 @@ jobs:
       fail-fast: false
       matrix:
         include:
-          - { os: windows-latest, nombre: PlataformaTotal-Windows }
-          - { os: macos-latest,   nombre: PlataformaTotal-macOS }
-          - { os: ubuntu-latest,  nombre: PlataformaTotal-Linux }
+          - { os: windows-latest, nombre: PlataformaTotal-Windows, icon: assets/icono.ico,  adddata: "assets/icono.png;assets" }
+          - { os: macos-latest,   nombre: PlataformaTotal-macOS,   icon: assets/icono.icns, adddata: "assets/icono.png:assets" }
+          - { os: ubuntu-latest,  nombre: PlataformaTotal-Linux,   icon: assets/icono.png,  adddata: "assets/icono.png:assets" }
     runs-on: ${{ matrix.os }}
     steps:
       - uses: actions/checkout@v4
@@ -28,8 +28,8 @@ jobs:
       - name: Dependencias + PyInstaller
         run: pip install -r requirements.txt pyinstaller
 
-      - name: Compilar ejecutable
-        run: pyinstaller --noconfirm --clean --windowed --collect-all customtkinter --name PlataformaTotal main.py
+      - name: Compilar ejecutable (con icono)
+        run: pyinstaller --noconfirm --clean --windowed --icon "${{ matrix.icon }}" --add-data "${{ matrix.adddata }}" --collect-all customtkinter --name PlataformaTotal main.py
 
       - name: Empaquetar (Linux/macOS)
         if: runner.os != 'Windows'
