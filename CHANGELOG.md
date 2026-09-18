@@ -1,4 +1,15 @@
-# 📜 Changelog — Plataforma Total
+# Changelog
+
+## [4.0.0] - 2026-09-18
+### 💎 Monetización — la app ahora factura
+- **Modelo freemium**: 15 cursos de fundamentos GRATIS · 32 cursos PRO (desbloqueo con clave de licencia)
+- **Paywall en la app**: gate en cargador de lecciones + guarda en buscador (🔒 en cursos PRO), pantalla de conversión con beneficios, 3 planes y entrada de clave
+- **Activación con Lemon Squeezy** (Merchant of Record): validación de clave online una sola vez; tras activar la app sigue 100% offline
+- **`monetizacion.json` remoto**: precios y enlaces de checkout editables en el repo sin recompilar (cache 24 h)
+- **Sidebar**: badge FREE/PRO + botón "💎 Ser PRO / Activar clave"
+- **Landing**: nueva sección #precios (Free / Mensual 7,99 / Anual 79 / Lifetime 169 / packs 24) que lee los enlaces desde monetizacion.json
+- **`MONETIZACION.md`**: análisis de mercado completo (Platzi, Codecademy, ZTM, Scrimba, Código Facilito…), justificación de precios, matemática de facturación y plan fase $0 → stores
+g — Plataforma Total
 
 Todas las versiones publicadas en: https://github.com/SoftEngAi-dev/plataforma-total/releases
 

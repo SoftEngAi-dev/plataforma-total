@@ -106,6 +106,34 @@
   <p class="note">🛡️ Windows puede mostrar SmartScreen: «Más información» → «Ejecutar de todas formas» (la app no tiene firma digital de pago; el código es 100% abierto).<br>
   📦 <a href="https://github.com/SoftEngAi-dev/plataforma-total/releases">Todas las versiones</a> · 💻 <a href="https://github.com/SoftEngAi-dev/plataforma-total">Código fuente</a></p>
 
+  <h2 id="precios">💎 Planes — empieza gratis, crece con PRO</h2>
+  <p class="note"><b>15 cursos de fundamentos GRATIS para siempre.</b> Con PRO desbloqueas los 32 cursos avanzados… y todos los que vengan.</p>
+  <div class="dl" style="grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));">
+    <div class="card">
+      <div class="os">🆓</div><h3>Free</h3>
+      <p><b style="font-size:1.3rem">U$S 0</b> para siempre<br>15 cursos de fundamentos · quizzes · 100% offline · auto-update · comunidad GitHub</p>
+      <a class="btn ghost" href="https://github.com/SoftEngAi-dev/plataforma-total/releases/latest/download/PlataformaTotal-Windows.zip">Descargar gratis</a>
+    </div>
+    <div class="card">
+      <div class="os">🗓️</div><h3>PRO Mensual</h3>
+      <p><b style="font-size:1.3rem">U$S 7,99/mes</b><br>Los 47 cursos + futuros · quizzes IA · certificados · soporte · cancela cuando quieras</p>
+      <a class="btn" data-checkout="checkout_mensual" href="#precios">Empezar ahora</a>
+    </div>
+    <div class="card" style="border-color:#7c3aed; box-shadow:0 0 30px rgba(124,58,237,.25)">
+      <div class="os">⭐</div><h3>PRO Anual</h3>
+      <p><b style="font-size:1.3rem">U$S 79/año</b> (6,6/mes)<br><b>2 meses gratis</b> vs mensual · todo lo PRO · la opción favorita</p>
+      <a class="btn" data-checkout="checkout_anual" href="#precios">Elegir anual</a>
+    </div>
+    <div class="card">
+      <div class="os">♾️</div><h3>De por vida</h3>
+      <p><b style="font-size:1.3rem">U$S 169</b> un solo pago<br>TODO para siempre · futuras versiones incluidas · insignia Fundador</p>
+      <a class="btn" data-checkout="checkout_lifetime" href="#precios">Ser Fundador</a>
+    </div>
+  </div>
+  <p class="note">📦 ¿Solo te interesa un área? <b>Packs temáticos a U$S 24</b>: Frontend Moderno · Backend Pro · DevOps & Cloud · Mobile · Data & IA · Carrera & Entrevistas.<br>
+  🛡️ La clave llega a tu email en ~1 minuto · pago seguro vía Lemon Squeezy · reembolso 14 días · la app sigue 100% offline tras activar ·
+  🎓 estudiantes −40% · ¿dudas? <a href="https://github.com/SoftEngAi-dev/plataforma-total/issues">Abre un issue</a></p>
+
   <h2>✨ Qué incluye</h2>
   <div class="feat">
     <div class="f"><div class="i">🔍</div><b>Buscador global</b><span>Encuentra cualquier tema en las 269 lecciones al instante.</span></div>
@@ -147,5 +175,15 @@
   Licencia MIT © 2026 SoftEngAi-dev</p>
 </footer>
 
+<script>
+fetch("https://raw.githubusercontent.com/SoftEngAi-dev/plataforma-total/main/monetizacion.json")
+  .then(r => r.json())
+  .then(cfg => {
+    document.querySelectorAll("[data-checkout]").forEach(a => {
+      const u = cfg[a.dataset.checkout];
+      if (u && u.startsWith("http")) { a.href = u; a.target = "_blank"; a.rel = "noopener"; }
+    });
+  }).catch(() => {});
+</script>
 </body>
 </html>

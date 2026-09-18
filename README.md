@@ -14,7 +14,8 @@
 ```
 47 cursos · 269 lecciones · 538 quizzes (100% cobertura) · 3.941 archivos de material
 Buscador 🔍 · Quizzes 📝 · Pomodoro 🍅 · Racha 🔥 · Certificados 🎓 · Chat IA con memoria 🤖 · Auto-actualización 🔄
-Linux · Windows · macOS · 100% offline · Ejecutables con icono oficial 🖼️
+Linux · Windows · macOS · 100% offline · 🔄 Auto-actualización · Ejecutables con icono oficial 🖼️
+🆓 FREE: 15 cursos gratis · 💎 PRO: 32 cursos desde U$S 7,99/mes (ver [MONETIZACION.md](MONETIZACION.md))
 ```
 
 ---

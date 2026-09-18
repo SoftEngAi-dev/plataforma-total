@@ -22,11 +22,84 @@ sys.path.insert(0, str(BASE))
 import contenido_a, contenido_b, contenido_c, contenido_d, contenido_e
 
 # 🔁 Versión instalada — la auto-actualización la compara con GitHub Releases
-VERSION_APP = "3.3.0"
+VERSION_APP = "4.0.0"
 REPO_GH = "SoftEngAi-dev/plataforma-total"
 _LECCIONES = {}
 for _mod in (contenido_a, contenido_b, contenido_c, contenido_d, contenido_e):
     _LECCIONES.update(_mod.CURSOS_MOD)
+
+# ══════════ 💎 MONETIZACIÓN — freemium (15 cursos gratis, resto PRO) ══════════
+CURSOS_GRATIS = set(list(_LECCIONES.keys())[:15])   # los fundamentos, gratis para siempre
+URL_MONETIZACION = f"https://raw.githubusercontent.com/{REPO_GH}/main/monetizacion.json"
+_LS_VALIDATE = "https://api.lemonsqueezy.com/v1/licenses/validate"
+_MONETIZACION_FALLBACK = {
+    "tienda": "Lemon Squeezy",
+    "checkout_mensual": "https://softengai-dev.github.io/plataforma-total/#precios",
+    "checkout_anual": "https://softengai-dev.github.io/plataforma-total/#precios",
+    "checkout_lifetime": "https://softengai-dev.github.io/plataforma-total/#precios",
+    "nota": "🔑 Tras el pago, tu clave llega a tu email en ~1 minuto.",
+}
+
+
+def _lic_path():
+    return CFG["paths"]["base"] / "licencia.json"
+
+
+def licencia_guardada():
+    """Devuelve los datos de la licencia PRO activa, o None."""
+    try:
+        d = json.loads(_lic_path().read_text(encoding="utf-8"))
+        if d.get("clave") and d.get("valida"):
+            return d
+    except Exception:
+        pass
+    return None
+
+
+def licencia_activar(clave):
+    """Valida la clave con Lemon Squeezy (online una sola vez). Devuelve (ok, mensaje)."""
+    clave = (clave or "").strip()
+    if not clave:
+        return False, "Pega tu clave de licencia primero."
+    if requests is None:
+        return False, "Falta el módulo 'requests' (pip install requests)."
+    try:
+        r = requests.post(_LS_VALIDATE, data={"license_key": clave}, timeout=12)
+        d = r.json()
+        estado = d.get("license_key", {}).get("status", "")
+        if d.get("valid") or estado == "active":
+            CFG["paths"]["base"].mkdir(parents=True, exist_ok=True)
+            _lic_path().write_text(json.dumps({
+                "clave": clave, "valida": True, "fecha": str(datetime.date.today()),
+                "producto": d.get("meta", {}).get("product_name", "PRO"),
+                "cliente": d.get("meta", {}).get("customer_email", ""),
+            }, ensure_ascii=False, indent=2), encoding="utf-8")
+            return True, "💎 ¡PRO ACTIVADO! Gracias por apoyar el proyecto 🎉"
+        return False, "Clave no válida o inactiva. Revísala en tu email de compra."
+    except Exception:
+        return False, "Sin conexión. La activación necesita internet solo una vez."
+
+
+def monetizacion_cfg():
+    """Config remota de precios/checkout (editable en el repo sin recompilar). Cache 1 día."""
+    cache = CFG["paths"]["base"] / "monetizacion_cache.json"
+    try:
+        if cache.exists() and (datetime.datetime.now().timestamp() - cache.stat().st_mtime) < 86400:
+            return json.loads(cache.read_text(encoding="utf-8"))
+    except Exception:
+        pass
+    if requests is not None:
+        try:
+            d = requests.get(URL_MONETIZACION, timeout=8).json()
+            cache.parent.mkdir(parents=True, exist_ok=True)
+            cache.write_text(json.dumps(d, ensure_ascii=False), encoding="utf-8")
+            return d
+        except Exception:
+            pass
+    try:
+        return json.loads(cache.read_text(encoding="utf-8"))
+    except Exception:
+        return dict(_MONETIZACION_FALLBACK)
 CURSOS = {c: [{"titulo": t, "contenido": cc} for (t, cc, q) in lec] for c, lec in _LECCIONES.items()}
 QUIZZES = {c: {i: [{"p": p, "ops": list(ops), "ok": ok, "exp": exp} for (p, ops, ok, exp) in lec[i][2]]
                for i in range(len(lec))} for c, lec in _LECCIONES.items()}
@@ -87,6 +160,7 @@ def init_db():
     cur.execute("CREATE TABLE IF NOT EXISTS pomodoros(id INTEGER PRIMARY KEY AUTOINCREMENT, fecha TEXT)")
     cur.execute("CREATE TABLE IF NOT EXISTS actividad_dias(fecha TEXT PRIMARY KEY)")
     cur.execute("CREATE TABLE IF NOT EXISTS certificados(id INTEGER PRIMARY KEY AUTOINCREMENT, curso TEXT, alumno TEXT, codigo TEXT, fecha TEXT)")
+    cur.execute("CREATE TABLE IF NOT EXISTS licencia(clave TEXT PRIMARY KEY, meta TEXT, fecha TEXT)")  # 💎 PRO (también en licencia.json)
     con.commit(); con.close()
 
 init_db()  # tablas garantizadas incluso si solo se importa el módulo
@@ -337,6 +411,7 @@ class App(ctk.CTk):
         self.build_sidebar()
         self.main = ctk.CTkFrame(self); self.main.pack(side="right", fill="both", expand=True, padx=10, pady=10)
         self.after(4500, lambda: self.buscar_actualizacion(silencioso=True))  # 🔄 chequeo suave al iniciar
+        self._sync_pro_badge()  # 💎 muestra FREE/PRO al arrancar
         self.show("🏠 Inicio")
 
     # ── sidebar ──
@@ -360,6 +435,10 @@ class App(ctk.CTk):
         upd = ctk.CTkFrame(sb, fg_color="transparent")
         upd.pack(side="bottom", fill="x", padx=8, pady=(0, 6))
         ctk.CTkLabel(upd, text=f"v{VERSION_APP} · 100% local", font=("Arial", 9), text_color="gray").pack()
+        self.lbl_pro = ctk.CTkLabel(upd, text="", font=("Arial", 10, "bold"))
+        self.lbl_pro.pack(pady=(3, 0))
+        ctk.CTkButton(upd, text="💎 Ser PRO / Activar clave", height=25, fg_color="#7c3aed",
+                      command=self._ir_paywall).pack(fill="x", pady=(2, 0))
         self.lbl_update = ctk.CTkLabel(upd, text="", font=("Arial", 10), wraplength=170)
         self.lbl_update.pack()
         self.btn_instalar = ctk.CTkButton(upd, text="⬇ INSTALAR", height=26, fg_color="#7c3aed",
@@ -414,6 +493,79 @@ class App(ctk.CTk):
                 if not silencioso:
                     self.after(0, lambda: self.lbl_update.configure(text="⚠ Sin conexión ahora mismo"))
         threading.Thread(target=trabajo, daemon=True).start()
+
+    # ══════════ 💎 MONETIZACIÓN (paywall PRO) ══════════
+    def _es_pro(self):
+        return licencia_guardada() is not None
+
+    def abrir_leccion_guardado(self, curso, idx):
+        """Abre lección desde el buscador respetando el paywall PRO."""
+        if curso not in CURSOS_GRATIS and not self._es_pro():
+            self.curso_var.set(curso)
+            self._mostrar_paywall(curso)
+            return
+        self.curso_var.set(curso)
+        self.busqueda.set("")
+        self.ver_leccion(idx)
+
+    def _ir_paywall(self):
+        """Botón 💎 del sidebar: navega al paywall esté donde esté el usuario."""
+        for nombre_tab in ("📚 Aprender", "Aprender"):
+            try:
+                self.show(nombre_tab)
+            except Exception:
+                pass
+            if hasattr(self, "lista"):
+                break
+        if hasattr(self, "lista"):
+            self._mostrar_paywall(self.curso_var.get())
+
+    def _mostrar_paywall(self, curso):
+        """Pantalla de conversión: beneficios PRO + checkout + activación de clave."""
+        for w in self.lista.winfo_children():
+            w.destroy()
+        cfg = monetizacion_cfg()
+        es_gratis = curso in CURSOS_GRATIS
+        box = ctk.CTkFrame(self.lista, fg_color=("#1a1f27", "#1a1f27"))
+        box.pack(fill="both", expand=True, padx=12, pady=12)
+        ctk.CTkLabel(box, text="💎 HAZTE PRO" if es_gratis else "💎 CURSO PRO",
+                     font=("Arial", 24, "bold"), text_color="#a78bfa").pack(pady=(20, 2))
+        subtitulo = ("Este curso es gratis 🎉 — con PRO desbloqueas los otros 32 cursos avanzados."
+                     if es_gratis else f"«{curso}» pertenece al plan PRO.")
+        ctk.CTkLabel(box, text=subtitulo, font=("Arial", 13), wraplength=560).pack()
+        ctk.CTkLabel(box,
+                     text="✔ Los 32 cursos PRO + TODOS los futuros (🚀 Astro, ▲ Next.js, 🦀 Rust, 🐹 Go, 🔒 Seguridad, 🤖 IA…)\n"
+                          "✔ Quizzes con IA, certificados verificables y todo el ecosistema de 3.941 archivos\n"
+                          "✔ La app se ACTUALIZA SOLA: cada curso nuevo te llega sin mover un dedo\n"
+                          "✔ Sigue siendo 100% offline tras activar (la clave se valida online una sola vez)\n"
+                          "✔ Pago seguro vía Lemon Squeezy · reembolso 14 días",
+                     font=("Arial", 12), justify="left", wraplength=560).pack(pady=12)
+        p = cfg.get("precios", {})
+        fila = ctk.CTkFrame(box, fg_color="transparent"); fila.pack(pady=4)
+        for txt, key, color in [(f"🗓️ Mensual\nU$S {p.get('mensual_usd', 7.99)}/mes", "checkout_mensual", "#334155"),
+                                (f"⭐ ANUAL\nU$S {p.get('anual_usd', 79)}/año", "checkout_anual", "#7c3aed"),
+                                (f"♾️ DE POR VIDA\nU$S {p.get('lifetime_usd', 169)}", "checkout_lifetime", "#0e7490")]:
+            ctk.CTkButton(fila, text=txt, fg_color=color, width=150, height=52, font=("Arial", 12, "bold"),
+                          command=lambda k=key: webbrowser.open(cfg.get(k) or cfg.get("checkout_anual", ""))).pack(side="left", padx=6)
+        self.pay_key = ctk.CTkEntry(box, placeholder_text="🔑 Pega aquí tu clave de licencia (llega a tu email)", width=400)
+        self.pay_key.pack(pady=(16, 4))
+        self.pay_key.bind("<Return>", lambda _e: self._activar_pro_desde_ui())
+        ctk.CTkButton(box, text="✅ ACTIVAR PRO", fg_color="#15803d", width=200, height=34,
+                      font=("Arial", 13, "bold"), command=self._activar_pro_desde_ui).pack()
+        self.pay_msg = ctk.CTkLabel(box, text=cfg.get("nota", ""), font=("Arial", 10), text_color="gray", wraplength=560)
+        self.pay_msg.pack(pady=8)
+
+    def _activar_pro_desde_ui(self):
+        ok, msg = licencia_activar(self.pay_key.get())
+        self.pay_msg.configure(text=msg, text_color=("#22c55e" if ok else "#ef4444"))
+        if ok:
+            self._sync_pro_badge()
+            self.after(1000, self.cargar_lecciones)
+
+    def _sync_pro_badge(self):
+        es = self._es_pro()
+        self.lbl_pro.configure(text=("💎 PRO ACTIVO — gracias 💜" if es else "🆓 Plan FREE · 15 cursos"),
+                               text_color=("#fbbf24" if es else "gray"))
 
     def _url_asset(self):
         nombre = ("PlataformaTotal-Windows.zip" if sys.platform == "win32"
@@ -553,13 +705,17 @@ class App(ctk.CTk):
         curso = self.curso_var.get()
         if not curso:
             return
+        if curso not in CURSOS_GRATIS and not self._es_pro():
+            self._mostrar_paywall(curso)  # 💎 paywall: curso PRO sin licencia
+            return
         for w in self.lista.winfo_children():
             w.destroy()
         res = self.resultados_busqueda()
         if res:
             for c, i, lec in res:
-                ctk.CTkButton(self.lista, text=f"[{c[:16]}…] {lec['titulo']}", anchor="w",
-                              command=lambda cc=c, ii=i: (self.curso_var.set(cc), self.busqueda.set(""), self.ver_leccion(ii))).pack(fill="x", pady=2)
+                candado = "🔒" if c not in CURSOS_GRATIS else ""
+                ctk.CTkButton(self.lista, text=f"{candado}[{c[:16]}…] {lec['titulo']}", anchor="w",
+                              command=lambda cc=c, ii=i: self.abrir_leccion_guardado(cc, ii)).pack(fill="x", pady=2)
             return
         hechas = db_lecciones_hechas(curso)
         for i, lec in enumerate(CURSOS[curso]):
