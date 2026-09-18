@@ -1,0 +1,26 @@
+name: 💡 Solicitar función
+description: Propón una mejora o nuevo curso para Plataforma Total
+title: "[Feature]: "
+labels: ["enhancement"]
+body:
+  - type: dropdown
+    id: tipo
+    attributes:
+      label: 🧩 Tipo de propuesta
+      options:
+        - Nuevo curso o lecciones
+        - Nueva función de la app
+        - Mejora del contenido existente
+        - Mejora de instalación/ejecutables
+      default: 0
+  - type: textarea
+    id: que
+    attributes:
+      label: 💡 ¿Qué te gustaría ver?
+      placeholder: "Ej: un curso de Vue 3 con 6 lecciones y quiz..."
+    validations:
+      required: true
+  - type: textarea
+    id: por_que
+    attributes:
+      label: 🎯 ¿Por qué sería útil?

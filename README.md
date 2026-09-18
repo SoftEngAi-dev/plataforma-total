@@ -7,7 +7,7 @@
 [![🏷️ v3.1.0](https://img.shields.io/github/v/release/SoftEngAi-dev/plataforma-total?display_name=tag&label=versi%C3%B3n&color=7c3aed)](https://github.com/SoftEngAi-dev/plataforma-total/releases)
 [![🖥️ Build](https://github.com/SoftEngAi-dev/plataforma-total/actions/workflows/build.yml/badge.svg)](https://github.com/SoftEngAi-dev/plataforma-total/actions)
 [![📜 Licencia MIT](https://img.shields.io/badge/licencia-MIT-22c55e)](LICENSE)
-[![💻 Plataformas](https://img.shields.io/badge/Windows%20%C2%B7%20macOS%20%C2%B7%20Linux-3b82f6)](#%EF%B8%8F-descarga-directa-sin-compilar-nada)
+[![🌐 Web](https://img.shields.io/badge/web-del%20proyecto-f59e0b)](https://softengai-dev.github.io/plataforma-total/)
 
 **Escuela completa de software que vive 100% en tu máquina. Sin internet, sin cuentas, sin suscripciones — justo tú, 41 cursos y (opcional) tu IA local.**
 

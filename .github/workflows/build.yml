@@ -8,6 +8,19 @@ on:
   workflow_dispatch:
 
 jobs:
+  test:
+    name: 🧪 Tests de integridad
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Sintaxis de todos los módulos
+        run: python -m compileall -q main.py contenido_a.py contenido_b.py contenido_c.py expandir_contenido.py
+      - name: Validar contenido (41 cursos / 241 lecciones / 482 quizzes)
+        run: python tests/test_integridad.py
+
   build:
     name: ${{ matrix.nombre }}
     strategy:
@@ -17,6 +30,7 @@ jobs:
           - { os: windows-latest, nombre: PlataformaTotal-Windows, icon: assets/icono.ico,  adddata: "assets/icono.png;assets" }
           - { os: macos-latest,   nombre: PlataformaTotal-macOS,   icon: assets/icono.icns, adddata: "assets/icono.png:assets" }
           - { os: ubuntu-latest,  nombre: PlataformaTotal-Linux,   icon: assets/icono.png,  adddata: "assets/icono.png:assets" }
+    needs: [test]
     runs-on: ${{ matrix.os }}
     steps:
       - uses: actions/checkout@v4

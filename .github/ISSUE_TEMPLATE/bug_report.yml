@@ -1,0 +1,37 @@
+name: 🐛 Reporte de bug
+description: ¿Algo no funciona en Plataforma Total?
+title: "[Bug]: "
+labels: ["bug"]
+body:
+  - type: input
+    id: so
+    attributes:
+      label: 💻 Sistema operativo
+      placeholder: "Windows 11 · Ubuntu 24.04 · macOS 15..."
+    validations:
+      required: true
+  - type: dropdown
+    id: forma
+    attributes:
+      label: 📦 ¿Cómo ejecutas la app?
+      options:
+        - Ejecutable descargado (.exe / binario)
+        - Desde código fuente (run.sh / run.bat)
+      default: 0
+  - type: textarea
+    id: pasos
+    attributes:
+      label: 🔁 Pasos para reproducir
+      placeholder: "1. Abrí la app&#10;2. Fui a la pestaña Aprender&#10;3. ..."
+    validations:
+      required: true
+  - type: textarea
+    id: esperado
+    attributes:
+      label: ✅ ¿Qué esperabas que pasara?
+  - type: textarea
+    id: error
+    attributes:
+      label: 🧾 Error o capturas
+      description: Pega el mensaje de error exacto si lo hay
+      render: shell
