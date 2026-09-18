@@ -1,16 +1,37 @@
+<p align="center">
+  <img src="assets/icono-256.png" width="140" alt="Plataforma Total 🎓">
+</p>
+
 # 🎓 Plataforma Total — Tu Escuela Local de Programación
+
+[![🏷️ v3.1.0](https://img.shields.io/github/v/release/SoftEngAi-dev/plataforma-total?display_name=tag&label=versi%C3%B3n&color=7c3aed)](https://github.com/SoftEngAi-dev/plataforma-total/releases)
+[![🖥️ Build](https://github.com/SoftEngAi-dev/plataforma-total/actions/workflows/build.yml/badge.svg)](https://github.com/SoftEngAi-dev/plataforma-total/actions)
+[![📜 Licencia MIT](https://img.shields.io/badge/licencia-MIT-22c55e)](LICENSE)
+[![💻 Plataformas](https://img.shields.io/badge/Windows%20%C2%B7%20macOS%20%C2%B7%20Linux-3b82f6)](#%EF%B8%8F-descarga-directa-sin-compilar-nada)
 
 **Escuela completa de software que vive 100% en tu máquina. Sin internet, sin cuentas, sin suscripciones — justo tú, 41 cursos y (opcional) tu IA local.**
 
 ```
-41 cursos · 241 lecciones · 482 quizzes (100% cobertura) · ~3.500 archivos de material
+41 cursos · 241 lecciones · 482 quizzes (100% cobertura) · 3.601 archivos de material
 Buscador 🔍 · Quizzes 📝 · Pomodoro 🍅 · Racha 🔥 · Certificados 🎓 · Chat IA con memoria 🤖
-Android/iOS (roadmap) | Linux · Windows · macOS · 100% offline
+Linux · Windows · macOS · 100% offline · Ejecutables con icono oficial 🖼️
 ```
 
 ---
 
-## 🚀 Arranque en 60 segundos
+## ⬇️ Descarga directa (sin compilar nada)
+
+| SO | Archivo | Instrucciones |
+|----|---------|---------------|
+| 🪟 **Windows** | [PlataformaTotal-Windows.zip](https://github.com/SoftEngAi-dev/plataforma-total/releases/latest/download/PlataformaTotal-Windows.zip) | Descomprimir → doble clic en `PlataformaTotal.exe` *(SmartScreen: "Más información" → "Ejecutar de todas formas")* |
+| 🐧 **Linux** | [PlataformaTotal-Linux.tar.gz](https://github.com/SoftEngAi-dev/plataforma-total/releases/latest/download/PlataformaTotal-Linux.tar.gz) | `tar -xzf` → ejecutar `PlataformaTotal/PlataformaTotal` |
+| 🍎 **macOS** | [PlataformaTotal-macOS.tar.gz](https://github.com/SoftEngAi-dev/plataforma-total/releases/latest/download/PlataformaTotal-macOS.tar.gz) | `tar -xzf` → abrir la app |
+
+> 🏷️ Enlaces permanentes siempre a la **última versión**. Historial completo: [Releases](https://github.com/SoftEngAi-dev/plataforma-total/releases) · Cambios: [CHANGELOG](CHANGELOG.md)
+
+---
+
+## 🚀 Arranque en 60 segundos (desde código)
 
 | SO | Opción A: código | Opción B: ejecutable |
 |----|------------------|----------------------|
@@ -21,7 +42,7 @@ Android/iOS (roadmap) | Linux · Windows · macOS · 100% offline
 **Código fuente** (necesitas Python 3.10+): los scripts instalan todo solos la primera vez.
 
 ```bash
-git clone <tu-repo>/plataforma-total.git && cd plataforma-total
+git clone https://github.com/SoftEngAi-dev/plataforma-total.git && cd plataforma-total
 ./run.sh        # Linux (o run.bat / run.command)
 ```
 
