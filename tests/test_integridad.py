@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """🧪 Tests de integridad de Plataforma Total (sin dependencias GUI).
 
-Valida que los 41 cursos tengan estructura correcta: lecciones con
+Valida que los 47 cursos tengan estructura correcta: lecciones con
 título/contenido/quiz, opciones válidas y explicaciones; que el código
 compile; y que el material de expansion/ esté completo.
 
@@ -47,7 +47,7 @@ def main():
 
     assert n_lecciones == 269, f"❌ se esperaban 269 lecciones, hay {n_lecciones}"
     assert n_preguntas == 2 * n_lecciones, "❌ cobertura de quiz ≠ 2 por lección"
-    print(f"✅ 41 cursos · {n_lecciones} lecciones · {n_preguntas} preguntas — íntegro")
+    print(f"✅ {len(cursos)} cursos · {n_lecciones} lecciones · {n_preguntas} preguntas — íntegro")
 
     # 3) Todo el código compila
     for f in ("main.py", "contenido_a.py", "contenido_b.py", "contenido_c.py", "expandir_contenido.py"):
