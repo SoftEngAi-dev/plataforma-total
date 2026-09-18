@@ -1,0 +1,10 @@
+{
+  "tarjeta": "docker-en-mi-maquina-si-funcio-L05-Q02",
+  "curso": "Docker — 'En Mi Máquina Sí Funciona' Resuelto",
+  "leccion": 5,
+  "frente": "¿Qué combina este proyecto como cierre del curso?",
+  "reversa": "Dockerfile + build + volúmenes + compose + push al registry",
+  "explicacion": "El ciclo completo real: de tu código a imagen publicada y ejecutable en cualquier máquina.",
+  "algoritmo": "repaso espaciado: 1d, 3d, 7d, 21d",
+  "generada": "2026-09-18"
+}

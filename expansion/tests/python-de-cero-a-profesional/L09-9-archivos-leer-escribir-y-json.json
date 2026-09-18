@@ -1,0 +1,32 @@
+{
+  "curso": "Python — De Cero a Profesional",
+  "leccion": 9,
+  "titulo": "9. Archivos: leer, escribir y JSON",
+  "total": 2,
+  "aprobado_con": 2,
+  "preguntas": [
+    {
+      "p": "¿Por qué usar with open(...)?",
+      "ops": [
+        "Es más corto",
+        "Cierra el archivo automáticamente incluso ante errores",
+        "Acelera la lectura",
+        "Permite binarios"
+      ],
+      "ok": 1,
+      "exp": "with = context manager: el recurso se libera pase lo que pase."
+    },
+    {
+      "p": "¿Cómo guardar y recuperar un dict en JSON?",
+      "ops": [
+        "write con str()",
+        "json.dump() y json.load()",
+        "pikcle y unpack",
+        "print a archivo"
+      ],
+      "ok": 1,
+      "exp": "json es universal multiplataforma; dicts/listas pasan directo."
+    }
+  ],
+  "generado": "2026-09-18"
+}

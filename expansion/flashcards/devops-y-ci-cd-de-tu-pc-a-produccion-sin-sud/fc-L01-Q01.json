@@ -1,0 +1,10 @@
+{
+  "tarjeta": "devops-y-ci-cd-de-tu-pc-a-prod-L01-Q01",
+  "curso": "DevOps y CI/CD — De Tu PC a Producción Sin Sudor",
+  "leccion": 1,
+  "frente": "¿Qué es CI (Integración Continua)?",
+  "reversa": "Automatizar build+tests en cada push para detectar roturas al instante",
+  "explicacion": "Commits integrados y probados constantemente: el bug se detecta cuando es pequeño.",
+  "algoritmo": "repaso espaciado: 1d, 3d, 7d, 21d",
+  "generada": "2026-09-18"
+}

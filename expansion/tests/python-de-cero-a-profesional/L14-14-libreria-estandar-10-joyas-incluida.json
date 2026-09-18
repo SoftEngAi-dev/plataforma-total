@@ -1,0 +1,32 @@
+{
+  "curso": "Python — De Cero a Profesional",
+  "leccion": 14,
+  "titulo": "14. Librería estándar: 10 joyas incluidas",
+  "total": 2,
+  "aprobado_con": 2,
+  "preguntas": [
+    {
+      "p": "¿Qué aporta Path de pathlib frente a strings de rutas?",
+      "ops": [
+        "Solo estética",
+        "Rutas portables Windows/Linux con operadores / y métodos read_text/exists",
+        "Velocidad",
+        "Compresión"
+      ],
+      "ok": 1,
+      "exp": "p = Path.home() / 'x' funciona igual en todos los SO — el estándar moderno de Python."
+    },
+    {
+      "p": "Counter('banana') devuelve...",
+      "ops": [
+        "Una lista",
+        "{'a': 3, 'n': 2, 'b': 1} — conteo automático",
+        "'bn'",
+        "Error"
+      ],
+      "ok": 1,
+      "exp": "collections.Counter = histograma listo con una línea."
+    }
+  ],
+  "generado": "2026-09-18"
+}

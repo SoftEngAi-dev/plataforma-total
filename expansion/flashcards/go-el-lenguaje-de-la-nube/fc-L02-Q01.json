@@ -1,0 +1,10 @@
+{
+  "tarjeta": "go-el-lenguaje-de-la-nube-L02-Q01",
+  "curso": "Go — El Lenguaje de la Nube",
+  "leccion": 2,
+  "frente": "¿Por qué Go no tiene excepciones para errores esperables?",
+  "reversa": "Diseño deliberado: errores como valores devueltos obligan a manejarlos conscientemente y flujo de control visible",
+  "explicacion": "En Go el manejo de error no se esconde en catch lejanos: está cara a cara contigo.",
+  "algoritmo": "repaso espaciado: 1d, 3d, 7d, 21d",
+  "generada": "2026-09-18"
+}

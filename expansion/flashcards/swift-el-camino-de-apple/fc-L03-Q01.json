@@ -1,0 +1,10 @@
+{
+  "tarjeta": "swift-el-camino-de-apple-L03-Q01",
+  "curso": "Swift — El Camino de Apple",
+  "leccion": 3,
+  "frente": "¿Qué diferencia struct de class en Swift?",
+  "reversa": "struct = tipo VALOR (se copia); class = tipo REFERENCIA (se comparte) con herencia",
+  "explicacion": "Structs por defecto = menos bugs de aliasing; class solo para identidad compartida.",
+  "algoritmo": "repaso espaciado: 1d, 3d, 7d, 21d",
+  "generada": "2026-09-18"
+}

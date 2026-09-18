@@ -1,0 +1,32 @@
+{
+  "curso": "DevOps y CI/CD — De Tu PC a Producción Sin Sudor",
+  "leccion": 6,
+  "titulo": "6. Proyecto: pipeline CI/CD real para tu app",
+  "total": 2,
+  "aprobado_con": 2,
+  "preguntas": [
+    {
+      "p": "¿Por qué romper un test a propósito en el proyecto?",
+      "ops": [
+        "Por diversión",
+        "Verificar que el pipeline REALMENTE falla ante errores (red validate que CI funciona)",
+        "Para practicar git",
+        "No tiene sentido"
+      ],
+      "ok": 1,
+      "exp": "Un CI que nunca has visto fallar no es garantía: red/verde/red lo prueba."
+    },
+    {
+      "p": "¿Qué diferencia el despliegue continuo del push manual a un VPS?",
+      "ops": [
+        "El precio",
+        "Todo paso manual se automatiza: tras CI verde la app llega sola al usuario, sin intervención humana",
+        "Nada cambia",
+        "Es solo para grandes empresas"
+      ],
+      "ok": 1,
+      "exp": "La ausencia de pasos manuales es la ausencia de errores manuales."
+    }
+  ],
+  "generado": "2026-09-18"
+}

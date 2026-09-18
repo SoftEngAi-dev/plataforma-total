@@ -1,0 +1,10 @@
+{
+  "tarjeta": "react-interfaces-modernas-y-re-L06-Q02",
+  "curso": "React — Interfaces Modernas y Reutilizables",
+  "leccion": 6,
+  "frente": "¿Qué reglas tienen los hooks (useState, useEffect, customs)?",
+  "reversa": "Top-level del componente, sin loops/ifs, nombres use*",
+  "explicacion": "El orden fijo de llamadas es cómo React empareja hook con celda de estado: romperlo = caos.",
+  "algoritmo": "repaso espaciado: 1d, 3d, 7d, 21d",
+  "generada": "2026-09-18"
+}

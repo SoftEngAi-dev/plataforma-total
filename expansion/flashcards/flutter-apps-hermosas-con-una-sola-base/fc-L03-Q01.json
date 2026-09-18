@@ -1,0 +1,10 @@
+{
+  "tarjeta": "flutter-apps-hermosas-con-una-L03-Q01",
+  "curso": "Flutter — Apps Hermosas con Una Sola Base",
+  "leccion": 3,
+  "frente": "¿Por qué dentro de setState(() { cuenta++; })?",
+  "reversa": "setState marca el widget como sucio para que Flutter lo redibuje con el valor nuevo",
+  "explicacion": "Mutación sin setState = estado cambiado pero UI vieja: el bug de todo novato.",
+  "algoritmo": "repaso espaciado: 1d, 3d, 7d, 21d",
+  "generada": "2026-09-18"
+}

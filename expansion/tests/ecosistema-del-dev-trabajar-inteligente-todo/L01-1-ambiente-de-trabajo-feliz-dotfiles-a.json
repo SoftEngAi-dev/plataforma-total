@@ -1,0 +1,32 @@
+{
+  "curso": "Ecosistema del Dev — Trabajar Inteligente Todos los Días",
+  "leccion": 1,
+  "titulo": "1. Ambiente de trabajo feliz: dotfiles, alias y costumbres",
+  "total": 2,
+  "aprobado_con": 2,
+  "preguntas": [
+    {
+      "p": "¿Para qué versionar tus dotfiles en GitHub?",
+      "ops": [
+        "Nada",
+        "Tu entorno personal reproducible en cualquier máquina nueva en minutos",
+        "Para más stars",
+        "Para backups"
+      ],
+      "ok": 1,
+      "exp": "~/.bashrc, config de editor, alias...: tu setup como código = ambiente portátil + aprendizaje abierto."
+    },
+    {
+      "p": "¿Qué problema resuelven Prettier/Black/gofmt automáticos?",
+      "ops": [
+        "Poca RAM",
+        "Eliminan discusiones de estilo: el estilo lo decide el configurador, tu equipo discute lógica",
+        "Tests",
+        "No sirven"
+      ],
+      "ok": 1,
+      "exp": "El estándar a formato compartido elimina debates bikeshedding para reviews de fondo real."
+    }
+  ],
+  "generado": "2026-09-18"
+}

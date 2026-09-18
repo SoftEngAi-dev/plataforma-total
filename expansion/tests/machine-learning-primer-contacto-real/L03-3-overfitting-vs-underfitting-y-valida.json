@@ -1,0 +1,32 @@
+{
+  "curso": "Machine Learning — Primer Contacto Real",
+  "leccion": 3,
+  "titulo": "3. Overfitting vs underfitting y validación",
+  "total": 2,
+  "aprobado_con": 2,
+  "preguntas": [
+    {
+      "p": "Train 99%, test 72%. ¿Diagnóstico?",
+      "ops": [
+        "Está perfecto",
+        "OVERFIT: memorizó el entrenamiento, no generaliza — modelo demasiado complejo para los datos",
+        "Underfit",
+        "Mala métrica"
+      ],
+      "ok": 1,
+      "exp": "La brecha train>>test es el síntoma canónico de sobreajuste."
+    },
+    {
+      "p": "¿Qué aporta cross_val_score(modelo, X, y, cv=5) sobre un solo split?",
+      "ops": [
+        "Nada",
+        "Evalúa 5 veces con particiones rotadas: medida mucho más estable y robusta de tu desempeño real",
+        "Solo velocidad",
+        "Solo pega"
+      ],
+      "ok": 1,
+      "exp": "Un solo split puede tener suerte/mala suerte con qué datos tocaron: la CV promedia esa lotería."
+    }
+  ],
+  "generado": "2026-09-18"
+}

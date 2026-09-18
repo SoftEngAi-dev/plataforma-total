@@ -1,0 +1,32 @@
+{
+  "curso": "SQL y Bases de Datos — Datos que Persisten",
+  "leccion": 10,
+  "titulo": "10. Diseño final: modelar una app real en SQL",
+  "total": 2,
+  "aprobado_con": 2,
+  "preguntas": [
+    {
+      "p": "¿Por qué CASCADE en comentarios de un post borrado?",
+      "ops": [
+        "Velocidad",
+        "No quedan comentarios huérfanos de posts inexistentes",
+        "Decora",
+        "Sumar"
+      ],
+      "ok": 1,
+      "exp": "La integridad referencial gestionada por la base: consistencia siempre."
+    },
+    {
+      "p": "¿Qué patrón se repite en todo esquema serio?",
+      "ops": [
+        "Todo en una tabla",
+        "Entidades separadas + FKs + restricciones + índices en búsquedas frecuentes",
+        "Solo JSON",
+        "Sin PKs"
+      ],
+      "ok": 1,
+      "exp": "Normalización + restricciones = la base no permite corrupción de datos desde afuera."
+    }
+  ],
+  "generado": "2026-09-18"
+}

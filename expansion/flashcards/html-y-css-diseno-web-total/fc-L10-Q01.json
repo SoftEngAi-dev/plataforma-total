@@ -1,0 +1,10 @@
+{
+  "tarjeta": "html-y-css-diseno-web-total-L10-Q01",
+  "curso": "HTML y CSS — Diseño Web Total",
+  "leccion": 10,
+  "frente": "¿Qué elemento es correcto para acción clickeable accesible?",
+  "reversa": "<button>",
+  "explicacion": "<button> trae gratis: foco de teclado, Enter/Espacio, y semántica para lectores de pantalla.",
+  "algoritmo": "repaso espaciado: 1d, 3d, 7d, 21d",
+  "generada": "2026-09-18"
+}

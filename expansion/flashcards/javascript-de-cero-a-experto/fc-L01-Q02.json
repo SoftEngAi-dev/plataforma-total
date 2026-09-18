@@ -1,0 +1,10 @@
+{
+  "tarjeta": "javascript-de-cero-a-experto-L01-Q02",
+  "curso": "JavaScript — De Cero a Experto",
+  "leccion": 1,
+  "frente": "¿Qué imprime en la consola del navegador?",
+  "reversa": "console.log()",
+  "explicacion": "console.log es el print de JavaScript — tu aliado n.º 1.",
+  "algoritmo": "repaso espaciado: 1d, 3d, 7d, 21d",
+  "generada": "2026-09-18"
+}

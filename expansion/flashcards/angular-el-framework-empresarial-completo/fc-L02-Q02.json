@@ -1,0 +1,10 @@
+{
+  "tarjeta": "angular-el-framework-empresari-L02-Q02",
+  "curso": "Angular — El Framework Empresarial Completo",
+  "leccion": 2,
+  "frente": "¿En qué se diferencia un Observable de una Promesa?",
+  "reversa": "Emite N valores en el tiempo, es cancelable y componible con operadores; la promesa resuelve UNA vez",
+  "explicacion": "RxJS = promesas con esteroides: la columna vertebral de datos en Angular.",
+  "algoritmo": "repaso espaciado: 1d, 3d, 7d, 21d",
+  "generada": "2026-09-18"
+}

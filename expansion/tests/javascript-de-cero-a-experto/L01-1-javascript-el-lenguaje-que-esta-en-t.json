@@ -1,0 +1,32 @@
+{
+  "curso": "JavaScript — De Cero a Experto",
+  "leccion": 1,
+  "titulo": "1. JavaScript: el lenguaje que está en todas partes",
+  "total": 2,
+  "aprobado_con": 2,
+  "preguntas": [
+    {
+      "p": "¿Dónde corre JavaScript hoy día?",
+      "ops": [
+        "Solo en navegadores",
+        "Solo en servidores",
+        "Navegadores, servidores, móviles, desktops y más",
+        "Solo dentro de HTML"
+      ],
+      "ok": 2,
+      "exp": "Con Node y sus derivados, JS es verdaderamente universal."
+    },
+    {
+      "p": "¿Qué imprime en la consola del navegador?",
+      "ops": [
+        "print()",
+        "echo()",
+        "console.log()",
+        "System.out.println()"
+      ],
+      "ok": 2,
+      "exp": "console.log es el print de JavaScript — tu aliado n.º 1."
+    }
+  ],
+  "generado": "2026-09-18"
+}

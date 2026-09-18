@@ -1,0 +1,10 @@
+{
+  "tarjeta": "expresiones-regulares-el-lengu-L03-Q01",
+  "curso": "Expresiones Regulares — El Lenguaje de Patrones",
+  "leccion": 3,
+  "frente": "¿Qué arregla .*? frente a .*?",
+  "reversa": "? lo vuelve LAZY/no-greedy: captura el MÍNIMO posible en vez de todo lo posible",
+  "explicacion": "La diferencia entre 'primer cierre que encuentras' y 'último del documento': regex es codiciosa por defecto y se come todo.",
+  "algoritmo": "repaso espaciado: 1d, 3d, 7d, 21d",
+  "generada": "2026-09-18"
+}

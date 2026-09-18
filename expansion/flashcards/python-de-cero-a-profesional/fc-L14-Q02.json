@@ -1,0 +1,10 @@
+{
+  "tarjeta": "python-de-cero-a-profesional-L14-Q02",
+  "curso": "Python — De Cero a Profesional",
+  "leccion": 14,
+  "frente": "Counter('banana') devuelve...",
+  "reversa": "{'a': 3, 'n': 2, 'b': 1} — conteo automático",
+  "explicacion": "collections.Counter = histograma listo con una línea.",
+  "algoritmo": "repaso espaciado: 1d, 3d, 7d, 21d",
+  "generada": "2026-09-18"
+}

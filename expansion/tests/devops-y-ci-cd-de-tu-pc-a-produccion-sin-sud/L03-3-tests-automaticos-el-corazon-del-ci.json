@@ -1,0 +1,32 @@
+{
+  "curso": "DevOps y CI/CD — De Tu PC a Producción Sin Sudor",
+  "leccion": 3,
+  "titulo": "3. Tests automáticos: el corazón del CI",
+  "total": 2,
+  "aprobado_con": 2,
+  "preguntas": [
+    {
+      "p": "¿Por qué la pirámide tiene más tests unitarios que E2E?",
+      "ops": [
+        "Es bonita",
+        "Unitarios = rápidos, estables y baratos; E2E = lentos, frágiles y caros (manténlos pocos)",
+        "Unitarios son nuevos",
+        "Es convenio"
+      ],
+      "ok": 1,
+      "exp": "La base ancha de unit tests cubre lógica; los pocos E2E verifican el cableado."
+    },
+    {
+      "p": "¿Qué debe evitar un test unitario?",
+      "ops": [
+        "assert",
+        "Tocar red/BD/reloj reales (úsese mocks/fakes) para ser rápido, repetible y confiable",
+        "Ejecutarse en CI",
+        "Tener nombre test_"
+      ],
+      "ok": 1,
+      "exp": "Un test que depende del internet es un test que fallará a las 3am cuando menos lo esperas."
+    }
+  ],
+  "generado": "2026-09-18"
+}

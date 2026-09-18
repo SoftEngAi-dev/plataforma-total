@@ -1,0 +1,10 @@
+{
+  "tarjeta": "ruby-on-rails-la-felicidad-del-L05-Q02",
+  "curso": "Ruby on Rails — La Felicidad del Desarrollador",
+  "leccion": 5,
+  "frente": "AddAutor a posts con autor:references en migración hace...",
+  "reversa": "Crea la columna autor_id + índice + FK en la tabla posts (relación completa en SQL)",
+  "explicacion": "Las migraciones versionan tu esquema en código: la BD se recrea con rails db:migrate.",
+  "algoritmo": "repaso espaciado: 1d, 3d, 7d, 21d",
+  "generada": "2026-09-18"
+}

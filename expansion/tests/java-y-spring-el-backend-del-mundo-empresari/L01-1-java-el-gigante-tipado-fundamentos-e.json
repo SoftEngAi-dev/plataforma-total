@@ -1,0 +1,32 @@
+{
+  "curso": "Java y Spring — El Backend del Mundo Empresarial",
+  "leccion": 1,
+  "titulo": "1. Java: el gigante tipado (fundamentos en 15 min)",
+  "total": 2,
+  "aprobado_con": 2,
+  "preguntas": [
+    {
+      "p": "¿Dónde empieza a ejecutar un programa Java?",
+      "ops": [
+        "cualquier función",
+        "El método public static void main(String[] args)",
+        "En la clase",
+        "En el constructor"
+      ],
+      "ok": 1,
+      "exp": "La firma exacta main es el punto de entrada universal de Java."
+    },
+    {
+      "p": "¿Qué es la JVM?",
+      "ops": [
+        "Editor",
+        "La máquina virtual que ejecuta el bytecode Java haciéndolo portable (una compilation, corre en to-do SO con JVM)",
+        "Una librería",
+        "Un navegador"
+      ],
+      "ok": 1,
+      "exp": "Compile once run anywhere: el bytecode .class corre en cualquier JVM."
+    }
+  ],
+  "generado": "2026-09-18"
+}

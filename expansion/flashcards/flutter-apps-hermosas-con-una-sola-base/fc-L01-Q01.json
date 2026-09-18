@@ -1,0 +1,10 @@
+{
+  "tarjeta": "flutter-apps-hermosas-con-una-L01-Q01",
+  "curso": "Flutter — Apps Hermosas con Una Sola Base",
+  "leccion": 1,
+  "frente": "¿Qué hace Flutter único entre cross-platform?",
+  "reversa": "Pinta cada píxel a mano (no usa widgets nativos): UI 100% idéntica y controlada en todas las plataformas",
+  "explicacion": "Render propio = diseño exacto en Android/iOS/web sin sorpresas de cada SO.",
+  "algoritmo": "repaso espaciado: 1d, 3d, 7d, 21d",
+  "generada": "2026-09-18"
+}

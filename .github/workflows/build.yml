@@ -1,0 +1,49 @@
+name: 🖥️ Compilar ejecutables desktop
+
+# Se ejecuta en cada push a main, o manualmente desde Actions → Run workflow
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+jobs:
+  build:
+    name: ${{ matrix.nombre }}
+    strategy:
+      fail-fast: false
+      matrix:
+        include:
+          - { os: windows-latest, nombre: PlataformaTotal-Windows }
+          - { os: macos-latest,   nombre: PlataformaTotal-macOS }
+          - { os: ubuntu-latest,  nombre: PlataformaTotal-Linux }
+    runs-on: ${{ matrix.os }}
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Dependencias + PyInstaller
+        run: pip install -r requirements.txt pyinstaller
+
+      - name: Compilar ejecutable
+        run: pyinstaller --noconfirm --clean --windowed --collect-all customtkinter --name PlataformaTotal main.py
+
+      - name: Empaquetar (Linux/macOS)
+        if: runner.os != 'Windows'
+        run: cd dist && tar -czf ${{ matrix.nombre }}.tar.gz PlataformaTotal*
+
+      - name: Empaquetar (Windows)
+        if: runner.os == 'Windows'
+        run: Compress-Archive -Path dist\PlataformaTotal -DestinationPath dist\${{ matrix.nombre }}.zip
+
+      - name: Subir artefacto descargable
+        uses: actions/upload-artifact@v4
+        with:
+          name: ${{ matrix.nombre }}
+          path: |
+            dist/*.tar.gz
+            dist/*.zip
+            dist/PlataformaTotal*
+          retention-days: 30

@@ -1,0 +1,32 @@
+{
+  "curso": "Arquitectura de Software — Diseñar para Crecer",
+  "leccion": 2,
+  "titulo": "2. Patrones famosos en 5 minutos: Factory, Observer, Strategy, Singleton",
+  "total": 2,
+  "aprobado_con": 2,
+  "preguntas": [
+    {
+      "p": "¿Qué resuelve Observer?",
+      "ops": [
+        "Visualización",
+        "Acoplamiento: el emisor publica eventos y los interesados reaccionan sin conocerse entre sí",
+        "Bases de datos",
+        "Threads"
+      ],
+      "ok": 1,
+      "exp": "Desacopla módulos: agregar email-notification NO toca el módulo de compras."
+    },
+    {
+      "p": "¿Cuál antídoto a un if/elif gigante por tipo?",
+      "ops": [
+        "más ifs",
+        "Strategy/Polymorphism: cada caso es su propia clase/objeto elegida de un registro y llamada uniformemente",
+        "comentarios",
+        "más RAM"
+      ],
+      "ok": 1,
+      "exp": "Eliminas el switch monster; añadir un tipo nuevo es código NUEVO, no romper el viejo."
+    }
+  ],
+  "generado": "2026-09-18"
+}

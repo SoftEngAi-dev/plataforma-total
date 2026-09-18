@@ -1,0 +1,10 @@
+{
+  "tarjeta": "node-js-javascript-en-el-servi-L02-Q02",
+  "curso": "Node.js — JavaScript en el Servidor",
+  "leccion": 2,
+  "frente": "¿Qué significa \"express\": \"^4.19.2\"?",
+  "reversa": "Cualquier versión 4.x.x compatible desde 4.19.2",
+  "explicacion": "^ permite parches y menores compatibles; el lock file congela la realidad exacta.",
+  "algoritmo": "repaso espaciado: 1d, 3d, 7d, 21d",
+  "generada": "2026-09-18"
+}

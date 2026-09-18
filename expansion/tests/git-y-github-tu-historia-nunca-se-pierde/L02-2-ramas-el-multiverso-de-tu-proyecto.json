@@ -1,0 +1,32 @@
+{
+  "curso": "Git y GitHub — Tu Historia Nunca Se Pierde",
+  "leccion": 2,
+  "titulo": "2. Ramas: el multiverso de tu proyecto",
+  "total": 2,
+  "aprobado_con": 2,
+  "preguntas": [
+    {
+      "p": "¿Qué es un merge conflict?",
+      "ops": [
+        "Git roto",
+        "Dos ramas editaron las mismas líneas: git te pide elegir manualmente entre marcadores <<<<",
+        "Un virus",
+        "Pérdida de datos"
+      ],
+      "ok": 1,
+      "exp": "Los conflictos son decisiones pendientes, no errores: resuelves, add, commit."
+    },
+    {
+      "p": "¿Por qué ramas cortas de 1-3 días?",
+      "ops": [
+        "Por estética",
+        "Cambios pequeños = conflictos raros y merges simples; la rama eterna deviene imposible de integrar",
+        "Git tiene límite",
+        "Es solo sugerencia"
+      ],
+      "ok": 1,
+      "exp": "La integración continua empieza por ramas efímeras."
+    }
+  ],
+  "generado": "2026-09-18"
+}

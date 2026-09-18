@@ -1,0 +1,10 @@
+{
+  "tarjeta": "herramientas-del-desarrollador-L03-Q01",
+  "curso": "Herramientas del Desarrollador",
+  "leccion": 3,
+  "frente": "¿Para qué sirve un virtualenv en Python?",
+  "reversa": "Aislar las dependencias de cada proyecto para que no choquen",
+  "explicacion": "Cada proyecto tiene su propio set de paquetes/versions; nunca chocan.",
+  "algoritmo": "repaso espaciado: 1d, 3d, 7d, 21d",
+  "generada": "2026-09-18"
+}

@@ -1,0 +1,101 @@
+# 🎓 Plataforma Total — Tu Escuela Local de Programación
+
+**Escuela completa de software que vive 100% en tu máquina. Sin internet, sin cuentas, sin suscripciones — justo tú, 41 cursos y (opcional) tu IA local.**
+
+```
+41 cursos · 241 lecciones · 482 quizzes (100% cobertura) · ~3.500 archivos de material
+Buscador 🔍 · Quizzes 📝 · Pomodoro 🍅 · Racha 🔥 · Certificados 🎓 · Chat IA con memoria 🤖
+Android/iOS (roadmap) | Linux · Windows · macOS · 100% offline
+```
+
+---
+
+## 🚀 Arranque en 60 segundos
+
+| SO | Opción A: código | Opción B: ejecutable |
+|----|------------------|----------------------|
+| **Linux** | `./run.sh` | `./PlataformaTotal` (descomprimido de `.tar.gz`) |
+| **Windows** | `run.bat` | `PlataformaTotal.exe` (vía Actions ⌨ abajo) |
+| **macOS** | `./run.command` | `PlataformaTotal.app` (vía Actions ⌨ abajo) |
+
+**Código fuente** (necesitas Python 3.10+): los scripts instalan todo solos la primera vez.
+
+```bash
+git clone <tu-repo>/plataforma-total.git && cd plataforma-total
+./run.sh        # Linux (o run.bat / run.command)
+```
+
+## ⬇️ Ejecutable ya compilado (Linux)
+
+En `ejecutable/PlataformaTotal-Linux-x86_64.tar.gz`:
+
+```bash
+tar -xzf ejecutable/PlataformaTotal-Linux-x86_64.tar.gz
+./PlataformaTotal/PlataformaTotal     # doble clic también funciona
+```
+
+Funciona en Linux x86_64 reciente **sin instalar Python ni dependencias** (GLibc; simplemente corre).
+
+## ☁️ Ejecutables de Windows y macOS (gratis, automáticos)
+
+El workflow `.github/workflows/build.yml` compila los **3 ejecutables en la nube de GitHub** en cada push a `main`:
+
+1. Sube/uplift este proyecto a tu GitHub
+2. Pestaña **Actions** → "🖥️ Compilar ejecutables desktop" → descarga los artefactos
+3. Tienes: **Windows.zip (con .exe)**, **macOS.tar.gz (con .app)** y **Linux.tar.gz**
+
+---
+
+## 📚 El curriculum (41 cursos)
+
+**Ruta y herramientas:** Ruta Maestra · Herramientas del Dev · Git/GitHub · Linux/Terminal · Docker · DevOps/CI-CD · Despliegue/Servidores
+**Web core:** HTML/CSS · JavaScript (18 lecciones) · TypeScript · React · Node.js
+**Backend:** Python (16) · SQL/PostgreSQL · PHP/Laravel · Ruby/Rails · Java/Spring · C#/.NET · Go · Rust · C/C++
+**Móvil:** Kotlin · Swift · Flutter · React Native
+**Frameworks:** Angular · Svelte/SvelteKit
+**Datos/IA:** R · Pandas · Machine Learning · IA y LLMs (Ollama incluido)
+**Profesional:** Seguridad Web · Testing · Algoritmos · Arquitectura · APIs REST · Productividad Dev · Entrevistas · Regex · Carrera/Portafolio
+
+## 🧠 Cómo se estudia aquí (método comprobado)
+
+1. 🍅 panel lateral → pulsa ▶ (pomodoro 25 min)
+2. 📚 Aprender → elige curso/lección, lee el protocolo 25 minutos
+3. 🛠 Reproduce el ejemplo con tus propias manos
+4. ✅ marca completada → 📝 juega el quiz → **meta: 🏆 100%**
+5. 🔥 repite mañana — la racha es la palanca de todo
+
+Domina un curso entero (lecciones + quizzes al 100%) y la app te **emisía tu certificado 🎓 imprimible** con código de verificación SHA-256.
+
+## 🗂 ¿Qué hay en este repo?
+
+| Ruta | Qué es |
+|------|--------|
+| `main.py` | La aplicación completa (customtkinter, SQLite, Ollama) |
+| `contenido_a/b/c.py` | El contenido curricular: 41 cursos × lecciones × quizzes |
+| `expandir_contenido.py` | Generador del ecosistema de estudio (`expansion/`) |
+| `expansion/` | **3.478 archivos de material**: lecciones MD, quizzes HTML offline, 482 flashcards, ejercicios, glosarios, prompts IA, 246 guías de proyecto, plan anual de estudio... |
+| `expansion/plan_diario/` | Plan día a día para un año de estudio (364 días) |
+| `expansion/quizzes_html/` | Quizzes interactivos offline por lección (se abren en el navegador) |
+| `ejecutable/` | Binario Linux empaquetado y verificado |
+| `.github/workflows/build.yml` | CI que compila los ejecutables Win/Mac/Linux en cada push |
+| `run.*` / `build_*` | Scripts de ejecución y compilación local por SO |
+| `expansion/entrevistas/` | Banco de preguntas de entrevista por tecnología |
+| `expansion/resumen_curso/` | Cheatsheet consolidado por curso |
+
+## 🩺 Datos y privacidad
+
+Todo lo que haces vive en **SQLite local**: `~/PlataformaTotal/datos/plataforma.db` — lecciones, racha, quizzes, pomodoros, historial de chat, certificados. Es tuyo: respáldalo, inspecciónalo, bórralo.
+
+**IA**: el chat usa tu propio **[Ollama](https://ollama.com)** local (gratis, privado). Sin Ollama activo, un cerebro offline responde las FAQs. Nada sale de tu máquina en ningún caso.
+
+## 🤝 Contribuir
+
+¿Bug, mejora de lección, quiz nuevo? Revisa `CONTRIBUTING.md` y abre un PR. El contenido curricular vive en `contenido_*.py` con un formato fácil de leer.
+
+## 📜 Licencia
+
+MIT — úsala, cámbiala, enséñala. Ver `LICENSE`.
+
+---
+
+> 💡 **Empieza hoy la lección 1 de la Ruta Maestra.** Un 🍅 = una lección. En 8 meses, una transformación. ¡Vamos!

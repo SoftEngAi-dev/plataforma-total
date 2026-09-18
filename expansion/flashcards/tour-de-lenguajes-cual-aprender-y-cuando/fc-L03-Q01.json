@@ -1,0 +1,10 @@
+{
+  "tarjeta": "tour-de-lenguajes-cual-aprende-L03-Q01",
+  "curso": "Tour de Lenguajes — Cuál Aprender y Cuándo",
+  "leccion": 3,
+  "frente": "Si quieres trabajar en infraestructura/cloud (k8s, Terraform, etc.), el lenguaje estrella es...",
+  "reversa": "Go: la nube moderna está escrita en él (Docker, Kubernetes, Terraform)",
+  "explicacion": "Go = lenguaje icu de la nube: binarios únicos + concurrencia nativa.",
+  "algoritmo": "repaso espaciado: 1d, 3d, 7d, 21d",
+  "generada": "2026-09-18"
+}

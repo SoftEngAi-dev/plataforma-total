@@ -1,0 +1,32 @@
+{
+  "curso": "PHP y Laravel — El Backend Que Alimenta la Web",
+  "leccion": 6,
+  "titulo": "6. Proyecto: CRUD completo en Laravel",
+  "total": 2,
+  "aprobado_con": 2,
+  "preguntas": [
+    {
+      "p": "¿Qué genera Route::resource()",
+      "ops": [
+        "Nada",
+        "Las 7 rutas CRUD convencionales (index/create/store/show/edit/update/destroy) de golpe",
+        "Vistas",
+        "Un servidor"
+      ],
+      "ok": 1,
+      "exp": "Convención sobre configuración: Laravel asume la estructura estándar de recursos REST."
+    },
+    {
+      "p": "¿Qué pone el @csrf dentro del <form> de Blade?",
+      "ops": [
+        "CSS",
+        "Un token anti-CSRF oculto — todo POST sin token es rechazado por Laravel",
+        "JavaScript",
+        "SQL"
+      ],
+      "ok": 1,
+      "exp": "CSRF protection integrada: solo formularios nacidos en tu app pueden postear."
+    }
+  ],
+  "generado": "2026-09-18"
+}

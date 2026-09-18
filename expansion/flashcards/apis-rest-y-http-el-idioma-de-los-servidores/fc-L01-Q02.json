@@ -1,0 +1,10 @@
+{
+  "tarjeta": "apis-rest-y-http-el-idioma-de-L01-Q02",
+  "curso": "APIs REST y HTTP — El Idioma de los Servidores",
+  "leccion": 1,
+  "frente": "¿Qué significa que GET sea idempotente?",
+  "reversa": "Repetirlo N veces tiene el mismo efecto que 1: exige NO cambiar estado por definición REST",
+  "explicacion": "GET/PUT/DELETE= idempotentes; POST no: eso decide reintentos seguros en tu cliente.",
+  "algoritmo": "repaso espaciado: 1d, 3d, 7d, 21d",
+  "generada": "2026-09-18"
+}

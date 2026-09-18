@@ -1,0 +1,32 @@
+{
+  "curso": "Machine Learning — Primer Contacto Real",
+  "leccion": 5,
+  "titulo": "5. Proyecto: pipeline completo de ML con datos reales",
+  "total": 2,
+  "aprobado_con": 2,
+  "preguntas": [
+    {
+      "p": "¿Qué hace pd.get_dummies sobre columnas categóricas?",
+      "ops": [
+        "Las borra",
+        "Convierte categorías en columnas binarias 0/1 para que el algoritmo procese números",
+        "Ordena",
+        "CSV"
+      ],
+      "ok": 1,
+      "exp": "Los modelos comen números: género/embarque/categorías → one-hot encoding."
+    },
+    {
+      "p": "¿Qué es FEATURE ENGINEERING en este proyecto?",
+      "ops": [
+        "SQL",
+        "CREAR columnas útiles desde las existentes (ej: sol@ si viajas solo): el 40% de tu mejora suele vivir aquí",
+        "Hype",
+        "GPU"
+      ],
+      "ok": 1,
+      "exp": "Pequeñas obviedades transformadas en datos = a veces más valor que elegir otro modelo."
+    }
+  ],
+  "generado": "2026-09-18"
+}

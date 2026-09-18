@@ -1,0 +1,10 @@
+{
+  "tarjeta": "machine-learning-primer-contac-L02-Q02",
+  "curso": "Machine Learning — Primer Contacto Real",
+  "leccion": 2,
+  "frente": "¿Para qué sirve la matriz de confusión?",
+  "reversa": "Ver no solo AL error sino QUÉ se confunde con QUÉ: errores específicos por clase",
+  "explicacion": "Diagonal = aciertos; fuera de diagonal = confusiones específicas que guían mejora.",
+  "algoritmo": "repaso espaciado: 1d, 3d, 7d, 21d",
+  "generada": "2026-09-18"
+}

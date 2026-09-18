@@ -1,0 +1,10 @@
+{
+  "tarjeta": "typescript-javascript-con-supe-L01-Q02",
+  "curso": "TypeScript — JavaScript con Superpoderes y Seguridad",
+  "leccion": 1,
+  "frente": "¿Cuándo detecta TypeScript los errores de tipo?",
+  "reversa": "Al editar/compilar, antes de ejecutar",
+  "explicacion": "Shift-left: el error aparece cuando lo escribes, no cuando el usuario lo encuentra.",
+  "algoritmo": "repaso espaciado: 1d, 3d, 7d, 21d",
+  "generada": "2026-09-18"
+}

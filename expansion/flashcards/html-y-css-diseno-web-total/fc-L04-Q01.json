@@ -1,0 +1,10 @@
+{
+  "tarjeta": "html-y-css-diseno-web-total-L04-Q01",
+  "curso": "HTML y CSS — Diseño Web Total",
+  "leccion": 4,
+  "frente": "¿Qué línea centra un elemento horizontal y verticalmente dentro de su padre?",
+  "reversa": "display:flex; justify-content:center; align-items:center",
+  "explicacion": "Flexbox con ambos ejes centrados — el centramiento perfecto ya no es chiste.",
+  "algoritmo": "repaso espaciado: 1d, 3d, 7d, 21d",
+  "generada": "2026-09-18"
+}

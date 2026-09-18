@@ -1,0 +1,32 @@
+{
+  "curso": "React — Interfaces Modernas y Reutilizables",
+  "leccion": 6,
+  "titulo": "6. Composición, context y custom hooks: las 3 escaleras",
+  "total": 2,
+  "aprobado_con": 2,
+  "preguntas": [
+    {
+      "p": "¿Cuándo llegar a Context?",
+      "ops": [
+        "Desde el primer día",
+        "Cuando muchos componentes a mucha profundidad necesitan el mismo dato (tema, usuario, idioma)",
+        "Para todo el estado",
+        "Nunca"
+      ],
+      "ok": 1,
+      "exp": "Context resuelve prop-drilling global; estado local y composición resuelven la mayoría de los casos."
+    },
+    {
+      "p": "¿Qué reglas tienen los hooks (useState, useEffect, customs)?",
+      "ops": [
+        "Top-level del componente, sin loops/ifs, nombres use*",
+        "Cualquier lugar del archivo",
+        "Solo en useEffect",
+        "Dentro de condicionales"
+      ],
+      "ok": 0,
+      "exp": "El orden fijo de llamadas es cómo React empareja hook con celda de estado: romperlo = caos."
+    }
+  ],
+  "generado": "2026-09-18"
+}

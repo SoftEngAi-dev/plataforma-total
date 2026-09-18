@@ -1,0 +1,10 @@
+{
+  "tarjeta": "javascript-de-cero-a-experto-L10-Q02",
+  "curso": "JavaScript — De Cero a Experto",
+  "leccion": 10,
+  "frente": "¿Qué hace el segundo argumento de reduce?",
+  "reversa": "Es el valor inicial del acumulador",
+  "explicacion": "Sin valor inicial, reduce usa el primer elemento — que a veces es sorpresa. Escribe siempre el inicial.",
+  "algoritmo": "repaso espaciado: 1d, 3d, 7d, 21d",
+  "generada": "2026-09-18"
+}

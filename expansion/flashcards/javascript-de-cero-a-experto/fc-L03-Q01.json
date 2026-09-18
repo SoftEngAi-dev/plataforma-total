@@ -1,0 +1,10 @@
+{
+  "tarjeta": "javascript-de-cero-a-experto-L03-Q01",
+  "curso": "JavaScript — De Cero a Experto",
+  "leccion": 3,
+  "frente": "¿Por qué usar === y no ==?",
+  "reversa": "== convierte tipos automáticamente y genera bugs sutiles; === compara valor y tipo",
+  "explicacion": "\"5\" == 5 da true; con === da false. Predicibilidad > comodidad.",
+  "algoritmo": "repaso espaciado: 1d, 3d, 7d, 21d",
+  "generada": "2026-09-18"
+}

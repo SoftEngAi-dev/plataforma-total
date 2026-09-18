@@ -1,0 +1,10 @@
+{
+  "tarjeta": "apis-rest-y-http-el-idioma-de-L02-Q01",
+  "curso": "APIs REST y HTTP — El Idioma de los Servidores",
+  "leccion": 2,
+  "frente": "¿Cómo es una buena URL de API?",
+  "reversa": "/api/tareas (sustantivo plural; la ACCIÓN va en el método HTTP, no en la URL)",
+  "explicacion": "Recursos=sustantivos; acciones=GET/POST/PATCH/DELETE: esa es la legibilidad REST.",
+  "algoritmo": "repaso espaciado: 1d, 3d, 7d, 21d",
+  "generada": "2026-09-18"
+}

@@ -1,0 +1,10 @@
+{
+  "tarjeta": "r-y-estadistica-el-idioma-de-l-L02-Q01",
+  "curso": "R y Estadística — El Idioma de los Datos",
+  "leccion": 2,
+  "frente": "¿Qué hace summary(datos)? en R?",
+  "reversa": "Resumen estadístico por columna (min/max/media/mediana/cuartiles): EDA gratis en una palabra",
+  "explicacion": "La primera vista a cualquier dataset: summary + str + head = inspección completa.",
+  "algoritmo": "repaso espaciado: 1d, 3d, 7d, 21d",
+  "generada": "2026-09-18"
+}

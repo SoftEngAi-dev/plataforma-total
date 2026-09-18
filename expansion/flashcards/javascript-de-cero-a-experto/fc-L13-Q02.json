@@ -1,0 +1,10 @@
+{
+  "tarjeta": "javascript-de-cero-a-experto-L13-Q02",
+  "curso": "JavaScript — De Cero a Experto",
+  "leccion": 13,
+  "frente": "¿Qué hace el.classList.toggle('activa')?",
+  "reversa": "La añade si no está, la quita si está",
+  "explicacion": "Toggle = interruptor: perfecto para menús, modos oscuro/claro, etc.",
+  "algoritmo": "repaso espaciado: 1d, 3d, 7d, 21d",
+  "generada": "2026-09-18"
+}

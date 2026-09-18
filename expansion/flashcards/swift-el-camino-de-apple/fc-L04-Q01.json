@@ -1,0 +1,10 @@
+{
+  "tarjeta": "swift-el-camino-de-apple-L04-Q01",
+  "curso": "Swift — El Camino de Apple",
+  "leccion": 4,
+  "frente": "¿Qué hace @State en SwiftUI?",
+  "reversa": "Marca estado local que al cambiar provoca re-render automático del view que lo usa",
+  "explicacion": "@State = useState de React: mutás y la UI se actualiza sola.",
+  "algoritmo": "repaso espaciado: 1d, 3d, 7d, 21d",
+  "generada": "2026-09-18"
+}

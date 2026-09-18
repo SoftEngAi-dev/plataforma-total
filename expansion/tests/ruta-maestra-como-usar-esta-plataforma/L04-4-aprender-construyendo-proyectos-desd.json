@@ -1,0 +1,32 @@
+{
+  "curso": "Ruta Maestra — Cómo Usar Esta Plataforma",
+  "leccion": 4,
+  "titulo": "4. Aprender construyendo: proyectos desde el día 1",
+  "total": 2,
+  "aprobado_con": 2,
+  "preguntas": [
+    {
+      "p": "¿Cuál es el error más común al empezar un proyecto?",
+      "ops": [
+        "Usar un lenguaje nuevo",
+        "Ámbito demasiado grande desde el inicio",
+        "Escribir un README",
+        "Terminar antes de mejorar"
+      ],
+      "ok": 1,
+      "exp": "Haz el ámbito tan pequeño que no pueda fallar; luego creces."
+    },
+    {
+      "p": "¿Por qué escribir un README en cada proyecto?",
+      "ops": [
+        "Para que GitHub lo muestre bonito",
+        "Porque explicar tu código consolida el aprendizaje y es evidencia de tu trabajo",
+        "Es requisito del sistema",
+        "Para ganar puntos"
+      ],
+      "ok": 1,
+      "exp": "Documentar = enseñar = consolidar. Y tu portafolio lo agradece."
+    }
+  ],
+  "generado": "2026-09-18"
+}

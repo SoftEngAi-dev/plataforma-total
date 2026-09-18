@@ -1,0 +1,32 @@
+{
+  "curso": "Docker — 'En Mi Máquina Sí Funciona' Resuelto",
+  "leccion": 2,
+  "titulo": "2. Imágenes: descargar y listar",
+  "total": 2,
+  "aprobado_con": 2,
+  "preguntas": [
+    {
+      "p": "En -p 8080:80, ¿qué es cada número?",
+      "ops": [
+        "Dos contenedores",
+        "Puerto DE TU MÁQUINA : puerto DEL CONTENEDOR",
+        "CPU y memoria",
+        "Versiones"
+      ],
+      "ok": 1,
+      "exp": "Mapeo de puertos: localhost:8080 → entra al contenedor en su puerto 80."
+    },
+    {
+      "p": "¿Por qué preferir python:3.12-slim sobre python:latest?",
+      "ops": [
+        "Es más nueva",
+        "Tamaño pequeño Y versión fijada (reproducible); latest es caja sorpresa y pesa GB",
+        "Solo por moda",
+        "latest no funciona"
+      ],
+      "ok": 1,
+      "exp": "Imágenes mínimas + tag exacto = builds rápidos, seguros y deterministas."
+    }
+  ],
+  "generado": "2026-09-18"
+}

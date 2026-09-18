@@ -1,0 +1,32 @@
+{
+  "curso": "Go — El Lenguaje de la Nube",
+  "leccion": 2,
+  "titulo": "2. Errores a la vista: el if err != nil filosófico",
+  "total": 2,
+  "aprobado_con": 2,
+  "preguntas": [
+    {
+      "p": "¿Por qué Go no tiene excepciones para errores esperables?",
+      "ops": [
+        "No pueden",
+        "Diseño deliberado: errores como valores devueltos obligan a manejarlos conscientemente y flujo de control visible",
+        "Son lentas",
+        "Es antiguo"
+      ],
+      "ok": 1,
+      "exp": "En Go el manejo de error no se esconde en catch lejanos: está cara a cara contigo."
+    },
+    {
+      "p": "if err != nil es...",
+      "ops": [
+        "un bug",
+        "El patrón universal de Go para comprobar y manejar errores devueltos por cada operación fallible",
+        "opcional",
+        "un bucle"
+      ],
+      "ok": 1,
+      "exp": "Todos los libros lo bromean, todos los proyectos sanos lo escriben sin pereza."
+    }
+  ],
+  "generado": "2026-09-18"
+}

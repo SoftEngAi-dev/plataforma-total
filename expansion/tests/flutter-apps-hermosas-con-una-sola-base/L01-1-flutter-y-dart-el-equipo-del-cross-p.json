@@ -1,0 +1,32 @@
+{
+  "curso": "Flutter — Apps Hermosas con Una Sola Base",
+  "leccion": 1,
+  "titulo": "1. Flutter y Dart: el equipo del cross-platform",
+  "total": 2,
+  "aprobado_con": 2,
+  "preguntas": [
+    {
+      "p": "¿Qué hace Flutter único entre cross-platform?",
+      "ops": [
+        "Usa web",
+        "Pinta cada píxel a mano (no usa widgets nativos): UI 100% idéntica y controlada en todas las plataformas",
+        "Es gratis",
+        "Usa Python"
+      ],
+      "ok": 1,
+      "exp": "Render propio = diseño exacto en Android/iOS/web sin sorpresas de cada SO."
+    },
+    {
+      "p": "¿Para qué sirve flutter doctor?",
+      "ops": [
+        "Curar código",
+        "Verificar tu entorno: qué falta/configurar para que Flutter funcione (emuladores, SDKs...)",
+        "Bases de datos",
+        "Lint"
+      ],
+      "ok": 1,
+      "exp": "El diagnóstico automático: si doctor dice OK, todo funciona."
+    }
+  ],
+  "generado": "2026-09-18"
+}

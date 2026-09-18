@@ -1,0 +1,32 @@
+{
+  "curso": "Tour de Lenguajes — Cuál Aprender y Cuándo",
+  "leccion": 4,
+  "titulo": "4. Kotlin, Swift, Dart/Flutter, React Native: el mapa móvil",
+  "total": 2,
+  "aprobado_con": 2,
+  "preguntas": [
+    {
+      "p": "¿Qué es lo MÁS estratégico a decidir en móvil?",
+      "ops": [
+        "El color del icono",
+        "Nativo vs cross-platform: dos citas tienen curvas de coste totalmente distintas por equ, equipo y objetivo",
+        "El IDE",
+        "Nada"
+      ],
+      "ok": 1,
+      "exp": "Decisión de arquitectura de negocio: tiempo de mercado vs acceso total a la plataforma."
+    },
+    {
+      "p": "¿Por qué React Native le convenía tan rápido a equipos web?",
+      "ops": [
+        "Es Apple",
+        "Reutiliza tu stack React/JS: un equipo web rinde en móvil en semanas, sin aprender dos nuevos mundos",
+        "Sin curva",
+        "JSON"
+      ],
+      "ok": 1,
+      "exp": "Plataformas distintas but conocimientos trasladables: de ahi su explosión."
+    }
+  ],
+  "generado": "2026-09-18"
+}

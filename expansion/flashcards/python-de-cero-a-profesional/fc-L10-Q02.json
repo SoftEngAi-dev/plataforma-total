@@ -1,0 +1,10 @@
+{
+  "tarjeta": "python-de-cero-a-profesional-L10-Q02",
+  "curso": "Python — De Cero a Profesional",
+  "leccion": 10,
+  "frente": "raise ValueError('x') sirve para...",
+  "reversa": "Lanzar tu propio error con mensaje claro cuando detectas un estado inválido",
+  "explicacion": "Valida pronto, falla fuerte y con mensaje: debugging agradecido.",
+  "algoritmo": "repaso espaciado: 1d, 3d, 7d, 21d",
+  "generada": "2026-09-18"
+}

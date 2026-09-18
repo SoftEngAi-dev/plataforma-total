@@ -1,0 +1,10 @@
+{
+  "tarjeta": "java-y-spring-el-backend-del-m-L04-Q02",
+  "curso": "Java y Spring — El Backend del Mundo Empresarial",
+  "leccion": 4,
+  "frente": "¿Qué papel tiene @Entity?",
+  "reversa": "Marca la clase como tabla de BD manejada por el ORM (cada instancia = fila)",
+  "explicacion": "El mapeo objeto-relacional (ORM): objetos Java ↔ filas SQL.",
+  "algoritmo": "repaso espaciado: 1d, 3d, 7d, 21d",
+  "generada": "2026-09-18"
+}

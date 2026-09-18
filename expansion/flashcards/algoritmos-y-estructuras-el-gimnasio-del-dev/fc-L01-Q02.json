@@ -1,0 +1,10 @@
+{
+  "tarjeta": "algoritmos-y-estructuras-el-gi-L01-Q02",
+  "curso": "Algoritmos y Estructuras — El Gimnasio del Dev",
+  "leccion": 1,
+  "frente": "¿Qué complejidad busca/accede en un dict/hash por clave?",
+  "reversa": "O(1) promedio: acces directo sin recorrer",
+  "explicacion": "Por eso los diccionarios/hashes dominan el código real: lookups instantáneos.",
+  "algoritmo": "repaso espaciado: 1d, 3d, 7d, 21d",
+  "generada": "2026-09-18"
+}

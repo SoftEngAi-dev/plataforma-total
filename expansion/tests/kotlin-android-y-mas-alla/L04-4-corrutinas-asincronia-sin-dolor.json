@@ -1,0 +1,32 @@
+{
+  "curso": "Kotlin — Android y Más Allá",
+  "leccion": 4,
+  "titulo": "4. Corrutinas: asincronía sin dolor",
+  "total": 2,
+  "aprobado_con": 2,
+  "preguntas": [
+    {
+      "p": "¿Qué hace suspend en una función?",
+      "ops": [
+        "La hace más lenta",
+        "Puede pausar su ejecución sin bloquear el hilo y reanudar luego",
+        "La hace pública",
+        "La hace final"
+      ],
+      "ok": 1,
+      "exp": "suspend + delay = esperar sin congelar: la base de toda app Android moderna."
+    },
+    {
+      "p": "¿Por qué lifecycleScope en Android?",
+      "ops": [
+        "Porque sí",
+        "Las corrutinas de UI se cancelan solas al destruirse la pantalla: sin fugas de memoria ni crashes",
+        "Es más rápido",
+        "Para SQL"
+      ],
+      "ok": 1,
+      "exp": "Scope atado al ciclo de vida = gestión de concurrencia automática y segura."
+    }
+  ],
+  "generado": "2026-09-18"
+}

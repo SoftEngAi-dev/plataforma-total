@@ -1,0 +1,32 @@
+{
+  "curso": "Svelte y SvelteKit — Menos Código, Mismo Poder",
+  "leccion": 2,
+  "titulo": "2. Reactividad total: stores, bindings y formularios",
+  "total": 2,
+  "aprobado_con": 2,
+  "preguntas": [
+    {
+      "p": "¿Qué hace bind:value={nombre} en un input?",
+      "ops": [
+        "Nada",
+        "Binding doble vía: escribir actualiza la variable y cambiar la variable actualiza el input",
+        "Submit",
+        "CSS"
+      ],
+      "ok": 1,
+      "exp": "El formulario controlado más corto que existe: una directiva y sincronía total."
+    },
+    {
+      "p": "¿Qué es $tema con $ delante de un store?",
+      "ops": [
+        "JQuery",
+        "Autosuscripción de Svelte: lees el valor del store directo y se desuscribe solo al destruir",
+        "Un bug",
+        "Un import"
+      ],
+      "ok": 1,
+      "exp": "Los stores + $ = estado compartido sin boilerplate: context/redux incluido en el lenguaje."
+    }
+  ],
+  "generado": "2026-09-18"
+}

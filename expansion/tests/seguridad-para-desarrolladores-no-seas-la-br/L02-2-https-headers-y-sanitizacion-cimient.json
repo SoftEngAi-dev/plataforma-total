@@ -1,0 +1,32 @@
+{
+  "curso": "Seguridad para Desarrolladores — No Seas la Brecha",
+  "leccion": 2,
+  "titulo": "2. HTTPS, headers y sanitización: cimientos prácticos",
+  "total": 2,
+  "aprobado_con": 2,
+  "preguntas": [
+    {
+      "p": "¿Qué hace el atributo HttpOnly en una cookie?",
+      "ops": [
+        "Oculta del JS",
+        "El JavaScript NO puede leerla: si un atacante ejecuta XSS no te roba la sesión",
+        "La hace lenta",
+        "Borra cookies"
+      ],
+      "ok": 1,
+      "exp": "Las cookies de sesión SIEMPRE HttpOnly + Secure + SameSite."
+    },
+    {
+      "p": "¿Qué defensa da Content-Security-Policy?",
+      "ops": [
+        "Bloquea IPs",
+        "Limita de QUÉ orígenes pueden cargarse scripts/recursos: corta de raíz muchísimos XSS",
+        "Acelera",
+        "Nada útil"
+      ],
+      "ok": 1,
+      "exp": "CSP bien puesta desactiva la ejecución de scripts inyectados inline."
+    }
+  ],
+  "generado": "2026-09-18"
+}

@@ -1,0 +1,32 @@
+{
+  "curso": "Seguridad para Desarrolladores — No Seas la Brecha",
+  "leccion": 3,
+  "titulo": "3. Autenticación moderna: sesiones, JWT y OAuth",
+  "total": 2,
+  "aprobado_con": 2,
+  "preguntas": [
+    {
+      "p": "¿Qué diferencia sesión-clásica de JWT?",
+      "ops": [
+        "Ninguna",
+        "Sesión clásica guarda estado en el servidor con ID en cookie; JWT firma y viaja el estado EN EL TOKEN (stateless)",
+        "JWT es más seguro",
+        "Sesión es para APIs"
+      ],
+      "ok": 1,
+      "exp": "Trade: estado revocable/central vs escalabilidad sin estado ni revocación simple."
+    },
+    {
+      "p": "¿Por qué JWT en localStorage es riesgoso?",
+      "ops": [
+        "Es lento",
+        "Cualquier XSS puede JavaScript-leerlo y robar identidad; cookie HttpOnly no es legible por JS",
+        "No existe",
+        "Es ilegal"
+      ],
+      "ok": 1,
+      "exp": "El trade de seguridad: lo que JavaScript toca, un XSS también toca."
+    }
+  ],
+  "generado": "2026-09-18"
+}

@@ -1,0 +1,10 @@
+{
+  "tarjeta": "testing-programar-con-red-de-s-L04-Q01",
+  "curso": "Testing — Programar con Red de Seguridad",
+  "leccion": 4,
+  "frente": "¿Cuál es la mejor forma de evitar que un bug VUELVA?",
+  "reversa": "Escribir PRIMERO el test que reproduce el bug: queda eternamente verificado en la suite",
+  "explicacion": "Bug→test rojo→fix→test verde= la regresión muere definitivamente.",
+  "algoritmo": "repaso espaciado: 1d, 3d, 7d, 21d",
+  "generada": "2026-09-18"
+}

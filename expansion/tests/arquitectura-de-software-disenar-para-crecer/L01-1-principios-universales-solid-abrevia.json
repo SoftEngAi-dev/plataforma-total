@@ -1,0 +1,32 @@
+{
+  "curso": "Arquitectura de Software — Diseñar para Crecer",
+  "leccion": 1,
+  "titulo": "1. Principios universales: SOLID abreviado útil",
+  "total": 2,
+  "aprobado_con": 2,
+  "preguntas": [
+    {
+      "p": "¿Qué propone DRY?",
+      "ops": [
+        "Borrar código",
+        "El conocimiento/lógica vive UNA sola vez en el sistema; repetición = inconsistencias cuando cambies un lugar y no otro",
+        "Más tests",
+        "Más carpetas"
+      ],
+      "ok": 1,
+      "exp": "Copiar es rápido hoy; mantener copias divergentes es lento mañana."
+    },
+    {
+      "p": "Dependency Inversion en práctica significa...",
+      "ops": [
+        "No depender de nada",
+        "Tu lógica depende de INTERFACES/contratos; la implementación concreta se inyecta y puede cambiar (prod↔test)",
+        "Java nada más",
+        "Inyectar SQL"
+      ],
+      "ok": 1,
+      "exp": "La pieza clave de testabilidad y arquitectura limpia: invierte quién controla las dependencias."
+    }
+  ],
+  "generado": "2026-09-18"
+}

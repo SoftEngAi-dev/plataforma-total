@@ -1,0 +1,10 @@
+{
+  "tarjeta": "html-y-css-diseno-web-total-L05-Q02",
+  "curso": "HTML y CSS — Diseño Web Total",
+  "leccion": 5,
+  "frente": "¿Cuándo elegir Grid sobre Flexbox?",
+  "reversa": "Cuando el diseño es bidimensional (filas y columnas)",
+  "explicacion": "Flex = una dimensión; Grid = dos. Conviven felices.",
+  "algoritmo": "repaso espaciado: 1d, 3d, 7d, 21d",
+  "generada": "2026-09-18"
+}

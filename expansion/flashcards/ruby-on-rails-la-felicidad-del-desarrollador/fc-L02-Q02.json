@@ -1,0 +1,10 @@
+{
+  "tarjeta": "ruby-on-rails-la-felicidad-del-L02-Q02",
+  "curso": "Ruby on Rails — La Felicidad del Desarrollador",
+  "leccion": 2,
+  "frente": "¿Qué significa Convention over Configuration?",
+  "reversa": "El framework asume estándares sensatos (Post↔posts, id PK...) y tú solo configuras lo distinto",
+  "explicacion": "CoC = menos decisiones triviales = velocidad de desarrollo enorme.",
+  "algoritmo": "repaso espaciado: 1d, 3d, 7d, 21d",
+  "generada": "2026-09-18"
+}

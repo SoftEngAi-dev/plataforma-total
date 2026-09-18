@@ -1,0 +1,10 @@
+{
+  "tarjeta": "javascript-de-cero-a-experto-L04-Q01",
+  "curso": "JavaScript — De Cero a Experto",
+  "leccion": 4,
+  "frente": "¿Qué es una plantilla literal?",
+  "reversa": "Backticks con ${} para interpolar variables/expresiones",
+  "explicacion": "`Hola ${nombre}` — la forma moderna de construir texto dinámico.",
+  "algoritmo": "repaso espaciado: 1d, 3d, 7d, 21d",
+  "generada": "2026-09-18"
+}

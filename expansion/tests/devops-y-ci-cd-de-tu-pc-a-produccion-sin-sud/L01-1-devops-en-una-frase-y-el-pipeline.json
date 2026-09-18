@@ -1,0 +1,32 @@
+{
+  "curso": "DevOps y CI/CD — De Tu PC a Producción Sin Sudor",
+  "leccion": 1,
+  "titulo": "1. DevOps en una frase y el pipeline",
+  "total": 2,
+  "aprobado_con": 2,
+  "preguntas": [
+    {
+      "p": "¿Qué es CI (Integración Continua)?",
+      "ops": [
+        "Un lenguaje",
+        "Automatizar build+tests en cada push para detectar roturas al instante",
+        "Un servidor",
+        "Integración con bases de datos"
+      ],
+      "ok": 1,
+      "exp": "Commits integrados y probados constantemente: el bug se detecta cuando es pequeño."
+    },
+    {
+      "p": "¿Qué diferencia hay entre entrega y despliegue continuos?",
+      "ops": [
+        "Ninguna",
+        "Entrega: listo para publicar con un clic; Despliegue: se publica AUTOMÁTICAMENTE al pasar CI",
+        "Despliegue es más lento",
+        "Son sinónimos legales"
+      ],
+      "ok": 1,
+      "exp": "Delivery = siempre desplegable (decisión humana); Deployment = se hace solo."
+    }
+  ],
+  "generado": "2026-09-18"
+}

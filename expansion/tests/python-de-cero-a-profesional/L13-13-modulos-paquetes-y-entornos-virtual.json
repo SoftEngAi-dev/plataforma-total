@@ -1,0 +1,32 @@
+{
+  "curso": "Python — De Cero a Profesional",
+  "leccion": 13,
+  "titulo": "13. Módulos, paquetes y entornos virtuales",
+  "total": 2,
+  "aprobado_con": 2,
+  "preguntas": [
+    {
+      "p": "¿Qué protege if __name__ == '__main__'?",
+      "ops": [
+        "Al socket",
+        "El código solo corre al EJECUTAR el archivo, no al importarlo",
+        "Los tipos",
+        "La memoria"
+      ],
+      "ok": 1,
+      "exp": "Permite archivos que son a la vez librería (importar) y script (correr)."
+    },
+    {
+      "p": "¿Por qué python3 -m src.main y no python3 src/main.py?",
+      "ops": [
+        "Es más corto",
+        "Con -m, los imports relativos del paquete funcionan; con ruta directa suelen romperse",
+        "Es lo mismo",
+        "Es más rápido"
+      ],
+      "ok": 1,
+      "exp": "-m ejecuta como módulo del paquete: los from tareas import resuelven bonito."
+    }
+  ],
+  "generado": "2026-09-18"
+}

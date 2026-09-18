@@ -1,0 +1,10 @@
+{
+  "tarjeta": "react-interfaces-modernas-y-re-L06-Q01",
+  "curso": "React — Interfaces Modernas y Reutilizables",
+  "leccion": 6,
+  "frente": "¿Cuándo llegar a Context?",
+  "reversa": "Cuando muchos componentes a mucha profundidad necesitan el mismo dato (tema, usuario, idioma)",
+  "explicacion": "Context resuelve prop-drilling global; estado local y composición resuelven la mayoría de los casos.",
+  "algoritmo": "repaso espaciado: 1d, 3d, 7d, 21d",
+  "generada": "2026-09-18"
+}

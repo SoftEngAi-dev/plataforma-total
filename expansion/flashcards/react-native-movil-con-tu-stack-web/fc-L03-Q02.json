@@ -1,0 +1,10 @@
+{
+  "tarjeta": "react-native-movil-con-tu-stac-L03-Q02",
+  "curso": "React Native — Móvil con Tu Stack Web",
+  "leccion": 3,
+  "frente": "¿Qué es AsyncStorage?",
+  "reversa": "Almacenamiento clave-valor local (equivalente móvil de localStorage), strings+JSON",
+  "explicacion": "Guarda strings; con JSON.stringify/parse persistes objetos entre sesiones de app.",
+  "algoritmo": "repaso espaciado: 1d, 3d, 7d, 21d",
+  "generada": "2026-09-18"
+}

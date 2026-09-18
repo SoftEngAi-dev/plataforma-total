@@ -1,0 +1,32 @@
+{
+  "curso": "HTML y CSS — Diseño Web Total",
+  "leccion": 1,
+  "titulo": "1. HTML: el esqueleto de toda la web",
+  "total": 2,
+  "aprobado_con": 2,
+  "preguntas": [
+    {
+      "p": "¿Qué define HTML en una página web?",
+      "ops": [
+        "Los colores y tipografías",
+        "La estructura y el significado del contenido",
+        "La lógica interactiva",
+        "La base de datos"
+      ],
+      "ok": 1,
+      "exp": "HTML = estructura/semántica; CSS = presentación; JS = comportamiento."
+    },
+    {
+      "p": "¿Para qué sirve <head> en un documento HTML?",
+      "ops": [
+        "Mostrar el encabezado visible",
+        "Metadatos: title, charset, enlaces a CSS/JS — no se muestra en la página",
+        "El menú de navegación",
+        "Nada, es opcional"
+      ],
+      "ok": 1,
+      "exp": "Todo lo de <head> configura la página; lo visible vive en <body>."
+    }
+  ],
+  "generado": "2026-09-18"
+}

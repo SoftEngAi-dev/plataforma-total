@@ -1,0 +1,10 @@
+{
+  "tarjeta": "javascript-de-cero-a-experto-L04-Q02",
+  "curso": "JavaScript — De Cero a Experto",
+  "leccion": 4,
+  "frente": "Tras let s=\"hola\"; s.toUpperCase(); ¿qué vale s?",
+  "reversa": "\"hola\" — los strings son inmutables",
+  "explicacion": "toUpperCase devuelve un NUEVO string; s no cambia salvo que lo reasignes.",
+  "algoritmo": "repaso espaciado: 1d, 3d, 7d, 21d",
+  "generada": "2026-09-18"
+}

@@ -1,0 +1,10 @@
+{
+  "tarjeta": "node-js-javascript-en-el-servi-L04-Q01",
+  "curso": "Node.js — JavaScript en el Servidor",
+  "leccion": 4,
+  "frente": "¿Por qué prohibir readFileSync en un servidor (salvo arranque)?",
+  "reversa": "Bloquea el único hilo de Node: TODOS los usuarios esperan",
+  "explicacion": "El event loop único detenido = servidor congelado para todos.",
+  "algoritmo": "repaso espaciado: 1d, 3d, 7d, 21d",
+  "generada": "2026-09-18"
+}

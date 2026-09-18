@@ -1,0 +1,10 @@
+{
+  "tarjeta": "seguridad-para-desarrolladores-L03-Q01",
+  "curso": "Seguridad para Desarrolladores — No Seas la Brecha",
+  "leccion": 3,
+  "frente": "¿Qué diferencia sesión-clásica de JWT?",
+  "reversa": "Sesión clásica guarda estado en el servidor con ID en cookie; JWT firma y viaja el estado EN EL TOKEN (stateless)",
+  "explicacion": "Trade: estado revocable/central vs escalabilidad sin estado ni revocación simple.",
+  "algoritmo": "repaso espaciado: 1d, 3d, 7d, 21d",
+  "generada": "2026-09-18"
+}

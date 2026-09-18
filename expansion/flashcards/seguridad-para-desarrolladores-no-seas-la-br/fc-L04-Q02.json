@@ -1,0 +1,10 @@
+{
+  "tarjeta": "seguridad-para-desarrolladores-L04-Q02",
+  "curso": "Seguridad para Desarrolladores — No Seas la Brecha",
+  "leccion": 4,
+  "frente": "¿Cuál defensa mata CSRF de forma estructural?",
+  "reversa": "Token CSRF único por formulario/sesión que el atacante no puede conocer + SameSite en cookies",
+  "explicacion": "El atacante puede enviar el request PERO no el token secreto del formulario legítimo.",
+  "algoritmo": "repaso espaciado: 1d, 3d, 7d, 21d",
+  "generada": "2026-09-18"
+}

@@ -1,0 +1,10 @@
+{
+  "tarjeta": "react-interfaces-modernas-y-re-L03-Q02",
+  "curso": "React — Interfaces Modernas y Reutilizables",
+  "leccion": 3,
+  "frente": "¿Cómo renderizar condicionalmente en JSX?",
+  "reversa": "Operador &&, ternario, o variable calculada ANTES del return",
+  "explicacion": "JSX admite expresiones, no sentencias: la lógica va en expresiones o antes del return.",
+  "algoritmo": "repaso espaciado: 1d, 3d, 7d, 21d",
+  "generada": "2026-09-18"
+}

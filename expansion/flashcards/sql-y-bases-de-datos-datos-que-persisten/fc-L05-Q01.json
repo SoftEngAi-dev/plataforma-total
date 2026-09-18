@@ -1,0 +1,10 @@
+{
+  "tarjeta": "sql-y-bases-de-datos-datos-que-L05-Q01",
+  "curso": "SQL y Bases de Datos — Datos que Persisten",
+  "leccion": 5,
+  "frente": "¿Por qué UPDATE sin WHERE es un desastre clásico?",
+  "reversa": "Actualiza TODAS las filas de la tabla",
+  "explicacion": "Sin filtro = global: regla para la vida: escribe primero el WHERE... y después UPDATE/DELETE junto.",
+  "algoritmo": "repaso espaciado: 1d, 3d, 7d, 21d",
+  "generada": "2026-09-18"
+}

@@ -1,0 +1,10 @@
+{
+  "tarjeta": "linux-y-terminal-el-superpoder-L02-Q01",
+  "curso": "Linux y Terminal — El Superpoder del Dev",
+  "leccion": 2,
+  "frente": "cat log | grep ERROR | wc -l hace...",
+  "reversa": "Cuenta las líneas del log que contienen ERROR (tuberías encadenadas)",
+  "explicacion": "Filtro → contador: las tuberías componen herramientas con texto crudo.",
+  "algoritmo": "repaso espaciado: 1d, 3d, 7d, 21d",
+  "generada": "2026-09-18"
+}

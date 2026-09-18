@@ -1,0 +1,32 @@
+{
+  "curso": "TypeScript — JavaScript con Superpoderes y Seguridad",
+  "leccion": 7,
+  "titulo": "7. TS en proyectos reales: configuración y flujo",
+  "total": 2,
+  "aprobado_con": 2,
+  "preguntas": [
+    {
+      "p": "¿Qué activa \"strict\": true en tsconfig?",
+      "ops": [
+        "Solo chequeo básico",
+        "Una familia de protecciones: null checks, noImplicitAny, etc. — el modo serio de TS",
+        "Rápida ejecución",
+        "Nada"
+      ],
+      "ok": 1,
+      "exp": "Strict atrapa el grueso de los bugs de tipo. Proyecto profesional sin strict = medio TS."
+    },
+    {
+      "p": "¿Cómo usar tipos con una librería JS como express?",
+      "ops": [
+        "No se puede",
+        "npm i -D @types/express (definiciones de tipos de la comunidad)",
+        "Reescribirla en TS",
+        "Con un plugin"
+      ],
+      "ok": 1,
+      "exp": "@types/* cubre todo el ecosistema popular: tu editor la entiende como si fuera TS nativa."
+    }
+  ],
+  "generado": "2026-09-18"
+}

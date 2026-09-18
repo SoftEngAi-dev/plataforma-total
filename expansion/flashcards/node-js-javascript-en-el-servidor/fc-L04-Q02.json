@@ -1,0 +1,10 @@
+{
+  "tarjeta": "node-js-javascript-en-el-servi-L04-Q02",
+  "curso": "Node.js — JavaScript en el Servidor",
+  "leccion": 4,
+  "frente": "¿Cómo reconoce Express un middleware de errores?",
+  "reversa": "Tiene exactamente 4 parámetros (err, req, res, next)",
+  "explicacion": "La firma de 4 argumentos es el contrato; se registra DESPUÉS de las rutas.",
+  "algoritmo": "repaso espaciado: 1d, 3d, 7d, 21d",
+  "generada": "2026-09-18"
+}

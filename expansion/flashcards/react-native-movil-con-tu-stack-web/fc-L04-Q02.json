@@ -1,0 +1,10 @@
+{
+  "tarjeta": "react-native-movil-con-tu-stac-L04-Q02",
+  "curso": "React Native — Móvil con Tu Stack Web",
+  "leccion": 4,
+  "frente": "¿Qué es onLongPress en un Pressable?",
+  "reversa": "Click mantenido: el patrón móvil para acciones secundarias como borrar/editar",
+  "explicacion": "Móvil no tiene botón derecho: long-press = menú contextual.",
+  "algoritmo": "repaso espaciado: 1d, 3d, 7d, 21d",
+  "generada": "2026-09-18"
+}

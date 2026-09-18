@@ -1,0 +1,10 @@
+{
+  "tarjeta": "apis-rest-y-http-el-idioma-de-L03-Q01",
+  "curso": "APIs REST y HTTP — El Idioma de los Servidores",
+  "leccion": 3,
+  "frente": "¿Qué hace BaseModel de pydantic?",
+  "reversa": "Esquema+validación automática de tus request bodies: si el usuario envía mal, 422 sin escribir código tú",
+  "explicacion": "TareaIn(titulo: str) garantiza str: errores de formato rechazados de fábrica (esa es la magia atrás de FastAPI).",
+  "algoritmo": "repaso espaciado: 1d, 3d, 7d, 21d",
+  "generada": "2026-09-18"
+}

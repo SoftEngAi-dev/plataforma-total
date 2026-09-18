@@ -1,0 +1,10 @@
+{
+  "tarjeta": "typescript-javascript-con-supe-L05-Q01",
+  "curso": "TypeScript — JavaScript con Superpoderes y Seguridad",
+  "leccion": 5,
+  "frente": "¿Qué permite una propiedad private?",
+  "reversa": "Solo acceso dentro de la propia clase",
+  "explicacion": "Encapsulación: el estado interno solo cambia por métodos controlados.",
+  "algoritmo": "repaso espaciado: 1d, 3d, 7d, 21d",
+  "generada": "2026-09-18"
+}

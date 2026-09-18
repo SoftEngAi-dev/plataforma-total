@@ -1,0 +1,32 @@
+{
+  "curso": "Node.js — JavaScript en el Servidor",
+  "leccion": 5,
+  "titulo": "5. Express + estructura real + variables de entorno",
+  "total": 2,
+  "aprobado_con": 2,
+  "preguntas": [
+    {
+      "p": "¿Por qué los secretos van en variables de entorno y no en el código?",
+      "ops": [
+        "Por velocidad",
+        "Para no publicarlos en git y poder variarlos por entorno (dev/prod)",
+        "Porque .env es más rápido",
+        "No hay diferencia"
+      ],
+      "ok": 1,
+      "exp": "Código público + secretos = filtración. .env + .gitignore es la norma; nunca commitees el .env."
+    },
+    {
+      "p": "¿Qué aporta separar app.js de index.js (listen)?",
+      "ops": [
+        "Nada útil",
+        "Puedes importar y TESTEAR la app sin abrir puerto; separa configuración de ejecución",
+        "Es solo estética",
+        "Usa menos memoria"
+      ],
+      "ok": 1,
+      "exp": "La app testeable se exporta sin listen; en tests corren peticiones contra ella con supertest."
+    }
+  ],
+  "generado": "2026-09-18"
+}

@@ -1,0 +1,32 @@
+{
+  "curso": "Rust — Velocidad de C sin Miedo a los Crashes",
+  "leccion": 4,
+  "titulo": "4. Structs, traits e iteradores: Rust en su salsa",
+  "total": 2,
+  "aprobado_con": 2,
+  "preguntas": [
+    {
+      "p": "¿Qué son los traits de Rust?",
+      "ops": [
+        "Clases normales",
+        "Interfaces de comportamiento (comparable a interfaces Java/protocols) implementables por cualquier tipo — aún nativos predefinidos",
+        "Macros",
+        "Bases de datos"
+      ],
+      "ok": 1,
+      "exp": "derive(Debug) o impl Trait for MiStruct: comportamiento compartido sin herencia tradicional."
+    },
+    {
+      "p": "¿Qué coste extra tienen los iteradores encadenados de Rust?",
+      "ops": [
+        "Mucho (boxed)",
+        "Cero: se compilan al mismo código que un bucle for manual (zero-cost abstractions)",
+        "Algo en runtime",
+        "Lentísimos"
+      ],
+      "ok": 1,
+      "exp": "'What you don't use, you don't pay for; what you do, you couldn't hand-code better' = lema."
+    }
+  ],
+  "generado": "2026-09-18"
+}

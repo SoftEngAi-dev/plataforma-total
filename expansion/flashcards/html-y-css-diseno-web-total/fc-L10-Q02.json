@@ -1,0 +1,10 @@
+{
+  "tarjeta": "html-y-css-diseno-web-total-L10-Q02",
+  "curso": "HTML y CSS — Diseño Web Total",
+  "leccion": 10,
+  "frente": "¿Cuál es el contraste mínimo texto/fondo recomendado?",
+  "reversa": "4.5:1",
+  "explicacion": "WCAG AA: 4.5:1 para texto normal (3:1 para texto grande).",
+  "algoritmo": "repaso espaciado: 1d, 3d, 7d, 21d",
+  "generada": "2026-09-18"
+}

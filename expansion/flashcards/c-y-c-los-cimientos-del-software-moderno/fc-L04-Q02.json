@@ -1,0 +1,10 @@
+{
+  "tarjeta": "c-y-c-los-cimientos-del-softwa-L04-Q02",
+  "curso": "C y C++ — Los Cimientos del Software Moderno",
+  "leccion": 4,
+  "frente": "¿Qué hace make con un Makefile bien escrito?",
+  "reversa": "Recompila SOLO los archivos cuyos fuentes cambiaron (build incremental con dependencias)",
+  "explicacion": "Dependencias+reglas: el build incremental nació aquí (todo build system actual lo hereda).",
+  "algoritmo": "repaso espaciado: 1d, 3d, 7d, 21d",
+  "generada": "2026-09-18"
+}

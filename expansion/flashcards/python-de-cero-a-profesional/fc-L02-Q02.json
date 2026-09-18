@@ -1,0 +1,10 @@
+{
+  "tarjeta": "python-de-cero-a-profesional-L02-Q02",
+  "curso": "Python — De Cero a Profesional",
+  "leccion": 2,
+  "frente": "¿Qué permite la f-string?",
+  "reversa": "Interpolar variables y expresiones con formato: f'{precio:.2f}'",
+  "explicacion": "Las f-strings combinadas con especificadores de formato son el estándar moderno.",
+  "algoritmo": "repaso espaciado: 1d, 3d, 7d, 21d",
+  "generada": "2026-09-18"
+}

@@ -1,0 +1,10 @@
+{
+  "tarjeta": "docker-en-mi-maquina-si-funcio-L02-Q02",
+  "curso": "Docker — 'En Mi Máquina Sí Funciona' Resuelto",
+  "leccion": 2,
+  "frente": "¿Por qué preferir python:3.12-slim sobre python:latest?",
+  "reversa": "Tamaño pequeño Y versión fijada (reproducible); latest es caja sorpresa y pesa GB",
+  "explicacion": "Imágenes mínimas + tag exacto = builds rápidos, seguros y deterministas.",
+  "algoritmo": "repaso espaciado: 1d, 3d, 7d, 21d",
+  "generada": "2026-09-18"
+}

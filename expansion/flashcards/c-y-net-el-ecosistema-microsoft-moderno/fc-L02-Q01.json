@@ -1,0 +1,10 @@
+{
+  "tarjeta": "c-y-net-el-ecosistema-microsof-L02-Q01",
+  "curso": "C# y .NET — El Ecosistema Microsoft Moderno",
+  "leccion": 2,
+  "frente": "¿Qué es una Minimal API en .NET?",
+  "reversa": "El estilo conciso de ASP.NET Core: rutas con lambdas en Program.cs sin controladores pesados",
+  "explicacion": "Equivalente .NET a Express/Flask: ideal para APIs y microservicios.",
+  "algoritmo": "repaso espaciado: 1d, 3d, 7d, 21d",
+  "generada": "2026-09-18"
+}

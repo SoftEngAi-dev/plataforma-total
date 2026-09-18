@@ -1,0 +1,10 @@
+{
+  "tarjeta": "tour-de-lenguajes-cual-aprende-L02-Q01",
+  "curso": "Tour de Lenguajes — Cuál Aprender y Cuándo",
+  "leccion": 2,
+  "frente": "¿Por qué JS es literalmente inevitable para frontend web?",
+  "reversa": "Es el ÚNICO lenguaje que corren los navegadores (WebAssembly emergiendo pero JS sigue en los browsers como lingua franca)",
+  "explicacion": "Si fabricas UI en navegador, JS está en tu fatora — no es opinión, es el mercado.",
+  "algoritmo": "repaso espaciado: 1d, 3d, 7d, 21d",
+  "generada": "2026-09-18"
+}

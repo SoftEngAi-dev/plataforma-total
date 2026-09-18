@@ -1,0 +1,32 @@
+{
+  "curso": "Machine Learning — Primer Contacto Real",
+  "leccion": 4,
+  "titulo": "4. Árboles de decisión y RandomForest: los caballos de batalla",
+  "total": 2,
+  "aprobado_con": 2,
+  "preguntas": [
+    {
+      "p": "¿Qué ventaja práctica tiene max_depth=3?",
+      "ops": [
+        "Ninguna",
+        "Limita la complejidad del árbol: techo de cristal al overfit (regularización por construcción)",
+        "Más datos",
+        "Más CPU"
+      ],
+      "ok": 1,
+      "exp": "Árbol profundo = reglas sobreajustadas de poquitas muestras; poco profundo generaliza bien."
+    },
+    {
+      "p": "¿Qué te dice feature_importances_?",
+      "ops": [
+        "Velocidad",
+        "QUÉ VARIABLES pesan más en las decisiones del modelo: comprensión/explicación del negocio incluida",
+        "Cardiología",
+        "CSV"
+      ],
+      "ok": 1,
+      "exp": "\"Los 2 mejores predictores son...\" directo del bosque: insights accionables."
+    }
+  ],
+  "generado": "2026-09-18"
+}

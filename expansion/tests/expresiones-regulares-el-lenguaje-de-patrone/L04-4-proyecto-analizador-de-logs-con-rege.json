@@ -1,0 +1,32 @@
+{
+  "curso": "Expresiones Regulares — El Lenguaje de Patrones",
+  "leccion": 4,
+  "titulo": "4. Proyecto: analizador de logs con regex (uso real)",
+  "total": 2,
+  "aprobado_con": 2,
+  "preguntas": [
+    {
+      "p": "¿Qué hace groupdict() sobre un Match?",
+      "ops": [
+        "CSV",
+        "Devuelve un dictando con grupos NOMBRADOS para cada campo: linea→estructura lista para pandas/procesar",
+        "Error",
+        "Orden"
+      ],
+      "ok": 1,
+      "exp": "La puente: texto crudo → registro estructurado con nombres del grupo = pipeline real."
+    },
+    {
+      "p": "¿Por qué probar tu regex en regex101 con muestras primero?",
+      "ops": [
+        "Es cool",
+        "Detectas backtracking/capturas raras/escapes al instante antes de correr sobre miliones de líneas y romper produción",
+        "Por nada",
+        "Static"
+      ],
+      "ok": 1,
+      "exp": "Iteras el patrón en segundos con explicación en vivo; es la herramienta existente."
+    }
+  ],
+  "generado": "2026-09-18"
+}

@@ -1,0 +1,32 @@
+{
+  "curso": "Entrevistas Técnicas — Demostrar lo que Sabes",
+  "leccion": 4,
+  "titulo": "4. Proyecto: entrevistae simulada completa",
+  "total": 2,
+  "aprobado_con": 2,
+  "preguntas": [
+    {
+      "p": "¿Qué mejora más la entrevista: leer respuestas o simulacros grabados?",
+      "ops": [
+        "Leer más",
+        "Simulacro GRABADO: escucharte te enseña claridad verbal y nervios, cosas que no se leen",
+        "Más libros",
+        "Nada"
+      ],
+      "ok": 1,
+      "exp": "El cringe de escucharte una vez supera 10 horas de prep teórico: vivido > leído."
+    },
+    {
+      "p": "¿Por qué escribir 4 STAR previo a la entrevista cuenta más que improvisar?",
+      "ops": [
+        "No cuenta",
+        "Porque historias vagas ('ehh pues una vez...') matan el impacto que una historia concreta numérica genera en 60 seg",
+        "Código",
+        "Solo senior"
+      ],
+      "ok": 1,
+      "exp": "Estructura STAR + ejemplos ensayados = respuestas profesionales, claras, confiables."
+    }
+  ],
+  "generado": "2026-09-18"
+}

@@ -1,0 +1,10 @@
+{
+  "tarjeta": "linux-y-terminal-el-superpoder-L04-Q02",
+  "curso": "Linux y Terminal — El Superpoder del Dev",
+  "leccion": 4,
+  "frente": "rsync -avz a/ usuario@IP:~/b/ se usa para...",
+  "reversa": "Sincronizar carpetas remotas eficientemente (solo cambios, comprime, reanuda)",
+  "explicacion": "El caballo de batalla de backups y despliegues artesanales.",
+  "algoritmo": "repaso espaciado: 1d, 3d, 7d, 21d",
+  "generada": "2026-09-18"
+}

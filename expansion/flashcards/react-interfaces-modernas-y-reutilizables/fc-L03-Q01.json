@@ -1,0 +1,10 @@
+{
+  "tarjeta": "react-interfaces-modernas-y-re-L03-Q01",
+  "curso": "React — Interfaces Modernas y Reutilizables",
+  "leccion": 3,
+  "frente": "¿Qué prop requiere React al mapear elementos y por qué?",
+  "reversa": "key: identidad estable entre renders para emparejar el DOM correctamente",
+  "explicacion": "La key es DNI, no apellido: el índice del map cambia y traiciona con listas dinámicas.",
+  "algoritmo": "repaso espaciado: 1d, 3d, 7d, 21d",
+  "generada": "2026-09-18"
+}

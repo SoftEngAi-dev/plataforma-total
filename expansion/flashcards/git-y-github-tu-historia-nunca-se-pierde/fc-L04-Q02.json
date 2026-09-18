@@ -1,0 +1,10 @@
+{
+  "tarjeta": "git-y-github-tu-historia-nunca-L04-Q02",
+  "curso": "Git y GitHub — Tu Historia Nunca Se Pierde",
+  "leccion": 4,
+  "frente": "¿Cuándo necesitas hacer fork?",
+  "reversa": "Cuando el repo no es tuyo/no tienes permiso de push (open source)",
+  "explicacion": "Fork = tu copia en tu cuenta, que permite proponer PR al original.",
+  "algoritmo": "repaso espaciado: 1d, 3d, 7d, 21d",
+  "generada": "2026-09-18"
+}

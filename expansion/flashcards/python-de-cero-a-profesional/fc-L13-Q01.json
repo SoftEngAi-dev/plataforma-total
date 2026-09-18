@@ -1,0 +1,10 @@
+{
+  "tarjeta": "python-de-cero-a-profesional-L13-Q01",
+  "curso": "Python — De Cero a Profesional",
+  "leccion": 13,
+  "frente": "¿Qué protege if __name__ == '__main__'?",
+  "reversa": "El código solo corre al EJECUTAR el archivo, no al importarlo",
+  "explicacion": "Permite archivos que son a la vez librería (importar) y script (correr).",
+  "algoritmo": "repaso espaciado: 1d, 3d, 7d, 21d",
+  "generada": "2026-09-18"
+}

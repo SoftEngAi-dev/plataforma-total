@@ -1,0 +1,10 @@
+{
+  "tarjeta": "angular-el-framework-empresari-L01-Q01",
+  "curso": "Angular — El Framework Empresarial Completo",
+  "leccion": 1,
+  "frente": "¿Qué distingue a Angular de React principalmente?",
+  "reversa": "Angular es framework COMPLETO con router/http/form/DI incluidos y TypeScript obligatorio; React es librería de vista + ecosistema a elección",
+  "explicacion": "Batteries-included vs composición libre: dos filosofías válidas según equipo y proyecto.",
+  "algoritmo": "repaso espaciado: 1d, 3d, 7d, 21d",
+  "generada": "2026-09-18"
+}

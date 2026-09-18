@@ -1,0 +1,10 @@
+{
+  "tarjeta": "html-y-css-diseno-web-total-L06-Q02",
+  "curso": "HTML y CSS — Diseño Web Total",
+  "leccion": 6,
+  "frente": "¿Qué significa mobile-first?",
+  "reversa": "Escribir el CSS base para móvil y crecer con min-width media queries",
+  "explicacion": "Base simple en pantalla chica; complejidad progresiva hacia pantallas grandes.",
+  "algoritmo": "repaso espaciado: 1d, 3d, 7d, 21d",
+  "generada": "2026-09-18"
+}

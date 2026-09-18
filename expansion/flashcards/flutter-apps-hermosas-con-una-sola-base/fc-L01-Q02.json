@@ -1,0 +1,10 @@
+{
+  "tarjeta": "flutter-apps-hermosas-con-una-L01-Q02",
+  "curso": "Flutter — Apps Hermosas con Una Sola Base",
+  "leccion": 1,
+  "frente": "¿Para qué sirve flutter doctor?",
+  "reversa": "Verificar tu entorno: qué falta/configurar para que Flutter funcione (emuladores, SDKs...)",
+  "explicacion": "El diagnóstico automático: si doctor dice OK, todo funciona.",
+  "algoritmo": "repaso espaciado: 1d, 3d, 7d, 21d",
+  "generada": "2026-09-18"
+}

@@ -1,0 +1,32 @@
+{
+  "curso": "Rust — Velocidad de C sin Miedo a los Crashes",
+  "leccion": 1,
+  "titulo": "1. Rust: el lenguaje querido 9 años seguidos",
+  "total": 2,
+  "aprobado_con": 2,
+  "preguntas": [
+    {
+      "p": "¿Qué es diferente de los valores en Rust por defecto?",
+      "ops": [
+        "Todos mutables",
+        "Inmutables por defecto; declaras mut explícitamente para cambiar valores",
+        "Todos globales",
+        "Todos públicos"
+      ],
+      "ok": 1,
+      "exp": "La inmutabilidad por defecto evita enormes clases de bugs en concurrencia."
+    },
+    {
+      "p": "¿Qué es cargo en el ecosistema Rust?",
+      "ops": [
+        "Puerto mar",
+        "El todo en uno: compilar, gestionar dependencias (crates), testear, documentar",
+        "Un VC",
+        "Solo build"
+      ],
+      "ok": 1,
+      "exp": "cargo new/run/test/build: el mejor gestor de proyectos del mundo compilado."
+    }
+  ],
+  "generado": "2026-09-18"
+}

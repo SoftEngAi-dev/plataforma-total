@@ -1,0 +1,32 @@
+{
+  "curso": "HTML y CSS — Diseño Web Total",
+  "leccion": 3,
+  "titulo": "3. CSS: selectores, cascada y el modelo de caja",
+  "total": 2,
+  "aprobado_con": 2,
+  "preguntas": [
+    {
+      "p": "¿Qué selector tiene más especificidad?",
+      "ops": [
+        "etiqueta (p)",
+        "clase (.nota)",
+        "id (#principal)",
+        "universal (*)"
+      ],
+      "ok": 2,
+      "exp": "id gana sobre clase y etiqueta. Inline style gana sobre todos."
+    },
+    {
+      "p": "¿Qué hace box-sizing: border-box?",
+      "ops": [
+        "Elimina los bordes",
+        "width/height incluyen padding y border (lo intuitivo)",
+        "Añade sombras",
+        "Redondea esquinas"
+      ],
+      "ok": 1,
+      "exp": "Sin él, width:100px + padding te da una caja de más de 100px; con él, es exacto."
+    }
+  ],
+  "generado": "2026-09-18"
+}

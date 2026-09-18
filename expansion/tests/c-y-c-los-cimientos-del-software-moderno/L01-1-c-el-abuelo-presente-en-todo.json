@@ -1,0 +1,32 @@
+{
+  "curso": "C y C++ — Los Cimientos del Software Moderno",
+  "leccion": 1,
+  "titulo": "1. C: el abuelo presente en TODO",
+  "total": 2,
+  "aprobado_con": 2,
+  "preguntas": [
+    {
+      "p": "¿Por qué aprender C hoy si 'no lo usaré directo'?",
+      "ops": [
+        "Nostalgia",
+        "Es el substrato real: memoria, punteros y bajo nivel explican el comportamiento de TODOS los demás lenguajes actuales",
+        "Es gratis",
+        "Es fácil"
+      ],
+      "ok": 1,
+      "exp": "'Entender realmente' qué hace tu lenguaje favorito = haber pasado por C."
+    },
+    {
+      "p": "¿Qué hace printf(\"%d\", x)?",
+      "ops": [
+        "Imprime 5",
+        "Imprime valores donde %d es el placeholder de un entero (y %s string, %f float...)",
+        "Lee input",
+        "Error"
+      ],
+      "ok": 1,
+      "exp": "String de formato con marcadores posicionales: el printf-family clásico."
+    }
+  ],
+  "generado": "2026-09-18"
+}

@@ -1,0 +1,10 @@
+{
+  "tarjeta": "javascript-de-cero-a-experto-L09-Q01",
+  "curso": "JavaScript — De Cero a Experto",
+  "leccion": 9,
+  "frente": "¿Qué métodos agregan/quitan AL FINAL de un array?",
+  "reversa": "push/pop",
+  "explicacion": "push y pop operan en el extremo final; shift/unshift al inicio.",
+  "algoritmo": "repaso espaciado: 1d, 3d, 7d, 21d",
+  "generada": "2026-09-18"
+}

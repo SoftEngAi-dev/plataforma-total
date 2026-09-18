@@ -1,0 +1,10 @@
+{
+  "tarjeta": "herramientas-del-desarrollador-L02-Q01",
+  "curso": "Herramientas del Desarrollador",
+  "leccion": 2,
+  "frente": "¿Qué comando muestra en qué carpeta estás?",
+  "reversa": "pwd",
+  "explicacion": "pwd (print working directory).",
+  "algoritmo": "repaso espaciado: 1d, 3d, 7d, 21d",
+  "generada": "2026-09-18"
+}

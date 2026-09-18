@@ -1,0 +1,10 @@
+{
+  "tarjeta": "angular-el-framework-empresari-L04-Q01",
+  "curso": "Angular — El Framework Empresarial Completo",
+  "leccion": 4,
+  "frente": "¿Dónde debe vivir el estado compartido en Angular?",
+  "reversa": "En un servicio inyectable root: componentes lo inyectan y leen sus signals",
+  "explicacion": "Single source of truth en servicio = la pantalla siempre consistente.",
+  "algoritmo": "repaso espaciado: 1d, 3d, 7d, 21d",
+  "generada": "2026-09-18"
+}

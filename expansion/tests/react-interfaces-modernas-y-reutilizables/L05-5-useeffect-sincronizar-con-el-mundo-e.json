@@ -1,0 +1,32 @@
+{
+  "curso": "React — Interfaces Modernas y Reutilizables",
+  "leccion": 5,
+  "titulo": "5. useEffect: sincronizar con el mundo exterior",
+  "total": 2,
+  "aprobado_con": 2,
+  "preguntas": [
+    {
+      "p": "¿Cuándo se ejecuta useEffect(fn, [])?",
+      "ops": [
+        "Cada render",
+        "Una vez al montar el componente",
+        "Al desmontar",
+        "Nunca"
+      ],
+      "ok": 1,
+      "exp": "Array vacío = sin dependencias: solo el montaje. La limpieza corre al desmontar."
+    },
+    {
+      "p": "¿Para qué sirve la función de limpieza del efecto?",
+      "ops": [
+        "Borrar el estado",
+        "Cancelar trabajo pendiente (fetch, timers, subscripciones) antes de re-ejecutar o desmontar",
+        "Limpiar el JSX",
+        "Es teórica"
+      ],
+      "ok": 1,
+      "exp": "Evita race conditions y fugas: la respuesta tardía de un fetch viejo no pisa la nueva."
+    }
+  ],
+  "generado": "2026-09-18"
+}

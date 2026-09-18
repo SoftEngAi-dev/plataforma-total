@@ -1,0 +1,32 @@
+{
+  "curso": "React Native — Móvil con Tu Stack Web",
+  "leccion": 2,
+  "titulo": "2. listas, estilos y navegación móvil",
+  "total": 2,
+  "aprobado_con": 2,
+  "preguntas": [
+    {
+      "p": "¿Por qué FlatList y no un map dentro de ScrollView?",
+      "ops": [
+        "Es más corto",
+        "FlatList virtualiza: solo dibuja filas visibles; ScrollView+map renderiza TODO (mata listas largas)",
+        "No hay FlatList",
+        "Es Apple"
+      ],
+      "ok": 1,
+      "exp": "El rendimiento de listas = virtualización. Regla: lista > ~20 items → FlatList."
+    },
+    {
+      "p": "¿Cómo pasas datos al navegar entre pantallas?",
+      "ops": [
+        "Por URL",
+        "navigation.navigate('Detalle', { id }) y los lees con route.params en la pantalla destino",
+        "No se puede",
+        "Con fetch"
+      ],
+      "ok": 1,
+      "exp": "El segundo argumento navega parámetros: detalle recibe el id y trae/renderiza el dato."
+    }
+  ],
+  "generado": "2026-09-18"
+}

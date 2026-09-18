@@ -1,0 +1,10 @@
+{
+  "tarjeta": "despliegue-y-servidores-tu-app-L04-Q02",
+  "curso": "Despliegue y Servidores — Tu App al Mundo",
+  "leccion": 4,
+  "frente": "¿Qué es un backup 'probado'?",
+  "reversa": "Que REALMENTE restauraste alguna vez y verificaste que funciona",
+  "explicacion": "Sin undrill de restauración periodic, el backup puede estar corrupto sin que lo sepas.",
+  "algoritmo": "repaso espaciado: 1d, 3d, 7d, 21d",
+  "generada": "2026-09-18"
+}

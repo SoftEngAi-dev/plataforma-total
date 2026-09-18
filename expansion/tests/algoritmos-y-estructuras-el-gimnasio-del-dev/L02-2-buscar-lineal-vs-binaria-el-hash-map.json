@@ -1,0 +1,32 @@
+{
+  "curso": "Algoritmos y Estructuras — El Gimnasio del Dev",
+  "leccion": 2,
+  "titulo": "2. Buscar: lineal vs binaria + el hash map",
+  "total": 2,
+  "aprobado_con": 2,
+  "preguntas": [
+    {
+      "p": "¿Qué requisito tiene la búsqueda binaria?",
+      "ops": [
+        "Ninguno",
+        "La lista DEBE estar ordenada (si no, divide mal)",
+        "Ser números",
+        "Ser única lista"
+      ],
+      "ok": 1,
+      "exp": "binaria=O(log n) pero necesita order previamente: a veces n log n+bar vale"
+    },
+    {
+      "p": "¿Cómo convertir múltiples búsquedas O(n) cada una en O(1) cada una?",
+      "ops": [
+        "Más RAM",
+        "Construir UN diccionario/hash indexado UNA vez y consultarlo en O(1) luego",
+        "Bucle for",
+        "SQL"
+      ],
+      "ok": 1,
+      "exp": "Trade tiempo-por-memoria: indexar=prepagar para buscar barato."
+    }
+  ],
+  "generado": "2026-09-18"
+}

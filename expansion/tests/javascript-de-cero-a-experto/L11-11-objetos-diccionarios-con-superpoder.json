@@ -1,0 +1,32 @@
+{
+  "curso": "JavaScript — De Cero a Experto",
+  "leccion": 11,
+  "titulo": "11. Objetos: diccionarios con superpoderes",
+  "total": 2,
+  "aprobado_con": 2,
+  "preguntas": [
+    {
+      "p": "¿Qué hace const { nombre } = alumno?",
+      "ops": [
+        "Borra nombre del objeto",
+        "Extrae alumno.nombre en una variable llamada nombre (destructuring)",
+        "Crea un objeto",
+        "Convierte a JSON"
+      ],
+      "ok": 1,
+      "exp": "Destructuring: la forma idiomática de extraer propiedades en JS moderno."
+    },
+    {
+      "p": "¿Cuándo usar alumno[\"nombre\"] en vez de alumno.nombre?",
+      "ops": [
+        "Nunca, es obsoleto",
+        "Cuando la clave viene de una variable o tiene espacios",
+        "Es más rápido",
+        "Para métodos solamente"
+      ],
+      "ok": 1,
+      "exp": "Los corchetes aceptan expresiones: alumno[variable] resuelve la clave dinámicamente."
+    }
+  ],
+  "generado": "2026-09-18"
+}

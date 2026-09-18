@@ -1,0 +1,10 @@
+{
+  "tarjeta": "node-js-javascript-en-el-servi-L06-Q02",
+  "curso": "Node.js — JavaScript en el Servidor",
+  "leccion": 6,
+  "frente": "¿Cómo probar un POST sin frontend?",
+  "reversa": "curl / Postman / thunder client: cliente HTTP para probar endpoints",
+  "explicacion": "curl/demand-tester cliente es tu amigo backend: probar sin UI es el standard.",
+  "algoritmo": "repaso espaciado: 1d, 3d, 7d, 21d",
+  "generada": "2026-09-18"
+}

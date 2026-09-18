@@ -1,0 +1,10 @@
+{
+  "tarjeta": "herramientas-del-desarrollador-L01-Q01",
+  "curso": "Herramientas del Desarrollador",
+  "leccion": 1,
+  "frente": "¿Qué hace Ctrl+P en VS Code?",
+  "reversa": "Abrir cualquier archivo del proyecto escribiendo parte de su nombre",
+  "explicacion": "Quick Open: navegación veloz por archivos — la uso cientos de veces al día.",
+  "algoritmo": "repaso espaciado: 1d, 3d, 7d, 21d",
+  "generada": "2026-09-18"
+}

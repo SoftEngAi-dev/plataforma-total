@@ -1,0 +1,10 @@
+{
+  "tarjeta": "docker-en-mi-maquina-si-funcio-L02-Q01",
+  "curso": "Docker — 'En Mi Máquina Sí Funciona' Resuelto",
+  "leccion": 2,
+  "frente": "En -p 8080:80, ¿qué es cada número?",
+  "reversa": "Puerto DE TU MÁQUINA : puerto DEL CONTENEDOR",
+  "explicacion": "Mapeo de puertos: localhost:8080 → entra al contenedor en su puerto 80.",
+  "algoritmo": "repaso espaciado: 1d, 3d, 7d, 21d",
+  "generada": "2026-09-18"
+}

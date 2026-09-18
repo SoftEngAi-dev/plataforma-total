@@ -1,0 +1,32 @@
+{
+  "curso": "Python — De Cero a Profesional",
+  "leccion": 11,
+  "titulo": "11. Comprensiones avanzadas y lambda: código que se lee",
+  "total": 2,
+  "aprobado_con": 2,
+  "preguntas": [
+    {
+      "p": "all() y any() con generador hacen...",
+      "ops": [
+        "Loops normales",
+        "Lógica declarativa: ¿todos/alguno cumplen? — sin bucles explícitos",
+        "Suma de listas",
+        "Nada útil"
+      ],
+      "ok": 1,
+      "exp": "all(x > 0 for x in nums) se lee como español: todos mayores a cero."
+    },
+    {
+      "p": "¿Cuándo usar lambda?",
+      "ops": [
+        "Siempre",
+        "Funciones de una expresión triviales pasadas a key= y similares; en todo otro caso, def",
+        "Nunca",
+        "En clases"
+      ],
+      "ok": 1,
+      "exp": "Si necesita nombre para entenderse, ese nombre es su def."
+    }
+  ],
+  "generado": "2026-09-18"
+}

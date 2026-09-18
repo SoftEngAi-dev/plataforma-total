@@ -1,0 +1,32 @@
+{
+  "curso": "Python — De Cero a Profesional",
+  "leccion": 8,
+  "titulo": "8. Funciones: parámetros, return y scope",
+  "total": 2,
+  "aprobado_con": 2,
+  "preguntas": [
+    {
+      "p": "def f(a, b=2): — ¿por qué el default va al final?",
+      "ops": [
+        "Le gusta a Python",
+        "Los posicionales deben venir primero para no ambiguar la llamada",
+        "Velocidad",
+        "No hay regla"
+      ],
+      "ok": 1,
+      "exp": "f(5) debe ser claro: a=5. Con default primero sería ambiguo."
+    },
+    {
+      "p": "Sin return, una función Python devuelve...",
+      "ops": [
+        "0",
+        "cadena vacía",
+        "None (¡cuidado al encadenar!)",
+        "Error"
+      ],
+      "ok": 2,
+      "exp": "Caso clásico: olvidas return y luego el resultado es None donde no esperas."
+    }
+  ],
+  "generado": "2026-09-18"
+}

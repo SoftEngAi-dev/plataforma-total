@@ -1,0 +1,10 @@
+{
+  "tarjeta": "php-y-laravel-el-backend-que-a-L06-Q01",
+  "curso": "PHP y Laravel — El Backend Que Alimenta la Web",
+  "leccion": 6,
+  "frente": "¿Qué genera Route::resource()",
+  "reversa": "Las 7 rutas CRUD convencionales (index/create/store/show/edit/update/destroy) de golpe",
+  "explicacion": "Convención sobre configuración: Laravel asume la estructura estándar de recursos REST.",
+  "algoritmo": "repaso espaciado: 1d, 3d, 7d, 21d",
+  "generada": "2026-09-18"
+}

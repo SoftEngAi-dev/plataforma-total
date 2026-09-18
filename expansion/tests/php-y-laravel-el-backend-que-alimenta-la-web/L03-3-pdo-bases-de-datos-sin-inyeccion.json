@@ -1,0 +1,32 @@
+{
+  "curso": "PHP y Laravel — El Backend Que Alimenta la Web",
+  "leccion": 3,
+  "titulo": "3. PDO: bases de datos sin inyección",
+  "total": 2,
+  "aprobado_con": 2,
+  "preguntas": [
+    {
+      "p": "¿Qué protegen los prepared statements?",
+      "ops": [
+        "La velocidad",
+        "SQL injection: los datos van apartados del SQL y nunca se interpretan como código",
+        "El código PHP",
+        "La memoria"
+      ],
+      "ok": 1,
+      "exp": "prepare() separa instrucción de datos: ' OR 1=1 -- queda como simple texto."
+    },
+    {
+      "p": "¿Qué PDO::FETCH_ASSOC devuelve?",
+      "ops": [
+        "XML",
+        "Cada fila como array asociativo ['columna'=>valor]",
+        "Objetos siempre",
+        "CSV"
+      ],
+      "ok": 1,
+      "exp": "Acceso por nombre de columna: código legible y resiliente."
+    }
+  ],
+  "generado": "2026-09-18"
+}

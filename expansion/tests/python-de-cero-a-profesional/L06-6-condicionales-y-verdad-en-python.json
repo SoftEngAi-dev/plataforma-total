@@ -1,0 +1,32 @@
+{
+  "curso": "Python — De Cero a Profesional",
+  "leccion": 6,
+  "titulo": "6. Condicionales y verdad en Python",
+  "total": 2,
+  "aprobado_con": 2,
+  "preguntas": [
+    {
+      "p": "if usuario is None — ¿por qué 'is' y no '=='?",
+      "ops": [
+        "Es más corto",
+        "None es singleton: se compara identidad; además is evita métodos __eq__ raros",
+        "== no funciona con None",
+        "Convención sin razón"
+      ],
+      "ok": 1,
+      "exp": "None/True/False → is. Valores → =="
+    },
+    {
+      "p": "¿Qué pasa con if [0]?",
+      "ops": [
+        "Es truthy (lista NO vacía aunque contenga 0)",
+        "Es falsy",
+        "Error",
+        "Depende"
+      ],
+      "ok": 0,
+      "exp": "La verdad está en la ESTRUCTURA (vacía vs no), no en el contenido."
+    }
+  ],
+  "generado": "2026-09-18"
+}

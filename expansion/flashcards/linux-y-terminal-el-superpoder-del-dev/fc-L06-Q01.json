@@ -1,0 +1,10 @@
+{
+  "tarjeta": "linux-y-terminal-el-superpoder-L06-Q01",
+  "curso": "Linux y Terminal — El Superpoder del Dev",
+  "leccion": 6,
+  "frente": "¿Qué ventaja tiene $fecha=$(date +%F) en el nombre del backup?",
+  "reversa": "Cada respaldo es distinto: nunca sobreescribes el de ayer",
+  "explicacion": "Backups fechados = historia de restauración; sin fecha solo tienes una copia.",
+  "algoritmo": "repaso espaciado: 1d, 3d, 7d, 21d",
+  "generada": "2026-09-18"
+}

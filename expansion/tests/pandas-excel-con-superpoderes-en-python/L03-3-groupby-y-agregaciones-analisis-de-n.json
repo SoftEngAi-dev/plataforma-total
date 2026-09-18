@@ -1,0 +1,32 @@
+{
+  "curso": "Pandas — Excel con Superpoderes en Python",
+  "leccion": 3,
+  "titulo": "3. groupby y agregaciones: análisis de negocio directo",
+  "total": 2,
+  "aprobado_con": 2,
+  "preguntas": [
+    {
+      "p": "¿Qué hace df['categoria'].value_counts()?",
+      "ops": [
+        "Ordena",
+        "Cuenta frecuencia de cada valor: la vía rápida de 'top categorías' sin SQL",
+        "Exporta",
+        "CSV"
+      ],
+      "ok": 1,
+      "exp": "El one-liner favorito: en 1 llamada tienes el panorama categorial más común."
+    },
+    {
+      "p": "pd.merge(a, b, on='id', how='left') se comporta como...",
+      "ops": [
+        "concatenar",
+        "LEFT JOIN de SQL: todas las filas de 'a' + datos de 'b' cuando hay coincidencia en id",
+        "UNION",
+        "nada"
+      ],
+      "ok": 1,
+      "exp": "merge=JOIN entre DataFrames por clave; how decide qué filas sobreviven."
+    }
+  ],
+  "generado": "2026-09-18"
+}

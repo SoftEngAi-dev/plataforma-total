@@ -1,0 +1,32 @@
+{
+  "curso": "HTML y CSS — Diseño Web Total",
+  "leccion": 7,
+  "titulo": "7. Variables CSS y tipografía: sistemas de diseño mínimos",
+  "total": 2,
+  "aprobado_con": 2,
+  "preguntas": [
+    {
+      "p": "¿Qué ventaja da definir colores como variables en :root?",
+      "ops": [
+        "Cargan más rápido",
+        "Cambias una línea y actualizas toda la web (sistema de diseño)",
+        "Es la única forma válida",
+        "Ahorra memoria del navegador"
+      ],
+      "ok": 1,
+      "exp": "Las variables convierten estilos sueltos en un sistema coherente y mantenible."
+    },
+    {
+      "p": "¿Cuál es el largo de línea recomendado para texto legible?",
+      "ops": [
+        "Sin límite",
+        "~45-75 caracteres (65ch) por línea",
+        "Exactamente 200px",
+        "El ancho de la pantalla"
+      ],
+      "ok": 1,
+      "exp": "Líneas demasiado largas cansan la vista: limita el ancho del texto."
+    }
+  ],
+  "generado": "2026-09-18"
+}

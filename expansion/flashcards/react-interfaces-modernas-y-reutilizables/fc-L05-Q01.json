@@ -1,0 +1,10 @@
+{
+  "tarjeta": "react-interfaces-modernas-y-re-L05-Q01",
+  "curso": "React — Interfaces Modernas y Reutilizables",
+  "leccion": 5,
+  "frente": "¿Cuándo se ejecuta useEffect(fn, [])?",
+  "reversa": "Una vez al montar el componente",
+  "explicacion": "Array vacío = sin dependencias: solo el montaje. La limpieza corre al desmontar.",
+  "algoritmo": "repaso espaciado: 1d, 3d, 7d, 21d",
+  "generada": "2026-09-18"
+}

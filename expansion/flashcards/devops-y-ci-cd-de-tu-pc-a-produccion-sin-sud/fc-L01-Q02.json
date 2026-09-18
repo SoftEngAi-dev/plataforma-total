@@ -1,0 +1,10 @@
+{
+  "tarjeta": "devops-y-ci-cd-de-tu-pc-a-prod-L01-Q02",
+  "curso": "DevOps y CI/CD — De Tu PC a Producción Sin Sudor",
+  "leccion": 1,
+  "frente": "¿Qué diferencia hay entre entrega y despliegue continuos?",
+  "reversa": "Entrega: listo para publicar con un clic; Despliegue: se publica AUTOMÁTICAMENTE al pasar CI",
+  "explicacion": "Delivery = siempre desplegable (decisión humana); Deployment = se hace solo.",
+  "algoritmo": "repaso espaciado: 1d, 3d, 7d, 21d",
+  "generada": "2026-09-18"
+}

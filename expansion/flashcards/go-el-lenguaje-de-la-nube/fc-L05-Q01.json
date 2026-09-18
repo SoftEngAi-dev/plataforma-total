@@ -1,0 +1,10 @@
+{
+  "tarjeta": "go-el-lenguaje-de-la-nube-L05-Q01",
+  "curso": "Go — El Lenguaje de la Nube",
+  "leccion": 5,
+  "frente": "¿Qué permite go build + cross-compilation?",
+  "reversa": "Un único binario estático por SO/arquitectura sin dependencias: deployment es 'copiar y correr'",
+  "explicacion": "produce.exe final: sin JVM/python en el server — eso lo aprecian mucho en operaciones.",
+  "algoritmo": "repaso espaciado: 1d, 3d, 7d, 21d",
+  "generada": "2026-09-18"
+}

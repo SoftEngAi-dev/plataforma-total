@@ -1,0 +1,10 @@
+{
+  "tarjeta": "react-interfaces-modernas-y-re-L02-Q01",
+  "curso": "React — Interfaces Modernas y Reutilizables",
+  "leccion": 2,
+  "frente": "¿Por qué setTareas([...tareas, nueva]) y no tareas.push(nueva)?",
+  "reversa": "React detecta cambios por REFERENCIA: hay que pasarle un array NUEVO o no re-renderiza",
+  "explicacion": "Inmutabilidad: nueva referencia = señal de re-render. push muta en silencio.",
+  "algoritmo": "repaso espaciado: 1d, 3d, 7d, 21d",
+  "generada": "2026-09-18"
+}

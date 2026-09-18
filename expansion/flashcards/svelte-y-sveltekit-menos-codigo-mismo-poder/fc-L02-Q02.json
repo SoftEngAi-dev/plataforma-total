@@ -1,0 +1,10 @@
+{
+  "tarjeta": "svelte-y-sveltekit-menos-codig-L02-Q02",
+  "curso": "Svelte y SvelteKit — Menos Código, Mismo Poder",
+  "leccion": 2,
+  "frente": "¿Qué es $tema con $ delante de un store?",
+  "reversa": "Autosuscripción de Svelte: lees el valor del store directo y se desuscribe solo al destruir",
+  "explicacion": "Los stores + $ = estado compartido sin boilerplate: context/redux incluido en el lenguaje.",
+  "algoritmo": "repaso espaciado: 1d, 3d, 7d, 21d",
+  "generada": "2026-09-18"
+}

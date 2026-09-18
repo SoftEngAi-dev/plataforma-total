@@ -1,0 +1,10 @@
+{
+  "tarjeta": "c-y-c-los-cimientos-del-softwa-L05-Q01",
+  "curso": "C y C++ — Los Cimientos del Software Moderno",
+  "leccion": 5,
+  "frente": "¿Qué return values significan en main C?",
+  "reversa": "0 = éxito; ≠0 = falló (la shell lo lee con $? — parte del protocolo Unix)",
+  "explicacion": "El exit code es como los programas 'hablan' entre sí en batch/pipes: vital en scripts.",
+  "algoritmo": "repaso espaciado: 1d, 3d, 7d, 21d",
+  "generada": "2026-09-18"
+}

@@ -1,0 +1,32 @@
+{
+  "curso": "React — Interfaces Modernas y Reutilizables",
+  "leccion": 2,
+  "titulo": "2. Estado con useState: que la UI reaccione",
+  "total": 2,
+  "aprobado_con": 2,
+  "preguntas": [
+    {
+      "p": "¿Por qué setTareas([...tareas, nueva]) y no tareas.push(nueva)?",
+      "ops": [
+        "push está prohibido",
+        "React detecta cambios por REFERENCIA: hay que pasarle un array NUEVO o no re-renderiza",
+        "Es más corto",
+        "Ambas funcionan igual"
+      ],
+      "ok": 1,
+      "exp": "Inmutabilidad: nueva referencia = señal de re-render. push muta en silencio."
+    },
+    {
+      "p": "¿Qué forma de actualización de estado es segura con valores previos?",
+      "ops": [
+        "setCuenta(cuenta + 1)",
+        "setCuenta(c => c + 1)",
+        "cuenta++",
+        "las dos primeras igual"
+      ],
+      "ok": 1,
+      "exp": "La forma funcional garantiza trabajar sobre el estado más reciente (clicks encolados)."
+    }
+  ],
+  "generado": "2026-09-18"
+}

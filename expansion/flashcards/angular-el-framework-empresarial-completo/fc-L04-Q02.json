@@ -1,0 +1,10 @@
+{
+  "tarjeta": "angular-el-framework-empresari-L04-Q02",
+  "curso": "Angular — El Framework Empresarial Completo",
+  "leccion": 4,
+  "frente": "¿Cuál es el equivalente moderno a *ngFor en Angular 17+?",
+  "reversa": "Bloque de control nativo: @for (item of lista(); track item.id) { ... }",
+  "explicacion": "@for/@if en el template: sin imports extra, tracking explícito y más performance.",
+  "algoritmo": "repaso espaciado: 1d, 3d, 7d, 21d",
+  "generada": "2026-09-18"
+}

@@ -1,0 +1,10 @@
+{
+  "tarjeta": "linux-y-terminal-el-superpoder-L05-Q01",
+  "curso": "Linux y Terminal — El Superpoder del Dev",
+  "leccion": 5,
+  "frente": "¿Por qué siempre \"comillas dobles\" en variables de bash?",
+  "reversa": "Sin ellas, valores con espacios se rompen en múltiples argumentos (bugs y desastres)",
+  "explicacion": "rm $f → rm dos cosas si f=\"mi archivo.txt\"; rm \"$f\" → correcto.",
+  "algoritmo": "repaso espaciado: 1d, 3d, 7d, 21d",
+  "generada": "2026-09-18"
+}

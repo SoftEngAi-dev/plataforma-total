@@ -1,0 +1,32 @@
+{
+  "curso": "Algoritmos y Estructuras — El Gimnasio del Dev",
+  "leccion": 5,
+  "titulo": "5. Ejercicios prácticos: tu práctica de juicio",
+  "total": 2,
+  "aprobado_con": 2,
+  "preguntas": [
+    {
+      "p": "Two Sum con diccionario es O(n) porque...",
+      "ops": [
+        "más RAM",
+        "un solo paso por datos + lookup O(1) del complemento ya visto",
+        "es corto",
+        "no es"
+      ],
+      "ok": 1,
+      "exp": "Map de vistos → cada elemento se revisa UNA vez; la fuerza bruta anidada era O(n²)."
+    },
+    {
+      "p": "Dos punteros (izq/der) hacia el centro resuelven elegantemente...",
+      "ops": [
+        "Nada",
+        "Invertir in-place, palíndromos, búsqueda en ordenados: patrón O(n) universal",
+        "Bases de datos",
+        "Regex"
+      ],
+      "ok": 1,
+      "exp": "Pattern reconocible: dos variables convergiendo por extremos aparecen en decenas de problemas."
+    }
+  ],
+  "generado": "2026-09-18"
+}

@@ -1,0 +1,32 @@
+{
+  "curso": "Angular — El Framework Empresarial Completo",
+  "leccion": 3,
+  "titulo": "3. Signals: la nueva reactividad fina",
+  "total": 2,
+  "aprobado_con": 2,
+  "preguntas": [
+    {
+      "p": "¿Qué problema resuelven los signals respecto a Zone.js?",
+      "ops": [
+        "Ninguno",
+        "Detección de cambios quirúrgica: solo se actualiza lo que usa el signal, sin escanear toda la app",
+        "Sintaxis corta",
+        "HTTP"
+      ],
+      "ok": 1,
+      "exp": "Rendimiento por reacción fina: ganancia real en apps grandes y código más claro."
+    },
+    {
+      "p": "Un computed() es...",
+      "ops": [
+        "una función async",
+        "Un valor DERIVADO de signals que se recalcula automáticamente cuando cambian sus dependencias",
+        "Un servicio",
+        "CSS"
+      ],
+      "ok": 1,
+      "exp": "Estado derivado sin lógica manual: defines la relación, Angular mantiene el valor fresco."
+    }
+  ],
+  "generado": "2026-09-18"
+}

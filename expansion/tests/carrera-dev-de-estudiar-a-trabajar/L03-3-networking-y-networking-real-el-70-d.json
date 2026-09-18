@@ -1,0 +1,32 @@
+{
+  "curso": "Carrera Dev — De Estudiar a Trabajar",
+  "leccion": 3,
+  "titulo": "3. Networking y networking real: el 70% de los empleos",
+  "total": 2,
+  "aprobado_con": 2,
+  "preguntas": [
+    {
+      "p": "¿Qué es lo más efectivo para un junior buscando su primer empleo?",
+      "ops": [
+        "Aplicaciones masivas",
+        "Networking real (comunidades, meetups, reputación publica) + solicitudes personalizadas mostrando trabajo real",
+        "Ocultar portfolios",
+        "Nada"
+      ],
+      "ok": 1,
+      "exp": "Los referidos/reputación deciden multitud de posiciones: consérvalo como una skill más del trabajo."
+    },
+    {
+      "p": "¿Qué hace publicar semanalmente tu aprendizaje en tu red?",
+      "ops": [
+        "Hablar solo",
+        "Reputación publica: reclutadores ven constancia y crecimiento; los posts te PRE-VENDEN antes de la entrevista",
+        "Nada útil",
+        "Spam"
+      ],
+      "ok": 1,
+      "exp": "Documentar tu camino = marketing legitimo de la mejor versión de ti como dev emergente."
+    }
+  ],
+  "generado": "2026-09-18"
+}

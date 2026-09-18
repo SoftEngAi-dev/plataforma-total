@@ -1,0 +1,10 @@
+{
+  "tarjeta": "html-y-css-diseno-web-total-L02-Q02",
+  "curso": "HTML y CSS — Diseño Web Total",
+  "leccion": 2,
+  "frente": "¿Por qué validar también en el servidor si el HTML ya valida?",
+  "reversa": "Porque la validación del cliente se puede saltar/falsificar",
+  "explicacion": "Toda entrada del cliente es hostil hasta que el servidor la valida.",
+  "algoritmo": "repaso espaciado: 1d, 3d, 7d, 21d",
+  "generada": "2026-09-18"
+}

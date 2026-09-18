@@ -1,0 +1,10 @@
+{
+  "tarjeta": "typescript-javascript-con-supe-L03-Q02",
+  "curso": "TypeScript — JavaScript con Superpoderes y Seguridad",
+  "leccion": 3,
+  "frente": "¿Qué expresa type Estado = \"cargando\" | \"ok\" | \"error\"?",
+  "reversa": "Una unión de literales: la variable solo vale uno de esos strings",
+  "explicacion": "Uniones de literales = estados exhaustivos que TS puede verificar (sin strings sueltos).",
+  "algoritmo": "repaso espaciado: 1d, 3d, 7d, 21d",
+  "generada": "2026-09-18"
+}

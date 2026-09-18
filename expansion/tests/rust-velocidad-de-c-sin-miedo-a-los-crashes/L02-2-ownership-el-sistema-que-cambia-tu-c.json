@@ -1,0 +1,32 @@
+{
+  "curso": "Rust — Velocidad de C sin Miedo a los Crashes",
+  "leccion": 2,
+  "titulo": "2. Ownership: el sistema que cambia tu cabeza",
+  "total": 2,
+  "aprobado_con": 2,
+  "preguntas": [
+    {
+      "p": "¿Por qué en Rust `let b = a` con Strings 'mueve' en vez de copiar?",
+      "ops": [
+        "Es bug",
+        "Ownership: solo un dueño por valor para liberar memoria automáticamente de forma segura",
+        "Es C puro",
+        "Para velocidad del IDE"
+      ],
+      "ok": 1,
+      "exp": "Si dos dueños intentaran liberar → double-free. Un dueño ya lo sabes: sin GC, sin peligro."
+    },
+    {
+      "p": "¿Qué garantiza que no haya data races en concurrente Rust?",
+      "ops": [
+        "Suerte",
+        "Un solo &mut Sin & lectores, o muchos & pero ningún mut: exclusión mutua GARANTIZADA por el compilador",
+        "Threads especiales",
+        "Locks manuales"
+      ],
+      "ok": 1,
+      "exp": "'Fearless concurrency': el type system TAN estricto hace im-posibles los race conditions clásicos."
+    }
+  ],
+  "generado": "2026-09-18"
+}

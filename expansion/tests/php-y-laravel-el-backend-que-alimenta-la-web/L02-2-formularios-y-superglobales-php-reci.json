@@ -1,0 +1,32 @@
+{
+  "curso": "PHP y Laravel — El Backend Que Alimenta la Web",
+  "leccion": 2,
+  "titulo": "2. Formularios y superglobales: PHP recibe datos",
+  "total": 2,
+  "aprobado_con": 2,
+  "preguntas": [
+    {
+      "p": "¿Qué hace htmlentities($texto) antes de un echo?",
+      "ops": [
+        "Nada útil",
+        "Escapa <script> etc. evitando XSS: HTML inyectado queda como texto inofensivo",
+        "Formatea bonito",
+        "Valida email"
+      ],
+      "ok": 1,
+      "exp": "La regla de vida PHP: toda salida con datos del usuario pasa por escaping."
+    },
+    {
+      "p": "$_POST[\"email\"] ?? \"\" significa...",
+      "ops": [
+        "Error",
+        "Si no viene email, usa '' (null coalescing ?? en vez de undefined/index notice)",
+        "Comparar",
+        "Sumar"
+      ],
+      "ok": 1,
+      "exp": "?? evita avisos por índices faltantes — desde PHP 7 la forma elegante."
+    }
+  ],
+  "generado": "2026-09-18"
+}

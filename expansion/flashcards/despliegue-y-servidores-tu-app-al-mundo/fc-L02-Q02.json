@@ -1,0 +1,10 @@
+{
+  "tarjeta": "despliegue-y-servidores-tu-app-L02-Q02",
+  "curso": "Despliegue y Servidores — Tu App al Mundo",
+  "leccion": 2,
+  "frente": "¿Por qué es estándar que la app corra en 127.0.0.1:8000 y no exponga su puerto?",
+  "reversa": "Control y seguridad: solo Nginx habla con el mundo; aplica HTTPS, límites y cabeceras en un solo sitio",
+  "explicacion": "El perímetro en un punto único de control es higiene de seguridad básica.",
+  "algoritmo": "repaso espaciado: 1d, 3d, 7d, 21d",
+  "generada": "2026-09-18"
+}

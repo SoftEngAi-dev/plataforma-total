@@ -1,0 +1,10 @@
+{
+  "tarjeta": "javascript-de-cero-a-experto-L13-Q01",
+  "curso": "JavaScript — De Cero a Experto",
+  "leccion": 13,
+  "frente": "¿Qué método es seguro para insertar TEXTO de usuario en la página?",
+  "reversa": "textContent",
+  "explicacion": "textContent no interpreta HTML: protege contra inyección XSS básica.",
+  "algoritmo": "repaso espaciado: 1d, 3d, 7d, 21d",
+  "generada": "2026-09-18"
+}

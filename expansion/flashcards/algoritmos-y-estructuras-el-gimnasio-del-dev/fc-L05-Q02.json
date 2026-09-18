@@ -1,0 +1,10 @@
+{
+  "tarjeta": "algoritmos-y-estructuras-el-gi-L05-Q02",
+  "curso": "Algoritmos y Estructuras — El Gimnasio del Dev",
+  "leccion": 5,
+  "frente": "Dos punteros (izq/der) hacia el centro resuelven elegantemente...",
+  "reversa": "Invertir in-place, palíndromos, búsqueda en ordenados: patrón O(n) universal",
+  "explicacion": "Pattern reconocible: dos variables convergiendo por extremos aparecen en decenas de problemas.",
+  "algoritmo": "repaso espaciado: 1d, 3d, 7d, 21d",
+  "generada": "2026-09-18"
+}

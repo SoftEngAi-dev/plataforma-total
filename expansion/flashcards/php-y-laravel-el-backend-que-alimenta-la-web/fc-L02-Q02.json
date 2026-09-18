@@ -1,0 +1,10 @@
+{
+  "tarjeta": "php-y-laravel-el-backend-que-a-L02-Q02",
+  "curso": "PHP y Laravel — El Backend Que Alimenta la Web",
+  "leccion": 2,
+  "frente": "$_POST[\"email\"] ?? \"\" significa...",
+  "reversa": "Si no viene email, usa '' (null coalescing ?? en vez de undefined/index notice)",
+  "explicacion": "?? evita avisos por índices faltantes — desde PHP 7 la forma elegante.",
+  "algoritmo": "repaso espaciado: 1d, 3d, 7d, 21d",
+  "generada": "2026-09-18"
+}

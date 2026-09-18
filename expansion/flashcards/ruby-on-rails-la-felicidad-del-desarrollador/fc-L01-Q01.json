@@ -1,0 +1,10 @@
+{
+  "tarjeta": "ruby-on-rails-la-felicidad-del-L01-Q01",
+  "curso": "Ruby on Rails — La Felicidad del Desarrollador",
+  "leccion": 1,
+  "frente": "¿Cómo interpola cadenas Ruby?",
+  "reversa": "\"#{variable}\" dentro de comillas dobles",
+  "explicacion": "#{} solo en comillas dobles — distinción que bugs de novato llenan.",
+  "algoritmo": "repaso espaciado: 1d, 3d, 7d, 21d",
+  "generada": "2026-09-18"
+}

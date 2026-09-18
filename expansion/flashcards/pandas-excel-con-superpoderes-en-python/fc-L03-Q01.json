@@ -1,0 +1,10 @@
+{
+  "tarjeta": "pandas-excel-con-superpoderes-L03-Q01",
+  "curso": "Pandas — Excel con Superpoderes en Python",
+  "leccion": 3,
+  "frente": "¿Qué hace df['categoria'].value_counts()?",
+  "reversa": "Cuenta frecuencia de cada valor: la vía rápida de 'top categorías' sin SQL",
+  "explicacion": "El one-liner favorito: en 1 llamada tienes el panorama categorial más común.",
+  "algoritmo": "repaso espaciado: 1d, 3d, 7d, 21d",
+  "generada": "2026-09-18"
+}

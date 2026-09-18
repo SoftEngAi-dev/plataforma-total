@@ -1,0 +1,10 @@
+{
+  "tarjeta": "pandas-excel-con-superpoderes-L05-Q02",
+  "curso": "Pandas — Excel con Superpoderes en Python",
+  "leccion": 5,
+  "frente": "¿Qué revela un boxplot por categoría que un promedio no?",
+  "reversa": "Distribución completa y OUTLIERS por grupo: el promedio solo cuenta la historia central",
+  "explicacion": "Dos categorías con el mismo mean pueden tener varianzas y outliers mundialmente distintos.",
+  "algoritmo": "repaso espaciado: 1d, 3d, 7d, 21d",
+  "generada": "2026-09-18"
+}

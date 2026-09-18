@@ -1,0 +1,10 @@
+{
+  "tarjeta": "machine-learning-primer-contac-L01-Q02",
+  "curso": "Machine Learning — Primer Contacto Real",
+  "leccion": 1,
+  "frente": "Precio de una casa según m², zona, habitaciones es...",
+  "reversa": "REGRESIÓN: predecir un NÚMERO (continuo), no una categoría",
+  "explicacion": "Regresión = número; clasificación = etiqueta/categoría. Letra chica que decide tu modelo.",
+  "algoritmo": "repaso espaciado: 1d, 3d, 7d, 21d",
+  "generada": "2026-09-18"
+}

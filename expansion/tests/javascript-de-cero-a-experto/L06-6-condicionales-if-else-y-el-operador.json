@@ -1,0 +1,32 @@
+{
+  "curso": "JavaScript — De Cero a Experto",
+  "leccion": 6,
+  "titulo": "6. Condicionales: if, else y el operador ternario",
+  "total": 2,
+  "aprobado_con": 2,
+  "preguntas": [
+    {
+      "p": "¿Cuáles valores son falsy en JS?",
+      "ops": [
+        "Solo false",
+        "false, 0, \"\", null, undefined, NaN",
+        "Solo null y undefined",
+        "Cualquier número"
+      ],
+      "ok": 1,
+      "exp": "if(x) con x falsy no ejecuta el bloque — revisa esta lista cuando te sorprenda."
+    },
+    {
+      "p": "¿Qué hace nombre ?? \"invitado\"?",
+      "ops": [
+        "Siempre da \"invitado\"",
+        "Usa \"invitado\" SOLO si nombre es null o undefined (no si es \"\" o 0)",
+        "Es un error de sintaxis",
+        "Compara nombre con invitado"
+      ],
+      "ok": 1,
+      "exp": "?? es el default preciso: || también rechazaría '' y 0 que podrías querer conservar."
+    }
+  ],
+  "generado": "2026-09-18"
+}

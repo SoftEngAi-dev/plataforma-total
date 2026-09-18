@@ -1,0 +1,10 @@
+{
+  "tarjeta": "herramientas-del-desarrollador-L06-Q01",
+  "curso": "Herramientas del Desarrollador",
+  "leccion": 6,
+  "frente": "¿Cómo se lee un traceback?",
+  "reversa": "De abajo hacia arriba: tipo de error y mensaje primero",
+  "explicacion": "Tipo + mensaje (abajo) te dicen el qué; los frames (arriba) te dicen el dónde.",
+  "algoritmo": "repaso espaciado: 1d, 3d, 7d, 21d",
+  "generada": "2026-09-18"
+}

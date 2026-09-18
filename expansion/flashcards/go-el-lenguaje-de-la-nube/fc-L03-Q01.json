@@ -1,0 +1,10 @@
+{
+  "tarjeta": "go-el-lenguaje-de-la-nube-L03-Q01",
+  "curso": "Go — El Lenguaje de la Nube",
+  "leccion": 3,
+  "frente": "¿Qué crea la palabra go delante de una llamada?",
+  "reversa": "Una goroutine: la función corre concurrentemente sin bloquear",
+  "explicacion": "go f() = paralelo livianísimo: miles concurrentes con MB de RAM, no GB.",
+  "algoritmo": "repaso espaciado: 1d, 3d, 7d, 21d",
+  "generada": "2026-09-18"
+}

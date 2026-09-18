@@ -1,0 +1,10 @@
+{
+  "tarjeta": "ia-moderna-y-llms-trabajar-con-L03-Q01",
+  "curso": "IA Moderna y LLMs — Trabajar con Modelos Locales",
+  "leccion": 3,
+  "frente": "¿Qué hace ollama run llama3.1:8b?",
+  "reversa": "Descarga (si falta) y abre un chat interactivo con el modelo en tu máquina local",
+  "explicacion": "Tu LLM privado corriendo offline a los 30 segundos de instalarlo.",
+  "algoritmo": "repaso espaciado: 1d, 3d, 7d, 21d",
+  "generada": "2026-09-18"
+}

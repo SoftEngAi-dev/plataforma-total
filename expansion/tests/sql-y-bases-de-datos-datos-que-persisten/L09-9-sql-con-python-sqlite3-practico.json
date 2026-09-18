@@ -1,0 +1,32 @@
+{
+  "curso": "SQL y Bases de Datos — Datos que Persisten",
+  "leccion": 9,
+  "titulo": "9. SQL con Python: sqlite3 práctico",
+  "total": 2,
+  "aprobado_con": 2,
+  "preguntas": [
+    {
+      "p": "¿Por qué usar ? (parámetros) y nunca f-strings en SQL?",
+      "ops": [
+        "Las f-strings son lentas",
+        "Los parámetros previenen SQL injection: los datos jamás se interpretan como código",
+        "Son más cortos",
+        "Solo funciona con ?"
+      ],
+      "ok": 1,
+      "exp": "Con f-strings, un usuario malicioso escribe SQL dentro de tu consulta: el primer ataque web de la historia."
+    },
+    {
+      "p": "¿Qué aporta con.row_factory = sqlite3.Row?",
+      "ops": [
+        "Autocommit",
+        "Acceder a las columnas POR NOMBRE (fila['nombre']) en vez de índices",
+        "Async",
+        "Nada"
+      ],
+      "ok": 1,
+      "exp": "Código legible y resistente a cambios de orden de columnas."
+    }
+  ],
+  "generado": "2026-09-18"
+}

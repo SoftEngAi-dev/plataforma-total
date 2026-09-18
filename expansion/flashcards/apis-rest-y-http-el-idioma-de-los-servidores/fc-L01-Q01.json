@@ -1,0 +1,10 @@
+{
+  "tarjeta": "apis-rest-y-http-el-idioma-de-L01-Q01",
+  "curso": "APIs REST y HTTP — El Idioma de los Servidores",
+  "leccion": 1,
+  "frente": "¿Cuál es la diferencia entre 401 y 403?",
+  "reversa": "401 = falta autenticación (quién eres); 403 = ya sé quién eres pero NO tienes permiso",
+  "explicacion": "Autenticación vs autorización: la confusión más común en APIs.",
+  "algoritmo": "repaso espaciado: 1d, 3d, 7d, 21d",
+  "generada": "2026-09-18"
+}

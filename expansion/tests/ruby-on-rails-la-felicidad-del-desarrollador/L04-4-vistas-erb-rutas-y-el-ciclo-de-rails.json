@@ -1,0 +1,32 @@
+{
+  "curso": "Ruby on Rails — La Felicidad del Desarrollador",
+  "leccion": 4,
+  "titulo": "4. Vistas ERB, rutas y el ciclo de Rails",
+  "total": 2,
+  "aprobado_con": 2,
+  "preguntas": [
+    {
+      "p": "¿Diferencia entre <% %> y <%= %> en ERB?",
+      "ops": [
+        "Ninguna",
+        "<% ejecuta sin imprimir (loops/ifs); <%= ejecuta E IMPRIME escapando HTML",
+        "<%= es comentario",
+        "Lo contrario"
+      ],
+      "ok": 1,
+      "exp": "El clásico bug: poner <%= en un @each y ver la lista entera impresa."
+    },
+    {
+      "p": "¿Qué hace form_with model: @post?",
+      "ops": [
+        "CSS",
+        "Formulario automático ligado al modelo: crea o edita según el objeto, con token CSRF incluido",
+        "Valida",
+        "Nada en especial"
+      ],
+      "ok": 1,
+      "exp": "Los helpers sienten la convención: si @post es nuevo → POST /posts; si existe → PATCH."
+    }
+  ],
+  "generado": "2026-09-18"
+}

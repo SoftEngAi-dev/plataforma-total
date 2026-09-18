@@ -1,0 +1,32 @@
+{
+  "curso": "Python — De Cero a Profesional",
+  "leccion": 12,
+  "titulo": "12. Clases y objectos: modelar el mundo",
+  "total": 2,
+  "aprobado_con": 2,
+  "preguntas": [
+    {
+      "p": "¿Qué hace self en un método?",
+      "ops": [
+        "Decoración",
+        "Referencia a la instancia actual: sus atributos y métodos",
+        "Importar la clase",
+        "Nada"
+      ],
+      "ok": 1,
+      "exp": "self es cómo el método sabe sobre QUÉ objeto concreto opera."
+    },
+    {
+      "p": "¿Qué gana @dataclass?",
+      "ops": [
+        "Más velocidad",
+        "init, repr y eq automáticos para clases de datos",
+        "Herencia",
+        "Async"
+      ],
+      "ok": 1,
+      "exp": "Modelos limpios sin boilerplate: escribes los campos y todo lo demás llega gratis."
+    }
+  ],
+  "generado": "2026-09-18"
+}

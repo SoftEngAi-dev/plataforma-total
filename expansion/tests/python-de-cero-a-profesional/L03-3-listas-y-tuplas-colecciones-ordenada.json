@@ -1,0 +1,32 @@
+{
+  "curso": "Python — De Cero a Profesional",
+  "leccion": 3,
+  "titulo": "3. Listas y tuplas: colecciones ordenadas",
+  "total": 2,
+  "aprobado_con": 2,
+  "preguntas": [
+    {
+      "p": "¿Qué hace numeros[1:3]?",
+      "ops": [
+        "Devuelve 3 elementos",
+        "Devuelve los elementos en posiciones 1 y 2 (fin excluido)",
+        "Devuelve del 1 al 3 inclusive",
+        "Error"
+      ],
+      "ok": 1,
+      "exp": "Slices: [inicio:fin) — la mitad de los bugs de principiante vienen del fin excluido."
+    },
+    {
+      "p": "a, b = b, a hace...",
+      "ops": [
+        "Comparar",
+        "Intercambiar los valores sin variable temporal (desempaquetado)",
+        "Error",
+        "Crear una tupla rota"
+      ],
+      "ok": 1,
+      "exp": "La derecha se evalúa como tupla completa antes de asignar: el swap pythónico."
+    }
+  ],
+  "generado": "2026-09-18"
+}

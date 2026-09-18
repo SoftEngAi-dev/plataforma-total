@@ -1,0 +1,32 @@
+{
+  "curso": "Git y GitHub — Tu Historia Nunca Se Pierde",
+  "leccion": 1,
+  "titulo": "1. Git mental: qué es un commit",
+  "total": 2,
+  "aprobado_con": 2,
+  "preguntas": [
+    {
+      "p": "¿Qué es un commit en git?",
+      "ops": [
+        "Un diff de cambios",
+        "Un snapshot completo del proyecto con puntero al commit padre",
+        "Un archivo zip",
+        "Un mensaje"
+      ],
+      "ok": 1,
+      "exp": "Cada commit = foto completa; git las deduplica internamente (objetos)."
+    },
+    {
+      "p": "¿Cuál es el orden del flujo básico?",
+      "ops": [
+        "commit → add",
+        "editar → git add → git commit",
+        "push → commit",
+        "add → status"
+      ],
+      "ok": 1,
+      "exp": "Working → staging (add) → repo (commit). push va aparte al remoto."
+    }
+  ],
+  "generado": "2026-09-18"
+}

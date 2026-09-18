@@ -1,0 +1,10 @@
+{
+  "tarjeta": "pandas-excel-con-superpoderes-L04-Q01",
+  "curso": "Pandas — Excel con Superpoderes en Python",
+  "leccion": 4,
+  "frente": "¿Qué permite df['fecha'].dt.month después de to_datetime?",
+  "reversa": "Extraer partes de fecha (mes/año/día/nombre) VECTORIZADO sobre toda la columna",
+  "explicacion": "El accesor .dt convierte fechas en datos analizables: estacionalidad, agrupar por mes...",
+  "algoritmo": "repaso espaciado: 1d, 3d, 7d, 21d",
+  "generada": "2026-09-18"
+}

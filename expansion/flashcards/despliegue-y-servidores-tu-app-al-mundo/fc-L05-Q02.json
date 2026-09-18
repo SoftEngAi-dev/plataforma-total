@@ -1,0 +1,10 @@
+{
+  "tarjeta": "despliegue-y-servidores-tu-app-L05-Q02",
+  "curso": "Despliegue y Servidores — Tu App al Mundo",
+  "leccion": 5,
+  "frente": "¿Qué añade Netlify sobre un hosting de archivos normal?",
+  "reversa": "Deploy por git push automático + vistas previas por PR + formularios y HTTPS incluidos",
+  "explicacion": "Joncy: conectas el repo una vez; cada push redeploya — de hecho tu ya tubiste CD.",
+  "algoritmo": "repaso espaciado: 1d, 3d, 7d, 21d",
+  "generada": "2026-09-18"
+}

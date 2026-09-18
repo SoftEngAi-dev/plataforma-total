@@ -1,0 +1,10 @@
+{
+  "tarjeta": "algoritmos-y-estructuras-el-gi-L03-Q02",
+  "curso": "Algoritmos y Estructuras — El Gimnasio del Dev",
+  "leccion": 3,
+  "frente": "¿Cómo ordenar por edad descendente y desempatar por nombre?",
+  "reversa": "sorted(personas, key=lambda p: (-p.edad, p.nombre)) con tupla ascendente/descendente del mismo sort",
+  "explicacion": "Tuplas en key: orden multi-nivel en UNA Llamada, elegante y estable.",
+  "algoritmo": "repaso espaciado: 1d, 3d, 7d, 21d",
+  "generada": "2026-09-18"
+}

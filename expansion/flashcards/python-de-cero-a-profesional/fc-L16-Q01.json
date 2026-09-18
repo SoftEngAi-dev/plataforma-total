@@ -1,0 +1,10 @@
+{
+  "tarjeta": "python-de-cero-a-profesional-L16-Q01",
+  "curso": "Python — De Cero a Profesional",
+  "leccion": 16,
+  "frente": "¿Por qué separar modelos.py de main.py?",
+  "reversa": "Separación de responsabilidades: clases/datos testeables solos, main solo orquesta",
+  "explicacion": "Cada módulo una razón de cambio; esto es arquitectura en pequeño.",
+  "algoritmo": "repaso espaciado: 1d, 3d, 7d, 21d",
+  "generada": "2026-09-18"
+}

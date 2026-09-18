@@ -1,0 +1,32 @@
+{
+  "curso": "Expresiones Regulares — El Lenguaje de Patrones",
+  "leccion": 3,
+  "titulo": "3. Los 5 errores clásicos de regex (no sufras estos)",
+  "total": 2,
+  "aprobado_con": 2,
+  "preguntas": [
+    {
+      "p": "¿Qué arregla .*? frente a .*?",
+      "ops": [
+        "Nada",
+        "? lo vuelve LAZY/no-greedy: captura el MÍNIMO posible en vez de todo lo posible",
+        "Más rápido",
+        "Al revés"
+      ],
+      "ok": 1,
+      "exp": "La diferencia entre 'primer cierre que encuentras' y 'último del documento': regex es codiciosa por defecto y se come todo."
+    },
+    {
+      "p": "¿Cuándo NO usarías regex?",
+      "ops": [
+        "Siempre ideal",
+        "Para estructuras complejas anidadas como HTML/JSON reales: usa parseadores diseñados, regex se rompe en los bordes",
+        "Para logs",
+        "Para emails"
+      ],
+      "ok": 1,
+      "exp": "Zawinski: 'ahora tienes dos problemas'. Texto libre ↔ regex; formato estructurado ↔ parser real."
+    }
+  ],
+  "generado": "2026-09-18"
+}

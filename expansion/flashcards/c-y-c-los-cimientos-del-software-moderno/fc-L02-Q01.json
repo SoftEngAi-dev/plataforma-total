@@ -1,0 +1,10 @@
+{
+  "tarjeta": "c-y-c-los-cimientos-del-softwa-L02-Q01",
+  "curso": "C y C++ — Los Cimientos del Software Moderno",
+  "leccion": 2,
+  "frente": "¿Qué significa *p cuando p es puntero?",
+  "reversa": "Seguir el puntero: LEER/ESCRIBIR el valor en esa dirección",
+  "explicacion": "* = dereferenciar; & = sacar dirección. Las dos caras de la memoria manual.",
+  "algoritmo": "repaso espaciado: 1d, 3d, 7d, 21d",
+  "generada": "2026-09-18"
+}

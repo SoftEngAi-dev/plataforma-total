@@ -1,0 +1,10 @@
+{
+  "tarjeta": "rust-velocidad-de-c-sin-miedo-L03-Q01",
+  "curso": "Rust — Velocidad de C sin Miedo a los Crashes",
+  "leccion": 3,
+  "frente": "¿Qué hace el operador ? tras una llamada Result?",
+  "reversa": "Si es Ok, desenvuelve el valor; si es Err, lo retorna inmediatamente a la función llamante (propagación elegante)",
+  "explicacion": "El equivalente Go-verboso pero sin boilerplate: error handling conciso y explícito.",
+  "algoritmo": "repaso espaciado: 1d, 3d, 7d, 21d",
+  "generada": "2026-09-18"
+}

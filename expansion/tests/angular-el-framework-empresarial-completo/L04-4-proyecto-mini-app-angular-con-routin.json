@@ -1,0 +1,32 @@
+{
+  "curso": "Angular — El Framework Empresarial Completo",
+  "leccion": 4,
+  "titulo": "4. Proyecto: mini-app Angular con routing",
+  "total": 2,
+  "aprobado_con": 2,
+  "preguntas": [
+    {
+      "p": "¿Dónde debe vivir el estado compartido en Angular?",
+      "ops": [
+        "En cada componente",
+        "En un servicio inyectable root: componentes lo inyectan y leen sus signals",
+        "En el template",
+        "En localStorage"
+      ],
+      "ok": 1,
+      "exp": "Single source of truth en servicio = la pantalla siempre consistente."
+    },
+    {
+      "p": "¿Cuál es el equivalente moderno a *ngFor en Angular 17+?",
+      "ops": [
+        "ng-repeat",
+        "Bloque de control nativo: @for (item of lista(); track item.id) { ... }",
+        "v-for",
+        "map"
+      ],
+      "ok": 1,
+      "exp": "@for/@if en el template: sin imports extra, tracking explícito y más performance."
+    }
+  ],
+  "generado": "2026-09-18"
+}

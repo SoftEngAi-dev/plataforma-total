@@ -1,0 +1,10 @@
+{
+  "tarjeta": "node-js-javascript-en-el-servi-L02-Q01",
+  "curso": "Node.js — JavaScript en el Servidor",
+  "leccion": 2,
+  "frente": "¿Por qué node_modules NUNCA va a git?",
+  "reversa": "Es enorme y reproducible: package.json + package-lock permiten recrearlo con npm install",
+  "explicacion": "El manifiesto viaja; el contenido se instala. Así mantienen repos livianos TODOS los equipos.",
+  "algoritmo": "repaso espaciado: 1d, 3d, 7d, 21d",
+  "generada": "2026-09-18"
+}

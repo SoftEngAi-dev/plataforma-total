@@ -1,0 +1,32 @@
+{
+  "curso": "JavaScript — De Cero a Experto",
+  "leccion": 17,
+  "titulo": "17. Clases y módulos: código a escala",
+  "total": 2,
+  "aprobado_con": 2,
+  "preguntas": [
+    {
+      "p": "¿Qué hace export default frente a export nombrado?",
+      "ops": [
+        "Es más rápido",
+        "Un solo default por archivo, se importa sin llaves; los nombrados van con llaves exactas",
+        "Default es privado",
+        "No hay diferencia"
+      ],
+      "ok": 1,
+      "exp": "import X from... (default) vs import { x } from... (nombrados)."
+    },
+    {
+      "p": "¿Qué hace super.completar() en una subclase?",
+      "ops": [
+        "Borra el método del padre",
+        "Invoca la versión del método en la clase padre",
+        "Copia el objeto",
+        "Nada"
+      ],
+      "ok": 1,
+      "exp": "super = acceso a la clase padre: reutilizas y extiendes en vez de reescribir."
+    }
+  ],
+  "generado": "2026-09-18"
+}

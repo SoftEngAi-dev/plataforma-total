@@ -1,0 +1,32 @@
+{
+  "curso": "Swift — El Camino de Apple",
+  "leccion": 4,
+  "titulo": "4. SwiftUI: la UI declarativa de Apple",
+  "total": 2,
+  "aprobado_con": 2,
+  "preguntas": [
+    {
+      "p": "¿Qué hace @State en SwiftUI?",
+      "ops": [
+        "Nada especial",
+        "Marca estado local que al cambiar provoca re-render automático del view que lo usa",
+        "Guarda en disco",
+        "Es async"
+      ],
+      "ok": 1,
+      "exp": "@State = useState de React: mutás y la UI se actualiza sola."
+    },
+    {
+      "p": "¿Qué es '.padding()' al final del VStack?",
+      "ops": [
+        "Un import",
+        "Un modifier: transforma la vista y devuelve una nueva (estilo encadenado)",
+        "Un error",
+        "Un bucle"
+      ],
+      "ok": 1,
+      "exp": "Los modifiers se apilan de afuera hacia dentro: declarativos y componibles."
+    }
+  ],
+  "generado": "2026-09-18"
+}

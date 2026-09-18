@@ -1,0 +1,10 @@
+{
+  "tarjeta": "r-y-estadistica-el-idioma-de-l-L03-Q02",
+  "curso": "R y Estadística — El Idioma de los Datos",
+  "leccion": 3,
+  "frente": "¿Qué indica cor(edad, ingresos) = 0.8?",
+  "reversa": "Correlación positiva FUERTE: a más edad, más ingresos (en esa muestra)",
+  "explicacion": "Correlación NO es causalidad — pero descubrir 0.8 te dice dónde investigar.",
+  "algoritmo": "repaso espaciado: 1d, 3d, 7d, 21d",
+  "generada": "2026-09-18"
+}

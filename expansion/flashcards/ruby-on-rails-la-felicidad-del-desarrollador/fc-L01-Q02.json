@@ -1,0 +1,10 @@
+{
+  "tarjeta": "ruby-on-rails-la-felicidad-del-L01-Q02",
+  "curso": "Ruby on Rails — La Felicidad del Desarrollador",
+  "leccion": 1,
+  "frente": "¿Qué devuelve un método Ruby sin return?",
+  "reversa": "La última expresión evaluada (return implícito)",
+  "explicacion": "\"Lo último se devuelve\" — por eso casi no verás return en Ruby idiomático.",
+  "algoritmo": "repaso espaciado: 1d, 3d, 7d, 21d",
+  "generada": "2026-09-18"
+}

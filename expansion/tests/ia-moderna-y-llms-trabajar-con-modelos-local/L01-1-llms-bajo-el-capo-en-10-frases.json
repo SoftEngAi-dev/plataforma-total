@@ -1,0 +1,32 @@
+{
+  "curso": "IA Moderna y LLMs — Trabajar con Modelos Locales",
+  "leccion": 1,
+  "titulo": "1. LLMs bajo el capó (en 10 frases)",
+  "total": 2,
+  "aprobado_con": 2,
+  "preguntas": [
+    {
+      "p": "¿Cómo decide un LLM qué escribir?",
+      "ops": [
+        "Pensando",
+        "Es una función estadística entrenada en predecir el siguiente token según el contexto dado",
+        "Buscando en su base exacta",
+        "Debatiendo consigo"
+      ],
+      "ok": 1,
+      "exp": "Estadística aplicada al lenguaje: capacidades emergen, pero no hay comprensión consciente."
+    },
+    {
+      "p": "¿Qué es 'alucinar' en un LLM?",
+      "ops": [
+        "Dormir",
+        "Generar información INVETNADA con alta confianza aparente (porque es probabilidad, no base de datos de hechos)",
+        "Crashear",
+        "Traducir"
+      ],
+      "ok": 1,
+      "exp": "Por esto: todo dato factual importante generado por IA se VERIFICA en fuentes reales."
+    }
+  ],
+  "generado": "2026-09-18"
+}

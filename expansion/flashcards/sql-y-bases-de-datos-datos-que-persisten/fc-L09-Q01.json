@@ -1,0 +1,10 @@
+{
+  "tarjeta": "sql-y-bases-de-datos-datos-que-L09-Q01",
+  "curso": "SQL y Bases de Datos — Datos que Persisten",
+  "leccion": 9,
+  "frente": "¿Por qué usar ? (parámetros) y nunca f-strings en SQL?",
+  "reversa": "Los parámetros previenen SQL injection: los datos jamás se interpretan como código",
+  "explicacion": "Con f-strings, un usuario malicioso escribe SQL dentro de tu consulta: el primer ataque web de la historia.",
+  "algoritmo": "repaso espaciado: 1d, 3d, 7d, 21d",
+  "generada": "2026-09-18"
+}

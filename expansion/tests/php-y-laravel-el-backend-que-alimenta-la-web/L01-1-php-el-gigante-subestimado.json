@@ -1,0 +1,32 @@
+{
+  "curso": "PHP y Laravel — El Backend Que Alimenta la Web",
+  "leccion": 1,
+  "titulo": "1. PHP: el gigante subestimado",
+  "total": 2,
+  "aprobado_con": 2,
+  "preguntas": [
+    {
+      "p": "¿Cómo se declara una variable en PHP?",
+      "ops": [
+        "let x",
+        "$x = valor (el $ es obligatorio en cada variable)",
+        "var x",
+        "def x"
+      ],
+      "ok": 1,
+      "exp": "El $ marca variables — parece raro y luego te acostumbras."
+    },
+    {
+      "p": "¿Qué es un array asociativo en PHP?",
+      "ops": [
+        "Un número",
+        "El equivalente a dict/hash: clave=>valor ['nombre'=>'Ada']",
+        "Una clase",
+        "SQL"
+      ],
+      "ok": 1,
+      "exp": "El tipo multiuso de PHP: lista y diccionario en uno."
+    }
+  ],
+  "generado": "2026-09-18"
+}

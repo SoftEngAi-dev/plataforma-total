@@ -1,0 +1,10 @@
+{
+  "tarjeta": "kotlin-android-y-mas-alla-L03-Q01",
+  "curso": "Kotlin — Android y Más Allá",
+  "leccion": 3,
+  "frente": "¿Qué hace findViewById<Button>(R.id.miBoton)?",
+  "reversa": "Conecta el código Kotlin con la vista definida en el XML por su id",
+  "explicacion": "El puente código↔layout clásico; con Jetpack Compose ya no se necesita.",
+  "algoritmo": "repaso espaciado: 1d, 3d, 7d, 21d",
+  "generada": "2026-09-18"
+}

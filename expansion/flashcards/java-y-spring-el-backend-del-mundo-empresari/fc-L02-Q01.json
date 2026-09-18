@@ -1,0 +1,10 @@
+{
+  "tarjeta": "java-y-spring-el-backend-del-m-L02-Q01",
+  "curso": "Java y Spring — El Backend del Mundo Empresarial",
+  "leccion": 2,
+  "frente": "¿Qué resuelve Optional<T>?",
+  "reversa": "Representa explícitamente la posible ausencia de valor: obliga a decidir (orElse, ifPresent) en vez de explotar con null",
+  "explicacion": "Hacer visible el 'puede faltar' en el TIPO es el antídoto contra NullPointerException.",
+  "algoritmo": "repaso espaciado: 1d, 3d, 7d, 21d",
+  "generada": "2026-09-18"
+}

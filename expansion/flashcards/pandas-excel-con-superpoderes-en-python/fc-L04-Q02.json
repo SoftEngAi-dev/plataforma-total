@@ -1,0 +1,10 @@
+{
+  "tarjeta": "pandas-excel-con-superpoderes-L04-Q02",
+  "curso": "Pandas — Excel con Superpoderes en Python",
+  "leccion": 4,
+  "frente": "df['email'].str.contains('silva', na=False) — ¿por qué na=False?",
+  "reversa": "contains con NA devuelve NA y rompe filtros booleanos: na=False lo maneja seguro",
+  "explicacion": "Detalle que evita un error común al filtrar strings con valores faltantes.",
+  "algoritmo": "repaso espaciado: 1d, 3d, 7d, 21d",
+  "generada": "2026-09-18"
+}

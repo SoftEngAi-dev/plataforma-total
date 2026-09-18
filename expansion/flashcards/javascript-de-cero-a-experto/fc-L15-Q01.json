@@ -1,0 +1,10 @@
+{
+  "tarjeta": "javascript-de-cero-a-experto-L15-Q01",
+  "curso": "JavaScript — De Cero a Experto",
+  "leccion": 15,
+  "frente": "¿Qué devuelve inmediatamente una función async?",
+  "reversa": "Una promesa",
+  "explicacion": "async significa 'esto devolverá una promesa'; await desenvuelve su valor.",
+  "algoritmo": "repaso espaciado: 1d, 3d, 7d, 21d",
+  "generada": "2026-09-18"
+}

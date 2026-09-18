@@ -1,0 +1,10 @@
+{
+  "tarjeta": "testing-programar-con-red-de-s-L01-Q01",
+  "curso": "Testing — Programar con Red de Seguridad",
+  "leccion": 1,
+  "frente": "¿Qué te permite refactorizar sin miedo?",
+  "reversa": "Una buena suite de tests: si rompes algo al refactor, un test grita al instante",
+  "explicacion": "El valor práctico nº1 de una suite: cambiar código con confianza.",
+  "algoritmo": "repaso espaciado: 1d, 3d, 7d, 21d",
+  "generada": "2026-09-18"
+}

@@ -1,0 +1,10 @@
+{
+  "tarjeta": "java-y-spring-el-backend-del-m-L03-Q02",
+  "curso": "Java y Spring — El Backend del Mundo Empresarial",
+  "leccion": 3,
+  "frente": "¿Qué es inyección de dependencias en Spring?",
+  "reversa": "El framework crea y entrega los objetos que necesita tu clase por el constructor: cambiar implementación sin tocar tu código",
+  "explicacion": "Recibes lo que necesitas; no lo construyes: testeo con mocks y evolución sin drama.",
+  "algoritmo": "repaso espaciado: 1d, 3d, 7d, 21d",
+  "generada": "2026-09-18"
+}

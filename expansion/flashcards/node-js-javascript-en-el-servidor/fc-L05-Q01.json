@@ -1,0 +1,10 @@
+{
+  "tarjeta": "node-js-javascript-en-el-servi-L05-Q01",
+  "curso": "Node.js — JavaScript en el Servidor",
+  "leccion": 5,
+  "frente": "¿Por qué los secretos van en variables de entorno y no en el código?",
+  "reversa": "Para no publicarlos en git y poder variarlos por entorno (dev/prod)",
+  "explicacion": "Código público + secretos = filtración. .env + .gitignore es la norma; nunca commitees el .env.",
+  "algoritmo": "repaso espaciado: 1d, 3d, 7d, 21d",
+  "generada": "2026-09-18"
+}

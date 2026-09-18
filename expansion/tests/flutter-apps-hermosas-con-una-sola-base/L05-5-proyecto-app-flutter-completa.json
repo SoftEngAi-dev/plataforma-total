@@ -1,0 +1,32 @@
+{
+  "curso": "Flutter — Apps Hermosas con Una Sola Base",
+  "leccion": 5,
+  "titulo": "5. Proyecto: app Flutter completa",
+  "total": 2,
+  "aprobado_con": 2,
+  "preguntas": [
+    {
+      "p": "¿Cómo se navega entre pantallas en Flutter nativo?",
+      "ops": [
+        "location.href",
+        "Navigator.push con MaterialPageRoute; volver con pop (pila de rutas)",
+        "goto",
+        "href"
+      ],
+      "ok": 1,
+      "exp": "El Navigator maneja una pila: push apila pantalla, pop regresa con o sin valor."
+    },
+    {
+      "p": "¿Qué comando compila la app para web?",
+      "ops": [
+        "flutter make web",
+        "flutter build web → estáticos en build/web desplegables en Netlify/Pages",
+        "flutter web",
+        "no se puede"
+      ],
+      "ok": 1,
+      "exp": "El mismo código Dart/Flutter corre como web estática: cross-platform real cumplida."
+    }
+  ],
+  "generado": "2026-09-18"
+}

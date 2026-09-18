@@ -1,0 +1,32 @@
+{
+  "curso": "PHP y Laravel — El Backend Que Alimenta la Web",
+  "leccion": 5,
+  "titulo": "5. MVC en Laravel: flujo completo de una petición",
+  "total": 2,
+  "aprobado_con": 2,
+  "preguntas": [
+    {
+      "p": "¿Qué hace Route Model Binding en Laravel?",
+      "ops": [
+        "Nada especial",
+        "Inyecta directo el modelo por ID (404 automático si no existe) sin hacer find manual",
+        "Valida forms",
+        "Sirve estáticos"
+      ],
+      "ok": 1,
+      "exp": "function show(Tarea $tarea) — el framework busca el id y te da el modelo o 404."
+    },
+    {
+      "p": "¿Para qué sirve \\$fillable en el modelo?",
+      "ops": [
+        "Indexar",
+        "Anti mass-assignment: lista blanca de campos rellenables vía create/update (evita inyectar campos no previstos)",
+        "Migraciones",
+        "Nada"
+      ],
+      "ok": 1,
+      "exp": "Tarea::create($request->all()) protegido: solo pasa lo autorizado."
+    }
+  ],
+  "generado": "2026-09-18"
+}

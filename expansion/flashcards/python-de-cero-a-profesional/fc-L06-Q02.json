@@ -1,0 +1,10 @@
+{
+  "tarjeta": "python-de-cero-a-profesional-L06-Q02",
+  "curso": "Python — De Cero a Profesional",
+  "leccion": 6,
+  "frente": "¿Qué pasa con if [0]?",
+  "reversa": "Es truthy (lista NO vacía aunque contenga 0)",
+  "explicacion": "La verdad está en la ESTRUCTURA (vacía vs no), no en el contenido.",
+  "algoritmo": "repaso espaciado: 1d, 3d, 7d, 21d",
+  "generada": "2026-09-18"
+}

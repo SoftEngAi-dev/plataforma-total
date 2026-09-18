@@ -1,0 +1,10 @@
+{
+  "tarjeta": "typescript-javascript-con-supe-L07-Q01",
+  "curso": "TypeScript — JavaScript con Superpoderes y Seguridad",
+  "leccion": 7,
+  "frente": "¿Qué activa \"strict\": true en tsconfig?",
+  "reversa": "Una familia de protecciones: null checks, noImplicitAny, etc. — el modo serio de TS",
+  "explicacion": "Strict atrapa el grueso de los bugs de tipo. Proyecto profesional sin strict = medio TS.",
+  "algoritmo": "repaso espaciado: 1d, 3d, 7d, 21d",
+  "generada": "2026-09-18"
+}

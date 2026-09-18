@@ -1,0 +1,32 @@
+{
+  "curso": "Despliegue y Servidores — Tu App al Mundo",
+  "leccion": 3,
+  "titulo": "3. Mantener tu app viva: systemd, pm2 y reinicios",
+  "total": 2,
+  "aprobado_con": 2,
+  "preguntas": [
+    {
+      "p": "¿Qué hace Restart=always en systemd?",
+      "ops": [
+        "Arranca lento",
+        "Si el proceso muere, systemd lo vuelve a levantar automáticamente",
+        "Recarga config",
+        "Nada importante"
+      ],
+      "ok": 1,
+      "exp": "Con enable (boot) + Restart, tu app sobrevive cuelgues Y reboots sin tocarte el dedo."
+    },
+    {
+      "p": "¿Por qué un proceso 'detached' no basta para producción?",
+      "ops": [
+        "Sí basta",
+        "Un pipeline nohup se pierde en reboots y caídas no planificadas; systemd/pm2 vigilan y resucitan",
+        "Es igual",
+        "Financiero"
+      ],
+      "ok": 1,
+      "exp": "La supervisor de procesos es la diferencia entre hobby y servicio confiable."
+    }
+  ],
+  "generado": "2026-09-18"
+}

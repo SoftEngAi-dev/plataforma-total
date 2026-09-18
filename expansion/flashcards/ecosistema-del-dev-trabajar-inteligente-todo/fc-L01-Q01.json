@@ -1,0 +1,10 @@
+{
+  "tarjeta": "ecosistema-del-dev-trabajar-in-L01-Q01",
+  "curso": "Ecosistema del Dev — Trabajar Inteligente Todos los Días",
+  "leccion": 1,
+  "frente": "¿Para qué versionar tus dotfiles en GitHub?",
+  "reversa": "Tu entorno personal reproducible en cualquier máquina nueva en minutos",
+  "explicacion": "~/.bashrc, config de editor, alias...: tu setup como código = ambiente portátil + aprendizaje abierto.",
+  "algoritmo": "repaso espaciado: 1d, 3d, 7d, 21d",
+  "generada": "2026-09-18"
+}

@@ -1,0 +1,10 @@
+{
+  "tarjeta": "react-interfaces-modernas-y-re-L07-Q02",
+  "curso": "React — Interfaces Modernas y Reutilizables",
+  "leccion": 7,
+  "frente": "¿Por qué la bandera 'cancelado' en el efecto de fetch?",
+  "reversa": "Evita que una respuesta tardía actualice estado de un componente desmontado (warning + race)",
+  "explicacion": "En StrictMode y navegación rápida los componentes se montan/desmontan: la guardia lo hace robusto.",
+  "algoritmo": "repaso espaciado: 1d, 3d, 7d, 21d",
+  "generada": "2026-09-18"
+}

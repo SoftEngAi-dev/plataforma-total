@@ -1,0 +1,10 @@
+{
+  "tarjeta": "kotlin-android-y-mas-alla-L04-Q01",
+  "curso": "Kotlin — Android y Más Allá",
+  "leccion": 4,
+  "frente": "¿Qué hace suspend en una función?",
+  "reversa": "Puede pausar su ejecución sin bloquear el hilo y reanudar luego",
+  "explicacion": "suspend + delay = esperar sin congelar: la base de toda app Android moderna.",
+  "algoritmo": "repaso espaciado: 1d, 3d, 7d, 21d",
+  "generada": "2026-09-18"
+}

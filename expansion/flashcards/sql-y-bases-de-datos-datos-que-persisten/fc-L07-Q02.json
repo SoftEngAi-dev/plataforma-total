@@ -1,0 +1,10 @@
+{
+  "tarjeta": "sql-y-bases-de-datos-datos-que-L07-Q02",
+  "curso": "SQL y Bases de Datos — Datos que Persisten",
+  "leccion": 7,
+  "frente": "SELECT COUNT(l.id) con LEFT JOIN + GROUP BY autor da 0 cuando...",
+  "reversa": "El autor no tiene libros (las NULL no se cuentan en COUNT)",
+  "explicacion": "COUNT(columna) no cuenta NULLs: encaja perfecto con LEFT JOIN para conteos con cero.",
+  "algoritmo": "repaso espaciado: 1d, 3d, 7d, 21d",
+  "generada": "2026-09-18"
+}

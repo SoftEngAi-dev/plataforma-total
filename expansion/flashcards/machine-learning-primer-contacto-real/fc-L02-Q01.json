@@ -1,0 +1,10 @@
+{
+  "tarjeta": "machine-learning-primer-contac-L02-Q01",
+  "curso": "Machine Learning — Primer Contacto Real",
+  "leccion": 2,
+  "frente": "¿Qué hacen fit() y predict() en sklearn?",
+  "reversa": "fit aprende de datos de ENTRENAMIENTO; predict va'ven predicciones sobre datos nuevos",
+  "explicacion": "API universal: instanciar modelo→fit(X_train, y)→predict(X) repite en toda sklearn.",
+  "algoritmo": "repaso espaciado: 1d, 3d, 7d, 21d",
+  "generada": "2026-09-18"
+}

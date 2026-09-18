@@ -1,0 +1,10 @@
+{
+  "tarjeta": "javascript-de-cero-a-experto-L08-Q01",
+  "curso": "JavaScript — De Cero a Experto",
+  "leccion": 8,
+  "frente": "¿Qué devuelve una función sin return?",
+  "reversa": "undefined",
+  "explicacion": "Sin return explícito, toda función JS devuelve undefined.",
+  "algoritmo": "repaso espaciado: 1d, 3d, 7d, 21d",
+  "generada": "2026-09-18"
+}

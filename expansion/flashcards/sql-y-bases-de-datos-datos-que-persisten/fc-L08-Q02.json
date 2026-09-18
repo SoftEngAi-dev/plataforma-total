@@ -1,0 +1,10 @@
+{
+  "tarjeta": "sql-y-bases-de-datos-datos-que-L08-Q02",
+  "curso": "SQL y Bases de Datos — Datos que Persisten",
+  "leccion": 8,
+  "frente": "¿Qué garantiza una transacción bancaria (BEGIN...COMMIT)?",
+  "reversa": "Las dos actualizaciones suceden juntas o ninguna (atomicidad)",
+  "explicacion": "Si falla a mitad, ROLLBACK: nunca hay dinero perdido en el aire.",
+  "algoritmo": "repaso espaciado: 1d, 3d, 7d, 21d",
+  "generada": "2026-09-18"
+}

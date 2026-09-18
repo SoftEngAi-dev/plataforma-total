@@ -1,0 +1,32 @@
+{
+  "curso": "SQL y Bases de Datos — Datos que Persisten",
+  "leccion": 1,
+  "titulo": "1. Bases de datos y SQL: el lenguaje de los datos",
+  "total": 2,
+  "aprobado_con": 2,
+  "preguntas": [
+    {
+      "p": "¿Qué hace SELECT nombre, precio FROM productos?",
+      "ops": [
+        "Crea la tabla",
+        "Devuelve solo esas dos columnas de la tabla productos",
+        "Inserta datos",
+        "Borra filas"
+      ],
+      "ok": 1,
+      "exp": "SELECT = leer columnas elegidas de una tabla: la consulta más básica."
+    },
+    {
+      "p": "¿Por qué SQLite es ideal para aprender/apps locales?",
+      "ops": [
+        "Es para datos simples nada más",
+        "Zero-config: la base ES un archivo; sin servidor, incluida en Python y en todos los SO",
+        "No soporta SQL real",
+        "Solo Mac"
+      ],
+      "ok": 1,
+      "exp": "Sin instalar servidor, pero con SQL completo: perfecta para apps desktop/móvil y aprender."
+    }
+  ],
+  "generado": "2026-09-18"
+}

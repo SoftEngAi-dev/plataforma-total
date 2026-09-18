@@ -1,0 +1,10 @@
+{
+  "tarjeta": "algoritmos-y-estructuras-el-gi-L03-Q01",
+  "curso": "Algoritmos y Estructuras — El Gimnasio del Dev",
+  "leccion": 3,
+  "frente": "¿Qué complejidad garantiza un sort moderno (Timsort/Timsort-like)?",
+  "reversa": "O(n log n) en el peor caso, con adaptación en datos casi ordenados",
+  "explicacion": "Por eso los algoritmos de librería estándar superan siempre al casero.",
+  "algoritmo": "repaso espaciado: 1d, 3d, 7d, 21d",
+  "generada": "2026-09-18"
+}

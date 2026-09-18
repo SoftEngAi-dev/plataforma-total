@@ -1,0 +1,10 @@
+{
+  "tarjeta": "expresiones-regulares-el-lengu-L02-Q01",
+  "curso": "Expresiones Regulares — El Lenguaje de Patrones",
+  "leccion": 2,
+  "frente": "¿Qué hace (?P<nombre>...) en Python regex?",
+  "reversa": "Grupo NOMBRADO: extraes por m.group('nombre') en vez de factores posición brittle",
+  "explicacion": "Regex autocomentados: los nombres documentan cada parte que capturas.",
+  "algoritmo": "repaso espaciado: 1d, 3d, 7d, 21d",
+  "generada": "2026-09-18"
+}

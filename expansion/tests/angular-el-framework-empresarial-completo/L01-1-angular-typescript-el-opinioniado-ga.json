@@ -1,0 +1,32 @@
+{
+  "curso": "Angular — El Framework Empresarial Completo",
+  "leccion": 1,
+  "titulo": "1. Angular + TypeScript: el opinioniado ganador empresa",
+  "total": 2,
+  "aprobado_con": 2,
+  "preguntas": [
+    {
+      "p": "¿Qué distingue a Angular de React principalmente?",
+      "ops": [
+        "Color",
+        "Angular es framework COMPLETO con router/http/form/DI incluidos y TypeScript obligatorio; React es librería de vista + ecosistema a elección",
+        "Es más lento",
+        "No hay diferencia"
+      ],
+      "ok": 1,
+      "exp": "Batteries-included vs composición libre: dos filosofías válidas según equipo y proyecto."
+    },
+    {
+      "p": "¿Qué hacen {{ }} y (click) en un template Angular?",
+      "ops": [
+        "JS puro",
+        "{{ }} interpola valores al HTML; (evento)=\"fn()\" enlaza eventos a métodos del componente",
+        "CSS",
+        "Nada"
+      ],
+      "ok": 1,
+      "exp": "La sintaxis template de Angular: imprimir con {{}} y escuchar con () encadenado a la clase TS."
+    }
+  ],
+  "generado": "2026-09-18"
+}

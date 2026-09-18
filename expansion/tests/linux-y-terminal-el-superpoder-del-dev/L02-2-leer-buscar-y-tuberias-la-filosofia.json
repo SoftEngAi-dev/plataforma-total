@@ -1,0 +1,32 @@
+{
+  "curso": "Linux y Terminal — El Superpoder del Dev",
+  "leccion": 2,
+  "titulo": "2. Leer, buscar y tuberías: la filosofía Unix",
+  "total": 2,
+  "aprobado_con": 2,
+  "preguntas": [
+    {
+      "p": "cat log | grep ERROR | wc -l hace...",
+      "ops": [
+        "Muestra todo",
+        "Cuenta las líneas del log que contienen ERROR (tuberías encadenadas)",
+        "Borra errores",
+        "Nada si hay error"
+      ],
+      "ok": 1,
+      "exp": "Filtro → contador: las tuberías componen herramientas con texto crudo."
+    },
+    {
+      "p": "¿Diferencia entre > y >>?",
+      "ops": [
+        "Ninguna",
+        "> SOBRESCRIBE el archivo; >> AGREGA al final",
+        ">> es para errores",
+        "Es más rápido >>"
+      ],
+      "ok": 1,
+      "exp": "Confundirlos = perder archivos (factor real de incidentes)."
+    }
+  ],
+  "generado": "2026-09-18"
+}

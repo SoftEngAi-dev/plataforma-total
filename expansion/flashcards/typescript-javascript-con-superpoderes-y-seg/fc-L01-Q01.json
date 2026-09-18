@@ -1,0 +1,10 @@
+{
+  "tarjeta": "typescript-javascript-con-supe-L01-Q01",
+  "curso": "TypeScript — JavaScript con Superpoderes y Seguridad",
+  "leccion": 1,
+  "frente": "¿Qué es TypeScript exactamente?",
+  "reversa": "JavaScript + chequeo estático de tipos que se compila a JS puro",
+  "explicacion": "Superconjunto tipado: corre como JS tras compilar — el navegador jamás ve tipos.",
+  "algoritmo": "repaso espaciado: 1d, 3d, 7d, 21d",
+  "generada": "2026-09-18"
+}

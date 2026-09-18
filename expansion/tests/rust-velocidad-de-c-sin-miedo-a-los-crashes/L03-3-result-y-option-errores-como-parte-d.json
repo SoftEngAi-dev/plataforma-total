@@ -1,0 +1,32 @@
+{
+  "curso": "Rust — Velocidad de C sin Miedo a los Crashes",
+  "leccion": 3,
+  "titulo": "3. Result y Option: errores como parte del tipo",
+  "total": 2,
+  "aprobado_con": 2,
+  "preguntas": [
+    {
+      "p": "¿Qué hace el operador ? tras una llamada Result?",
+      "ops": [
+        "Nada",
+        "Si es Ok, desenvuelve el valor; si es Err, lo retorna inmediatamente a la función llamante (propagación elegante)",
+        "Borra",
+        "Bucle"
+      ],
+      "ok": 1,
+      "exp": "El equivalente Go-verboso pero sin boilerplate: error handling conciso y explícito."
+    },
+    {
+      "p": "¿En qué consiste la seguridad adicional de Option<T> vs null?",
+      "ops": [
+        "Es un puntero",
+        "No hay null: la AUSENCIA es parte del TIPO y el compilador EXIGE manejar el caso None",
+        "Es más rápido",
+        "Sin diferencia"
+      ],
+      "ok": 1,
+      "exp": "Null = 'agujero invisible'; None = 'la firma te avisa y obliga'. Billion-dollar mistake corregida."
+    }
+  ],
+  "generado": "2026-09-18"
+}

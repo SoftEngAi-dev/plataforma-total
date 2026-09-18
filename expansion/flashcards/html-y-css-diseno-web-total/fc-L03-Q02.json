@@ -1,0 +1,10 @@
+{
+  "tarjeta": "html-y-css-diseno-web-total-L03-Q02",
+  "curso": "HTML y CSS — Diseño Web Total",
+  "leccion": 3,
+  "frente": "¿Qué hace box-sizing: border-box?",
+  "reversa": "width/height incluyen padding y border (lo intuitivo)",
+  "explicacion": "Sin él, width:100px + padding te da una caja de más de 100px; con él, es exacto.",
+  "algoritmo": "repaso espaciado: 1d, 3d, 7d, 21d",
+  "generada": "2026-09-18"
+}

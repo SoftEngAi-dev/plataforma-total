@@ -1,0 +1,10 @@
+{
+  "tarjeta": "c-y-net-el-ecosistema-microsof-L02-Q02",
+  "curso": "C# y .NET — El Ecosistema Microsoft Moderno",
+  "leccion": 2,
+  "frente": "¿Qué tipo es record Tarea(...)?",
+  "reversa": "Tipo de datos inmutable con constructor/equals/desconstruct generados — el DTO perfecto",
+  "explicacion": "Records = POJOs cómodas: modelos limpios en una línea, igualdad por VALOR.",
+  "algoritmo": "repaso espaciado: 1d, 3d, 7d, 21d",
+  "generada": "2026-09-18"
+}

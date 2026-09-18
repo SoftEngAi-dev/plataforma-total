@@ -1,0 +1,10 @@
+{
+  "tarjeta": "expresiones-regulares-el-lengu-L01-Q02",
+  "curso": "Expresiones Regulares — El Lenguaje de Patrones",
+  "leccion": 1,
+  "frente": "¿Qué hacen \\b y () en regex?",
+  "reversa": "\\b enmarca palabra completa ('cat' en 'concatenar' NO matchea con \\bcat\\b); () crea un GRUPO capturable",
+  "explicacion": "Límites y grupos: de patrones sueltos a coincidencias quirúrjicas.",
+  "algoritmo": "repaso espaciado: 1d, 3d, 7d, 21d",
+  "generada": "2026-09-18"
+}

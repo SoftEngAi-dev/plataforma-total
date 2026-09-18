@@ -1,0 +1,10 @@
+{
+  "tarjeta": "python-de-cero-a-profesional-L12-Q02",
+  "curso": "Python — De Cero a Profesional",
+  "leccion": 12,
+  "frente": "¿Qué gana @dataclass?",
+  "reversa": "init, repr y eq automáticos para clases de datos",
+  "explicacion": "Modelos limpios sin boilerplate: escribes los campos y todo lo demás llega gratis.",
+  "algoritmo": "repaso espaciado: 1d, 3d, 7d, 21d",
+  "generada": "2026-09-18"
+}

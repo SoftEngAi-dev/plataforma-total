@@ -1,0 +1,10 @@
+{
+  "tarjeta": "git-y-github-tu-historia-nunca-L03-Q01",
+  "curso": "Git y GitHub — Tu Historia Nunca Se Pierde",
+  "leccion": 3,
+  "frente": "git revert vs git reset — ¿cuál es seguro en commits compartidos?",
+  "reversa": "revert (crea commit inverso sin reescribir la historia ya publicada)",
+  "explicacion": "Reescribir historia compartida rompe a tus compañeros; revert es la forma polite.",
+  "algoritmo": "repaso espaciado: 1d, 3d, 7d, 21d",
+  "generada": "2026-09-18"
+}

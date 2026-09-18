@@ -1,0 +1,10 @@
+{
+  "tarjeta": "kotlin-android-y-mas-alla-L05-Q02",
+  "curso": "Kotlin — Android y Más Allá",
+  "leccion": 5,
+  "frente": "¿Qué difiere Compose de los layouts XML clásicos?",
+  "reversa": "UI como código Kotlin declarativo (funciones + estado) en vez de XML + findViewById imperativo",
+  "explicacion": "Menos glue code, mismo paradigma que React/Flutter: el futuro oficial de Android.",
+  "algoritmo": "repaso espaciado: 1d, 3d, 7d, 21d",
+  "generada": "2026-09-18"
+}

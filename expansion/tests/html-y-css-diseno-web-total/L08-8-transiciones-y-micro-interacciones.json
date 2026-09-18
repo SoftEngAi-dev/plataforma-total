@@ -1,0 +1,32 @@
+{
+  "curso": "HTML y CSS — Diseño Web Total",
+  "leccion": 8,
+  "titulo": "8. Transiciones y micro-interacciones",
+  "total": 2,
+  "aprobado_con": 2,
+  "preguntas": [
+    {
+      "p": "¿Qué propiedades se deben animar para rendimiento fluido?",
+      "ops": [
+        "width y height",
+        "top y left",
+        "transform y opacity",
+        "margin y padding"
+      ],
+      "ok": 2,
+      "exp": "Solo esas dos no provocan reflow/repaint del layout: la GPU las acelera."
+    },
+    {
+      "p": "¿Qué duración se siente natural en micro-interacciones de UI?",
+      "ops": [
+        "2-3 segundos",
+        "150-300ms",
+        "Lo máximo posible",
+        "10 segundos"
+      ],
+      "ok": 1,
+      "exp": "Suficiente para percibirse, corto para no frenar."
+    }
+  ],
+  "generado": "2026-09-18"
+}

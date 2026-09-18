@@ -1,0 +1,32 @@
+{
+  "curso": "Linux y Terminal — El Superpoder del Dev",
+  "leccion": 1,
+  "titulo": "1. El sistema de archivos y navegación",
+  "total": 2,
+  "aprobado_con": 2,
+  "preguntas": [
+    {
+      "p": "¿Qué hace mkdir -p a/b/c?",
+      "ops": [
+        "Borra a/b/c",
+        "Crea la ruta completa incluidos padres intermedios sin error",
+        "Cambia permisos",
+        "Mueve archivos"
+      ],
+      "ok": 1,
+      "exp": "Sin -p falla si 'a' no existe; con -p crea todo el camino."
+    },
+    {
+      "p": "rm -r lo que hace peligroso es que...",
+      "ops": [
+        "existe",
+        "Linux NO tiene papelera: lo borrado por rm se fue (por eso rm -i o trash tools)",
+        "es root",
+        "es lento"
+      ],
+      "ok": 1,
+      "exp": "Cuidado con rm: la ruta / o comodines mal puestos borran todo sin preguntar."
+    }
+  ],
+  "generado": "2026-09-18"
+}

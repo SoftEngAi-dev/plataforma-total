@@ -1,0 +1,10 @@
+{
+  "tarjeta": "ruby-on-rails-la-felicidad-del-L05-Q01",
+  "curso": "Ruby on Rails — La Felicidad del Desarrollador",
+  "leccion": 5,
+  "frente": "¿Para qué sirve un scope en el modelo Rails?",
+  "reversa": "Guardar consultas frecuentes como métodos reutilizables: Post.publicados",
+  "explicacion": "Scope = query con nombre: lisible y combinables (Post.publicados.recientes).",
+  "algoritmo": "repaso espaciado: 1d, 3d, 7d, 21d",
+  "generada": "2026-09-18"
+}

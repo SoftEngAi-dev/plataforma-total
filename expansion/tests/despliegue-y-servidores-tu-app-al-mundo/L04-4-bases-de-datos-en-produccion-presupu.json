@@ -1,0 +1,32 @@
+{
+  "curso": "Despliegue y Servidores — Tu App al Mundo",
+  "leccion": 4,
+  "titulo": "4. Bases de datos en producción: presupuesto mínimo de seriedad",
+  "total": 2,
+  "aprobado_con": 2,
+  "preguntas": [
+    {
+      "p": "¿Por qué la base de datos NUNCA se expone directamente a internet?",
+      "ops": [
+        "Por costo",
+        "Ataques automáticos la encontrarían en horas; debe escuchar solo localhost/red interna",
+        "Por latencia",
+        "Está bien exponerla"
+      ],
+      "ok": 1,
+      "exp": "Postgres/MySQL abiertos al mundo topan scanners a los minutos: firewall + bind local o red privada."
+    },
+    {
+      "p": "¿Qué es un backup 'probado'?",
+      "ops": [
+        "Está comprimido",
+        "Que REALMENTE restauraste alguna vez y verificaste que funciona",
+        "Automático",
+        "Está en la nube"
+      ],
+      "ok": 1,
+      "exp": "Sin undrill de restauración periodic, el backup puede estar corrupto sin que lo sepas."
+    }
+  ],
+  "generado": "2026-09-18"
+}

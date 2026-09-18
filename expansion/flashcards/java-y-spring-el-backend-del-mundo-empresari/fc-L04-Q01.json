@@ -1,0 +1,10 @@
+{
+  "tarjeta": "java-y-spring-el-backend-del-m-L04-Q01",
+  "curso": "Java y Spring — El Backend del Mundo Empresarial",
+  "leccion": 4,
+  "frente": "¿Qué hace JpaRepository con findByHechaFalse()?",
+  "reversa": "Spring Data genera la query automáticamente a partir del NOMBRE del método (derivada por convención)",
+  "explicacion": "Query derivation: nombras bien el método, la query existe sin escribirla.",
+  "algoritmo": "repaso espaciado: 1d, 3d, 7d, 21d",
+  "generada": "2026-09-18"
+}

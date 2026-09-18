@@ -1,0 +1,32 @@
+{
+  "curso": "Linux y Terminal — El Superpoder del Dev",
+  "leccion": 6,
+  "titulo": "6. Proyecto: pone tu PC a trabajar sola",
+  "total": 2,
+  "aprobado_con": 2,
+  "preguntas": [
+    {
+      "p": "¿Qué ventaja tiene $fecha=$(date +%F) en el nombre del backup?",
+      "ops": [
+        "Ninguna",
+        "Cada respaldo es distinto: nunca sobreescribes el de ayer",
+        "Es obligación del sistema",
+        "Comprime más"
+      ],
+      "ok": 1,
+      "exp": "Backups fechados = historia de restauración; sin fecha solo tienes una copia."
+    },
+    {
+      "p": "crontab -e + '0 21 * * * ./respaldo.sh' hace...",
+      "ops": [
+        "Nada",
+        "Corre el respaldo automáticamente todos los días a las 21:00",
+        "Borra cron",
+        "Abre editor solo"
+      ],
+      "ok": 1,
+      "exp": "cron = programador de tareas de Unix: tu computador trabaja mientras duermes."
+    }
+  ],
+  "generado": "2026-09-18"
+}

@@ -1,0 +1,32 @@
+{
+  "curso": "Java y Spring — El Backend del Mundo Empresarial",
+  "leccion": 4,
+  "titulo": "4. Spring Data JPA: base de datos casi gratis",
+  "total": 2,
+  "aprobado_con": 2,
+  "preguntas": [
+    {
+      "p": "¿Qué hace JpaRepository con findByHechaFalse()?",
+      "ops": [
+        "Nada",
+        "Spring Data genera la query automáticamente a partir del NOMBRE del método (derivada por convención)",
+        "SQL manual",
+        "Error"
+      ],
+      "ok": 1,
+      "exp": "Query derivation: nombras bien el método, la query existe sin escribirla."
+    },
+    {
+      "p": "¿Qué papel tiene @Entity?",
+      "ops": [
+        "Decoración",
+        "Marca la clase como tabla de BD manejada por el ORM (cada instancia = fila)",
+        "Seguridad",
+        "Async"
+      ],
+      "ok": 1,
+      "exp": "El mapeo objeto-relacional (ORM): objetos Java ↔ filas SQL."
+    }
+  ],
+  "generado": "2026-09-18"
+}

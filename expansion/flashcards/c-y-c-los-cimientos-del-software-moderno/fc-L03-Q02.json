@@ -1,0 +1,10 @@
+{
+  "tarjeta": "c-y-c-los-cimientos-del-softwa-L03-Q02",
+  "curso": "C y C++ — Los Cimientos del Software Moderno",
+  "leccion": 3,
+  "frente": "¿Qué es RAII en C++?",
+  "reversa": "Adquisición/liberación de recursos ligada al ciclo de vida de objetos: scope-ended = recurso liberado (origen del modelo que perfecciona Rust)",
+  "explicacion": "Destructor al salir del bloque: no olvidas liberar; es la contra a los leaks/locks olvidados.",
+  "algoritmo": "repaso espaciado: 1d, 3d, 7d, 21d",
+  "generada": "2026-09-18"
+}

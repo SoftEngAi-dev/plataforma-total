@@ -1,0 +1,10 @@
+{
+  "tarjeta": "java-y-spring-el-backend-del-m-L01-Q01",
+  "curso": "Java y Spring — El Backend del Mundo Empresarial",
+  "leccion": 1,
+  "frente": "¿Dónde empieza a ejecutar un programa Java?",
+  "reversa": "El método public static void main(String[] args)",
+  "explicacion": "La firma exacta main es el punto de entrada universal de Java.",
+  "algoritmo": "repaso espaciado: 1d, 3d, 7d, 21d",
+  "generada": "2026-09-18"
+}

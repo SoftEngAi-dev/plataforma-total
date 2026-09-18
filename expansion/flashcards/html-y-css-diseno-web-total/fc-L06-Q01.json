@@ -1,0 +1,10 @@
+{
+  "tarjeta": "html-y-css-diseno-web-total-L06-Q01",
+  "curso": "HTML y CSS — Diseño Web Total",
+  "leccion": 6,
+  "frente": "¿Qué hace la meta etiqueta viewport?",
+  "reversa": "Dice al móvil que use el ancho real del dispositivo y no una miniatura",
+  "explicacion": "Sin ella, el móvil renderiza como si fuera un desktop de 980px y escala.",
+  "algoritmo": "repaso espaciado: 1d, 3d, 7d, 21d",
+  "generada": "2026-09-18"
+}

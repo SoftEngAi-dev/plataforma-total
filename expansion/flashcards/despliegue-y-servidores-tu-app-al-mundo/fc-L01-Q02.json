@@ -1,0 +1,10 @@
+{
+  "tarjeta": "despliegue-y-servidores-tu-app-L01-Q02",
+  "curso": "Despliegue y Servidores — Tu App al Mundo",
+  "leccion": 1,
+  "frente": "¿Qué diferencia un VPS de un PaaS?",
+  "reversa": "VPS = tú administras todo (más control y aprendizaje); PaaS = ellos administran, tú solo das el código (menos fricción)",
+  "explicacion": "Elige VPS para APRENDER sistemas; PaaS para enfocarte en producto.",
+  "algoritmo": "repaso espaciado: 1d, 3d, 7d, 21d",
+  "generada": "2026-09-18"
+}

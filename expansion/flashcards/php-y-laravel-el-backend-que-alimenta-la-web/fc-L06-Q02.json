@@ -1,0 +1,10 @@
+{
+  "tarjeta": "php-y-laravel-el-backend-que-a-L06-Q02",
+  "curso": "PHP y Laravel — El Backend Que Alimenta la Web",
+  "leccion": 6,
+  "frente": "¿Qué pone el @csrf dentro del <form> de Blade?",
+  "reversa": "Un token anti-CSRF oculto — todo POST sin token es rechazado por Laravel",
+  "explicacion": "CSRF protection integrada: solo formularios nacidos en tu app pueden postear.",
+  "algoritmo": "repaso espaciado: 1d, 3d, 7d, 21d",
+  "generada": "2026-09-18"
+}

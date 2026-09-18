@@ -1,0 +1,10 @@
+{
+  "tarjeta": "javascript-de-cero-a-experto-L14-Q01",
+  "curso": "JavaScript — De Cero a Experto",
+  "leccion": 14,
+  "frente": "¿Por qué e.preventDefault() en el submit de un formulario?",
+  "reversa": "Evita que el navegador recargue la página para procesarlo con JS",
+  "explicacion": "Sin preventDefault, el formulario navega/recarga y tu lógica JS no corre.",
+  "algoritmo": "repaso espaciado: 1d, 3d, 7d, 21d",
+  "generada": "2026-09-18"
+}

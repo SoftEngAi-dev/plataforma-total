@@ -1,0 +1,10 @@
+{
+  "tarjeta": "c-y-net-el-ecosistema-microsof-L01-Q02",
+  "curso": "C# y .NET — El Ecosistema Microsoft Moderno",
+  "leccion": 1,
+  "frente": "LINQ Where(...).Select(...) equivale a...",
+  "reversa": "filter + map encadenados sobre colecciones, tipo JS/Python",
+  "explicacion": "LINQ es funcional sobre colecciones: es una de las mayores comodidades de C#.",
+  "algoritmo": "repaso espaciado: 1d, 3d, 7d, 21d",
+  "generada": "2026-09-18"
+}

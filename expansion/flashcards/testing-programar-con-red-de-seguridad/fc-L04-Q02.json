@@ -1,0 +1,10 @@
+{
+  "tarjeta": "testing-programar-con-red-de-s-L04-Q02",
+  "curso": "Testing — Programar con Red de Seguridad",
+  "leccion": 4,
+  "frente": "¿Qué diferencia test E2E de integración?",
+  "reversa": "E2E = flujo de usuario REAL completo (browser/UI); integración = componentes juntos sin UI necesariamente",
+  "explicacion": "Pocos E2E (frágiles/lentos pero definitivos): el pico de la pirámide.",
+  "algoritmo": "repaso espaciado: 1d, 3d, 7d, 21d",
+  "generada": "2026-09-18"
+}

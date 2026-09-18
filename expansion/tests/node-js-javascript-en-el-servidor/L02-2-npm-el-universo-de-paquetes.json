@@ -1,0 +1,32 @@
+{
+  "curso": "Node.js — JavaScript en el Servidor",
+  "leccion": 2,
+  "titulo": "2. npm: el universo de paquetes",
+  "total": 2,
+  "aprobado_con": 2,
+  "preguntas": [
+    {
+      "p": "¿Por qué node_modules NUNCA va a git?",
+      "ops": [
+        "Porque es secreto",
+        "Es enorme y reproducible: package.json + package-lock permiten recrearlo con npm install",
+        "Por licencias",
+        "Porque git no lo soporta"
+      ],
+      "ok": 1,
+      "exp": "El manifiesto viaja; el contenido se instala. Así mantienen repos livianos TODOS los equipos."
+    },
+    {
+      "p": "¿Qué significa \"express\": \"^4.19.2\"?",
+      "ops": [
+        "Exactamente 4.19.2",
+        "Cualquier versión 4.x.x compatible desde 4.19.2",
+        "Mayor a 5",
+        "Versión aleatoria"
+      ],
+      "ok": 1,
+      "exp": "^ permite parches y menores compatibles; el lock file congela la realidad exacta."
+    }
+  ],
+  "generado": "2026-09-18"
+}

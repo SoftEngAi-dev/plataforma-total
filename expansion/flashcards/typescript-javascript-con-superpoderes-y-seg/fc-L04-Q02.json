@@ -1,0 +1,10 @@
+{
+  "tarjeta": "typescript-javascript-con-supe-L04-Q02",
+  "curso": "TypeScript — JavaScript con Superpoderes y Seguridad",
+  "leccion": 4,
+  "frente": "¿Qué hace <T extends { length: number }>?",
+  "reversa": "Restringe T a tipos que tengan la propiedad length",
+  "explicacion": "Constraint: puedo usar .length sabiendo que el compilador lo garantiza.",
+  "algoritmo": "repaso espaciado: 1d, 3d, 7d, 21d",
+  "generada": "2026-09-18"
+}

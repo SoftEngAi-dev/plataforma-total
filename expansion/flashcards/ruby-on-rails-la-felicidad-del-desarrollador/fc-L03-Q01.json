@@ -1,0 +1,10 @@
+{
+  "tarjeta": "ruby-on-rails-la-felicidad-del-L03-Q01",
+  "curso": "Ruby on Rails — La Felicidad del Desarrollador",
+  "leccion": 3,
+  "frente": "¿Qué hace validates :titulo, presence: true?",
+  "reversa": "Rechaza guardar si falta el título; el objeto retorna valid? false con errores",
+  "explicacion": "Validaciones a nivel MODELO = defensa total (formulario, API, consola).",
+  "algoritmo": "repaso espaciado: 1d, 3d, 7d, 21d",
+  "generada": "2026-09-18"
+}

@@ -1,0 +1,10 @@
+{
+  "tarjeta": "javascript-de-cero-a-experto-L12-Q02",
+  "curso": "JavaScript — De Cero a Experto",
+  "leccion": 12,
+  "frente": "¿Qué pasa si JSON.parse recibe texto mal formado?",
+  "reversa": "Lanza SyntaxError",
+  "explicacion": "parse es estricto — envuélvelo en try/catch en código serio.",
+  "algoritmo": "repaso espaciado: 1d, 3d, 7d, 21d",
+  "generada": "2026-09-18"
+}

@@ -1,0 +1,10 @@
+{
+  "tarjeta": "sql-y-bases-de-datos-datos-que-L05-Q02",
+  "curso": "SQL y Bases de Datos — Datos que Persisten",
+  "leccion": 5,
+  "frente": "¿Qué gana poner NOT NULL y CHECK en CREATE TABLE?",
+  "reversa": "La base de datos rechaza datos inválidos aunque bugs de la app los intenten insertar",
+  "explicacion": "La última línea de defensa de la calidad de datos está en el esquema.",
+  "algoritmo": "repaso espaciado: 1d, 3d, 7d, 21d",
+  "generada": "2026-09-18"
+}

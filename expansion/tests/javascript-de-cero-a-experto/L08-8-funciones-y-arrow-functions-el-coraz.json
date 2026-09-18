@@ -1,0 +1,32 @@
+{
+  "curso": "JavaScript — De Cero a Experto",
+  "leccion": 8,
+  "titulo": "8. Funciones y arrow functions: el corazón de JS",
+  "total": 2,
+  "aprobado_con": 2,
+  "preguntas": [
+    {
+      "p": "¿Qué devuelve una función sin return?",
+      "ops": [
+        "null",
+        "0",
+        "undefined",
+        "Error"
+      ],
+      "ok": 2,
+      "exp": "Sin return explícito, toda función JS devuelve undefined."
+    },
+    {
+      "p": "¿Qué diferencia clave tiene una arrow function?",
+      "ops": [
+        "Es más lenta",
+        "No tiene su propio this: usa el del contexto que la rodea",
+        "No acepta parámetros",
+        "No puede devolver valores"
+      ],
+      "ok": 1,
+      "exp": "Crucial en callbacks y objetos: la arrow no 'secuestra' el this como hace function."
+    }
+  ],
+  "generado": "2026-09-18"
+}

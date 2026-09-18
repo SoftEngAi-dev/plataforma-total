@@ -1,0 +1,10 @@
+{
+  "tarjeta": "sql-y-bases-de-datos-datos-que-L02-Q02",
+  "curso": "SQL y Bases de Datos — Datos que Persisten",
+  "leccion": 2,
+  "frente": "SELECT * FROM empleados WHERE nombre LIKE 'Ana%' busca...",
+  "reversa": "Nombres que EMPIEZAN por Ana ( % = comodín de caracteres)",
+  "explicacion": "% sustituye cualquier secuencia; Ana% = empieza por.",
+  "algoritmo": "repaso espaciado: 1d, 3d, 7d, 21d",
+  "generada": "2026-09-18"
+}

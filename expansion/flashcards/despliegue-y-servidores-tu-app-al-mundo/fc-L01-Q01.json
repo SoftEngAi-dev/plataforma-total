@@ -1,0 +1,10 @@
+{
+  "tarjeta": "despliegue-y-servidores-tu-app-L01-Q01",
+  "curso": "Despliegue y Servidores — Tu App al Mundo",
+  "leccion": 1,
+  "frente": "¿Cuál es la forma MÁS rápida de publicar una web estática hoy?",
+  "reversa": "GitHub Pages / Netlify: arrastrar la carpeta o conectar el repo, gratis con HTTPS",
+  "explicacion": "El hoy: no necesitas ni servidor: tu carpeta ya es una web mundial.",
+  "algoritmo": "repaso espaciado: 1d, 3d, 7d, 21d",
+  "generada": "2026-09-18"
+}

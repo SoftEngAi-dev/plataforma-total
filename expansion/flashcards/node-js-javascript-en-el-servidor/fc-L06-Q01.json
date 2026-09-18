@@ -1,0 +1,10 @@
+{
+  "tarjeta": "node-js-javascript-en-el-servi-L06-Q01",
+  "curso": "Node.js — JavaScript en el Servidor",
+  "leccion": 6,
+  "frente": "¿Qué códigos HTTP usan POST-crear y 'recurso no encontrado' respectivamente?",
+  "reversa": "201 y 404",
+  "explicacion": "201 = creado; 404 = not found. La semántica HTTP es el idioma de las APIs.",
+  "algoritmo": "repaso espaciado: 1d, 3d, 7d, 21d",
+  "generada": "2026-09-18"
+}

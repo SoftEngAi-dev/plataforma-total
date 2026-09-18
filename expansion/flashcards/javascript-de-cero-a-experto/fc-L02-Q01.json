@@ -1,0 +1,10 @@
+{
+  "tarjeta": "javascript-de-cero-a-experto-L02-Q01",
+  "curso": "JavaScript — De Cero a Experto",
+  "leccion": 2,
+  "frente": "¿Cuál es la regla moderna para declarar variables?",
+  "reversa": "const por defecto; let solo si reasignas; var nunca",
+  "explicacion": "const comunica 'esto no cambia': menos sorpresas, bugs más difíciles.",
+  "algoritmo": "repaso espaciado: 1d, 3d, 7d, 21d",
+  "generada": "2026-09-18"
+}

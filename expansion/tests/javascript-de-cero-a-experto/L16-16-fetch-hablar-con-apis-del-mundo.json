@@ -1,0 +1,32 @@
+{
+  "curso": "JavaScript — De Cero a Experto",
+  "leccion": 16,
+  "titulo": "16. fetch: hablar con APIs del mundo",
+  "total": 2,
+  "aprobado_con": 2,
+  "preguntas": [
+    {
+      "p": "¿Cuándo rechaza fetch (lanza error) SIN ayuda tuya?",
+      "ops": [
+        "En cualquier error HTTP 4xx/5xx",
+        "Solo en errores de red (sin conexión, CORS, DNS)",
+        "Siempre que resp.ok es false",
+        "Nunca"
+      ],
+      "ok": 1,
+      "exp": "Por eso el patrón: chequear resp.ok y lanzar tu propio error en 4xx/5xx."
+    },
+    {
+      "p": "¿Qué header obliga al enviar JSON con POST?",
+      "ops": [
+        "Accept",
+        "Content-Type: application/json",
+        "Authorization",
+        "User-Agent"
+      ],
+      "ok": 1,
+      "exp": "Sin ese header, muchos servidores no interpretan el body como JSON."
+    }
+  ],
+  "generado": "2026-09-18"
+}

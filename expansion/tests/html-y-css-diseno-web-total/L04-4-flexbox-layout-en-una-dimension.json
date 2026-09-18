@@ -1,0 +1,32 @@
+{
+  "curso": "HTML y CSS — Diseño Web Total",
+  "leccion": 4,
+  "titulo": "4. Flexbox: layout en una dimensión",
+  "total": 2,
+  "aprobado_con": 2,
+  "preguntas": [
+    {
+      "p": "¿Qué línea centra un elemento horizontal y verticalmente dentro de su padre?",
+      "ops": [
+        "display:block + margin:0",
+        "display:flex; justify-content:center; align-items:center",
+        "position:center",
+        "float:center"
+      ],
+      "ok": 1,
+      "exp": "Flexbox con ambos ejes centrados — el centramiento perfecto ya no es chiste."
+    },
+    {
+      "p": "¿Qué hace flex: 1 en un hijo?",
+      "ops": [
+        "Le da 1px",
+        "Lo hace crecer para repartir el espacio sobrante del contenedor",
+        "Lo pone primero",
+        "Lo oculta"
+      ],
+      "ok": 1,
+      "exp": "flex-grow/shrink/basis abreviado: típicamente reparte el espacio equitativamente."
+    }
+  ],
+  "generado": "2026-09-18"
+}

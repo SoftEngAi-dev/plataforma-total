@@ -1,0 +1,32 @@
+{
+  "curso": "Ruby on Rails — La Felicidad del Desarrollador",
+  "leccion": 5,
+  "titulo": "5. Proyecto: blog Rails con todo lo anterior",
+  "total": 2,
+  "aprobado_con": 2,
+  "preguntas": [
+    {
+      "p": "¿Para qué sirve un scope en el modelo Rails?",
+      "ops": [
+        "CSS",
+        "Guardar consultas frecuentes como métodos reutilizables: Post.publicados",
+        "Índices BD",
+        "Vistas"
+      ],
+      "ok": 1,
+      "exp": "Scope = query con nombre: lisible y combinables (Post.publicados.recientes)."
+    },
+    {
+      "p": "AddAutor a posts con autor:references en migración hace...",
+      "ops": [
+        "Nada",
+        "Crea la columna autor_id + índice + FK en la tabla posts (relación completa en SQL)",
+        "Crea un modelo",
+        "Borra posts"
+      ],
+      "ok": 1,
+      "exp": "Las migraciones versionan tu esquema en código: la BD se recrea con rails db:migrate."
+    }
+  ],
+  "generado": "2026-09-18"
+}

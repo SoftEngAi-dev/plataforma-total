@@ -1,0 +1,10 @@
+{
+  "tarjeta": "apis-rest-y-http-el-idioma-de-L04-Q01",
+  "curso": "APIs REST y HTTP — El Idioma de los Servidores",
+  "leccion": 4,
+  "frente": "¿Por qué testear el cliente CON EL API APAGADA?",
+  "reversa": "El mundo real: redes caen siempre; tu cliente debe manejar errores de conexión con gracia, no un traceback",
+  "explicacion": "Resiliencia honesta: probar el camino triste es parte del camino profesional.",
+  "algoritmo": "repaso espaciado: 1d, 3d, 7d, 21d",
+  "generada": "2026-09-18"
+}

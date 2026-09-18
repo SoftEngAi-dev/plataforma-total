@@ -1,0 +1,10 @@
+{
+  "tarjeta": "ruby-on-rails-la-felicidad-del-L04-Q01",
+  "curso": "Ruby on Rails — La Felicidad del Desarrollador",
+  "leccion": 4,
+  "frente": "¿Diferencia entre <% %> y <%= %> en ERB?",
+  "reversa": "<% ejecuta sin imprimir (loops/ifs); <%= ejecuta E IMPRIME escapando HTML",
+  "explicacion": "El clásico bug: poner <%= en un @each y ver la lista entera impresa.",
+  "algoritmo": "repaso espaciado: 1d, 3d, 7d, 21d",
+  "generada": "2026-09-18"
+}

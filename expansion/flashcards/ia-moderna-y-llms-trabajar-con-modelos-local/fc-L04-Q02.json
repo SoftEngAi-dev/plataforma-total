@@ -1,0 +1,10 @@
+{
+  "tarjeta": "ia-moderna-y-llms-trabajar-con-L04-Q02",
+  "curso": "IA Moderna y LLMs — Trabajar con Modelos Locales",
+  "leccion": 4,
+  "frente": "¿Qué temperature elegir para resumen fiel de documentos?",
+  "reversa": "Baja (~0.2): salida predecible y fiel; alta solo para creatividad/lluvia de ideas",
+  "explicacion": "Temperatura baja = determinista; para hechos/resúmenes siempre frío.",
+  "algoritmo": "repaso espaciado: 1d, 3d, 7d, 21d",
+  "generada": "2026-09-18"
+}

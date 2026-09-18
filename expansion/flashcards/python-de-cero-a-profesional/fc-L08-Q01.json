@@ -1,0 +1,10 @@
+{
+  "tarjeta": "python-de-cero-a-profesional-L08-Q01",
+  "curso": "Python — De Cero a Profesional",
+  "leccion": 8,
+  "frente": "def f(a, b=2): — ¿por qué el default va al final?",
+  "reversa": "Los posicionales deben venir primero para no ambiguar la llamada",
+  "explicacion": "f(5) debe ser claro: a=5. Con default primero sería ambiguo.",
+  "algoritmo": "repaso espaciado: 1d, 3d, 7d, 21d",
+  "generada": "2026-09-18"
+}

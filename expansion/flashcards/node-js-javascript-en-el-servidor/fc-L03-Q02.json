@@ -1,0 +1,10 @@
+{
+  "tarjeta": "node-js-javascript-en-el-servi-L03-Q02",
+  "curso": "Node.js — JavaScript en el Servidor",
+  "leccion": 3,
+  "frente": "¿Qué código HTTP corresponde a 'recurso creado'?",
+  "reversa": "201",
+  "explicacion": "201 Created: convención para POST exitoso de recursos nuevos.",
+  "algoritmo": "repaso espaciado: 1d, 3d, 7d, 21d",
+  "generada": "2026-09-18"
+}

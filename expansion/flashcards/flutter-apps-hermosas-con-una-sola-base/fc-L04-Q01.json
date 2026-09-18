@@ -1,0 +1,10 @@
+{
+  "tarjeta": "flutter-apps-hermosas-con-una-L04-Q01",
+  "curso": "Flutter — Apps Hermosas con Una Sola Base",
+  "leccion": 4,
+  "frente": "¿Qué paquete oficial se usa para HTTP en Flutter?",
+  "reversa": "http (pub.dev): http.get(Uri.parse(url)) devuelve Future<Response>",
+  "explicacion": "dart pub add http y Futures con async/await: el estándar de red en Dart.",
+  "algoritmo": "repaso espaciado: 1d, 3d, 7d, 21d",
+  "generada": "2026-09-18"
+}

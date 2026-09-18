@@ -1,0 +1,10 @@
+{
+  "tarjeta": "kotlin-android-y-mas-alla-L03-Q02",
+  "curso": "Kotlin — Android y Más Allá",
+  "leccion": 3,
+  "frente": "¿Qué es Jetpack Compose?",
+  "reversa": "UI declarativa de Android: describes la interfaz con funciones Kotlin y el estado la redibuja",
+  "explicacion": "Mismo paradigma que React/Flutter: UI = f(estado) también en Android nativo.",
+  "algoritmo": "repaso espaciado: 1d, 3d, 7d, 21d",
+  "generada": "2026-09-18"
+}

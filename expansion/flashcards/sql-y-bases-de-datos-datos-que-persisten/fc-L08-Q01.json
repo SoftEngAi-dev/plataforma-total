@@ -1,0 +1,10 @@
+{
+  "tarjeta": "sql-y-bases-de-datos-datos-que-L08-Q01",
+  "curso": "SQL y Bases de Datos — Datos que Persisten",
+  "leccion": 8,
+  "frente": "¿Cuándo crear un índice?",
+  "reversa": "En columnas usadas frecuentemente en WHERE/JOIN (con costo de escritura)",
+  "explicacion": "Índices aceleran lecturas pero encarecen escrituras: sobredimensionarlos es deuda.",
+  "algoritmo": "repaso espaciado: 1d, 3d, 7d, 21d",
+  "generada": "2026-09-18"
+}

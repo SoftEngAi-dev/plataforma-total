@@ -1,0 +1,32 @@
+{
+  "curso": "IA Moderna y LLMs — Trabajar con Modelos Locales",
+  "leccion": 3,
+  "titulo": "3. Ollama: tu LLM local en 3 comandos",
+  "total": 2,
+  "aprobado_con": 2,
+  "preguntas": [
+    {
+      "p": "¿Qué hace ollama run llama3.1:8b?",
+      "ops": [
+        "Borra algo",
+        "Descarga (si falta) y abre un chat interactivo con el modelo en tu máquina local",
+        "Edita código",
+        "Minar"
+      ],
+      "ok": 1,
+      "exp": "Tu LLM privado corriendo offline a los 30 segundos de instalarlo."
+    },
+    {
+      "p": "¿Qué aporta ollama serve respecto a run?",
+      "ops": [
+        "Nada",
+        "Expone el modelo como API HTTP local (localhost:11434) para que TUS programas lo invoquen",
+        "Transcription",
+        "Un VPN"
+      ],
+      "ok": 1,
+      "exp": "El server convierte tu PC en un mini-OpenAI local: esta app misma le habla así."
+    }
+  ],
+  "generado": "2026-09-18"
+}

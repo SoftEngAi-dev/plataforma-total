@@ -1,0 +1,32 @@
+{
+  "curso": "React — Interfaces Modernas y Reutilizables",
+  "leccion": 1,
+  "titulo": "1. React: pensar en componentes",
+  "total": 2,
+  "aprobado_con": 2,
+  "preguntas": [
+    {
+      "p": "¿Qué es JSX?",
+      "ops": [
+        "Un lenguaje aparte",
+        "Sintaxis que escribe HTML dentro de JS y llama funciones de React para construir el DOM",
+        "CSS en JS",
+        "Un compilador"
+      ],
+      "ok": 1,
+      "exp": "JSX describe la UI; Babel/Vite lo convierte en llamadas a funciones."
+    },
+    {
+      "p": "¿Qué son las props?",
+      "ops": [
+        "Variables globales",
+        "Los datos que un componente recibe de su padre (parámetros del componente)",
+        "Estilos del componente",
+        "Funciones internas"
+      ],
+      "ok": 1,
+      "exp": "Componente = función; props = sus argumentos. Comunicación de padre a hijo."
+    }
+  ],
+  "generado": "2026-09-18"
+}

@@ -1,0 +1,32 @@
+{
+  "curso": "Node.js — JavaScript en el Servidor",
+  "leccion": 4,
+  "titulo": "4. Asincronía en Node: no congeles el servidor",
+  "total": 2,
+  "aprobado_con": 2,
+  "preguntas": [
+    {
+      "p": "¿Por qué prohibir readFileSync en un servidor (salvo arranque)?",
+      "ops": [
+        "Es más lento",
+        "Bloquea el único hilo de Node: TODOS los usuarios esperan",
+        "Está deprecado",
+        "Usa mucha RAM"
+      ],
+      "ok": 1,
+      "exp": "El event loop único detenido = servidor congelado para todos."
+    },
+    {
+      "p": "¿Cómo reconoce Express un middleware de errores?",
+      "ops": [
+        "Por su nombre",
+        "Tiene exactamente 4 parámetros (err, req, res, next)",
+        "Está primero",
+        "Lleva try/catch"
+      ],
+      "ok": 1,
+      "exp": "La firma de 4 argumentos es el contrato; se registra DESPUÉS de las rutas."
+    }
+  ],
+  "generado": "2026-09-18"
+}

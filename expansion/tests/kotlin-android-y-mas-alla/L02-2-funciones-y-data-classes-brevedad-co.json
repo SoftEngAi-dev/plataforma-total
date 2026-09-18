@@ -1,0 +1,32 @@
+{
+  "curso": "Kotlin — Android y Más Allá",
+  "leccion": 2,
+  "titulo": "2. Funciones y data classes: brevedad con tipos",
+  "total": 2,
+  "aprobado_con": 2,
+  "preguntas": [
+    {
+      "p": "¿Qué genera automáticamente una data class?",
+      "ops": [
+        "Solo getters",
+        "equals(), hashCode(), toString(), copy() y componentN() — todo el boilerplate de datos",
+        "SQL",
+        "Nada"
+      ],
+      "ok": 1,
+      "exp": "Una línea reemplaza 50 de Java: define campos y listo."
+    },
+    {
+      "p": "En listOf(1,2,3).map { it * 2 }, ¿qué es 'it'?",
+      "ops": [
+        "Un error",
+        "El parámetro implícito de la lambda cuando hay uno solo",
+        "Un global",
+        "Un índice"
+      ],
+      "ok": 1,
+      "exp": "Lambdas de un parámetro pueden usar 'it' sin declararlo — típico estilo Kotlin."
+    }
+  ],
+  "generado": "2026-09-18"
+}

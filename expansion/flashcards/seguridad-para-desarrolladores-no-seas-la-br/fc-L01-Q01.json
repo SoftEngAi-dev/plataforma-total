@@ -1,0 +1,10 @@
+{
+  "tarjeta": "seguridad-para-desarrolladores-L01-Q01",
+  "curso": "Seguridad para Desarrolladores — No Seas la Brecha",
+  "leccion": 1,
+  "frente": "¿Qué es IDOR?",
+  "reversa": "Broken Access Control: cambiar el ID en la URL y acceder a datos de OTROS usuarios porque el servidor no verifica propiedad",
+  "explicacion": "/perfil/1 → cambias a /perfil/2 y ves datos ajenos si el servidor no checkea dueño.",
+  "algoritmo": "repaso espaciado: 1d, 3d, 7d, 21d",
+  "generada": "2026-09-18"
+}

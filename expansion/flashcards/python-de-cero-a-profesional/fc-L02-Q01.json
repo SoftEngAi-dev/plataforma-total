@@ -1,0 +1,10 @@
+{
+  "tarjeta": "python-de-cero-a-profesional-L02-Q01",
+  "curso": "Python — De Cero a Profesional",
+  "leccion": 2,
+  "frente": "¿Qué imprime 7 % 2?",
+  "reversa": "1",
+  "explicacion": "% es residuo: 7 = 2×3 + 1.",
+  "algoritmo": "repaso espaciado: 1d, 3d, 7d, 21d",
+  "generada": "2026-09-18"
+}

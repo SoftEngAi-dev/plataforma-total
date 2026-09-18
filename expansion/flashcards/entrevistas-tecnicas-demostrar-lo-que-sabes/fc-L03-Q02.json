@@ -1,0 +1,10 @@
+{
+  "tarjeta": "entrevistas-tecnicas-demostrar-L03-Q02",
+  "curso": "Entrevistas Técnicas — Demostrar lo que Sabes",
+  "leccion": 3,
+  "frente": "¿Por qué los mensajes de commit importan en evaluación?",
+  "reversa": "El historial del repo es leído como evidencia de cómo piensas y trabajas",
+  "explicacion": "'cambios x' suena a junior; 'fix: race condition on login retries' suena a colega que quiero.",
+  "algoritmo": "repaso espaciado: 1d, 3d, 7d, 21d",
+  "generada": "2026-09-18"
+}

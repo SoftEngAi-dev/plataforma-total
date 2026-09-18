@@ -1,0 +1,10 @@
+{
+  "tarjeta": "git-y-github-tu-historia-nunca-L06-Q01",
+  "curso": "Git y GitHub — Tu Historia Nunca Se Pierde",
+  "leccion": 6,
+  "frente": "¿Qué hace `git pull` tras hacer merge del PR en la web?",
+  "reversa": "Trae e integra los cambios del remoto a tu rama local",
+  "explicacion": "La web integró tu PR; tu main local está vieja hasta que pullas.",
+  "algoritmo": "repaso espaciado: 1d, 3d, 7d, 21d",
+  "generada": "2026-09-18"
+}

@@ -1,0 +1,32 @@
+{
+  "curso": "Python — De Cero a Profesional",
+  "leccion": 15,
+  "titulo": "15. Python para datos: tu primer análisis real",
+  "total": 2,
+  "aprobado_con": 2,
+  "preguntas": [
+    {
+      "p": "¿Qué hace csv.DictReader?",
+      "ops": [
+        "Lee JSON",
+        "Convierte cada fila del CSV en un dict usando el encabezado como claves",
+        "Escribe CSV",
+        "Ordena filas"
+      ],
+      "ok": 1,
+      "exp": "fila['precio'] directo — parseo CSV robusto con nada instalado."
+    },
+    {
+      "p": "df.groupby('producto')['total'].sum() hace...",
+      "ops": [
+        "Filtra filas",
+        "Agrupa por producto y suma el total de cada grupo",
+        "Ordena por producto",
+        "Crea tabla nueva"
+      ],
+      "ok": 1,
+      "exp": "El GROUP BY de SQL, estilo pandas: resumir categorías en 1 línea."
+    }
+  ],
+  "generado": "2026-09-18"
+}

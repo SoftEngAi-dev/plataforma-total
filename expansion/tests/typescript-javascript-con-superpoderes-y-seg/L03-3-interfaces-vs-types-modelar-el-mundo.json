@@ -1,0 +1,32 @@
+{
+  "curso": "TypeScript — JavaScript con Superpoderes y Seguridad",
+  "leccion": 3,
+  "titulo": "3. Interfaces vs Types: modelar el mundo",
+  "total": 2,
+  "aprobado_con": 2,
+  "preguntas": [
+    {
+      "p": "¿Cuándo elegir interface sobre type?",
+      "ops": [
+        "Siempre",
+        "Para formas de objetos: más legible, mensajes de error claros y extensión natural",
+        "Nunca",
+        "Solo en Angular"
+      ],
+      "ok": 1,
+      "exp": "Interface para modelos de dominio; type para uniones y composiciones."
+    },
+    {
+      "p": "¿Qué expresa type Estado = \"cargando\" | \"ok\" | \"error\"?",
+      "ops": [
+        "Un objeto",
+        "Una unión de literales: la variable solo vale uno de esos strings",
+        "Un enum numérico",
+        "Un error"
+      ],
+      "ok": 1,
+      "exp": "Uniones de literales = estados exhaustivos que TS puede verificar (sin strings sueltos)."
+    }
+  ],
+  "generado": "2026-09-18"
+}

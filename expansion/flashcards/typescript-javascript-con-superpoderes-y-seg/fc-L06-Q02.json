@@ -1,0 +1,10 @@
+{
+  "tarjeta": "typescript-javascript-con-supe-L06-Q02",
+  "curso": "TypeScript — JavaScript con Superpoderes y Seguridad",
+  "leccion": 6,
+  "frente": "¿Qué significa x is string en un type guard?",
+  "reversa": "Le dice a TS: si esta función devuelve true, trata x como string de ahí en adelante",
+  "explicacion": "Los guards personalizados enseñan al compilador a razonar sobre tus datos.",
+  "algoritmo": "repaso espaciado: 1d, 3d, 7d, 21d",
+  "generada": "2026-09-18"
+}

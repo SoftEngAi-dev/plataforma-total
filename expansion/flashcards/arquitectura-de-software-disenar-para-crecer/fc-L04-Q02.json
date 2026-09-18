@@ -1,0 +1,10 @@
+{
+  "tarjeta": "arquitectura-de-software-disen-L04-Q02",
+  "curso": "Arquitectura de Software — Diseñar para Crecer",
+  "leccion": 4,
+  "frente": "Un 'caso de uso' (application service) es...",
+  "reversa": "La orquestación de un objetivo de negocio: 'CrearTarea' coordina el dominio con la infraestructura",
+  "explicacion": "Las APIs públicas internas de tu app: lo que el mundo puede hacer con tu sistema.",
+  "algoritmo": "repaso espaciado: 1d, 3d, 7d, 21d",
+  "generada": "2026-09-18"
+}

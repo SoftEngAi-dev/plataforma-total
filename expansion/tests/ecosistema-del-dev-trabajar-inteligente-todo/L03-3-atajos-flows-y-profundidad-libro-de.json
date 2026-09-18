@@ -1,0 +1,32 @@
+{
+  "curso": "Ecosistema del Dev — Trabajar Inteligente Todos los Días",
+  "leccion": 3,
+  "titulo": "3. Atajos, flows y profundidad: libro de Deep Work dev",
+  "total": 2,
+  "aprobado_con": 2,
+  "preguntas": [
+    {
+      "p": "¿Qué cuestionan los cambios de contexto constantes?",
+      "ops": [
+        "Poco tiempo",
+        "Cada switch cobra ~15-23 minutos de re-preparación mental: multitarea = multi-bajo-rendimiento",
+        "RAM",
+        "CI"
+      ],
+      "ok": 1,
+      "exp": "Enfoque profundo > velocidad aparente: los bloques temáticos recuperan esos minutos día a día."
+    },
+    {
+      "p": "La técnica Feynman consiste en...",
+      "ops": [
+        "Leer mucho",
+        "EXPLICAR el tema a alguien (o a tu patito de goma): lo que no puedes explicar simple, no lo entendiste aún",
+        "Repetir",
+        "Audio"
+      ],
+      "ok": 1,
+      "exp": "Enseñar/grabar = la forma más efectiva de detectar tus propios agujeros de comprensión."
+    }
+  ],
+  "generado": "2026-09-18"
+}

@@ -1,0 +1,32 @@
+{
+  "curso": "Java y Spring — El Backend del Mundo Empresarial",
+  "leccion": 5,
+  "titulo": "5. Proyecto: API Java/Spring completa",
+  "total": 2,
+  "aprobado_con": 2,
+  "preguntas": [
+    {
+      "p": "¿Qué es H2 en este proyecto?",
+      "ops": [
+        "Un hámster",
+        "Base de datos SQL embebida/en memoria para desarrollo rápido, reemplazable luego por PostgreSQL sin tocar el código JPA",
+        "Un navegador",
+        "Un test"
+      ],
+      "ok": 1,
+      "exp": "H2 para arrancar sin instalar BD; cambia el datasource y punto: eso es abstracción ORM."
+    },
+    {
+      "p": "¿Qué genera el .jar empaquetado con spring-boot:package?",
+      "ops": [
+        "El código fuente",
+        "Un ejecutable autocontenido (app+servidor Tomcat embebido): dockerizar es trivial",
+        "JS",
+        "Los tests"
+      ],
+      "ok": 1,
+      "exp": "El fat jar = tu app + servidor interno: corre en cualquier JVM sola."
+    }
+  ],
+  "generado": "2026-09-18"
+}

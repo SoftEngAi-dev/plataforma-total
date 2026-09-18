@@ -1,0 +1,10 @@
+{
+  "tarjeta": "php-y-laravel-el-backend-que-a-L05-Q02",
+  "curso": "PHP y Laravel — El Backend Que Alimenta la Web",
+  "leccion": 5,
+  "frente": "¿Para qué sirve \\$fillable en el modelo?",
+  "reversa": "Anti mass-assignment: lista blanca de campos rellenables vía create/update (evita inyectar campos no previstos)",
+  "explicacion": "Tarea::create($request->all()) protegido: solo pasa lo autorizado.",
+  "algoritmo": "repaso espaciado: 1d, 3d, 7d, 21d",
+  "generada": "2026-09-18"
+}

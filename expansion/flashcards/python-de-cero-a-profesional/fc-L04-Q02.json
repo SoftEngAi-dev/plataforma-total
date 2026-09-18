@@ -1,0 +1,10 @@
+{
+  "tarjeta": "python-de-cero-a-profesional-L04-Q02",
+  "curso": "Python — De Cero a Profesional",
+  "leccion": 4,
+  "frente": "¿Para qué usar set([1,1,2,3])?",
+  "reversa": "Eliminar duplicados: {1, 2, 3} (los sets no repiten)",
+  "explicacion": "Deduplicación instantánea + operaciones matemáticas de conjuntos.",
+  "algoritmo": "repaso espaciado: 1d, 3d, 7d, 21d",
+  "generada": "2026-09-18"
+}

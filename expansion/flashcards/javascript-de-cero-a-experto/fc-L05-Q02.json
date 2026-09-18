@@ -1,0 +1,10 @@
+{
+  "tarjeta": "javascript-de-cero-a-experto-L05-Q02",
+  "curso": "JavaScript — De Cero a Experto",
+  "leccion": 5,
+  "frente": "¿Cómo generar un entero aleatorio entre 1 y 6?",
+  "reversa": "Math.floor(Math.random() * 6) + 1",
+  "explicacion": "random()*6 ∈ [0,6); floor → 0-5; +1 → dado de 1 a 6.",
+  "algoritmo": "repaso espaciado: 1d, 3d, 7d, 21d",
+  "generada": "2026-09-18"
+}

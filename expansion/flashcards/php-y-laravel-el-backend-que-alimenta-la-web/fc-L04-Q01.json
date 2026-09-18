@@ -1,0 +1,10 @@
+{
+  "tarjeta": "php-y-laravel-el-backend-que-a-L04-Q01",
+  "curso": "PHP y Laravel — El Backend Que Alimenta la Web",
+  "leccion": 4,
+  "frente": "¿Qué es Eloquent?",
+  "reversa": "El ORM de Laravel: cada tabla es un Modelo y trabajas datos como objetos php (save, where, all)",
+  "explicacion": "Eloquent convierte SQL en interacción con objetos: Tarea::where('hecha', false)->get().",
+  "algoritmo": "repaso espaciado: 1d, 3d, 7d, 21d",
+  "generada": "2026-09-18"
+}

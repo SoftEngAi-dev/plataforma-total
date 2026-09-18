@@ -1,0 +1,10 @@
+{
+  "tarjeta": "algoritmos-y-estructuras-el-gi-L04-Q02",
+  "curso": "Algoritmos y Estructuras — El Gimnasio del Dev",
+  "leccion": 4,
+  "frente": "¿Por qué deque y no list para queue en Python?",
+  "reversa": "popleft() es O(1) en deque pero O(n) en list (remover del principio desplaza todo)",
+  "explicacion": "El error rendimiento clásico: list.pop(0) en bucle = degradación invisible a O(n²).",
+  "algoritmo": "repaso espaciado: 1d, 3d, 7d, 21d",
+  "generada": "2026-09-18"
+}

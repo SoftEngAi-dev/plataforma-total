@@ -1,0 +1,10 @@
+{
+  "tarjeta": "python-de-cero-a-profesional-L12-Q01",
+  "curso": "Python — De Cero a Profesional",
+  "leccion": 12,
+  "frente": "¿Qué hace self en un método?",
+  "reversa": "Referencia a la instancia actual: sus atributos y métodos",
+  "explicacion": "self es cómo el método sabe sobre QUÉ objeto concreto opera.",
+  "algoritmo": "repaso espaciado: 1d, 3d, 7d, 21d",
+  "generada": "2026-09-18"
+}

@@ -1,0 +1,10 @@
+{
+  "tarjeta": "typescript-javascript-con-supe-L06-Q01",
+  "curso": "TypeScript — JavaScript con Superpoderes y Seguridad",
+  "leccion": 6,
+  "frente": "¿Qué es una discriminated union?",
+  "reversa": "Una unión donde cada variante tiene una clave literal común (kind) que permite narrowing",
+  "explicacion": "El patrón de modelado de estados favorito en TS: cada rama decide la forma disponible.",
+  "algoritmo": "repaso espaciado: 1d, 3d, 7d, 21d",
+  "generada": "2026-09-18"
+}

@@ -1,0 +1,32 @@
+{
+  "curso": "React — Interfaces Modernas y Reutilizables",
+  "leccion": 4,
+  "titulo": "4. Eventos, formularios y estado controlado",
+  "total": 2,
+  "aprobado_con": 2,
+  "preguntas": [
+    {
+      "p": "¿Qué significa input 'controlado'?",
+      "ops": [
+        "readonly",
+        "Su value viene del estado y onChange lo actualiza: el estado es la fuente de verdad",
+        "Que valida solo",
+        "Que usa refs"
+      ],
+      "ok": 1,
+      "exp": "Estado ↔ input en bucle controlado. React manda; el DOM obedece."
+    },
+    {
+      "p": "¿Cómo sabe el hijo que debe agregar una tarea si el estado está arriba?",
+      "ops": [
+        "Accede al estado del padre directamente",
+        "Llama a una función que el padre le pasó por props (onAgregar)",
+        "Modifica el DOM del padre",
+        "No puede"
+      ],
+      "ok": 1,
+      "exp": "Datos bajan por props; cambios suben ejecutando callbacks que bajaron por props."
+    }
+  ],
+  "generado": "2026-09-18"
+}

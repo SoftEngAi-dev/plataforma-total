@@ -1,0 +1,32 @@
+{
+  "curso": "SQL y Bases de Datos — Datos que Persisten",
+  "leccion": 8,
+  "titulo": "8. Índices y transacciones: velocidad y seguridad",
+  "total": 2,
+  "aprobado_con": 2,
+  "preguntas": [
+    {
+      "p": "¿Cuándo crear un índice?",
+      "ops": [
+        "En todas las columnas siempre",
+        "En columnas usadas frecuentemente en WHERE/JOIN (con costo de escritura)",
+        "Nunca",
+        "Solo en PK"
+      ],
+      "ok": 1,
+      "exp": "Índices aceleran lecturas pero encarecen escrituras: sobredimensionarlos es deuda."
+    },
+    {
+      "p": "¿Qué garantiza una transacción bancaria (BEGIN...COMMIT)?",
+      "ops": [
+        "Velocidad",
+        "Las dos actualizaciones suceden juntas o ninguna (atomicidad)",
+        "Orden alfabético",
+        "Backup"
+      ],
+      "ok": 1,
+      "exp": "Si falla a mitad, ROLLBACK: nunca hay dinero perdido en el aire."
+    }
+  ],
+  "generado": "2026-09-18"
+}

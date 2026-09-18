@@ -1,0 +1,10 @@
+{
+  "tarjeta": "react-native-movil-con-tu-stac-L03-Q01",
+  "curso": "React Native — Móvil con Tu Stack Web",
+  "leccion": 3,
+  "frente": "¿Cómo se envía texto controlado en RN vs web?",
+  "reversa": "onChangeText recibe el string directamente: setTexto(nuevoTexto)",
+  "explicacion": "Mismo patrón controlado, pero el callback te da el texto límpio.",
+  "algoritmo": "repaso espaciado: 1d, 3d, 7d, 21d",
+  "generada": "2026-09-18"
+}

@@ -1,0 +1,32 @@
+{
+  "curso": "Testing — Programar con Red de Seguridad",
+  "leccion": 5,
+  "titulo": "5. Proyecto: suite de tests real para tu calculadora/app",
+  "total": 2,
+  "aprobado_con": 2,
+  "preguntas": [
+    {
+      "p": "¿Cuál secuencia TDD correcta?",
+      "ops": [
+        "Código-test",
+        "🔴 test que falla → 🟢 código mínimo que pase → 🔵 refactor mejorando sin romper el verde",
+        "Test después solo",
+        "Código+garantizar"
+      ],
+      "ok": 1,
+      "exp": "Primero el contrato del comportamiento (test), después el código que lo cumple."
+    },
+    {
+      "p": "restar(-2, -3) == 1 es un test de...",
+      "ops": [
+        "feliz nomás",
+        "CASO BORDE (números negativos): los pros testean fronteras, no solo caminos felices",
+        "error",
+        "mock"
+      ],
+      "ok": 1,
+      "exp": "Los bugs viven en los bordes: tu suite debe patrullarlos siempre."
+    }
+  ],
+  "generado": "2026-09-18"
+}

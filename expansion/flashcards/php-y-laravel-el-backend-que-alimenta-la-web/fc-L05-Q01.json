@@ -1,0 +1,10 @@
+{
+  "tarjeta": "php-y-laravel-el-backend-que-a-L05-Q01",
+  "curso": "PHP y Laravel — El Backend Que Alimenta la Web",
+  "leccion": 5,
+  "frente": "¿Qué hace Route Model Binding en Laravel?",
+  "reversa": "Inyecta directo el modelo por ID (404 automático si no existe) sin hacer find manual",
+  "explicacion": "function show(Tarea $tarea) — el framework busca el id y te da el modelo o 404.",
+  "algoritmo": "repaso espaciado: 1d, 3d, 7d, 21d",
+  "generada": "2026-09-18"
+}

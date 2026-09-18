@@ -1,0 +1,10 @@
+{
+  "tarjeta": "arquitectura-de-software-disen-L01-Q02",
+  "curso": "Arquitectura de Software — Diseñar para Crecer",
+  "leccion": 1,
+  "frente": "Dependency Inversion en práctica significa...",
+  "reversa": "Tu lógica depende de INTERFACES/contratos; la implementación concreta se inyecta y puede cambiar (prod↔test)",
+  "explicacion": "La pieza clave de testabilidad y arquitectura limpia: invierte quién controla las dependencias.",
+  "algoritmo": "repaso espaciado: 1d, 3d, 7d, 21d",
+  "generada": "2026-09-18"
+}

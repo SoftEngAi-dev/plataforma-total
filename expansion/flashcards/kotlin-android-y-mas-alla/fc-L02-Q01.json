@@ -1,0 +1,10 @@
+{
+  "tarjeta": "kotlin-android-y-mas-alla-L02-Q01",
+  "curso": "Kotlin — Android y Más Allá",
+  "leccion": 2,
+  "frente": "¿Qué genera automáticamente una data class?",
+  "reversa": "equals(), hashCode(), toString(), copy() y componentN() — todo el boilerplate de datos",
+  "explicacion": "Una línea reemplaza 50 de Java: define campos y listo.",
+  "algoritmo": "repaso espaciado: 1d, 3d, 7d, 21d",
+  "generada": "2026-09-18"
+}

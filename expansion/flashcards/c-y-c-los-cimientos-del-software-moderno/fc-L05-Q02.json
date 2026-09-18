@@ -1,0 +1,10 @@
+{
+  "tarjeta": "c-y-c-los-cimientos-del-softwa-L05-Q02",
+  "curso": "C y C++ — Los Cimientos del Software Moderno",
+  "leccion": 5,
+  "frente": "¿Por qué fclose(f) explícito importa en C?",
+  "reversa": "Sin cerrar, fopen queda abiertoy puede agotar file descriptors / corrupt data si escribías",
+  "explicacion": "C no tiene with/auto-cleanup: cada recurso abierto necesita su cierre deliberado.",
+  "algoritmo": "repaso espaciado: 1d, 3d, 7d, 21d",
+  "generada": "2026-09-18"
+}

@@ -1,0 +1,32 @@
+{
+  "curso": "Algoritmos y Estructuras — El Gimnasio del Dev",
+  "leccion": 1,
+  "titulo": "1. Big O: el idioma de la eficiencia",
+  "total": 2,
+  "aprobado_con": 2,
+  "preguntas": [
+    {
+      "p": "¿Es rapidez absoluta lo que mide Big O?",
+      "ops": [
+        "Sí exacto",
+        "Cómo CRECE el costo al crecer n (escalabilidad), no tiempo exacto",
+        "Solo memoria",
+        "Solo CPU"
+      ],
+      "ok": 1,
+      "exp": "Es la curva de crecimiento que decide si sirve para 10 datos o para 10 millones."
+    },
+    {
+      "p": "¿Qué complejidad busca/accede en un dict/hash por clave?",
+      "ops": [
+        "O(n)",
+        "O(1) promedio: acces directo sin recorrer",
+        "O(log n)",
+        "O(n²)"
+      ],
+      "ok": 1,
+      "exp": "Por eso los diccionarios/hashes dominan el código real: lookups instantáneos."
+    }
+  ],
+  "generado": "2026-09-18"
+}

@@ -1,0 +1,10 @@
+{
+  "tarjeta": "python-de-cero-a-profesional-L09-Q01",
+  "curso": "Python — De Cero a Profesional",
+  "leccion": 9,
+  "frente": "¿Por qué usar with open(...)?",
+  "reversa": "Cierra el archivo automáticamente incluso ante errores",
+  "explicacion": "with = context manager: el recurso se libera pase lo que pase.",
+  "algoritmo": "repaso espaciado: 1d, 3d, 7d, 21d",
+  "generada": "2026-09-18"
+}

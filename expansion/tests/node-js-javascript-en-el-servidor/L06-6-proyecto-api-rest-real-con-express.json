@@ -1,0 +1,32 @@
+{
+  "curso": "Node.js — JavaScript en el Servidor",
+  "leccion": 6,
+  "titulo": "6. Proyecto: API REST real con Express",
+  "total": 2,
+  "aprobado_con": 2,
+  "preguntas": [
+    {
+      "p": "¿Qué códigos HTTP usan POST-crear y 'recurso no encontrado' respectivamente?",
+      "ops": [
+        "200 y 400",
+        "201 y 404",
+        "204 y 500",
+        "200 y 404"
+      ],
+      "ok": 1,
+      "exp": "201 = creado; 404 = not found. La semántica HTTP es el idioma de las APIs."
+    },
+    {
+      "p": "¿Cómo probar un POST sin frontend?",
+      "ops": [
+        "Solo desde el navegador",
+        "curl / Postman / thunder client: cliente HTTP para probar endpoints",
+        "Con console.log",
+        "No se puede"
+      ],
+      "ok": 1,
+      "exp": "curl/demand-tester cliente es tu amigo backend: probar sin UI es el standard."
+    }
+  ],
+  "generado": "2026-09-18"
+}

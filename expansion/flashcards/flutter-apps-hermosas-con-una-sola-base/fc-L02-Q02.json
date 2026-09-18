@@ -1,0 +1,10 @@
+{
+  "tarjeta": "flutter-apps-hermosas-con-una-L02-Q02",
+  "curso": "Flutter — Apps Hermosas con Una Sola Base",
+  "leccion": 2,
+  "frente": "¿Qué hace Column(children: [...])?",
+  "reversa": "Apila widgets verticalmente (Row es horizontal)",
+  "explicacion": "Layouts de una dimensión; con Expanded/flex dentro controlas el reparto.",
+  "algoritmo": "repaso espaciado: 1d, 3d, 7d, 21d",
+  "generada": "2026-09-18"
+}

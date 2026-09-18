@@ -1,0 +1,32 @@
+{
+  "curso": "React — Interfaces Modernas y Reutilizables",
+  "leccion": 8,
+  "titulo": "8. Proyecto: app de notas con todo el curso",
+  "total": 2,
+  "aprobado_con": 2,
+  "preguntas": [
+    {
+      "p": "¿Cómo editar una nota inmutablemente en un array de estado?",
+      "ops": [
+        "notas[idx].texto = x",
+        "map que devuelve objeto nuevo {...n, texto: x} solo para el id coincidente",
+        "splice y setState",
+        "push y pop"
+      ],
+      "ok": 1,
+      "exp": "map con spread: reemplazas el objeto con uno NUEVO; referencias nuevas → React entiende y la UI se actualiza."
+    },
+    {
+      "p": "¿Qué dos APIs persisten las notas en esta app?",
+      "ops": [
+        "fetch + axios",
+        "useState + useEffect dentro de un custom hook useLocalStorage",
+        "Redux + thunk",
+        "Context + reducer"
+      ],
+      "ok": 1,
+      "exp": "Estado + efecto que escribe a localStorage: patrón simple, potente y reutilizable."
+    }
+  ],
+  "generado": "2026-09-18"
+}

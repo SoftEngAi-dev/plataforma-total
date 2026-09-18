@@ -1,0 +1,32 @@
+{
+  "curso": "Swift — El Camino de Apple",
+  "leccion": 5,
+  "titulo": "5. Proyecto: tu primera app iOS real",
+  "total": 2,
+  "aprobado_con": 2,
+  "preguntas": [
+    {
+      "p": "¿Qué significa text: $nueva en un TextField?",
+      "ops": [
+        "Error",
+        "Binding bidireccional: el campo edita el estado y el estado actualiza el campo",
+        "Es privado",
+        "Es async"
+      ],
+      "ok": 1,
+      "exp": "$variable crea un Binding: ida y vuelta automática entre UI y estado."
+    },
+    {
+      "p": "¿Para qué sirve Identifiable en el modelo de una lista?",
+      "ops": [
+        "Decoración",
+        "Cada item tiene id único para que SwiftUI rastree qué cambió en la lista (como key en React)",
+        "Base de datos",
+        "Nada"
+      ],
+      "ok": 1,
+      "exp": "List/ForEach necesitan identidad estable: id = la key del mundo Apple."
+    }
+  ],
+  "generado": "2026-09-18"
+}

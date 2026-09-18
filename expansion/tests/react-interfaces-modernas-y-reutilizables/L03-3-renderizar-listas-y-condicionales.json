@@ -1,0 +1,32 @@
+{
+  "curso": "React — Interfaces Modernas y Reutilizables",
+  "leccion": 3,
+  "titulo": "3. Renderizar listas y condicionales",
+  "total": 2,
+  "aprobado_con": 2,
+  "preguntas": [
+    {
+      "p": "¿Qué prop requiere React al mapear elementos y por qué?",
+      "ops": [
+        "id, por CSS",
+        "key: identidad estable entre renders para emparejar el DOM correctamente",
+        "className, por estilos",
+        "index, por orden"
+      ],
+      "ok": 1,
+      "exp": "La key es DNI, no apellido: el índice del map cambia y traiciona con listas dinámicas."
+    },
+    {
+      "p": "¿Cómo renderizar condicionalmente en JSX?",
+      "ops": [
+        "Con if/else dentro de llaves",
+        "Operador &&, ternario, o variable calculada ANTES del return",
+        "Con v-if",
+        "No se puede"
+      ],
+      "ok": 1,
+      "exp": "JSX admite expresiones, no sentencias: la lógica va en expresiones o antes del return."
+    }
+  ],
+  "generado": "2026-09-18"
+}

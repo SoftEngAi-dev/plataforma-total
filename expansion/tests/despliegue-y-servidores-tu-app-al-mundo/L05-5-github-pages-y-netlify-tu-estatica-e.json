@@ -1,0 +1,32 @@
+{
+  "curso": "Despliegue y Servidores — Tu App al Mundo",
+  "leccion": 5,
+  "titulo": "5. GitHub Pages y Netlify: tu estática en 5 minutos",
+  "total": 2,
+  "aprobado_con": 2,
+  "preguntas": [
+    {
+      "p": "¿Qué se sube al hosting estático cuando usas React con Vite?",
+      "ops": [
+        "src/",
+        "La carpeta dist/ generada por npm run build (HTMl/CSS/JS puro)",
+        "node_modules/",
+        "package.json"
+      ],
+      "ok": 1,
+      "exp": "El navegador no entiende JSX/TS: el build los compila a estático; eso es lo que se publica."
+    },
+    {
+      "p": "¿Qué añade Netlify sobre un hosting de archivos normal?",
+      "ops": [
+        "Java",
+        "Deploy por git push automático + vistas previas por PR + formularios y HTTPS incluidos",
+        "Base de datos",
+        "SSH"
+      ],
+      "ok": 1,
+      "exp": "Joncy: conectas el repo una vez; cada push redeploya — de hecho tu ya tubiste CD."
+    }
+  ],
+  "generado": "2026-09-18"
+}

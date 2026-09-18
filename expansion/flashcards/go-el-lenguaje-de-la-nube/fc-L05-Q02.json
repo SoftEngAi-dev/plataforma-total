@@ -1,0 +1,10 @@
+{
+  "tarjeta": "go-el-lenguaje-de-la-nube-L05-Q02",
+  "curso": "Go — El Lenguaje de la Nube",
+  "leccion": 5,
+  "frente": "¿Por qué sync.RWMutex con la slice global en la API?",
+  "reversa": "Lecturas/escrituras concurrentes sobre memoria compartida pueden corromperse: el mutex las sincroniza",
+  "explicacion": "Varios requests golpean la misma estructura a la vez: sincronización obligatoria o data race.",
+  "algoritmo": "repaso espaciado: 1d, 3d, 7d, 21d",
+  "generada": "2026-09-18"
+}

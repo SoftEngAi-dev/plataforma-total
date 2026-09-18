@@ -1,0 +1,32 @@
+{
+  "curso": "Kotlin — Android y Más Allá",
+  "leccion": 1,
+  "titulo": "1. Kotlin: el alivio que pedía Java",
+  "total": 2,
+  "aprobado_con": 2,
+  "preguntas": [
+    {
+      "p": "¿Qué diferencia val de var en Kotlin?",
+      "ops": [
+        "Son iguales",
+        "val es inmutable (referencia fija); var es reasignable",
+        "val es para números",
+        "var es más rápido"
+      ],
+      "ok": 1,
+      "exp": "Kotlin te empuja a inmutabilidad por defecto: val primero, var solo si hace falta."
+    },
+    {
+      "p": "¿Qué hace ?: (operador Elvis)?",
+      "ops": [
+        "Nada",
+        "Si lo de la izquierda es null, devuelve lo de la derecha",
+        "Compara strings",
+        "Bucle"
+      ],
+      "ok": 1,
+      "exp": "Elvis porque parece un peinado ?:  — null coalescing con nombre rockero."
+    }
+  ],
+  "generado": "2026-09-18"
+}

@@ -1,0 +1,10 @@
+{
+  "tarjeta": "despliegue-y-servidores-tu-app-L02-Q01",
+  "curso": "Despliegue y Servidores — Tu App al Mundo",
+  "leccion": 2,
+  "frente": "¿Qué hace proxy_pass http://localhost:8000?",
+  "reversa": "Nginx recibe en el 80 público y reenvía internamente a tu app en :8000",
+  "explicacion": "Reverse proxy: un solo punto público, muchas apps atrás.",
+  "algoritmo": "repaso espaciado: 1d, 3d, 7d, 21d",
+  "generada": "2026-09-18"
+}

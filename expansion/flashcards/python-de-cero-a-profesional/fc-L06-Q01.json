@@ -1,0 +1,10 @@
+{
+  "tarjeta": "python-de-cero-a-profesional-L06-Q01",
+  "curso": "Python — De Cero a Profesional",
+  "leccion": 6,
+  "frente": "if usuario is None — ¿por qué 'is' y no '=='?",
+  "reversa": "None es singleton: se compara identidad; además is evita métodos __eq__ raros",
+  "explicacion": "None/True/False → is. Valores → ==",
+  "algoritmo": "repaso espaciado: 1d, 3d, 7d, 21d",
+  "generada": "2026-09-18"
+}

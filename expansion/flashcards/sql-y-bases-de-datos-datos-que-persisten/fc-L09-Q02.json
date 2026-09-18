@@ -1,0 +1,10 @@
+{
+  "tarjeta": "sql-y-bases-de-datos-datos-que-L09-Q02",
+  "curso": "SQL y Bases de Datos — Datos que Persisten",
+  "leccion": 9,
+  "frente": "¿Qué aporta con.row_factory = sqlite3.Row?",
+  "reversa": "Acceder a las columnas POR NOMBRE (fila['nombre']) en vez de índices",
+  "explicacion": "Código legible y resistente a cambios de orden de columnas.",
+  "algoritmo": "repaso espaciado: 1d, 3d, 7d, 21d",
+  "generada": "2026-09-18"
+}

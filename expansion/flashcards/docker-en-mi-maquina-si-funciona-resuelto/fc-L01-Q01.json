@@ -1,0 +1,10 @@
+{
+  "tarjeta": "docker-en-mi-maquina-si-funcio-L01-Q01",
+  "curso": "Docker — 'En Mi Máquina Sí Funciona' Resuelto",
+  "leccion": 1,
+  "frente": "¿Diferencia imagen vs contenedor?",
+  "reversa": "Imagen = plantilla inmutable; contenedor = instancia(s) ejecutándose de ella",
+  "explicacion": "Como clase vs objeto: defines la imagen una vez, lanzas contenedores a voluntad.",
+  "algoritmo": "repaso espaciado: 1d, 3d, 7d, 21d",
+  "generada": "2026-09-18"
+}

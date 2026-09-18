@@ -1,0 +1,10 @@
+{
+  "tarjeta": "swift-el-camino-de-apple-L02-Q01",
+  "curso": "Swift — El Camino de Apple",
+  "leccion": 2,
+  "frente": "¿Qué hace guard let x = y else { return }?",
+  "reversa": "Si y es nil, sale de la función ya; si no, x queda disponible desempaquetada para el resto",
+  "explicacion": "Guard clause: los casos raros se despachan arriba y el código queda plano y claro.",
+  "algoritmo": "repaso espaciado: 1d, 3d, 7d, 21d",
+  "generada": "2026-09-18"
+}

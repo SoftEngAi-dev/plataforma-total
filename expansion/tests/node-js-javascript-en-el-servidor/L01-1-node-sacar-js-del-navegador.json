@@ -1,0 +1,32 @@
+{
+  "curso": "Node.js — JavaScript en el Servidor",
+  "leccion": 1,
+  "titulo": "1. Node: sacar JS del navegador",
+  "total": 2,
+  "aprobado_con": 2,
+  "preguntas": [
+    {
+      "p": "¿Qué es Node.js?",
+      "ops": [
+        "Un framework",
+        "Un runtime que ejecuta JS fuera del navegador (motor V8)",
+        "Un editor",
+        "Una base de datos"
+      ],
+      "ok": 1,
+      "exp": "Mismo motor V8 de Chrome, liberado para servidores y scripts."
+    },
+    {
+      "p": "¿Cómo activar ES Modules (import/export) en Node?",
+      "ops": [
+        "npm i esm",
+        "\"type\": \"module\" en package.json (o usar .mjs)",
+        "No se puede",
+        "Con require"
+      ],
+      "ok": 1,
+      "exp": "Con esa flag, import from 'node:fs/promises' y top-level await funcionan nativamente."
+    }
+  ],
+  "generado": "2026-09-18"
+}

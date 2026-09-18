@@ -1,0 +1,32 @@
+{
+  "curso": "JavaScript — De Cero a Experto",
+  "leccion": 13,
+  "titulo": "13. El DOM: convertir HTML en objeto vivo",
+  "total": 2,
+  "aprobado_con": 2,
+  "preguntas": [
+    {
+      "p": "¿Qué método es seguro para insertar TEXTO de usuario en la página?",
+      "ops": [
+        "innerHTML",
+        "textContent",
+        "eval()",
+        "document.write()"
+      ],
+      "ok": 1,
+      "exp": "textContent no interpreta HTML: protege contra inyección XSS básica."
+    },
+    {
+      "p": "¿Qué hace el.classList.toggle('activa')?",
+      "ops": [
+        "Siempre la añade",
+        "Siempre la quita",
+        "La añade si no está, la quita si está",
+        "La renombra"
+      ],
+      "ok": 2,
+      "exp": "Toggle = interruptor: perfecto para menús, modos oscuro/claro, etc."
+    }
+  ],
+  "generado": "2026-09-18"
+}

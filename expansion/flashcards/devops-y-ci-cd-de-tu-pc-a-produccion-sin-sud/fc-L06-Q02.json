@@ -1,0 +1,10 @@
+{
+  "tarjeta": "devops-y-ci-cd-de-tu-pc-a-prod-L06-Q02",
+  "curso": "DevOps y CI/CD — De Tu PC a Producción Sin Sudor",
+  "leccion": 6,
+  "frente": "¿Qué diferencia el despliegue continuo del push manual a un VPS?",
+  "reversa": "Todo paso manual se automatiza: tras CI verde la app llega sola al usuario, sin intervención humana",
+  "explicacion": "La ausencia de pasos manuales es la ausencia de errores manuales.",
+  "algoritmo": "repaso espaciado: 1d, 3d, 7d, 21d",
+  "generada": "2026-09-18"
+}

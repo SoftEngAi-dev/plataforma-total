@@ -1,0 +1,32 @@
+{
+  "curso": "Expresiones Regulares — El Lenguaje de Patrones",
+  "leccion": 1,
+  "titulo": "1. Regex en una lección: el 80% útil sin dolor",
+  "total": 2,
+  "aprobado_con": 2,
+  "preguntas": [
+    {
+      "p": "¿Qué captura \\d{4}-\\d{2}-\\d{2}?",
+      "ops": [
+        "Cualquier cosa",
+        "Formato fecha aproximado: 4 dígitos-guión-2 dígitos-guión-2 dígitos (2026-09-18)",
+        "Emails",
+        "Estampillas"
+      ],
+      "ok": 1,
+      "exp": "Las regex describen patrón → los números reales solo ilustran el formato esperado."
+    },
+    {
+      "p": "¿Qué hacen \\b y () en regex?",
+      "ops": [
+        "Trivia",
+        "\\b enmarca palabra completa ('cat' en 'concatenar' NO matchea con \\bcat\\b); () crea un GRUPO capturable",
+        "Solo negación",
+        "Comentarios"
+      ],
+      "ok": 1,
+      "exp": "Límites y grupos: de patrones sueltos a coincidencias quirúrjicas."
+    }
+  ],
+  "generado": "2026-09-18"
+}

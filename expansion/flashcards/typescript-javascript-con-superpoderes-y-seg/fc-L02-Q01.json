@@ -1,0 +1,10 @@
+{
+  "tarjeta": "typescript-javascript-con-supe-L02-Q01",
+  "curso": "TypeScript — JavaScript con Superpoderes y Seguridad",
+  "leccion": 2,
+  "frente": "¿Cuándo anotar tipos explícitamente?",
+  "reversa": "Cuando la inferencia no es obvia (y siempre en firmas de funciones públicas)",
+  "explicacion": "TS infiere en la asignación; anota donde el contrato importa.",
+  "algoritmo": "repaso espaciado: 1d, 3d, 7d, 21d",
+  "generada": "2026-09-18"
+}

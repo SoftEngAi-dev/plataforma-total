@@ -1,0 +1,10 @@
+{
+  "tarjeta": "sql-y-bases-de-datos-datos-que-L03-Q01",
+  "curso": "SQL y Bases de Datos — Datos que Persisten",
+  "leccion": 3,
+  "frente": "¿Qué devuelve COUNT(*)?",
+  "reversa": "Número TOTAL de filas (incluyendo nulos)",
+  "explicacion": "COUNT(*) cuenta filas; COUNT(columna) omite las NULL.",
+  "algoritmo": "repaso espaciado: 1d, 3d, 7d, 21d",
+  "generada": "2026-09-18"
+}

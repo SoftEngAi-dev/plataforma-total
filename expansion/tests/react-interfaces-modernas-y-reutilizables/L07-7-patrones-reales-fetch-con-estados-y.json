@@ -1,0 +1,32 @@
+{
+  "curso": "React — Interfaces Modernas y Reutilizables",
+  "leccion": 7,
+  "titulo": "7. Patrones reales: fetch con estados y manejo de errores",
+  "total": 2,
+  "aprobado_con": 2,
+  "preguntas": [
+    {
+      "p": "¿Qué 3 estados mínimos modelan cualquier fetch en UI?",
+      "ops": [
+        "vacio, ok, no",
+        "cargando, error, datos",
+        "init, run, end",
+        "get, post, delete"
+      ],
+      "ok": 1,
+      "exp": "Con esos tres discriminas exáctamente qué pintar: spinner, mensaje de error o contenido."
+    },
+    {
+      "p": "¿Por qué la bandera 'cancelado' en el efecto de fetch?",
+      "ops": [
+        "Cancela la red",
+        "Evita que una respuesta tardía actualice estado de un componente desmontado (warning + race)",
+        "Acelera fetch",
+        "No es necesaria"
+      ],
+      "ok": 1,
+      "exp": "En StrictMode y navegación rápida los componentes se montan/desmontan: la guardia lo hace robusto."
+    }
+  ],
+  "generado": "2026-09-18"
+}

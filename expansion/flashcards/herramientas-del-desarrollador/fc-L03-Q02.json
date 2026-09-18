@@ -1,0 +1,10 @@
+{
+  "tarjeta": "herramientas-del-desarrollador-L03-Q02",
+  "curso": "Herramientas del Desarrollador",
+  "leccion": 3,
+  "frente": "¿Qué hace `pip install -r requirements.txt`?",
+  "reversa": "Instala todas las dependencias registradas del proyecto",
+  "explicacion": "La forma estándar de reproducir el entorno de un proyecto en cualquier máquina.",
+  "algoritmo": "repaso espaciado: 1d, 3d, 7d, 21d",
+  "generada": "2026-09-18"
+}

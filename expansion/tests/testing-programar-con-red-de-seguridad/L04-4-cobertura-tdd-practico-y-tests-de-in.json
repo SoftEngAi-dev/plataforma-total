@@ -1,0 +1,32 @@
+{
+  "curso": "Testing — Programar con Red de Seguridad",
+  "leccion": 4,
+  "titulo": "4. Cobertura, TDD práctico y tests de integración",
+  "total": 2,
+  "aprobado_con": 2,
+  "preguntas": [
+    {
+      "p": "¿Cuál es la mejor forma de evitar que un bug VUELVA?",
+      "ops": [
+        "Comentarios",
+        "Escribir PRIMERO el test que reproduce el bug: queda eternamente verificado en la suite",
+        "Code review",
+        "Más RAM"
+      ],
+      "ok": 1,
+      "exp": "Bug→test rojo→fix→test verde= la regresión muere definitivamente."
+    },
+    {
+      "p": "¿Qué diferencia test E2E de integración?",
+      "ops": [
+        "Ninguna",
+        "E2E = flujo de usuario REAL completo (browser/UI); integración = componentes juntos sin UI necesariamente",
+        "E2E es más rápido",
+        "Integración es frontend"
+      ],
+      "ok": 1,
+      "exp": "Pocos E2E (frágiles/lentos pero definitivos): el pico de la pirámide."
+    }
+  ],
+  "generado": "2026-09-18"
+}

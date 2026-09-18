@@ -1,0 +1,10 @@
+{
+  "tarjeta": "despliegue-y-servidores-tu-app-L06-Q01",
+  "curso": "Despliegue y Servidores — Tu App al Mundo",
+  "leccion": 6,
+  "frente": "¿Qué verifica que realmente desplegaste bien?",
+  "reversa": "URL pública + HTTPS (candado) + datos persistiendo + se mantiene tras reinicios",
+  "explicacion": "Accesibilidad real desde afuera, seguridad básica y persistencia: la trifecta del deploy.",
+  "algoritmo": "repaso espaciado: 1d, 3d, 7d, 21d",
+  "generada": "2026-09-18"
+}

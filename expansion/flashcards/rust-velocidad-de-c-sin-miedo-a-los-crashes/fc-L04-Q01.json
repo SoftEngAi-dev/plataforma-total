@@ -1,0 +1,10 @@
+{
+  "tarjeta": "rust-velocidad-de-c-sin-miedo-L04-Q01",
+  "curso": "Rust — Velocidad de C sin Miedo a los Crashes",
+  "leccion": 4,
+  "frente": "¿Qué son los traits de Rust?",
+  "reversa": "Interfaces de comportamiento (comparable a interfaces Java/protocols) implementables por cualquier tipo — aún nativos predefinidos",
+  "explicacion": "derive(Debug) o impl Trait for MiStruct: comportamiento compartido sin herencia tradicional.",
+  "algoritmo": "repaso espaciado: 1d, 3d, 7d, 21d",
+  "generada": "2026-09-18"
+}

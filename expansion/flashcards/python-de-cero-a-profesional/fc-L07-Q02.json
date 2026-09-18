@@ -1,0 +1,10 @@
+{
+  "tarjeta": "python-de-cero-a-profesional-L07-Q02",
+  "curso": "Python — De Cero a Profesional",
+  "leccion": 7,
+  "frente": "range(2, 10, 2) genera...",
+  "reversa": "2, 4, 6, 8",
+  "explicacion": "range(inicio, fin, paso) — fin SIEMPRE excluido.",
+  "algoritmo": "repaso espaciado: 1d, 3d, 7d, 21d",
+  "generada": "2026-09-18"
+}

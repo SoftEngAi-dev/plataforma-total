@@ -1,0 +1,32 @@
+{
+  "curso": "Ruta Maestra — Cómo Usar Esta Plataforma",
+  "leccion": 2,
+  "titulo": "2. Cómo estudiar una lección (método comprobado)",
+  "total": 2,
+  "aprobado_con": 2,
+  "preguntas": [
+    {
+      "p": "¿Qué es la recordación activa?",
+      "ops": [
+        "Releer la lección varias veces",
+        "Cerrar el material e intentar recordar/explicar sin mirar",
+        "Subrayar con marcador",
+        "Copiar el contenido a mano"
+      ],
+      "ok": 1,
+      "exp": "Recuperar de memoria (aunque cueste) es el ejercicio que más graba en el cerebro."
+    },
+    {
+      "p": "Al terminar una lección, ¿cuál es la señal de dominio?",
+      "ops": [
+        "Haberla leído con calma",
+        "Entender el ejemplo al verlo",
+        "Quiz aprobado al 100% 🏆",
+        "Marcarla como completada"
+      ],
+      "ok": 2,
+      "exp": "El quiz al 100% es la evidencia; el resto son intenciones."
+    }
+  ],
+  "generado": "2026-09-18"
+}

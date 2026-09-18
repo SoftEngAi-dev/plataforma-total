@@ -1,0 +1,10 @@
+{
+  "tarjeta": "machine-learning-primer-contac-L04-Q01",
+  "curso": "Machine Learning — Primer Contacto Real",
+  "leccion": 4,
+  "frente": "¿Qué ventaja práctica tiene max_depth=3?",
+  "reversa": "Limita la complejidad del árbol: techo de cristal al overfit (regularización por construcción)",
+  "explicacion": "Árbol profundo = reglas sobreajustadas de poquitas muestras; poco profundo generaliza bien.",
+  "algoritmo": "repaso espaciado: 1d, 3d, 7d, 21d",
+  "generada": "2026-09-18"
+}

@@ -1,0 +1,32 @@
+{
+  "curso": "C y C++ — Los Cimientos del Software Moderno",
+  "leccion": 4,
+  "titulo": "4. Compilar y depurar: gcc, make y headers",
+  "total": 2,
+  "aprobado_con": 2,
+  "preguntas": [
+    {
+      "p": "¿Cuál es la diferencia .h vs .c en C?",
+      "ops": [
+        "Ninguna",
+        ".h declara (interfaz pública) y .c define (implementación): separación contrato/código",
+        ".h es más rápido",
+        ".h es para header HTTP"
+      ],
+      "ok": 1,
+      "exp": "El header es la 'API' del módulo; main lo incluye sin ver su implementación."
+    },
+    {
+      "p": "¿Qué hace make con un Makefile bien escrito?",
+      "ops": [
+        "Todo de nuevo",
+        "Recompila SOLO los archivos cuyos fuentes cambiaron (build incremental con dependencias)",
+        "Instala paquetes",
+        "Ejecuta tests"
+      ],
+      "ok": 1,
+      "exp": "Dependencias+reglas: el build incremental nació aquí (todo build system actual lo hereda)."
+    }
+  ],
+  "generado": "2026-09-18"
+}

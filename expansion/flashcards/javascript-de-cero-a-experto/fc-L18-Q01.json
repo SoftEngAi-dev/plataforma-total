@@ -1,0 +1,10 @@
+{
+  "tarjeta": "javascript-de-cero-a-experto-L18-Q01",
+  "curso": "JavaScript — De Cero a Experto",
+  "leccion": 18,
+  "frente": "¿Qué dos llamadas sincronizan la app con localStorage?",
+  "reversa": "parse y stringify de JSON",
+  "explicacion": "stringify al guardar, parse al cargar: JSON es el puente.",
+  "algoritmo": "repaso espaciado: 1d, 3d, 7d, 21d",
+  "generada": "2026-09-18"
+}

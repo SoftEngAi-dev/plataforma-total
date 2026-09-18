@@ -1,0 +1,10 @@
+{
+  "tarjeta": "html-y-css-diseno-web-total-L08-Q01",
+  "curso": "HTML y CSS — Diseño Web Total",
+  "leccion": 8,
+  "frente": "¿Qué propiedades se deben animar para rendimiento fluido?",
+  "reversa": "transform y opacity",
+  "explicacion": "Solo esas dos no provocan reflow/repaint del layout: la GPU las acelera.",
+  "algoritmo": "repaso espaciado: 1d, 3d, 7d, 21d",
+  "generada": "2026-09-18"
+}

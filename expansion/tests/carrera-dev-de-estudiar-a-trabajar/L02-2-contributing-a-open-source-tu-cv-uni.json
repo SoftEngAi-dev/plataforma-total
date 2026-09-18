@@ -1,0 +1,32 @@
+{
+  "curso": "Carrera Dev — De Estudiar a Trabajar",
+  "leccion": 2,
+  "titulo": "2. Contributing a open source: tu CV universal",
+  "total": 2,
+  "aprobado_con": 2,
+  "preguntas": [
+    {
+      "p": "¿Qué representa la etiqueta 'good first issue'?",
+      "ops": [
+        "Spam",
+        "Issues adecuados para primeriza contribución: acogida/simplificada por los mantenedores para nuevos",
+        "El bug del día",
+        "Pago"
+      ],
+      "ok": 1,
+      "exp": "La puerta de entrada pro a open source: empieza por docs/docs/tests de proyectos que uses."
+    },
+    {
+      "p": "¿Por qué un PR open source vale más que un proyecto privado extra?",
+      "ops": [
+        "El más popular",
+        "Evidencia pública e verificable de: colaboración, lectura de código, responsabilidad con QA externa",
+        "Decorativo",
+        "SVG"
+      ],
+      "ok": 1,
+      "exp": "La credibilidad inmediata que genera un 'contribuidor en X-proyecto' en un CV junior es descomunal."
+    }
+  ],
+  "generado": "2026-09-18"
+}

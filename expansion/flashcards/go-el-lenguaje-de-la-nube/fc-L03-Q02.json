@@ -1,0 +1,10 @@
+{
+  "tarjeta": "go-el-lenguaje-de-la-nube-L03-Q02",
+  "curso": "Go — El Lenguaje de la Nube",
+  "leccion": 3,
+  "frente": "¿Para qué sirve un channel en Go?",
+  "reversa": "Comunicación tipada y segura entre goroutines: enviar/recibir datos sin locks manuales",
+  "explicacion": "channels = tubería sincronizada entre tareas concurrentes: el camino GOnativo.",
+  "algoritmo": "repaso espaciado: 1d, 3d, 7d, 21d",
+  "generada": "2026-09-18"
+}

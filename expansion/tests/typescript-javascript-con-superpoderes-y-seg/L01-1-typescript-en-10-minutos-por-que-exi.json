@@ -1,0 +1,32 @@
+{
+  "curso": "TypeScript — JavaScript con Superpoderes y Seguridad",
+  "leccion": 1,
+  "titulo": "1. TypeScript en 10 minutos: por qué existe",
+  "total": 2,
+  "aprobado_con": 2,
+  "preguntas": [
+    {
+      "p": "¿Qué es TypeScript exactamente?",
+      "ops": [
+        "Un lenguaje distinto a JS",
+        "JavaScript + chequeo estático de tipos que se compila a JS puro",
+        "Una librería de JS",
+        "Un navegador"
+      ],
+      "ok": 1,
+      "exp": "Superconjunto tipado: corre como JS tras compilar — el navegador jamás ve tipos."
+    },
+    {
+      "p": "¿Cuándo detecta TypeScript los errores de tipo?",
+      "ops": [
+        "En producción",
+        "Al editar/compilar, antes de ejecutar",
+        "Nunca",
+        "Solo con tests"
+      ],
+      "ok": 1,
+      "exp": "Shift-left: el error aparece cuando lo escribes, no cuando el usuario lo encuentra."
+    }
+  ],
+  "generado": "2026-09-18"
+}

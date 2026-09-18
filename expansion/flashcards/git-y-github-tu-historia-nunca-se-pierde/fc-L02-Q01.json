@@ -1,0 +1,10 @@
+{
+  "tarjeta": "git-y-github-tu-historia-nunca-L02-Q01",
+  "curso": "Git y GitHub — Tu Historia Nunca Se Pierde",
+  "leccion": 2,
+  "frente": "¿Qué es un merge conflict?",
+  "reversa": "Dos ramas editaron las mismas líneas: git te pide elegir manualmente entre marcadores <<<<",
+  "explicacion": "Los conflictos son decisiones pendientes, no errores: resuelves, add, commit.",
+  "algoritmo": "repaso espaciado: 1d, 3d, 7d, 21d",
+  "generada": "2026-09-18"
+}

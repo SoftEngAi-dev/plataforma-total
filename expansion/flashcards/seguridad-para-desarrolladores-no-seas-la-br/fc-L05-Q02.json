@@ -1,0 +1,10 @@
+{
+  "tarjeta": "seguridad-para-desarrolladores-L05-Q02",
+  "curso": "Seguridad para Desarrolladores — No Seas la Brecha",
+  "leccion": 5,
+  "frente": "¿Por qué testear IDOR es tan crítico para endpoints con IDs?",
+  "reversa": "Es la vulnerabilidad web nº1 real: chequear que solo el DUEÑO accede a su recurso por cada request",
+  "explicacion": "La lección: no confíes en la URL escondida: cada query/id verifica ownership server-side.",
+  "algoritmo": "repaso espaciado: 1d, 3d, 7d, 21d",
+  "generada": "2026-09-18"
+}

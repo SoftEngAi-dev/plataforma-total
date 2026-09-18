@@ -1,0 +1,32 @@
+{
+  "curso": "Ruta Maestra — Cómo Usar Esta Plataforma",
+  "leccion": 3,
+  "titulo": "3. Tus herramientas: progreso, racha y certificados",
+  "total": 2,
+  "aprobado_con": 2,
+  "preguntas": [
+    {
+      "p": "¿Qué desbloquea el certificado de un curso?",
+      "ops": [
+        "Leer todas las lecciones",
+        "Todas las lecciones + todos los quizzes al 100%",
+        "Pagar la capstone",
+        "Hacer 50 pomodoros"
+      ],
+      "ok": 1,
+      "exp": "Lecciones ✅ + quizzes 🏆 en cada lección del curso."
+    },
+    {
+      "p": "¿Dónde se guarda tu progreso?",
+      "ops": [
+        "En la nube",
+        "En el navegador",
+        "En SQLite local: ~/PlataformaTotal/datos/plataforma.db",
+        "No se guarda"
+      ],
+      "ok": 2,
+      "exp": "Todo tu progreso es local y tuyo — portable y respaldable."
+    }
+  ],
+  "generado": "2026-09-18"
+}

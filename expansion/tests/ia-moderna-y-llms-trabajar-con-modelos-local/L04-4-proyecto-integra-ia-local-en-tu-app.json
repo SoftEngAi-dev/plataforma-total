@@ -1,0 +1,32 @@
+{
+  "curso": "IA Moderna y LLMs — Trabajar con Modelos Locales",
+  "leccion": 4,
+  "titulo": "4. Proyecto: integra IA local en TU app",
+  "total": 2,
+  "aprobado_con": 2,
+  "preguntas": [
+    {
+      "p": "¿Qué es RAG en términos de este proyecto?",
+      "ops": [
+        "Un bug",
+        "Proveer TUS documentos como contexto en el prompt para que el modelo responda sobre esa realidad, no se invente",
+        "Un garbage collector",
+        "Red local"
+      ],
+      "ok": 1,
+      "exp": "Retrieval + Generation: tu modelo responde anclado a fuentes reales que tú le das."
+    },
+    {
+      "p": "¿Qué temperature elegir para resumen fiel de documentos?",
+      "ops": [
+        "1.5",
+        "Baja (~0.2): salida predecible y fiel; alta solo para creatividad/lluvia de ideas",
+        "100",
+        "Ninguna"
+      ],
+      "ok": 1,
+      "exp": "Temperatura baja = determinista; para hechos/resúmenes siempre frío."
+    }
+  ],
+  "generado": "2026-09-18"
+}

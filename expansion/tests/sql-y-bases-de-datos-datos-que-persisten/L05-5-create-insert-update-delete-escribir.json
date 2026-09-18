@@ -1,0 +1,32 @@
+{
+  "curso": "SQL y Bases de Datos — Datos que Persisten",
+  "leccion": 5,
+  "titulo": "5. CREATE, INSERT, UPDATE, DELETE: escribir datos",
+  "total": 2,
+  "aprobado_con": 2,
+  "preguntas": [
+    {
+      "p": "¿Por qué UPDATE sin WHERE es un desastre clásico?",
+      "ops": [
+        "Es error de sintaxis",
+        "Actualiza TODAS las filas de la tabla",
+        "Es más lento",
+        "Solo en MySQL"
+      ],
+      "ok": 1,
+      "exp": "Sin filtro = global: regla para la vida: escribe primero el WHERE... y después UPDATE/DELETE junto."
+    },
+    {
+      "p": "¿Qué gana poner NOT NULL y CHECK en CREATE TABLE?",
+      "ops": [
+        "Decora",
+        "La base de datos rechaza datos inválidos aunque bugs de la app los intenten insertar",
+        "Nada",
+        "Velocidad de index"
+      ],
+      "ok": 1,
+      "exp": "La última línea de defensa de la calidad de datos está en el esquema."
+    }
+  ],
+  "generado": "2026-09-18"
+}

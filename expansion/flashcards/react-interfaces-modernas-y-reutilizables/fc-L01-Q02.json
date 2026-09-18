@@ -1,0 +1,10 @@
+{
+  "tarjeta": "react-interfaces-modernas-y-re-L01-Q02",
+  "curso": "React — Interfaces Modernas y Reutilizables",
+  "leccion": 1,
+  "frente": "¿Qué son las props?",
+  "reversa": "Los datos que un componente recibe de su padre (parámetros del componente)",
+  "explicacion": "Componente = función; props = sus argumentos. Comunicación de padre a hijo.",
+  "algoritmo": "repaso espaciado: 1d, 3d, 7d, 21d",
+  "generada": "2026-09-18"
+}

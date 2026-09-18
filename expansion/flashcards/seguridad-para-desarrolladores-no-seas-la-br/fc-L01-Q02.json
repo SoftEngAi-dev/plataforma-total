@@ -1,0 +1,10 @@
+{
+  "tarjeta": "seguridad-para-desarrolladores-L01-Q02",
+  "curso": "Seguridad para Desarrolladores — No Seas la Brecha",
+  "leccion": 1,
+  "frente": "¿Cómo se guardan contraseñas correctamente?",
+  "reversa": "Hash con bcrypt/argon2 + salt: ni siquiera tú (admin) puedes leerlas",
+  "explicacion": "El hash robusto es irreversible y lento a propósito: el que dicen los propios hashes débiles.",
+  "algoritmo": "repaso espaciado: 1d, 3d, 7d, 21d",
+  "generada": "2026-09-18"
+}

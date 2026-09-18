@@ -1,0 +1,10 @@
+{
+  "tarjeta": "python-de-cero-a-profesional-L05-Q02",
+  "curso": "Python — De Cero a Profesional",
+  "leccion": 5,
+  "frente": "¿Por qué debes reasignar texto = texto.strip()?",
+  "reversa": "Los strings son inmutables: strip devuelve uno nuevo",
+  "explicacion": "Métodos de str NUNCA modifican el original.",
+  "algoritmo": "repaso espaciado: 1d, 3d, 7d, 21d",
+  "generada": "2026-09-18"
+}

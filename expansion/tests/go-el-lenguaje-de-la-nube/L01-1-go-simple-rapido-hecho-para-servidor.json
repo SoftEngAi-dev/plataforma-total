@@ -1,0 +1,32 @@
+{
+  "curso": "Go — El Lenguaje de la Nube",
+  "leccion": 1,
+  "titulo": "1. Go: simple, rápido, hecho para servidores",
+  "total": 2,
+  "aprobado_con": 2,
+  "preguntas": [
+    {
+      "p": "¿Qué ventaja especial tiene el build de Go?",
+      "ops": [
+        "Es bonito",
+        "Genera UN binario nativo sin dependencias externas: el despliegue es copiar un archivo",
+        "Corre en browser",
+        "Interpreta"
+      ],
+      "ok": 1,
+      "exp": "Un solo ELF/EXE estático: las imágenes docker de Go pueden pesar 5MB."
+    },
+    {
+      "p": "¿Qué hace := en Go?",
+      "ops": [
+        "Asignar",
+        "Declarar variable nueva con tipo INFERIDO (vs var x int explícita para el init)",
+        "Comparar",
+        "Importar"
+      ],
+      "ok": 1,
+      "exp": "x := 5 = declarar+inicializar inferido; var para declaraciones sin valor inicial."
+    }
+  ],
+  "generado": "2026-09-18"
+}

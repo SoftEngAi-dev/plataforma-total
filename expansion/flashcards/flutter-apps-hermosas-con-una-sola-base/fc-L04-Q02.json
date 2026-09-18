@@ -1,0 +1,10 @@
+{
+  "tarjeta": "flutter-apps-hermosas-con-una-L04-Q02",
+  "curso": "Flutter — Apps Hermosas con Una Sola Base",
+  "leccion": 4,
+  "frente": "¿Qué renderiza ListView.builder con itemCount?",
+  "reversa": "Las filas BAJO DEMANDA mientras scrolleas (ideal para listas largas)",
+  "explicacion": "Lazy rendering nativo: miles de posts sin matar el rendimiento.",
+  "algoritmo": "repaso espaciado: 1d, 3d, 7d, 21d",
+  "generada": "2026-09-18"
+}

@@ -1,0 +1,32 @@
+{
+  "curso": "Algoritmos y Estructuras — El Gimnasio del Dev",
+  "leccion": 3,
+  "titulo": "3. Ordenar eficientemente: lo que tu lenguaje hace por ti",
+  "total": 2,
+  "aprobado_con": 2,
+  "preguntas": [
+    {
+      "p": "¿Qué complejidad garantiza un sort moderno (Timsort/Timsort-like)?",
+      "ops": [
+        "O(n²)",
+        "O(n log n) en el peor caso, con adaptación en datos casi ordenados",
+        "O(n)",
+        "O(1)"
+      ],
+      "ok": 1,
+      "exp": "Por eso los algoritmos de librería estándar superan siempre al casero."
+    },
+    {
+      "p": "¿Cómo ordenar por edad descendente y desempatar por nombre?",
+      "ops": [
+        "2 sorts",
+        "sorted(personas, key=lambda p: (-p.edad, p.nombre)) con tupla ascendente/descendente del mismo sort",
+        "No se puede",
+        "filter"
+      ],
+      "ok": 1,
+      "exp": "Tuplas en key: orden multi-nivel en UNA Llamada, elegante y estable."
+    }
+  ],
+  "generado": "2026-09-18"
+}

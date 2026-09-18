@@ -1,0 +1,32 @@
+{
+  "curso": "Despliegue y Servidores — Tu App al Mundo",
+  "leccion": 2,
+  "titulo": "2. Nginx y reverse proxy: el portero de tu servidor",
+  "total": 2,
+  "aprobado_con": 2,
+  "preguntas": [
+    {
+      "p": "¿Qué hace proxy_pass http://localhost:8000?",
+      "ops": [
+        "Borra peticiones",
+        "Nginx recibe en el 80 público y reenvía internamente a tu app en :8000",
+        "Sube archivos",
+        "Cierra el puerto"
+      ],
+      "ok": 1,
+      "exp": "Reverse proxy: un solo punto público, muchas apps atrás."
+    },
+    {
+      "p": "¿Por qué es estándar que la app corra en 127.0.0.1:8000 y no exponga su puerto?",
+      "ops": [
+        "Es más rápido",
+        "Control y seguridad: solo Nginx habla con el mundo; aplica HTTPS, límites y cabeceras en un solo sitio",
+        "Porque sí",
+        "Legal"
+      ],
+      "ok": 1,
+      "exp": "El perímetro en un punto único de control es higiene de seguridad básica."
+    }
+  ],
+  "generado": "2026-09-18"
+}

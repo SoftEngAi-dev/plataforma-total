@@ -1,0 +1,10 @@
+{
+  "tarjeta": "javascript-de-cero-a-experto-L17-Q02",
+  "curso": "JavaScript — De Cero a Experto",
+  "leccion": 17,
+  "frente": "¿Qué hace super.completar() en una subclase?",
+  "reversa": "Invoca la versión del método en la clase padre",
+  "explicacion": "super = acceso a la clase padre: reutilizas y extiendes en vez de reescribir.",
+  "algoritmo": "repaso espaciado: 1d, 3d, 7d, 21d",
+  "generada": "2026-09-18"
+}

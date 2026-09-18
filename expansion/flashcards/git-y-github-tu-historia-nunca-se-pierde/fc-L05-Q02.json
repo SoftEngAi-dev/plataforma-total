@@ -1,0 +1,10 @@
+{
+  "tarjeta": "git-y-github-tu-historia-nunca-L05-Q02",
+  "curso": "Git y GitHub — Tu Historia Nunca Se Pierde",
+  "leccion": 5,
+  "frente": "¿Qué es un tag v1.0 en git?",
+  "reversa": "Una marca permanente sobre un commit: la forma de publicar releases/versiones",
+  "explicacion": "Los tags señalan hitos estables; son referencia para despliegues.",
+  "algoritmo": "repaso espaciado: 1d, 3d, 7d, 21d",
+  "generada": "2026-09-18"
+}

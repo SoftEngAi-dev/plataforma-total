@@ -1,0 +1,32 @@
+{
+  "curso": "HTML y CSS — Diseño Web Total",
+  "leccion": 9,
+  "titulo": "9. Proyecto guiado: tu página personal completa",
+  "total": 2,
+  "aprobado_con": 2,
+  "preguntas": [
+    {
+      "p": "¿Cuál es el éxito mínimo del proyecto?",
+      "ops": [
+        "Que gane un premio de diseño",
+        "Que se vea bien tanto en móvil como en desktop",
+        "Que use 10 fuentes distintas",
+        "Que tenga animaciones complejas"
+      ],
+      "ok": 1,
+      "exp": "Responsive sólido es la meta; el gusto se entrena después."
+    },
+    {
+      "p": "¿Qué combinación cubre los layouts del proyecto?",
+      "ops": [
+        "Solo floats",
+        "Flexbox para el nav + Grid para las tarjetas",
+        "Tablas HTML",
+        "Solo posición absoluta"
+      ],
+      "ok": 1,
+      "exp": "Flex para 1 dimensión (nav), Grid para 2 (cards): la receta moderna."
+    }
+  ],
+  "generado": "2026-09-18"
+}

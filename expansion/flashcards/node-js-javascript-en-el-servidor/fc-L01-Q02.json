@@ -1,0 +1,10 @@
+{
+  "tarjeta": "node-js-javascript-en-el-servi-L01-Q02",
+  "curso": "Node.js — JavaScript en el Servidor",
+  "leccion": 1,
+  "frente": "¿Cómo activar ES Modules (import/export) en Node?",
+  "reversa": "\"type\": \"module\" en package.json (o usar .mjs)",
+  "explicacion": "Con esa flag, import from 'node:fs/promises' y top-level await funcionan nativamente.",
+  "algoritmo": "repaso espaciado: 1d, 3d, 7d, 21d",
+  "generada": "2026-09-18"
+}

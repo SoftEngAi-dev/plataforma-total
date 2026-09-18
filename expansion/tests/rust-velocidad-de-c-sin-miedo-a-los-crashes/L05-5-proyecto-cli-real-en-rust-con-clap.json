@@ -1,0 +1,32 @@
+{
+  "curso": "Rust — Velocidad de C sin Miedo a los Crashes",
+  "leccion": 5,
+  "titulo": "5. Proyecto: CLI real en Rust con clap",
+  "total": 2,
+  "aprobado_con": 2,
+  "preguntas": [
+    {
+      "p": "¿Qué hace clap con macros derive?",
+      "ops": [
+        "Nada",
+        "Genera el parser de argumentos/ayuda de tu CLI desde tus structs automáticamente (--help profesional gratis)",
+        "Compila Rust",
+        "Instala crates"
+      ],
+      "ok": 1,
+      "exp": "Derive: Rust's compile-time code generation — CLI args tipados de regalo."
+    },
+    {
+      "p": "¿Qué desafío famoso te hará 'sentir' ownership en este proyecto?",
+      "ops": [
+        "Null",
+        "Elegir entre String (dueña) y &str (prestada) en structs/funcs: la decisión de propiedad explícita",
+        "Threads",
+        "Red"
+      ],
+      "ok": 1,
+      "exp": "Las peleas con el borrow checker te enseñan el modelo: un mes después, es superpoder."
+    }
+  ],
+  "generado": "2026-09-18"
+}

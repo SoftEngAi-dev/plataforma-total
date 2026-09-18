@@ -1,0 +1,10 @@
+{
+  "tarjeta": "ruby-on-rails-la-felicidad-del-L02-Q01",
+  "curso": "Ruby on Rails — La Felicidad del Desarrollador",
+  "leccion": 2,
+  "frente": "¿Qué es el 'scaffold' de Rails?",
+  "reversa": "Generador del CRUD completo (modelo, migración, controller, vistas, rutas) desde una consola",
+  "explicacion": "Ideal para aprender el MVC viendo todas las piezas en acción y de una vez.",
+  "algoritmo": "repaso espaciado: 1d, 3d, 7d, 21d",
+  "generada": "2026-09-18"
+}

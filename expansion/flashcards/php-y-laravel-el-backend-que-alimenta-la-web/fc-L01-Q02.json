@@ -1,0 +1,10 @@
+{
+  "tarjeta": "php-y-laravel-el-backend-que-a-L01-Q02",
+  "curso": "PHP y Laravel — El Backend Que Alimenta la Web",
+  "leccion": 1,
+  "frente": "¿Qué es un array asociativo en PHP?",
+  "reversa": "El equivalente a dict/hash: clave=>valor ['nombre'=>'Ada']",
+  "explicacion": "El tipo multiuso de PHP: lista y diccionario en uno.",
+  "algoritmo": "repaso espaciado: 1d, 3d, 7d, 21d",
+  "generada": "2026-09-18"
+}

@@ -1,0 +1,10 @@
+{
+  "tarjeta": "arquitectura-de-software-disen-L02-Q01",
+  "curso": "Arquitectura de Software — Diseñar para Crecer",
+  "leccion": 2,
+  "frente": "¿Qué resuelve Observer?",
+  "reversa": "Acoplamiento: el emisor publica eventos y los interesados reaccionan sin conocerse entre sí",
+  "explicacion": "Desacopla módulos: agregar email-notification NO toca el módulo de compras.",
+  "algoritmo": "repaso espaciado: 1d, 3d, 7d, 21d",
+  "generada": "2026-09-18"
+}

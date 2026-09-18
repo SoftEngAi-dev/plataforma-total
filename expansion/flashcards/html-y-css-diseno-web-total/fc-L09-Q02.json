@@ -1,0 +1,10 @@
+{
+  "tarjeta": "html-y-css-diseno-web-total-L09-Q02",
+  "curso": "HTML y CSS — Diseño Web Total",
+  "leccion": 9,
+  "frente": "¿Qué combinación cubre los layouts del proyecto?",
+  "reversa": "Flexbox para el nav + Grid para las tarjetas",
+  "explicacion": "Flex para 1 dimensión (nav), Grid para 2 (cards): la receta moderna.",
+  "algoritmo": "repaso espaciado: 1d, 3d, 7d, 21d",
+  "generada": "2026-09-18"
+}

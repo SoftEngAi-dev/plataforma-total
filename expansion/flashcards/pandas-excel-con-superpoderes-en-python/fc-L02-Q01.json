@@ -1,0 +1,10 @@
+{
+  "tarjeta": "pandas-excel-con-superpoderes-L02-Q01",
+  "curso": "Pandas — Excel con Superpoderes en Python",
+  "leccion": 2,
+  "frente": "¿Qué hace df.isna().sum()?",
+  "reversa": "Cuenta valores faltantes POR COLUMNA: la primera revisión de salud de un dataset",
+  "explicacion": "Antes de analizar: ¿cuántos huecos hay y dónde? Ahí decides tu estrategia de limpieza.",
+  "algoritmo": "repaso espaciado: 1d, 3d, 7d, 21d",
+  "generada": "2026-09-18"
+}

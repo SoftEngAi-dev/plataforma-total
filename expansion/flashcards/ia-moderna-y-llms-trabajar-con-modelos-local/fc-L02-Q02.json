@@ -1,0 +1,10 @@
+{
+  "tarjeta": "ia-moderna-y-llms-trabajar-con-L02-Q02",
+  "curso": "IA Moderna y LLMs — Trabajar con Modelos Locales",
+  "leccion": 2,
+  "frente": "¿Cuál prompt funciona mejor para debugging?",
+  "reversa": "Pegar el código + el traceback completo + qué esperabas que pasara",
+  "explicacion": "Sin datos concretos el modelo adivina; con contexto real = respuesta de cirujano.",
+  "algoritmo": "repaso espaciado: 1d, 3d, 7d, 21d",
+  "generada": "2026-09-18"
+}

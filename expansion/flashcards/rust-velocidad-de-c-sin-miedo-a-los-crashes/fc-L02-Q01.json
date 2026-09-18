@@ -1,0 +1,10 @@
+{
+  "tarjeta": "rust-velocidad-de-c-sin-miedo-L02-Q01",
+  "curso": "Rust — Velocidad de C sin Miedo a los Crashes",
+  "leccion": 2,
+  "frente": "¿Por qué en Rust `let b = a` con Strings 'mueve' en vez de copiar?",
+  "reversa": "Ownership: solo un dueño por valor para liberar memoria automáticamente de forma segura",
+  "explicacion": "Si dos dueños intentaran liberar → double-free. Un dueño ya lo sabes: sin GC, sin peligro.",
+  "algoritmo": "repaso espaciado: 1d, 3d, 7d, 21d",
+  "generada": "2026-09-18"
+}

@@ -1,0 +1,10 @@
+{
+  "tarjeta": "c-y-net-el-ecosistema-microsof-L04-Q02",
+  "curso": "C# y .NET — El Ecosistema Microsoft Moderno",
+  "leccion": 4,
+  "frente": "¿Qué hace FindAsync(id)?",
+  "reversa": "Busca por clave primaria devolviendo el objeto o null si no existe",
+  "explicacion": "La operación básica de lectura-por-id en EF Core — el orElse NotFound a continuación es el patrón.",
+  "algoritmo": "repaso espaciado: 1d, 3d, 7d, 21d",
+  "generada": "2026-09-18"
+}

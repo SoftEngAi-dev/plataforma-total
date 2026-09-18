@@ -1,0 +1,10 @@
+{
+  "tarjeta": "despliegue-y-servidores-tu-app-L03-Q01",
+  "curso": "Despliegue y Servidores — Tu App al Mundo",
+  "leccion": 3,
+  "frente": "¿Qué hace Restart=always en systemd?",
+  "reversa": "Si el proceso muere, systemd lo vuelve a levantar automáticamente",
+  "explicacion": "Con enable (boot) + Restart, tu app sobrevive cuelgues Y reboots sin tocarte el dedo.",
+  "algoritmo": "repaso espaciado: 1d, 3d, 7d, 21d",
+  "generada": "2026-09-18"
+}

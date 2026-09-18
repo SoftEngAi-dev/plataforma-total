@@ -1,0 +1,10 @@
+{
+  "tarjeta": "typescript-javascript-con-supe-L02-Q02",
+  "curso": "TypeScript — JavaScript con Superpoderes y Seguridad",
+  "leccion": 2,
+  "frente": "¿Qué diferencia hay entre any y unknown?",
+  "reversa": "any desactiva toda verificación; unknown exige comprobar el tipo antes de usarlo",
+  "explicacion": "unknown = 'no sé aún, pero TS me protege'; any = 'ríndete, compilador'.",
+  "algoritmo": "repaso espaciado: 1d, 3d, 7d, 21d",
+  "generada": "2026-09-18"
+}

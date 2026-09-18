@@ -1,0 +1,10 @@
+{
+  "tarjeta": "pandas-excel-con-superpoderes-L01-Q01",
+  "curso": "Pandas — Excel con Superpoderes en Python",
+  "leccion": 1,
+  "frente": "¿Qué devuelve datos[datos['edad'] > 40]?",
+  "reversa": "Filas del DataFrame donde la condición booleana es verdadera",
+  "explicacion": "Boolean indexing: la forma panda de decir 'WHERE edad > 40'.",
+  "algoritmo": "repaso espaciado: 1d, 3d, 7d, 21d",
+  "generada": "2026-09-18"
+}

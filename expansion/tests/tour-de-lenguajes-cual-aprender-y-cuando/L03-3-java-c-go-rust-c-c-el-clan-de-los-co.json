@@ -1,0 +1,32 @@
+{
+  "curso": "Tour de Lenguajes — Cuál Aprender y Cuándo",
+  "leccion": 3,
+  "titulo": "3. Java, C#, Go, Rust, C/C++: el clan de los compilados",
+  "total": 2,
+  "aprobado_con": 2,
+  "preguntas": [
+    {
+      "p": "Si quieres trabajar en infraestructura/cloud (k8s, Terraform, etc.), el lenguaje estrella es...",
+      "ops": [
+        "Python",
+        "Go: la nube moderna está escrita en él (Docker, Kubernetes, Terraform)",
+        "Java",
+        "Ruby"
+      ],
+      "ok": 1,
+      "exp": "Go = lenguaje icu de la nube: binarios únicos + concurrencia nativa."
+    },
+    {
+      "p": "¿Cuándo C/C++ es la OPCIÓN y no una elección?",
+      "ops": [
+        "Siempre",
+        "Sistemas operativos, drivers, motores gráficos, embebidos, latencia extrema — donde el control hardware es la feature",
+        "Para web APIs",
+        "Nunca"
+      ],
+      "ok": 1,
+      "exp": "Cuando nanosegundos/bytes importan como requisito: C/C++ no es viejo, es el cimiento obligado."
+    }
+  ],
+  "generado": "2026-09-18"
+}

@@ -1,0 +1,32 @@
+{
+  "curso": "Python — De Cero a Profesional",
+  "leccion": 16,
+  "titulo": "16. Proyecto final: tu asistente CLI personal",
+  "total": 2,
+  "aprobado_con": 2,
+  "preguntas": [
+    {
+      "p": "¿Por qué separar modelos.py de main.py?",
+      "ops": [
+        "Obligación",
+        "Separación de responsabilidades: clases/datos testeables solos, main solo orquesta",
+        "Velocidad",
+        "Estética"
+      ],
+      "ok": 1,
+      "exp": "Cada módulo una razón de cambio; esto es arquitectura en pequeño."
+    },
+    {
+      "p": "Un proyecto 'terminado' incluye además del código...",
+      "ops": [
+        "Un PDF",
+        "README + requirements + tests básicos + .gitignore",
+        "Un servidor",
+        "Logo"
+      ],
+      "ok": 1,
+      "exp": "Profesional = reproducible y presentable, no solo que corra en tu máquina."
+    }
+  ],
+  "generado": "2026-09-18"
+}

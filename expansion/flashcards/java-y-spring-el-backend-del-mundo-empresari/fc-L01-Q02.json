@@ -1,0 +1,10 @@
+{
+  "tarjeta": "java-y-spring-el-backend-del-m-L01-Q02",
+  "curso": "Java y Spring — El Backend del Mundo Empresarial",
+  "leccion": 1,
+  "frente": "¿Qué es la JVM?",
+  "reversa": "La máquina virtual que ejecuta el bytecode Java haciéndolo portable (una compilation, corre en to-do SO con JVM)",
+  "explicacion": "Compile once run anywhere: el bytecode .class corre en cualquier JVM.",
+  "algoritmo": "repaso espaciado: 1d, 3d, 7d, 21d",
+  "generada": "2026-09-18"
+}

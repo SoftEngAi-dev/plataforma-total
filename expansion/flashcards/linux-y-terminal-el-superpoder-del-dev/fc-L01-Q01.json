@@ -1,0 +1,10 @@
+{
+  "tarjeta": "linux-y-terminal-el-superpoder-L01-Q01",
+  "curso": "Linux y Terminal — El Superpoder del Dev",
+  "leccion": 1,
+  "frente": "¿Qué hace mkdir -p a/b/c?",
+  "reversa": "Crea la ruta completa incluidos padres intermedios sin error",
+  "explicacion": "Sin -p falla si 'a' no existe; con -p crea todo el camino.",
+  "algoritmo": "repaso espaciado: 1d, 3d, 7d, 21d",
+  "generada": "2026-09-18"
+}

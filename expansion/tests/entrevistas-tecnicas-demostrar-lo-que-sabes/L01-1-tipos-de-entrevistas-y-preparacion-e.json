@@ -1,0 +1,32 @@
+{
+  "curso": "Entrevistas Técnicas — Demostrar lo que Sabes",
+  "leccion": 1,
+  "titulo": "1. Tipos de entrevistas y preparación estratégica",
+  "total": 2,
+  "aprobado_con": 2,
+  "preguntas": [
+    {
+      "p": "¿Qué evalúa PREPONDERANTEMENTE un livecoding bien dirigido?",
+      "ops": [
+        "Velocidad",
+        "El PROCESO: clarificar, planificar, razonar en voz alta, testear — antes que código perfecto al final",
+        "Teoría",
+        "El CV"
+      ],
+      "ok": 1,
+      "exp": "La comunicación del razonamiento ES la skill testeada: hablar pensando todo el tiempo."
+    },
+    {
+      "p": "¿En qué fallan la mayoría las respuestas behavioral?",
+      "ops": [
+        "No saben",
+        "Hablan ddel 'equipo'/vago sin acción propia estructurada ni resultado medible (sin STAR, sin números)",
+        "Mentir",
+        "Código"
+      ],
+      "ok": 1,
+      "exp": "Cuenta TU acción específica con un resultado cuantificado: el resto es ruido."
+    }
+  ],
+  "generado": "2026-09-18"
+}

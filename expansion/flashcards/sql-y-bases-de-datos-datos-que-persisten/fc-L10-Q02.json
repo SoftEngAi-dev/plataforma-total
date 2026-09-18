@@ -1,0 +1,10 @@
+{
+  "tarjeta": "sql-y-bases-de-datos-datos-que-L10-Q02",
+  "curso": "SQL y Bases de Datos — Datos que Persisten",
+  "leccion": 10,
+  "frente": "¿Qué patrón se repite en todo esquema serio?",
+  "reversa": "Entidades separadas + FKs + restricciones + índices en búsquedas frecuentes",
+  "explicacion": "Normalización + restricciones = la base no permite corrupción de datos desde afuera.",
+  "algoritmo": "repaso espaciado: 1d, 3d, 7d, 21d",
+  "generada": "2026-09-18"
+}

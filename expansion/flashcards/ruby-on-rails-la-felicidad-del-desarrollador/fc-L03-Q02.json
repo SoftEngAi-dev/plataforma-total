@@ -1,0 +1,10 @@
+{
+  "tarjeta": "ruby-on-rails-la-felicidad-del-L03-Q02",
+  "curso": "Ruby on Rails — La Felicidad del Desarrollador",
+  "leccion": 3,
+  "frente": "has_many :posts presupone...",
+  "reversa": "Que la tabla posts tiene columna autor_id (convención Rails que la FK sigue el modelo singular+_id)",
+  "explicacion": "Por convención no tienes que decírselo: la FK es visible: autor_id.",
+  "algoritmo": "repaso espaciado: 1d, 3d, 7d, 21d",
+  "generada": "2026-09-18"
+}

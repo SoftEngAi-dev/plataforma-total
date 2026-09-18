@@ -1,0 +1,10 @@
+{
+  "tarjeta": "testing-programar-con-red-de-s-L03-Q02",
+  "curso": "Testing — Programar con Red de Seguridad",
+  "leccion": 3,
+  "frente": "¿Qué reutiliza una fixture de pytest?",
+  "reversa": "La preparación compartida entre muchos tests (datos de prueba, conexiones, objetos complejos)",
+  "explicacion": "Fixture = DRY aplicado a tests: un usuario demo se define una vez y todos lo usan.",
+  "algoritmo": "repaso espaciado: 1d, 3d, 7d, 21d",
+  "generada": "2026-09-18"
+}

@@ -1,0 +1,32 @@
+{
+  "curso": "Go — El Lenguaje de la Nube",
+  "leccion": 4,
+  "titulo": "4. Servidor HTTP estándar: la web sin frameworks",
+  "total": 2,
+  "aprobado_con": 2,
+  "preguntas": [
+    {
+      "p": "¿Qué incluye el paquete net/http de Go?",
+      "ops": [
+        "Solo clientes",
+        "Servidor HTTP completo en la stdlib: ninguna librería extra para APIs productivas",
+        "Solo en frameworks",
+        "SMTP"
+      ],
+      "ok": 1,
+      "exp": "Escuchar y servir HTTP es nativo; por eso Go domina la nube sin framework pesado."
+    },
+    {
+      "p": "¿Qué hace la struct tag `json:\"titulo\"`?",
+      "ops": [
+        "Comentario",
+        "Mapea el campo entre Go (Titulo) y JSON (titulo) al encodear/decodear automáticamente",
+        "SQL",
+        "Un indice"
+      ],
+      "ok": 1,
+      "exp": "Las tags gobiernan la serialización: la convención de nombre se configura explícita."
+    }
+  ],
+  "generado": "2026-09-18"
+}

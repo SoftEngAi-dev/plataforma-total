@@ -1,0 +1,10 @@
+{
+  "tarjeta": "c-y-net-el-ecosistema-microsof-L03-Q02",
+  "curso": "C# y .NET — El Ecosistema Microsoft Moderno",
+  "leccion": 3,
+  "frente": "¿Qué hacen las 'migraciones' de EF Core?",
+  "reversa": "Generan/aplican el esquema SQL desde tus clases C# y mantienen su historial versionado",
+  "explicacion": "El esquema de la BD vive en tu código: cambiar clase → migración → BD nueva consistente.",
+  "algoritmo": "repaso espaciado: 1d, 3d, 7d, 21d",
+  "generada": "2026-09-18"
+}

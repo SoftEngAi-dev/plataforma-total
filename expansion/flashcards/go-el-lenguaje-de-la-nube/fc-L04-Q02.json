@@ -1,0 +1,10 @@
+{
+  "tarjeta": "go-el-lenguaje-de-la-nube-L04-Q02",
+  "curso": "Go — El Lenguaje de la Nube",
+  "leccion": 4,
+  "frente": "¿Qué hace la struct tag `json:\"titulo\"`?",
+  "reversa": "Mapea el campo entre Go (Titulo) y JSON (titulo) al encodear/decodear automáticamente",
+  "explicacion": "Las tags gobiernan la serialización: la convención de nombre se configura explícita.",
+  "algoritmo": "repaso espaciado: 1d, 3d, 7d, 21d",
+  "generada": "2026-09-18"
+}

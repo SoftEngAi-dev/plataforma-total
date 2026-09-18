@@ -1,0 +1,10 @@
+{
+  "tarjeta": "algoritmos-y-estructuras-el-gi-L02-Q02",
+  "curso": "Algoritmos y Estructuras — El Gimnasio del Dev",
+  "leccion": 2,
+  "frente": "¿Cómo convertir múltiples búsquedas O(n) cada una en O(1) cada una?",
+  "reversa": "Construir UN diccionario/hash indexado UNA vez y consultarlo en O(1) luego",
+  "explicacion": "Trade tiempo-por-memoria: indexar=prepagar para buscar barato.",
+  "algoritmo": "repaso espaciado: 1d, 3d, 7d, 21d",
+  "generada": "2026-09-18"
+}

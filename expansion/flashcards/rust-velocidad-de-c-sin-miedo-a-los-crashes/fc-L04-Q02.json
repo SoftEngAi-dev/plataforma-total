@@ -1,0 +1,10 @@
+{
+  "tarjeta": "rust-velocidad-de-c-sin-miedo-L04-Q02",
+  "curso": "Rust — Velocidad de C sin Miedo a los Crashes",
+  "leccion": 4,
+  "frente": "¿Qué coste extra tienen los iteradores encadenados de Rust?",
+  "reversa": "Cero: se compilan al mismo código que un bucle for manual (zero-cost abstractions)",
+  "explicacion": "'What you don't use, you don't pay for; what you do, you couldn't hand-code better' = lema.",
+  "algoritmo": "repaso espaciado: 1d, 3d, 7d, 21d",
+  "generada": "2026-09-18"
+}

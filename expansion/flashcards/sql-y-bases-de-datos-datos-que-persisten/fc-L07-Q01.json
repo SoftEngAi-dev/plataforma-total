@@ -1,0 +1,10 @@
+{
+  "tarjeta": "sql-y-bases-de-datos-datos-que-L07-Q01",
+  "curso": "SQL y Bases de Datos — Datos que Persisten",
+  "leccion": 7,
+  "frente": "¿Qué registros incluye LEFT JOIN que INNER no?",
+  "reversa": "Los de la tabla izquierda sin coincidencia (con NULLs en la derecha)",
+  "explicacion": "LEFT preserva el lado izquierdo completo: ideal para 'X con o sin Y'.",
+  "algoritmo": "repaso espaciado: 1d, 3d, 7d, 21d",
+  "generada": "2026-09-18"
+}

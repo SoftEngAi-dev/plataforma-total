@@ -1,0 +1,10 @@
+{
+  "tarjeta": "devops-y-ci-cd-de-tu-pc-a-prod-L04-Q02",
+  "curso": "DevOps y CI/CD — De Tu PC a Producción Sin Sudor",
+  "leccion": 4,
+  "frente": "¿Qué regala Docker al momento de rollback?",
+  "reversa": "La versión anterior sigue como imagen: vuelves a correr esa y listo, sin reinstalar",
+  "explicacion": "Inmutabilidad de imágenes = tiempo de restauración en segundos.",
+  "algoritmo": "repaso espaciado: 1d, 3d, 7d, 21d",
+  "generada": "2026-09-18"
+}

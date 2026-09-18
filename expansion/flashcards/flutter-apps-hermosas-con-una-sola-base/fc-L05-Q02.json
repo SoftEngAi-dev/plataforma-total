@@ -1,0 +1,10 @@
+{
+  "tarjeta": "flutter-apps-hermosas-con-una-L05-Q02",
+  "curso": "Flutter — Apps Hermosas con Una Sola Base",
+  "leccion": 5,
+  "frente": "¿Qué comando compila la app para web?",
+  "reversa": "flutter build web → estáticos en build/web desplegables en Netlify/Pages",
+  "explicacion": "El mismo código Dart/Flutter corre como web estática: cross-platform real cumplida.",
+  "algoritmo": "repaso espaciado: 1d, 3d, 7d, 21d",
+  "generada": "2026-09-18"
+}

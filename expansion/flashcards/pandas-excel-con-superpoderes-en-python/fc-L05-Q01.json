@@ -1,0 +1,10 @@
+{
+  "tarjeta": "pandas-excel-con-superpoderes-L05-Q01",
+  "curso": "Pandas — Excel con Superpoderes en Python",
+  "leccion": 5,
+  "frente": "¿Cuál gráfico muestra relación entre dos numéricos?",
+  "reversa": "scatterplot: cada punto una observación - revela correlaciones, clusters y outliers de un vistazo",
+  "explicacion": "Dispersión = radiografía de relaciones: la intuición primera de cualquier análisis bivariado.",
+  "algoritmo": "repaso espaciado: 1d, 3d, 7d, 21d",
+  "generada": "2026-09-18"
+}

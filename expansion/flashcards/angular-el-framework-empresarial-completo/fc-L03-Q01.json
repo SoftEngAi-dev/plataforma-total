@@ -1,0 +1,10 @@
+{
+  "tarjeta": "angular-el-framework-empresari-L03-Q01",
+  "curso": "Angular — El Framework Empresarial Completo",
+  "leccion": 3,
+  "frente": "¿Qué problema resuelven los signals respecto a Zone.js?",
+  "reversa": "Detección de cambios quirúrgica: solo se actualiza lo que usa el signal, sin escanear toda la app",
+  "explicacion": "Rendimiento por reacción fina: ganancia real en apps grandes y código más claro.",
+  "algoritmo": "repaso espaciado: 1d, 3d, 7d, 21d",
+  "generada": "2026-09-18"
+}

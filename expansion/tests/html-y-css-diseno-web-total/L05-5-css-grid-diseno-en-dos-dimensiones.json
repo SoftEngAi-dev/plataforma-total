@@ -1,0 +1,32 @@
+{
+  "curso": "HTML y CSS — Diseño Web Total",
+  "leccion": 5,
+  "titulo": "5. CSS Grid: diseño en dos dimensiones",
+  "total": 2,
+  "aprobado_con": 2,
+  "preguntas": [
+    {
+      "p": "¿Qué hace repeat(auto-fit, minmax(250px, 1fr))?",
+      "ops": [
+        "3 columnas fijas",
+        "Columnas dinámicas: entran las quepan con mínimo 250px y rellenan el espacio",
+        "250px de alto",
+        "Nada sin media queries"
+      ],
+      "ok": 1,
+      "exp": "El patrón responsive por excelencia: se adapta solo al ancho disponible."
+    },
+    {
+      "p": "¿Cuándo elegir Grid sobre Flexbox?",
+      "ops": [
+        "Siempre",
+        "Nunca",
+        "Cuando el diseño es bidimensional (filas y columnas)",
+        "Solo para tablas"
+      ],
+      "ok": 2,
+      "exp": "Flex = una dimensión; Grid = dos. Conviven felices."
+    }
+  ],
+  "generado": "2026-09-18"
+}

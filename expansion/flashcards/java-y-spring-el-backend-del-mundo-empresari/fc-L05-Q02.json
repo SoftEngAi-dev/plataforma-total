@@ -1,0 +1,10 @@
+{
+  "tarjeta": "java-y-spring-el-backend-del-m-L05-Q02",
+  "curso": "Java y Spring — El Backend del Mundo Empresarial",
+  "leccion": 5,
+  "frente": "¿Qué genera el .jar empaquetado con spring-boot:package?",
+  "reversa": "Un ejecutable autocontenido (app+servidor Tomcat embebido): dockerizar es trivial",
+  "explicacion": "El fat jar = tu app + servidor interno: corre en cualquier JVM sola.",
+  "algoritmo": "repaso espaciado: 1d, 3d, 7d, 21d",
+  "generada": "2026-09-18"
+}

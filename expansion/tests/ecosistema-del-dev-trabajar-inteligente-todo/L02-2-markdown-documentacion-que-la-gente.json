@@ -1,0 +1,32 @@
+{
+  "curso": "Ecosistema del Dev — Trabajar Inteligente Todos los Días",
+  "leccion": 2,
+  "titulo": "2. Markdown + documentación que La gente lee",
+  "total": 2,
+  "aprobado_con": 2,
+  "preguntas": [
+    {
+      "p": "¿Qué debe comentar un buen comentario en código?",
+      "ops": [
+        "Todo el código",
+        "El POR QUÉ/contexto no obvio del código (el QUÉ lo dice el código mismo)",
+        "El autor",
+        "Fechas"
+      ],
+      "ok": 1,
+      "exp": "Razones, advertencias y decisiones: lo que futuras lecturas no pueden inferir."
+    },
+    {
+      "p": "¿Cuál es la estructura de un README que convierte?",
+      "ops": [
+        "Legal",
+        "Qué hace + demo + install 3 pasos + ejemplo de uso (el lector decide en <1 minuto)",
+        "Solo título",
+        "Sin imágenes"
+      ],
+      "ok": 1,
+      "exp": "La claridad al abrir = usuarios/contribuidores que se quedan."
+    }
+  ],
+  "generado": "2026-09-18"
+}

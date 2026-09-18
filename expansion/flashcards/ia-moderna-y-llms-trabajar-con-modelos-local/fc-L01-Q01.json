@@ -1,0 +1,10 @@
+{
+  "tarjeta": "ia-moderna-y-llms-trabajar-con-L01-Q01",
+  "curso": "IA Moderna y LLMs — Trabajar con Modelos Locales",
+  "leccion": 1,
+  "frente": "¿Cómo decide un LLM qué escribir?",
+  "reversa": "Es una función estadística entrenada en predecir el siguiente token según el contexto dado",
+  "explicacion": "Estadística aplicada al lenguaje: capacidades emergen, pero no hay comprensión consciente.",
+  "algoritmo": "repaso espaciado: 1d, 3d, 7d, 21d",
+  "generada": "2026-09-18"
+}

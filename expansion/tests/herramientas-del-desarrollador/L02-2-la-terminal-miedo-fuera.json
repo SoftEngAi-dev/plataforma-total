@@ -1,0 +1,32 @@
+{
+  "curso": "Herramientas del Desarrollador",
+  "leccion": 2,
+  "titulo": "2. La terminal: miedo fuera",
+  "total": 2,
+  "aprobado_con": 2,
+  "preguntas": [
+    {
+      "p": "¿Qué comando muestra en qué carpeta estás?",
+      "ops": [
+        "ls",
+        "cd",
+        "pwd",
+        "where"
+      ],
+      "ok": 2,
+      "exp": "pwd (print working directory)."
+    },
+    {
+      "p": "¿Qué hace la tecla TAB en la terminal?",
+      "ops": [
+        "Inserta un tabulador",
+        "Autocompleta rutas, archivos y comandos",
+        "Borra la línea",
+        "Cambia de ventana"
+      ],
+      "ok": 1,
+      "exp": "TAB es tu superpoder: menos typos, más velocidad."
+    }
+  ],
+  "generado": "2026-09-18"
+}

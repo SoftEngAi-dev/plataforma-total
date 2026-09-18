@@ -1,0 +1,10 @@
+{
+  "tarjeta": "javascript-de-cero-a-experto-L06-Q01",
+  "curso": "JavaScript — De Cero a Experto",
+  "leccion": 6,
+  "frente": "¿Cuáles valores son falsy en JS?",
+  "reversa": "false, 0, \"\", null, undefined, NaN",
+  "explicacion": "if(x) con x falsy no ejecuta el bloque — revisa esta lista cuando te sorprenda.",
+  "algoritmo": "repaso espaciado: 1d, 3d, 7d, 21d",
+  "generada": "2026-09-18"
+}

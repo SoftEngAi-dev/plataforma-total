@@ -1,0 +1,10 @@
+{
+  "tarjeta": "html-y-css-diseno-web-total-L04-Q02",
+  "curso": "HTML y CSS — Diseño Web Total",
+  "leccion": 4,
+  "frente": "¿Qué hace flex: 1 en un hijo?",
+  "reversa": "Lo hace crecer para repartir el espacio sobrante del contenedor",
+  "explicacion": "flex-grow/shrink/basis abreviado: típicamente reparte el espacio equitativamente.",
+  "algoritmo": "repaso espaciado: 1d, 3d, 7d, 21d",
+  "generada": "2026-09-18"
+}

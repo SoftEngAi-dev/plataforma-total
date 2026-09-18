@@ -1,0 +1,10 @@
+{
+  "tarjeta": "docker-en-mi-maquina-si-funcio-L03-Q02",
+  "curso": "Docker — 'En Mi Máquina Sí Funciona' Resuelto",
+  "leccion": 3,
+  "frente": "¿Qué hace CMD [\"python\", \"app.py\"]?",
+  "reversa": "Define el comando por defecto al arrancar el contenedor",
+  "explicacion": "ENTRYPOINT+CMD definen el proceso principal: un contenedor sano = un proceso.",
+  "algoritmo": "repaso espaciado: 1d, 3d, 7d, 21d",
+  "generada": "2026-09-18"
+}

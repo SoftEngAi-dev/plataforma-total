@@ -1,0 +1,32 @@
+{
+  "curso": "Despliegue y Servidores — Tu App al Mundo",
+  "leccion": 1,
+  "titulo": "1. Dónde puede vivir tu app: el menú de opciones",
+  "total": 2,
+  "aprobado_con": 2,
+  "preguntas": [
+    {
+      "p": "¿Cuál es la forma MÁS rápida de publicar una web estática hoy?",
+      "ops": [
+        "Comprar un VPS",
+        "GitHub Pages / Netlify: arrastrar la carpeta o conectar el repo, gratis con HTTPS",
+        "AWS",
+        "IIS"
+      ],
+      "ok": 1,
+      "exp": "El hoy: no necesitas ni servidor: tu carpeta ya es una web mundial."
+    },
+    {
+      "p": "¿Qué diferencia un VPS de un PaaS?",
+      "ops": [
+        "Precio solamente",
+        "VPS = tú administras todo (más control y aprendizaje); PaaS = ellos administran, tú solo das el código (menos fricción)",
+        "El VPS es la nube",
+        "Son iguales"
+      ],
+      "ok": 1,
+      "exp": "Elige VPS para APRENDER sistemas; PaaS para enfocarte en producto."
+    }
+  ],
+  "generado": "2026-09-18"
+}

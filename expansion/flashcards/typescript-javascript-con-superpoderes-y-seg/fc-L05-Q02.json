@@ -1,0 +1,10 @@
+{
+  "tarjeta": "typescript-javascript-con-supe-L05-Q02",
+  "curso": "TypeScript — JavaScript con Superpoderes y Seguridad",
+  "leccion": 5,
+  "frente": "¿Para qué sirve implements?",
+  "reversa": "Obligar a la clase a cumplir el contrato de una interface",
+  "explicacion": "El compilador verifica que cumples el contrato — la base de sustituir implementaciones (mocks, DBs).",
+  "algoritmo": "repaso espaciado: 1d, 3d, 7d, 21d",
+  "generada": "2026-09-18"
+}

@@ -1,0 +1,10 @@
+{
+  "tarjeta": "devops-y-ci-cd-de-tu-pc-a-prod-L05-Q01",
+  "curso": "DevOps y CI/CD — De Tu PC a Producción Sin Sudor",
+  "leccion": 5,
+  "frente": "¿Qué niveles correctos de logs distinguen?",
+  "reversa": "DEBUG/INFO/WARNING/ERROR — filtras según la gravedad y el ambiente",
+  "explicacion": "En prod corre INFO+; en dev activas DEBUG. El ruido bien dosificado vale oro.",
+  "algoritmo": "repaso espaciado: 1d, 3d, 7d, 21d",
+  "generada": "2026-09-18"
+}

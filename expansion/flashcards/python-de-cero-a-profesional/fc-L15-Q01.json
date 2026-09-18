@@ -1,0 +1,10 @@
+{
+  "tarjeta": "python-de-cero-a-profesional-L15-Q01",
+  "curso": "Python — De Cero a Profesional",
+  "leccion": 15,
+  "frente": "¿Qué hace csv.DictReader?",
+  "reversa": "Convierte cada fila del CSV en un dict usando el encabezado como claves",
+  "explicacion": "fila['precio'] directo — parseo CSV robusto con nada instalado.",
+  "algoritmo": "repaso espaciado: 1d, 3d, 7d, 21d",
+  "generada": "2026-09-18"
+}

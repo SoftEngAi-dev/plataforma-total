@@ -1,0 +1,10 @@
+{
+  "tarjeta": "ia-moderna-y-llms-trabajar-con-L03-Q02",
+  "curso": "IA Moderna y LLMs — Trabajar con Modelos Locales",
+  "leccion": 3,
+  "frente": "¿Qué aporta ollama serve respecto a run?",
+  "reversa": "Expone el modelo como API HTTP local (localhost:11434) para que TUS programas lo invoquen",
+  "explicacion": "El server convierte tu PC en un mini-OpenAI local: esta app misma le habla así.",
+  "algoritmo": "repaso espaciado: 1d, 3d, 7d, 21d",
+  "generada": "2026-09-18"
+}

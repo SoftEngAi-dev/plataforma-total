@@ -1,0 +1,10 @@
+{
+  "tarjeta": "php-y-laravel-el-backend-que-a-L04-Q02",
+  "curso": "PHP y Laravel — El Backend Que Alimenta la Web",
+  "leccion": 4,
+  "frente": "¿Qué incluye la sintaxis {{ $x }} en Blade que la hace segura?",
+  "reversa": "Escapa HTML automáticamente (anti-XSS por defecto)",
+  "explicacion": "{!! !!} imprime crudo e inseguro; {{ }} es lo normal y escapeado.",
+  "algoritmo": "repaso espaciado: 1d, 3d, 7d, 21d",
+  "generada": "2026-09-18"
+}

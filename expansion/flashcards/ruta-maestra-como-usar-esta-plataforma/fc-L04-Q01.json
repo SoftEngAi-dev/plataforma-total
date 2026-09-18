@@ -1,0 +1,10 @@
+{
+  "tarjeta": "ruta-maestra-como-usar-esta-pl-L04-Q01",
+  "curso": "Ruta Maestra — Cómo Usar Esta Plataforma",
+  "leccion": 4,
+  "frente": "¿Cuál es el error más común al empezar un proyecto?",
+  "reversa": "Ámbito demasiado grande desde el inicio",
+  "explicacion": "Haz el ámbito tan pequeño que no pueda fallar; luego creces.",
+  "algoritmo": "repaso espaciado: 1d, 3d, 7d, 21d",
+  "generada": "2026-09-18"
+}

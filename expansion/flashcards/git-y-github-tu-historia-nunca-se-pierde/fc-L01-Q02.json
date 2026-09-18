@@ -1,0 +1,10 @@
+{
+  "tarjeta": "git-y-github-tu-historia-nunca-L01-Q02",
+  "curso": "Git y GitHub — Tu Historia Nunca Se Pierde",
+  "leccion": 1,
+  "frente": "¿Cuál es el orden del flujo básico?",
+  "reversa": "editar → git add → git commit",
+  "explicacion": "Working → staging (add) → repo (commit). push va aparte al remoto.",
+  "algoritmo": "repaso espaciado: 1d, 3d, 7d, 21d",
+  "generada": "2026-09-18"
+}

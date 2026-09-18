@@ -1,0 +1,32 @@
+{
+  "curso": "SQL y Bases de Datos — Datos que Persisten",
+  "leccion": 6,
+  "titulo": "6. Relaciones: FOREIGN KEY y primer diseño",
+  "total": 2,
+  "aprobado_con": 2,
+  "preguntas": [
+    {
+      "p": "¿Dónde va la FK en una relación 1 a muchos (autor-libros)?",
+      "ops": [
+        "En autores",
+        "En libros (el lado 'muchos')",
+        "En ambos",
+        "En una tabla aparte"
+      ],
+      "ok": 1,
+      "exp": "Cada libro apunta a su autor: FK en la tabla del lado N."
+    },
+    {
+      "p": "¿Cómo se modela muchos-a-muchos?",
+      "ops": [
+        "Con arrays",
+        "Tabla intermedia con ambas FK y PK compuesta",
+        "Duplicando datos",
+        "No se puede"
+      ],
+      "ok": 1,
+      "exp": "La tabla puente (inscripciones) convierte M:N en dos relaciones 1:N."
+    }
+  ],
+  "generado": "2026-09-18"
+}

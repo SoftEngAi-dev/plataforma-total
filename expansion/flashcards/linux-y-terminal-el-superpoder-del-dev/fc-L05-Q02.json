@@ -1,0 +1,10 @@
+{
+  "tarjeta": "linux-y-terminal-el-superpoder-L05-Q02",
+  "curso": "Linux y Terminal — El Superpoder del Dev",
+  "leccion": 5,
+  "frente": "set -euo pipefail permite...",
+  "reversa": "Fallar rápido y claramente: el script se detiene ante errores en vez de continuar roto",
+  "explicacion": "Script que sigue tras error suele causar más daño que uno que para.",
+  "algoritmo": "repaso espaciado: 1d, 3d, 7d, 21d",
+  "generada": "2026-09-18"
+}

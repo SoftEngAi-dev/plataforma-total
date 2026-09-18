@@ -1,0 +1,10 @@
+{
+  "tarjeta": "react-native-movil-con-tu-stac-L01-Q01",
+  "curso": "React Native — Móvil con Tu Stack Web",
+  "leccion": 1,
+  "frente": "¿En qué difiere React Native de una WebView/web app empaquetada?",
+  "reversa": "RN compila tus componentes a widgets NATIVOS reales (rendimiento verdadero), no embebe una web",
+  "explicacion": "RN renderiza UIView/View nativas: por eso se siente app de verdad, no página.",
+  "algoritmo": "repaso espaciado: 1d, 3d, 7d, 21d",
+  "generada": "2026-09-18"
+}

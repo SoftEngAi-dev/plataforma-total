@@ -1,0 +1,32 @@
+{
+  "curso": "DevOps y CI/CD — De Tu PC a Producción Sin Sudor",
+  "leccion": 4,
+  "titulo": "4. Despliegue continuo y entornos",
+  "total": 2,
+  "aprobado_con": 2,
+  "preguntas": [
+    {
+      "p": "¿Para qué existe staging?",
+      "ops": [
+        "Cuestión litúrgica",
+        "Ambiente IDÉNTICO a producción donde validar antes del deploy real",
+        "Para guardar código",
+        "Para tests unitarios"
+      ],
+      "ok": 1,
+      "exp": "Los bugs 'solo-pasan-en-prod' se atrapan en staging."
+    },
+    {
+      "p": "¿Qué regala Docker al momento de rollback?",
+      "ops": [
+        "Nada",
+        "La versión anterior sigue como imagen: vuelves a correr esa y listo, sin reinstalar",
+        "Más CPU",
+        "Backups de BD"
+      ],
+      "ok": 1,
+      "exp": "Inmutabilidad de imágenes = tiempo de restauración en segundos."
+    }
+  ],
+  "generado": "2026-09-18"
+}

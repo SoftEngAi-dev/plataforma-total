@@ -1,0 +1,32 @@
+{
+  "curso": "Pandas — Excel con Superpoderes en Python",
+  "leccion": 2,
+  "titulo": "2. CSV, limpieza y transformación de columnas",
+  "total": 2,
+  "aprobado_con": 2,
+  "preguntas": [
+    {
+      "p": "¿Qué hace df.isna().sum()?",
+      "ops": [
+        "Suma todo",
+        "Cuenta valores faltantes POR COLUMNA: la primera revisión de salud de un dataset",
+        "Borra NAs",
+        "CSV"
+      ],
+      "ok": 1,
+      "exp": "Antes de analizar: ¿cuántos huecos hay y dónde? Ahí decides tu estrategia de limpieza."
+    },
+    {
+      "p": "¿fillna con la mediana vs dropna?",
+      "ops": [
+        "Siempre dropna",
+        "fillna conserva todas las filas imputando un valor neutro; dropna las elimina — depende del caso",
+        "Ninguna diferencia",
+        "fillna es un error"
+      ],
+      "ok": 1,
+      "exp": "Poquitas filas → drop; muchas → imputar. La mediana es robusta a outliers."
+    }
+  ],
+  "generado": "2026-09-18"
+}

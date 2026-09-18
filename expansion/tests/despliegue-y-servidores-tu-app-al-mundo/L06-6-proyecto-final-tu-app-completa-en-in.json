@@ -1,0 +1,32 @@
+{
+  "curso": "Despliegue y Servidores — Tu App al Mundo",
+  "leccion": 6,
+  "titulo": "6. Proyecto final: tu app COMPLETA en internet con dominio",
+  "total": 2,
+  "aprobado_con": 2,
+  "preguntas": [
+    {
+      "p": "¿Qué verifica que realmente desplegaste bien?",
+      "ops": [
+        "Que corre local",
+        "URL pública + HTTPS (candado) + datos persistiendo + se mantiene tras reinicios",
+        "Compilar",
+        "1 test verde"
+      ],
+      "ok": 1,
+      "exp": "Accesibilidad real desde afuera, seguridad básica y persistencia: la trifecta del deploy."
+    },
+    {
+      "p": "¿Por qué documentar el despliegue en el README del proyecto?",
+      "ops": [
+        "Es bonito",
+        "URL viva en tu portafolio es la prueba '#1 para recruiters: cualquiera entra y ve tu trabajo andando",
+        "Google lo pide",
+        "SEO del repo"
+      ],
+      "ok": 1,
+      "exp": "El link que demuestra es infinitamente más persuasivo que la descripción."
+    }
+  ],
+  "generado": "2026-09-18"
+}

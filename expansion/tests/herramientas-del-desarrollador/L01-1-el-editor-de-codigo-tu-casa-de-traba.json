@@ -1,0 +1,32 @@
+{
+  "curso": "Herramientas del Desarrollador",
+  "leccion": 1,
+  "titulo": "1. El editor de código: tu casa de trabajo",
+  "total": 2,
+  "aprobado_con": 2,
+  "preguntas": [
+    {
+      "p": "¿Qué hace Ctrl+P en VS Code?",
+      "ops": [
+        "Imprimir",
+        "Abrir cualquier archivo del proyecto escribiendo parte de su nombre",
+        "Formatear el documento",
+        "Abrir la terminal"
+      ],
+      "ok": 1,
+      "exp": "Quick Open: navegación veloz por archivos — la uso cientos de veces al día."
+    },
+    {
+      "p": "¿Cuál es la ética del proyecto en el editor?",
+      "ops": [
+        "Abrir archivo por archivo desde el explorador",
+        "Abrir el explorador de internet",
+        "Abrir la CARPETA del proyecto completa",
+        "Un editor por archivo"
+      ],
+      "ok": 2,
+      "exp": "El proyecto es la unidad: la búsqueda global, la terminal y la IA contextual dependen de ello."
+    }
+  ],
+  "generado": "2026-09-18"
+}

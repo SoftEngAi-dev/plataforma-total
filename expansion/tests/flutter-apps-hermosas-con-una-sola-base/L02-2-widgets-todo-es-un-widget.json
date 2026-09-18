@@ -1,0 +1,32 @@
+{
+  "curso": "Flutter — Apps Hermosas con Una Sola Base",
+  "leccion": 2,
+  "titulo": "2. Widgets: TODO es un widget",
+  "total": 2,
+  "aprobado_con": 2,
+  "preguntas": [
+    {
+      "p": "¿Qué es un StatelessWidget?",
+      "ops": [
+        "Un error",
+        "Un widget sin estado propio: se dibuja igual salvo que su PADRE le pase datos nuevos",
+        "Un widget con tabs",
+        "Un archivo"
+      ],
+      "ok": 1,
+      "exp": "La mayoría de la UI: describe, no cambia. Lo con estado es StatefulWidget."
+    },
+    {
+      "p": "¿Qué hace Column(children: [...])?",
+      "ops": [
+        "Tabla",
+        "Apila widgets verticalmente (Row es horizontal)",
+        "CSV",
+        "Nada"
+      ],
+      "ok": 1,
+      "exp": "Layouts de una dimensión; con Expanded/flex dentro controlas el reparto."
+    }
+  ],
+  "generado": "2026-09-18"
+}

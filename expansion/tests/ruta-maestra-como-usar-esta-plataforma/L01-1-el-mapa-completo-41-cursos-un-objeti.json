@@ -1,0 +1,32 @@
+{
+  "curso": "Ruta Maestra — Cómo Usar Esta Plataforma",
+  "leccion": 1,
+  "titulo": "1. El mapa completo: 41 cursos, un objetivo",
+  "total": 2,
+  "aprobado_con": 2,
+  "preguntas": [
+    {
+      "p": "¿Cuál es la regla n.º 1 de la plataforma?",
+      "ops": [
+        "Estudiar 8 horas los fines de semana",
+        "Consistencia diaria: 25 minutos al día mínimo",
+        "Terminar un curso por semana",
+        "Aprenderse la documentación de memoria"
+      ],
+      "ok": 1,
+      "exp": "La racha diaria (🔥) es la palanca que hace funcionar todo lo demás."
+    },
+    {
+      "p": "¿Qué necesita Plataforma Total para funcionar?",
+      "ops": [
+        "Internet permanente",
+        "Una cuenta de usuario",
+        "Nada más que tu máquina — es 100% local",
+        "Una GPU potente"
+      ],
+      "ok": 2,
+      "exp": "Todo el contenido y la base de datos viven en tu máquina; la IA externa es 100% opcional."
+    }
+  ],
+  "generado": "2026-09-18"
+}

@@ -1,0 +1,10 @@
+{
+  "tarjeta": "typescript-javascript-con-supe-L07-Q02",
+  "curso": "TypeScript — JavaScript con Superpoderes y Seguridad",
+  "leccion": 7,
+  "frente": "¿Cómo usar tipos con una librería JS como express?",
+  "reversa": "npm i -D @types/express (definiciones de tipos de la comunidad)",
+  "explicacion": "@types/* cubre todo el ecosistema popular: tu editor la entiende como si fuera TS nativa.",
+  "algoritmo": "repaso espaciado: 1d, 3d, 7d, 21d",
+  "generada": "2026-09-18"
+}

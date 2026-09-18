@@ -1,0 +1,10 @@
+{
+  "tarjeta": "html-y-css-diseno-web-total-L05-Q01",
+  "curso": "HTML y CSS — Diseño Web Total",
+  "leccion": 5,
+  "frente": "¿Qué hace repeat(auto-fit, minmax(250px, 1fr))?",
+  "reversa": "Columnas dinámicas: entran las quepan con mínimo 250px y rellenan el espacio",
+  "explicacion": "El patrón responsive por excelencia: se adapta solo al ancho disponible.",
+  "algoritmo": "repaso espaciado: 1d, 3d, 7d, 21d",
+  "generada": "2026-09-18"
+}

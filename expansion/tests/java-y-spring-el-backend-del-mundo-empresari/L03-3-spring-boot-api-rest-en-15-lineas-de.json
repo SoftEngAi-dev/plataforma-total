@@ -1,0 +1,32 @@
+{
+  "curso": "Java y Spring — El Backend del Mundo Empresarial",
+  "leccion": 3,
+  "titulo": "3. Spring Boot: API REST en 15 líneas de verdad",
+  "total": 2,
+  "aprobado_con": 2,
+  "preguntas": [
+    {
+      "p": "¿Qué hace @RestController?",
+      "ops": [
+        "Decora",
+        "Declara la clase como controlador web: los métodos responden HTTP y devuelven datos serializados (JSON)",
+        "Conecta BD",
+        "Corre tests"
+      ],
+      "ok": 1,
+      "exp": "@RestController = @Controller + @ResponseBody: todo método = respuesta JSON directa."
+    },
+    {
+      "p": "¿Qué es inyección de dependencias en Spring?",
+      "ops": [
+        "SQL",
+        "El framework crea y entrega los objetos que necesita tu clase por el constructor: cambiar implementación sin tocar tu código",
+        "Npm install",
+        "Herencia"
+      ],
+      "ok": 1,
+      "exp": "Recibes lo que necesitas; no lo construyes: testeo con mocks y evolución sin drama."
+    }
+  ],
+  "generado": "2026-09-18"
+}

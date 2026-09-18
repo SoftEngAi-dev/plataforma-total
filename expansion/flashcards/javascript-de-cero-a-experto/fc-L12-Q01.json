@@ -1,0 +1,10 @@
+{
+  "tarjeta": "javascript-de-cero-a-experto-L12-Q01",
+  "curso": "JavaScript — De Cero a Experto",
+  "leccion": 12,
+  "frente": "¿Qué hace JSON.stringify(datos)?",
+  "reversa": "Convierte datos JS en texto JSON para guardar/enviar",
+  "explicacion": "stringify serializa; parse deserializa. Juntas son el puente de datos.",
+  "algoritmo": "repaso espaciado: 1d, 3d, 7d, 21d",
+  "generada": "2026-09-18"
+}

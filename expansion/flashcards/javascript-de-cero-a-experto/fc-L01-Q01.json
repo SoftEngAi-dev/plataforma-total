@@ -1,0 +1,10 @@
+{
+  "tarjeta": "javascript-de-cero-a-experto-L01-Q01",
+  "curso": "JavaScript — De Cero a Experto",
+  "leccion": 1,
+  "frente": "¿Dónde corre JavaScript hoy día?",
+  "reversa": "Navegadores, servidores, móviles, desktops y más",
+  "explicacion": "Con Node y sus derivados, JS es verdaderamente universal.",
+  "algoritmo": "repaso espaciado: 1d, 3d, 7d, 21d",
+  "generada": "2026-09-18"
+}

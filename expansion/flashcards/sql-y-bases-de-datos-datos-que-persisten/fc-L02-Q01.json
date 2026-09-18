@@ -1,0 +1,10 @@
+{
+  "tarjeta": "sql-y-bases-de-datos-datos-que-L02-Q01",
+  "curso": "SQL y Bases de Datos — Datos que Persisten",
+  "leccion": 2,
+  "frente": "¿Cómo verificar si un campo es NULL?",
+  "reversa": "campo IS NULL",
+  "explicacion": "NULL no es un valor; solo IS NULL funciona — bug clásico en todo el mundo.",
+  "algoritmo": "repaso espaciado: 1d, 3d, 7d, 21d",
+  "generada": "2026-09-18"
+}

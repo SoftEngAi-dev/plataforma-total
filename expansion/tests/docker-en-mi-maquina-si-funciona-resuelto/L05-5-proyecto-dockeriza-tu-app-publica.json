@@ -1,0 +1,32 @@
+{
+  "curso": "Docker — 'En Mi Máquina Sí Funciona' Resuelto",
+  "leccion": 5,
+  "titulo": "5. Proyecto: dockeriza tu app + publica",
+  "total": 2,
+  "aprobado_con": 2,
+  "preguntas": [
+    {
+      "p": "¿Por qué nunca incluir secretos DENTRO de la imagen Docker?",
+      "ops": [
+        "La hace más lenta",
+        "Las capas de la imagen son legibles por cualquiera que la tenga/descargue: filtras las claves",
+        "Docker lo prohíbe",
+        "No se puede"
+      ],
+      "ok": 1,
+      "exp": "Secretos al correr (-e / compose env), nunca al build: la imagen te repite."
+    },
+    {
+      "p": "¿Qué combina este proyecto como cierre del curso?",
+      "ops": [
+        "Solo docker run",
+        "Dockerfile + build + volúmenes + compose + push al registry",
+        "Solo Kubernetes",
+        "Edición de imágenes"
+      ],
+      "ok": 1,
+      "exp": "El ciclo completo real: de tu código a imagen publicada y ejecutable en cualquier máquina."
+    }
+  ],
+  "generado": "2026-09-18"
+}

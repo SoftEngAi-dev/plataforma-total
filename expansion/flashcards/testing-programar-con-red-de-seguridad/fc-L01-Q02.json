@@ -1,0 +1,10 @@
+{
+  "tarjeta": "testing-programar-con-red-de-s-L01-Q02",
+  "curso": "Testing — Programar con Red de Seguridad",
+  "leccion": 1,
+  "frente": "¿Por qué un test no debe tocar internet/reloj reales?",
+  "reversa": "Para ser RÁPIDO, REPETIBLE y CONFIABLE: mismo resultado siempre, en cualquier máquina, sin depender de afuera",
+  "explicacion": "Mocks/fakes sustituyen lo externo: tu test decide el comportamiento externo, no la red.",
+  "algoritmo": "repaso espaciado: 1d, 3d, 7d, 21d",
+  "generada": "2026-09-18"
+}

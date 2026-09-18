@@ -1,0 +1,10 @@
+{
+  "tarjeta": "devops-y-ci-cd-de-tu-pc-a-prod-L03-Q01",
+  "curso": "DevOps y CI/CD — De Tu PC a Producción Sin Sudor",
+  "leccion": 3,
+  "frente": "¿Por qué la pirámide tiene más tests unitarios que E2E?",
+  "reversa": "Unitarios = rápidos, estables y baratos; E2E = lentos, frágiles y caros (manténlos pocos)",
+  "explicacion": "La base ancha de unit tests cubre lógica; los pocos E2E verifican el cableado.",
+  "algoritmo": "repaso espaciado: 1d, 3d, 7d, 21d",
+  "generada": "2026-09-18"
+}

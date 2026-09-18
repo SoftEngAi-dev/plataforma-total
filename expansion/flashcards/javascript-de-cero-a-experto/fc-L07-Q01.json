@@ -1,0 +1,10 @@
+{
+  "tarjeta": "javascript-de-cero-a-experto-L07-Q01",
+  "curso": "JavaScript — De Cero a Experto",
+  "leccion": 7,
+  "frente": "¿Cuál es la forma moderna recomendada de recorrer un array?",
+  "reversa": "for...of",
+  "explicacion": "for...of es directo y seguro; for...in es para CLAVES de objetos, no arrays.",
+  "algoritmo": "repaso espaciado: 1d, 3d, 7d, 21d",
+  "generada": "2026-09-18"
+}

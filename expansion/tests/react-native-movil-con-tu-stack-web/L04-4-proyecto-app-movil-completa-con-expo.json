@@ -1,0 +1,32 @@
+{
+  "curso": "React Native — Móvil con Tu Stack Web",
+  "leccion": 4,
+  "titulo": "4. Proyecto: app móvil completa con Expo",
+  "total": 2,
+  "aprobado_con": 2,
+  "preguntas": [
+    {
+      "p": "¿Qué necesitas para probar tu app RN en tu celular hoy sin Mac ni cables?",
+      "ops": [
+        "Un emulador",
+        "Expo: instalar Expo Go, correr expo start, escanear el QR en la misma red WiFi",
+        "Una Mac sí o sí",
+        "Un AWS"
+      ],
+      "ok": 1,
+      "exp": "El QR de Expo convierte tu teléfono en dispositivo de desarrollo instantáneo."
+    },
+    {
+      "p": "¿Qué es onLongPress en un Pressable?",
+      "ops": [
+        "Error",
+        "Click mantenido: el patrón móvil para acciones secundarias como borrar/editar",
+        "Doble click",
+        "Hover"
+      ],
+      "ok": 1,
+      "exp": "Móvil no tiene botón derecho: long-press = menú contextual."
+    }
+  ],
+  "generado": "2026-09-18"
+}

@@ -1,0 +1,10 @@
+{
+  "tarjeta": "apis-rest-y-http-el-idioma-de-L04-Q02",
+  "curso": "APIs REST y HTTP — El Idioma de los Servidores",
+  "leccion": 4,
+  "frente": "¿Qué hace especial al acceso a /docs de FastAPI?",
+  "reversa": " Swagger generado automáticamente de tus tipos: probar tu API en vivo desde el navegador, documentación incluida",
+  "explicacion": "Value real: es tu documentacíon VIVA sin ninguna pieza extra de código your part.",
+  "algoritmo": "repaso espaciado: 1d, 3d, 7d, 21d",
+  "generada": "2026-09-18"
+}

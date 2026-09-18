@@ -1,0 +1,10 @@
+{
+  "tarjeta": "sql-y-bases-de-datos-datos-que-L04-Q02",
+  "curso": "SQL y Bases de Datos — Datos que Persisten",
+  "leccion": 4,
+  "frente": "¿Qué agregada debe estar en HAVING COUNT(*) >= 5?",
+  "reversa": "Las agregadas (COUNT, SUM...) se vetican en HAVING tras agrupar",
+  "explicacion": "HAVING vive en el mundo de los grupos; las funciones agregadas habitan ahí.",
+  "algoritmo": "repaso espaciado: 1d, 3d, 7d, 21d",
+  "generada": "2026-09-18"
+}

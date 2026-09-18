@@ -1,0 +1,10 @@
+{
+  "tarjeta": "swift-el-camino-de-apple-L05-Q02",
+  "curso": "Swift — El Camino de Apple",
+  "leccion": 5,
+  "frente": "¿Para qué sirve Identifiable en el modelo de una lista?",
+  "reversa": "Cada item tiene id único para que SwiftUI rastree qué cambió en la lista (como key en React)",
+  "explicacion": "List/ForEach necesitan identidad estable: id = la key del mundo Apple.",
+  "algoritmo": "repaso espaciado: 1d, 3d, 7d, 21d",
+  "generada": "2026-09-18"
+}

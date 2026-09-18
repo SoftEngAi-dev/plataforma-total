@@ -1,0 +1,10 @@
+{
+  "tarjeta": "docker-en-mi-maquina-si-funcio-L05-Q01",
+  "curso": "Docker — 'En Mi Máquina Sí Funciona' Resuelto",
+  "leccion": 5,
+  "frente": "¿Por qué nunca incluir secretos DENTRO de la imagen Docker?",
+  "reversa": "Las capas de la imagen son legibles por cualquiera que la tenga/descargue: filtras las claves",
+  "explicacion": "Secretos al correr (-e / compose env), nunca al build: la imagen te repite.",
+  "algoritmo": "repaso espaciado: 1d, 3d, 7d, 21d",
+  "generada": "2026-09-18"
+}

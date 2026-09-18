@@ -1,0 +1,32 @@
+{
+  "curso": "JavaScript — De Cero a Experto",
+  "leccion": 10,
+  "titulo": "10. map, filter, reduce: programar sin bucles",
+  "total": 2,
+  "aprobado_con": 2,
+  "preguntas": [
+    {
+      "p": "¿Qué devuelve [2,4,6].filter(n => n > 3)?",
+      "ops": [
+        "6",
+        "[4, 6]",
+        "2",
+        "3"
+      ],
+      "ok": 1,
+      "exp": "filter conserva los que cumplen la condición."
+    },
+    {
+      "p": "¿Qué hace el segundo argumento de reduce?",
+      "ops": [
+        "Nada, decorativo",
+        "Es el valor inicial del acumulador",
+        "Es el límite de iteraciones",
+        "Es una función de fallback"
+      ],
+      "ok": 1,
+      "exp": "Sin valor inicial, reduce usa el primer elemento — que a veces es sorpresa. Escribe siempre el inicial."
+    }
+  ],
+  "generado": "2026-09-18"
+}

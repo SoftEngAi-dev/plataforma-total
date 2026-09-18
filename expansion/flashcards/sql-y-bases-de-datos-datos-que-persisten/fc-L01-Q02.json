@@ -1,0 +1,10 @@
+{
+  "tarjeta": "sql-y-bases-de-datos-datos-que-L01-Q02",
+  "curso": "SQL y Bases de Datos — Datos que Persisten",
+  "leccion": 1,
+  "frente": "¿Por qué SQLite es ideal para aprender/apps locales?",
+  "reversa": "Zero-config: la base ES un archivo; sin servidor, incluida en Python y en todos los SO",
+  "explicacion": "Sin instalar servidor, pero con SQL completo: perfecta para apps desktop/móvil y aprender.",
+  "algoritmo": "repaso espaciado: 1d, 3d, 7d, 21d",
+  "generada": "2026-09-18"
+}

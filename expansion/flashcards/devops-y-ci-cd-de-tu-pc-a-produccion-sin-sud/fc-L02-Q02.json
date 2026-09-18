@@ -1,0 +1,10 @@
+{
+  "tarjeta": "devops-y-ci-cd-de-tu-pc-a-prod-L02-Q02",
+  "curso": "DevOps y CI/CD — De Tu PC a Producción Sin Sudor",
+  "leccion": 2,
+  "frente": "¿Dónde debe vivir el archivo del workflow?",
+  "reversa": ".github/workflows/*.yml",
+  "explicacion": "GitHub solo reconoce los workflows en esa ruta exacta.",
+  "algoritmo": "repaso espaciado: 1d, 3d, 7d, 21d",
+  "generada": "2026-09-18"
+}

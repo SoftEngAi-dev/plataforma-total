@@ -1,0 +1,32 @@
+{
+  "curso": "Python — De Cero a Profesional",
+  "leccion": 10,
+  "titulo": "10. Errores con gracia: try/except profesional",
+  "total": 2,
+  "aprobado_con": 2,
+  "preguntas": [
+    {
+      "p": "¿Qué bloque corre SIEMPRE, haya o no excepción?",
+      "ops": [
+        "try",
+        "except",
+        "else",
+        "finally"
+      ],
+      "ok": 3,
+      "exp": "finally = limpieza garantizada (cerrar archivos, conexiones)."
+    },
+    {
+      "p": "raise ValueError('x') sirve para...",
+      "ops": [
+        "Matar el programa",
+        "Lanzar tu propio error con mensaje claro cuando detectas un estado inválido",
+        "Imprimir errores",
+        "Ignorar errores"
+      ],
+      "ok": 1,
+      "exp": "Valida pronto, falla fuerte y con mensaje: debugging agradecido."
+    }
+  ],
+  "generado": "2026-09-18"
+}

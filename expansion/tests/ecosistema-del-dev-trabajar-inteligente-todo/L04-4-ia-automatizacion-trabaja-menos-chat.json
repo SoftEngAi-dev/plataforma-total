@@ -1,0 +1,32 @@
+{
+  "curso": "Ecosistema del Dev — Trabajar Inteligente Todos los Días",
+  "leccion": 4,
+  "titulo": "4. IA + automatización: trabaja menos chatos tú",
+  "total": 2,
+  "aprobado_con": 2,
+  "preguntas": [
+    {
+      "p": "¿Qué perfil de dev gana con la IA actual?",
+      "ops": [
+        "Qué se encomienda a ella",
+        "El que entiende y puede AUDITAR la salida: la IA amplifica expertise, no la sustituye",
+        "El que copia rápido",
+        "Solo seniors Cloud"
+      ],
+      "ok": 1,
+      "exp": "Amplificador, no sustituto: más rápido vuelas cuando TÚ eres el criterio final."
+    },
+    {
+      "p": "¿Cuál es el uso sano de la IA en aprendizaje?",
+      "ops": [
+        "Dame todo el código",
+        "Uso Socrático: pedirle que te haga preguntas/guías y verificar tú cada afirmación",
+        "Ninguna",
+        "Exámenes"
+      ],
+      "ok": 1,
+      "exp": "La IA que te pregunta y tú razonas responde = la IA que aprende en vez de atrofiar."
+    }
+  ],
+  "generado": "2026-09-18"
+}

@@ -1,0 +1,32 @@
+{
+  "curso": "JavaScript — De Cero a Experto",
+  "leccion": 3,
+  "titulo": "3. Tipos de datos y operadores",
+  "total": 2,
+  "aprobado_con": 2,
+  "preguntas": [
+    {
+      "p": "¿Por qué usar === y no ==?",
+      "ops": [
+        "Es más rápido",
+        "== convierte tipos automáticamente y genera bugs sutiles; === compara valor y tipo",
+        "Por estilo",
+        "== está obsoleto"
+      ],
+      "ok": 1,
+      "exp": "\"5\" == 5 da true; con === da false. Predicibilidad > comodidad."
+    },
+    {
+      "p": "¿Qué valor representa la ausencia intencional?",
+      "ops": [
+        "0",
+        "''",
+        "null",
+        "NaN"
+      ],
+      "ok": 2,
+      "exp": "null = 'vacío a propósito'; undefined = 'aún no se le asignó nada'."
+    }
+  ],
+  "generado": "2026-09-18"
+}

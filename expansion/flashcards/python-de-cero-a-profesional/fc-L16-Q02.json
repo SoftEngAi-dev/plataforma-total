@@ -1,0 +1,10 @@
+{
+  "tarjeta": "python-de-cero-a-profesional-L16-Q02",
+  "curso": "Python — De Cero a Profesional",
+  "leccion": 16,
+  "frente": "Un proyecto 'terminado' incluye además del código...",
+  "reversa": "README + requirements + tests básicos + .gitignore",
+  "explicacion": "Profesional = reproducible y presentable, no solo que corra en tu máquina.",
+  "algoritmo": "repaso espaciado: 1d, 3d, 7d, 21d",
+  "generada": "2026-09-18"
+}

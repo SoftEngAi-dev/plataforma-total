@@ -1,0 +1,10 @@
+{
+  "tarjeta": "typescript-javascript-con-supe-L04-Q01",
+  "curso": "TypeScript — JavaScript con Superpoderes y Seguridad",
+  "leccion": 4,
+  "frente": "¿Qué gana identidad<T>(v: T): T respecto a misto?: any?",
+  "reversa": "Recuerda el tipo exacto de entrada y lo devuelve: autocomplete y chequeo completos",
+  "explicacion": "Los genéricos modelan RELACIONES entre tipos — any solo las borra.",
+  "algoritmo": "repaso espaciado: 1d, 3d, 7d, 21d",
+  "generada": "2026-09-18"
+}

@@ -1,0 +1,32 @@
+{
+  "curso": "Python — De Cero a Profesional",
+  "leccion": 1,
+  "titulo": "1. Python: instalación y primer programa",
+  "total": 2,
+  "aprobado_con": 2,
+  "preguntas": [
+    {
+      "p": "¿Qué delimita los bloques de código en Python?",
+      "ops": [
+        "Llaves { }",
+        "La indentación (sangría) de 4 espacios",
+        "begin/end",
+        "Punto y coma"
+      ],
+      "ok": 1,
+      "exp": "La sangría forzada hace el código universalmente legible — la idea nuclear de Python."
+    },
+    {
+      "p": "input() devuelve siempre...",
+      "ops": [
+        "int",
+        "float",
+        "str (hay que convertir con int()/float() para calcular)",
+        "bool"
+      ],
+      "ok": 2,
+      "exp": "Fuente clásica de bugs principiantes: '5' + '5' = '55'. Convierte."
+    }
+  ],
+  "generado": "2026-09-18"
+}

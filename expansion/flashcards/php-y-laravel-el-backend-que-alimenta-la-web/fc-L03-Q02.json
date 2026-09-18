@@ -1,0 +1,10 @@
+{
+  "tarjeta": "php-y-laravel-el-backend-que-a-L03-Q02",
+  "curso": "PHP y Laravel — El Backend Que Alimenta la Web",
+  "leccion": 3,
+  "frente": "¿Qué PDO::FETCH_ASSOC devuelve?",
+  "reversa": "Cada fila como array asociativo ['columna'=>valor]",
+  "explicacion": "Acceso por nombre de columna: código legible y resiliente.",
+  "algoritmo": "repaso espaciado: 1d, 3d, 7d, 21d",
+  "generada": "2026-09-18"
+}

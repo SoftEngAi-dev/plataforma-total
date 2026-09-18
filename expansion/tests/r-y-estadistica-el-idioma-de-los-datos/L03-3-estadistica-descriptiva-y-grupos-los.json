@@ -1,0 +1,32 @@
+{
+  "curso": "R y Estadística — El Idioma de los Datos",
+  "leccion": 3,
+  "titulo": "3. Estadística descriptiva y grupos: los números de verdad",
+  "total": 2,
+  "aprobado_con": 2,
+  "preguntas": [
+    {
+      "p": "¿Qué mide sd(x)?",
+      "ops": [
+        "La media",
+        "La desviación estándar: cuánto se dispersan los datos respecto a la media",
+        "La correlación",
+        "El máximo"
+      ],
+      "ok": 1,
+      "exp": "sd pequeña = datos agrupados; sd grande = mucha variación. Clave en cualquier resumen."
+    },
+    {
+      "p": "¿Qué indica cor(edad, ingresos) = 0.8?",
+      "ops": [
+        "Nada",
+        "Correlación positiva FUERTE: a más edad, más ingresos (en esa muestra)",
+        "Causalidad",
+        "Un error"
+      ],
+      "ok": 1,
+      "exp": "Correlación NO es causalidad — pero descubrir 0.8 te dice dónde investigar."
+    }
+  ],
+  "generado": "2026-09-18"
+}

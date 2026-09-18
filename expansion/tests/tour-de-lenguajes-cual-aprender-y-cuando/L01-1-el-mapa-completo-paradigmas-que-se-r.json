@@ -1,0 +1,32 @@
+{
+  "curso": "Tour de Lenguajes — Cuál Aprender y Cuándo",
+  "leccion": 1,
+  "titulo": "1. El mapa completo: paradigmas que se repiten",
+  "total": 2,
+  "aprobado_con": 2,
+  "preguntas": [
+    {
+      "p": "¿Qué es lo MÁS ignorado pero importante al elegir lenguaje?",
+      "ops": [
+        "La sintaxis",
+        "El ecosistema: librerías disponibles, mercado laboral y comunidad viva",
+        "El nombre",
+        "La moda"
+      ],
+      "ok": 1,
+      "exp": "Un lenguaje perfecto sin librerías ni ofertas es un callejón: mira el ecosistema antes."
+    },
+    {
+      "p": "¿Por qué el segundo lenguaje cuesta más que el quinto?",
+      "ops": [
+        "Es universal",
+        "El primero te enseña conceptos universales: luego solo aprendes dialectos de lo mismo",
+        "Porque sí",
+        "No es cierto"
+      ],
+      "ok": 1,
+      "exp": "if/for/funciones/estado/estructuras se repiten con disfraz distinto: aprendes mapas, no zonas."
+    }
+  ],
+  "generado": "2026-09-18"
+}

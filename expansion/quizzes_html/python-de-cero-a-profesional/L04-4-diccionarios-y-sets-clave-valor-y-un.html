@@ -1,0 +1,40 @@
+<!DOCTYPE html><html lang="es"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Quiz — 4. Diccionarios y sets: clave-valor y unicidad</title>
+<style>
+body{font-family:system-ui,sans-serif;max-width:680px;margin:2rem auto;padding:0 1rem;background:#0d1117;color:#e6edf3}
+.op{display:block;width:100%;margin:.4rem 0;padding:.8rem;text-align:left;border:1px solid #30363d;border-radius:8px;background:#161b22;color:#e6edf3;cursor:pointer;font-size:1rem}
+.op:hover{border-color:#58a6ff} .bien{background:#1a7f37;border-color:#2ea043} .mal{background:#8c2f39;border-color:#cf6679}
+.exp{background:#161b22;border-left:3px solid #58a6ff;padding:.6rem;border-radius:0 8px 8px 0;margin:.6rem 0;display:none}
+.boton{padding:.7rem 1.4rem;border-radius:8px;border:0;background:#238636;color:#fff;font-size:1rem;cursor:pointer}
+small{color:#8b949e}
+</style></head><body>
+<small>📚 Python — De Cero a Profesional · Lección 4/16 · Quiz offline · 18/09/2026</small>
+<h1>📝 4. Diccionarios y sets: clave-valor y unicidad</h1>
+<div id="app"></div>
+<script>
+const Q = [{"p": "¿Por qué alumno.get('email') en vez de alumno['email']?", "ops": ["Es más rápido", "Evita KeyError: devuelve None (o el default) si falta la clave", "Es más corto", "No hay diferencia"], "ok": 1, "exp": "get = acceso defensivo sin try/except; úsalo cuando la clave puede faltar."}, {"p": "¿Para qué usar set([1,1,2,3])?", "ops": ["Ordenar", "Eliminar duplicados: {1, 2, 3} (los sets no repiten)", "Sumar", "Nada útil"], "ok": 1, "exp": "Deduplicación instantánea + operaciones matemáticas de conjuntos."}];
+let i = 0, puntos = 0, respondida = false;
+const app = document.getElementById('app');
+function pintar() {
+  if (i >= Q.length) {
+    app.innerHTML = `<h2>🏁 ${puntos}/${Q.length} (${Math.round(puntos/Q.length*100)}%)</h2>
+      <p>${puntos === Q.length ? '🏆 ¡Perfecto! Marca la lección con ✅ en la app.' : '🔁 Repasa y reintenta hasta el 100%.'}</p>
+      <button class="boton" onclick="i=0;puntos=0;pintar()">Reintentar quiz</button>`;
+    return;
+  }
+  const q = Q[i]; respondida = false;
+  app.innerHTML = `<h3>Pregunta ${i+1} de ${Q.length}</h3><p>${q.p}</p>` +
+    q.ops.map((o, j) => `<button class="op" id="op${j}" onclick="elegir(${j})">${o}</button>`).join('') +
+    `<div class="exp" id="exp"><b>💡</b> ${q.exp}</div>`;
+}
+function elegir(j) {
+  if (respondida) return; respondida = true;
+  const q = Q[i];
+  document.getElementById('op' + j).className = 'op ' + (j === q.ok ? 'bien' : 'mal');
+  if (j === q.ok) puntos++; else document.getElementById('op' + q.ok).classList.add('bien');
+  document.getElementById('exp').style.display = 'block';
+  app.innerHTML += `<br><button class="boton" onclick="i++;pintar()">Siguiente ➜</button>`;
+}
+pintar();
+</script></body></html>

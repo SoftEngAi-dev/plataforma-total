@@ -1,0 +1,10 @@
+{
+  "tarjeta": "pandas-excel-con-superpoderes-L06-Q01",
+  "curso": "Pandas — Excel con Superpoderes en Python",
+  "leccion": 6,
+  "frente": "¿Qué verifica 'Restart Kernel & Run All'?",
+  "reversa": "Que tu notebook se ejecute limpio de arriba a abajo en orden — reproducibilidad real de tu análisis",
+  "explicacion": "Orden del código más importante: tu análisis debe reproducirse sin celdas corridas a desorden.",
+  "algoritmo": "repaso espaciado: 1d, 3d, 7d, 21d",
+  "generada": "2026-09-18"
+}

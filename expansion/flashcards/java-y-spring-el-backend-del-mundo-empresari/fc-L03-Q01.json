@@ -1,0 +1,10 @@
+{
+  "tarjeta": "java-y-spring-el-backend-del-m-L03-Q01",
+  "curso": "Java y Spring — El Backend del Mundo Empresarial",
+  "leccion": 3,
+  "frente": "¿Qué hace @RestController?",
+  "reversa": "Declara la clase como controlador web: los métodos responden HTTP y devuelven datos serializados (JSON)",
+  "explicacion": "@RestController = @Controller + @ResponseBody: todo método = respuesta JSON directa.",
+  "algoritmo": "repaso espaciado: 1d, 3d, 7d, 21d",
+  "generada": "2026-09-18"
+}

@@ -1,0 +1,10 @@
+{
+  "tarjeta": "git-y-github-tu-historia-nunca-L01-Q01",
+  "curso": "Git y GitHub — Tu Historia Nunca Se Pierde",
+  "leccion": 1,
+  "frente": "¿Qué es un commit en git?",
+  "reversa": "Un snapshot completo del proyecto con puntero al commit padre",
+  "explicacion": "Cada commit = foto completa; git las deduplica internamente (objetos).",
+  "algoritmo": "repaso espaciado: 1d, 3d, 7d, 21d",
+  "generada": "2026-09-18"
+}

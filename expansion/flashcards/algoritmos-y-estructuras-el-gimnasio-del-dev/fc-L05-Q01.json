@@ -1,0 +1,10 @@
+{
+  "tarjeta": "algoritmos-y-estructuras-el-gi-L05-Q01",
+  "curso": "Algoritmos y Estructuras — El Gimnasio del Dev",
+  "leccion": 5,
+  "frente": "Two Sum con diccionario es O(n) porque...",
+  "reversa": "un solo paso por datos + lookup O(1) del complemento ya visto",
+  "explicacion": "Map de vistos → cada elemento se revisa UNA vez; la fuerza bruta anidada era O(n²).",
+  "algoritmo": "repaso espaciado: 1d, 3d, 7d, 21d",
+  "generada": "2026-09-18"
+}

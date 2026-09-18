@@ -1,0 +1,10 @@
+{
+  "tarjeta": "devops-y-ci-cd-de-tu-pc-a-prod-L05-Q02",
+  "curso": "DevOps y CI/CD — De Tu PC a Producción Sin Sudor",
+  "leccion": 5,
+  "frente": "¿Qué verifica un endpoint /health?",
+  "reversa": "Que la aplicación responde (200) — monitores externos lo sondean periódicamente",
+  "explicacion": "Healthcheck es el '¿sigues viva?' de toda app desplegada: bases de alertas.",
+  "algoritmo": "repaso espaciado: 1d, 3d, 7d, 21d",
+  "generada": "2026-09-18"
+}

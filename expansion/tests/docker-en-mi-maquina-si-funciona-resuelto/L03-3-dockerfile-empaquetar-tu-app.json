@@ -1,0 +1,32 @@
+{
+  "curso": "Docker — 'En Mi Máquina Sí Funciona' Resuelto",
+  "leccion": 3,
+  "titulo": "3. Dockerfile: empaquetar TU app",
+  "total": 2,
+  "aprobado_con": 2,
+  "preguntas": [
+    {
+      "p": "¿Por qué COPY requirements.txt . va ANTES de COPY . .?",
+      "ops": [
+        "Orden alfabético",
+        "Cache de capas: cambiar el CÓDIGO no reinstala las dependencias (build rápido)",
+        "Es más seguro",
+        "Docker lo obliga"
+      ],
+      "ok": 1,
+      "exp": "Capas inmutables cacheadas: poner lo que menos cambia arriba maximiza reuso."
+    },
+    {
+      "p": "¿Qué hace CMD [\"python\", \"app.py\"]?",
+      "ops": [
+        "Instala python",
+        "Define el comando por defecto al arrancar el contenedor",
+        "Abre una shell",
+        "Nada (comentario)"
+      ],
+      "ok": 1,
+      "exp": "ENTRYPOINT+CMD definen el proceso principal: un contenedor sano = un proceso."
+    }
+  ],
+  "generado": "2026-09-18"
+}

@@ -1,0 +1,10 @@
+{
+  "tarjeta": "svelte-y-sveltekit-menos-codig-L03-Q01",
+  "curso": "Svelte y SvelteKit — Menos Código, Mismo Poder",
+  "leccion": 3,
+  "frente": "¿Qué hace una función load en +page.server.js?",
+  "reversa": "Corre en el SERVIDOR antes de renderizar y pasa datos a la página (SSR + SEO + sin flicker)",
+  "explicacion": "Datos en el server, HTML listo al llegar: la app rápida y el SEO contento.",
+  "algoritmo": "repaso espaciado: 1d, 3d, 7d, 21d",
+  "generada": "2026-09-18"
+}

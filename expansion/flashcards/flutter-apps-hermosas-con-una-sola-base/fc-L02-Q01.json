@@ -1,0 +1,10 @@
+{
+  "tarjeta": "flutter-apps-hermosas-con-una-L02-Q01",
+  "curso": "Flutter — Apps Hermosas con Una Sola Base",
+  "leccion": 2,
+  "frente": "¿Qué es un StatelessWidget?",
+  "reversa": "Un widget sin estado propio: se dibuja igual salvo que su PADRE le pase datos nuevos",
+  "explicacion": "La mayoría de la UI: describe, no cambia. Lo con estado es StatefulWidget.",
+  "algoritmo": "repaso espaciado: 1d, 3d, 7d, 21d",
+  "generada": "2026-09-18"
+}

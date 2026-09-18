@@ -1,0 +1,10 @@
+{
+  "tarjeta": "python-de-cero-a-profesional-L01-Q02",
+  "curso": "Python — De Cero a Profesional",
+  "leccion": 1,
+  "frente": "input() devuelve siempre...",
+  "reversa": "str (hay que convertir con int()/float() para calcular)",
+  "explicacion": "Fuente clásica de bugs principiantes: '5' + '5' = '55'. Convierte.",
+  "algoritmo": "repaso espaciado: 1d, 3d, 7d, 21d",
+  "generada": "2026-09-18"
+}

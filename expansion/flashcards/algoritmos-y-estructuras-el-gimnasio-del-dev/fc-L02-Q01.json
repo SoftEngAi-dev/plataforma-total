@@ -1,0 +1,10 @@
+{
+  "tarjeta": "algoritmos-y-estructuras-el-gi-L02-Q01",
+  "curso": "Algoritmos y Estructuras — El Gimnasio del Dev",
+  "leccion": 2,
+  "frente": "¿Qué requisito tiene la búsqueda binaria?",
+  "reversa": "La lista DEBE estar ordenada (si no, divide mal)",
+  "explicacion": "binaria=O(log n) pero necesita order previamente: a veces n log n+bar vale",
+  "algoritmo": "repaso espaciado: 1d, 3d, 7d, 21d",
+  "generada": "2026-09-18"
+}

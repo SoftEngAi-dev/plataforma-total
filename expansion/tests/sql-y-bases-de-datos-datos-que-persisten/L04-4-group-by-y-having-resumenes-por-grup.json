@@ -1,0 +1,32 @@
+{
+  "curso": "SQL y Bases de Datos — Datos que Persisten",
+  "leccion": 4,
+  "titulo": "4. GROUP BY y HAVING: resúmenes por grupos",
+  "total": 2,
+  "aprobado_con": 2,
+  "preguntas": [
+    {
+      "p": "¿Diferencia entre WHERE y HAVING?",
+      "ops": [
+        "Ninguna",
+        "WHERE filtra filas antes de agrupar; HAVING filtra grupos después de la agregación",
+        "HAVING es más rápido",
+        "WHERE es para números"
+      ],
+      "ok": 1,
+      "exp": "Orden lógico: WHERE → GROUP BY → HAVING. El clásico de entrevistas."
+    },
+    {
+      "p": "¿Qué agregada debe estar en HAVING COUNT(*) >= 5?",
+      "ops": [
+        "Ninguna permitida",
+        "Las agregadas (COUNT, SUM...) se vetican en HAVING tras agrupar",
+        "Solo AVG",
+        "Solo SUM"
+      ],
+      "ok": 1,
+      "exp": "HAVING vive en el mundo de los grupos; las funciones agregadas habitan ahí."
+    }
+  ],
+  "generado": "2026-09-18"
+}

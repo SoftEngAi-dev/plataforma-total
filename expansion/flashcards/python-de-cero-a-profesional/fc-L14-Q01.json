@@ -1,0 +1,10 @@
+{
+  "tarjeta": "python-de-cero-a-profesional-L14-Q01",
+  "curso": "Python — De Cero a Profesional",
+  "leccion": 14,
+  "frente": "¿Qué aporta Path de pathlib frente a strings de rutas?",
+  "reversa": "Rutas portables Windows/Linux con operadores / y métodos read_text/exists",
+  "explicacion": "p = Path.home() / 'x' funciona igual en todos los SO — el estándar moderno de Python.",
+  "algoritmo": "repaso espaciado: 1d, 3d, 7d, 21d",
+  "generada": "2026-09-18"
+}

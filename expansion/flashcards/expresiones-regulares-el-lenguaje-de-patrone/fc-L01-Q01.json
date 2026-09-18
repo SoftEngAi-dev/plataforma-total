@@ -1,0 +1,10 @@
+{
+  "tarjeta": "expresiones-regulares-el-lengu-L01-Q01",
+  "curso": "Expresiones Regulares — El Lenguaje de Patrones",
+  "leccion": 1,
+  "frente": "¿Qué captura \\d{4}-\\d{2}-\\d{2}?",
+  "reversa": "Formato fecha aproximado: 4 dígitos-guión-2 dígitos-guión-2 dígitos (2026-09-18)",
+  "explicacion": "Las regex describen patrón → los números reales solo ilustran el formato esperado.",
+  "algoritmo": "repaso espaciado: 1d, 3d, 7d, 21d",
+  "generada": "2026-09-18"
+}

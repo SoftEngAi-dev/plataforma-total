@@ -1,0 +1,32 @@
+{
+  "curso": "TypeScript — JavaScript con Superpoderes y Seguridad",
+  "leccion": 2,
+  "titulo": "2. Tipos básicos y anotaciones",
+  "total": 2,
+  "aprobado_con": 2,
+  "preguntas": [
+    {
+      "p": "¿Cuándo anotar tipos explícitamente?",
+      "ops": [
+        "En TODAS las variables",
+        "Cuando la inferencia no es obvia (y siempre en firmas de funciones públicas)",
+        "Nunca",
+        "Solo en clases"
+      ],
+      "ok": 1,
+      "exp": "TS infiere en la asignación; anota donde el contrato importa."
+    },
+    {
+      "p": "¿Qué diferencia hay entre any y unknown?",
+      "ops": [
+        "Ninguna",
+        "any desactiva toda verificación; unknown exige comprobar el tipo antes de usarlo",
+        "unknown es más corto",
+        "any es para números"
+      ],
+      "ok": 1,
+      "exp": "unknown = 'no sé aún, pero TS me protege'; any = 'ríndete, compilador'."
+    }
+  ],
+  "generado": "2026-09-18"
+}

@@ -1,0 +1,10 @@
+{
+  "tarjeta": "apis-rest-y-http-el-idioma-de-L02-Q02",
+  "curso": "APIs REST y HTTP — El Idioma de los Servidores",
+  "leccion": 2,
+  "frente": "¿Por qué responder 201 con el recurso creado en el POST?",
+  "reversa": "El cliente recibe inmediato el objeto recién creado CON su id asignado; sin nueva llamada gratuita",
+  "explicacion": "El status informa lo ocurrido + la respuesta entrega el valor resultante.",
+  "algoritmo": "repaso espaciado: 1d, 3d, 7d, 21d",
+  "generada": "2026-09-18"
+}

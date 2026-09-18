@@ -1,0 +1,10 @@
+{
+  "tarjeta": "herramientas-del-desarrollador-L05-Q01",
+  "curso": "Herramientas del Desarrollador",
+  "leccion": 5,
+  "frente": "¿Qué hace `git push -u origin main`?",
+  "reversa": "Sube tus commits y enlaza la rama local con la remota para futuros pushes",
+  "explicacion": "El -u solo hace falta la primera vez; después, `git push` a secas.",
+  "algoritmo": "repaso espaciado: 1d, 3d, 7d, 21d",
+  "generada": "2026-09-18"
+}

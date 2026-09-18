@@ -1,0 +1,10 @@
+{
+  "tarjeta": "flutter-apps-hermosas-con-una-L05-Q01",
+  "curso": "Flutter — Apps Hermosas con Una Sola Base",
+  "leccion": 5,
+  "frente": "¿Cómo se navega entre pantallas en Flutter nativo?",
+  "reversa": "Navigator.push con MaterialPageRoute; volver con pop (pila de rutas)",
+  "explicacion": "El Navigator maneja una pila: push apila pantalla, pop regresa con o sin valor.",
+  "algoritmo": "repaso espaciado: 1d, 3d, 7d, 21d",
+  "generada": "2026-09-18"
+}

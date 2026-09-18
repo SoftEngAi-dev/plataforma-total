@@ -1,0 +1,10 @@
+{
+  "tarjeta": "python-de-cero-a-profesional-L10-Q01",
+  "curso": "Python — De Cero a Profesional",
+  "leccion": 10,
+  "frente": "¿Qué bloque corre SIEMPRE, haya o no excepción?",
+  "reversa": "finally",
+  "explicacion": "finally = limpieza garantizada (cerrar archivos, conexiones).",
+  "algoritmo": "repaso espaciado: 1d, 3d, 7d, 21d",
+  "generada": "2026-09-18"
+}

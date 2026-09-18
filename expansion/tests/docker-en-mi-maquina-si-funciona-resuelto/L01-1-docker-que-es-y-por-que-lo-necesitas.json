@@ -1,0 +1,32 @@
+{
+  "curso": "Docker — 'En Mi Máquina Sí Funciona' Resuelto",
+  "leccion": 1,
+  "titulo": "1. Docker: qué es y por qué lo necesitas",
+  "total": 2,
+  "aprobado_con": 2,
+  "preguntas": [
+    {
+      "p": "¿Diferencia imagen vs contenedor?",
+      "ops": [
+        "Son lo mismo",
+        "Imagen = plantilla inmutable; contenedor = instancia(s) ejecutándose de ella",
+        "El contenedor es la plantilla",
+        "Imagen es solo para web"
+      ],
+      "ok": 1,
+      "exp": "Como clase vs objeto: defines la imagen una vez, lanzas contenedores a voluntad."
+    },
+    {
+      "p": "¿Por qué un contenedor es más liviano que una VM?",
+      "ops": [
+        "Usa la nube",
+        "Comparte el kernel del SO anfitrión en vez de emular hardware y llevar SO completo",
+        "No tiene SO",
+        "Solo para Linux"
+      ],
+      "ok": 1,
+      "exp": "El aislamiento es por namespaces del kernel: sin hipervisor ni boot de SO."
+    }
+  ],
+  "generado": "2026-09-18"
+}

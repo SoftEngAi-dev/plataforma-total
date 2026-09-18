@@ -1,0 +1,10 @@
+{
+  "tarjeta": "swift-el-camino-de-apple-L01-Q02",
+  "curso": "Swift — El Camino de Apple",
+  "leccion": 1,
+  "frente": "¿Cómo interpola strings Swift?",
+  "reversa": "\\(x) dentro del string",
+  "explicacion": "\"Hola \\(nombre)\" — la interpolación nativa de Swift.",
+  "algoritmo": "repaso espaciado: 1d, 3d, 7d, 21d",
+  "generada": "2026-09-18"
+}

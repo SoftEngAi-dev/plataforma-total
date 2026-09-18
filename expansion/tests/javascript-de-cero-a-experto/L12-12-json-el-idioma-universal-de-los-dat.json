@@ -1,0 +1,32 @@
+{
+  "curso": "JavaScript — De Cero a Experto",
+  "leccion": 12,
+  "titulo": "12. JSON: el idioma universal de los datos",
+  "total": 2,
+  "aprobado_con": 2,
+  "preguntas": [
+    {
+      "p": "¿Qué hace JSON.stringify(datos)?",
+      "ops": [
+        "Lee un archivo",
+        "Convierte datos JS en texto JSON para guardar/enviar",
+        "Valida el JSON",
+        "Imprime bonito"
+      ],
+      "ok": 1,
+      "exp": "stringify serializa; parse deserializa. Juntas son el puente de datos."
+    },
+    {
+      "p": "¿Qué pasa si JSON.parse recibe texto mal formado?",
+      "ops": [
+        "Devuelve null",
+        "Devuelve el texto igual",
+        "Lanza SyntaxError",
+        "Lo repara solo"
+      ],
+      "ok": 2,
+      "exp": "parse es estricto — envuélvelo en try/catch en código serio."
+    }
+  ],
+  "generado": "2026-09-18"
+}

@@ -1,0 +1,32 @@
+{
+  "curso": "Java y Spring — El Backend del Mundo Empresarial",
+  "leccion": 2,
+  "titulo": "2. Java moderno: records, streams y switch nuevo",
+  "total": 2,
+  "aprobado_con": 2,
+  "preguntas": [
+    {
+      "p": "¿Qué resuelve Optional<T>?",
+      "ops": [
+        "Nada",
+        "Representa explícitamente la posible ausencia de valor: obliga a decidir (orElse, ifPresent) en vez de explotar con null",
+        "Async",
+        "Velocidad"
+      ],
+      "ok": 1,
+      "exp": "Hacer visible el 'puede faltar' en el TIPO es el antídoto contra NullPointerException."
+    },
+    {
+      "p": "streams en Java se parecen a...",
+      "ops": [
+        "bucles for",
+        "map/filter/reduce encadenados estilo funcional como en JS/Python",
+        "clases",
+        "SQL nada más"
+      ],
+      "ok": 1,
+      "exp": "Operaciones declarativas sobre colecciones — Java moderno abraza lo funcional."
+    }
+  ],
+  "generado": "2026-09-18"
+}

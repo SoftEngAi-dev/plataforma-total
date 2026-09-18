@@ -1,0 +1,10 @@
+{
+  "tarjeta": "c-y-c-los-cimientos-del-softwa-L03-Q01",
+  "curso": "C y C++ — Los Cimientos del Software Moderno",
+  "leccion": 3,
+  "frente": "¿Qué aporta vector<T> de la STL respecto a arrays C?",
+  "reversa": "Array dinámico gestionado: crece solo, sabe su tamaño, sin malloc/free manual",
+  "explicacion": "vector + string + sort + map = la STL: productividad C++, sin pelear malloc manual.",
+  "algoritmo": "repaso espaciado: 1d, 3d, 7d, 21d",
+  "generada": "2026-09-18"
+}

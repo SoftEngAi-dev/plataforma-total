@@ -1,0 +1,10 @@
+{
+  "tarjeta": "javascript-de-cero-a-experto-L14-Q02",
+  "curso": "JavaScript — De Cero a Experto",
+  "leccion": 14,
+  "frente": "¿Qué es delegación de eventos?",
+  "reversa": "Un solo listener en el padre que reacciona según e.target",
+  "explicacion": "Clave para contenido dinámico: los hijos futuros también funcionan.",
+  "algoritmo": "repaso espaciado: 1d, 3d, 7d, 21d",
+  "generada": "2026-09-18"
+}

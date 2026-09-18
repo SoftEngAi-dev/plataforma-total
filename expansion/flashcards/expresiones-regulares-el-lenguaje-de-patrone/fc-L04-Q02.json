@@ -1,0 +1,10 @@
+{
+  "tarjeta": "expresiones-regulares-el-lengu-L04-Q02",
+  "curso": "Expresiones Regulares — El Lenguaje de Patrones",
+  "leccion": 4,
+  "frente": "¿Por qué probar tu regex en regex101 con muestras primero?",
+  "reversa": "Detectas backtracking/capturas raras/escapes al instante antes de correr sobre miliones de líneas y romper produción",
+  "explicacion": "Iteras el patrón en segundos con explicación en vivo; es la herramienta existente.",
+  "algoritmo": "repaso espaciado: 1d, 3d, 7d, 21d",
+  "generada": "2026-09-18"
+}

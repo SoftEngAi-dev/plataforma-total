@@ -1,0 +1,10 @@
+{
+  "tarjeta": "typescript-javascript-con-supe-L03-Q01",
+  "curso": "TypeScript — JavaScript con Superpoderes y Seguridad",
+  "leccion": 3,
+  "frente": "¿Cuándo elegir interface sobre type?",
+  "reversa": "Para formas de objetos: más legible, mensajes de error claros y extensión natural",
+  "explicacion": "Interface para modelos de dominio; type para uniones y composiciones.",
+  "algoritmo": "repaso espaciado: 1d, 3d, 7d, 21d",
+  "generada": "2026-09-18"
+}

@@ -1,0 +1,10 @@
+{
+  "tarjeta": "javascript-de-cero-a-experto-L03-Q02",
+  "curso": "JavaScript — De Cero a Experto",
+  "leccion": 3,
+  "frente": "¿Qué valor representa la ausencia intencional?",
+  "reversa": "null",
+  "explicacion": "null = 'vacío a propósito'; undefined = 'aún no se le asignó nada'.",
+  "algoritmo": "repaso espaciado: 1d, 3d, 7d, 21d",
+  "generada": "2026-09-18"
+}

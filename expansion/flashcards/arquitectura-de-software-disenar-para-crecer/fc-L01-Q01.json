@@ -1,0 +1,10 @@
+{
+  "tarjeta": "arquitectura-de-software-disen-L01-Q01",
+  "curso": "Arquitectura de Software — Diseñar para Crecer",
+  "leccion": 1,
+  "frente": "¿Qué propone DRY?",
+  "reversa": "El conocimiento/lógica vive UNA sola vez en el sistema; repetición = inconsistencias cuando cambies un lugar y no otro",
+  "explicacion": "Copiar es rápido hoy; mantener copias divergentes es lento mañana.",
+  "algoritmo": "repaso espaciado: 1d, 3d, 7d, 21d",
+  "generada": "2026-09-18"
+}

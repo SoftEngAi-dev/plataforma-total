@@ -1,0 +1,10 @@
+{
+  "tarjeta": "javascript-de-cero-a-experto-L09-Q02",
+  "curso": "JavaScript — De Cero a Experto",
+  "leccion": 9,
+  "frente": "const b = a (arrays) — ¿qué relación tienen?",
+  "reversa": "Apuntan AL MISMO array: mutar uno muta el otro",
+  "explicacion": "Los arrays son referencias. Copia real: [...a] o a.slice().",
+  "algoritmo": "repaso espaciado: 1d, 3d, 7d, 21d",
+  "generada": "2026-09-18"
+}

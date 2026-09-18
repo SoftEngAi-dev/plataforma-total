@@ -1,0 +1,10 @@
+{
+  "tarjeta": "git-y-github-tu-historia-nunca-L03-Q02",
+  "curso": "Git y GitHub — Tu Historia Nunca Se Pierde",
+  "leccion": 3,
+  "frente": "git stash sirve para...",
+  "reversa": "Apartar cambios sin commit y retomarlos luego (stash pop)",
+  "explicacion": "El cajón rápido: limpio el área, atiendo la urgencia, recupero lo mío.",
+  "algoritmo": "repaso espaciado: 1d, 3d, 7d, 21d",
+  "generada": "2026-09-18"
+}

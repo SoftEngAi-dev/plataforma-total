@@ -1,0 +1,10 @@
+{
+  "tarjeta": "c-y-net-el-ecosistema-microsof-L01-Q01",
+  "curso": "C# y .NET — El Ecosistema Microsoft Moderno",
+  "leccion": 1,
+  "frente": "¿Qué hace el $ antes de una cadena en C#?",
+  "reversa": "Habilita interpolación: $\"{variable}\" inserta valores",
+  "explicacion": "$\"{nombre}\" es la f-string/template literal de C#.",
+  "algoritmo": "repaso espaciado: 1d, 3d, 7d, 21d",
+  "generada": "2026-09-18"
+}

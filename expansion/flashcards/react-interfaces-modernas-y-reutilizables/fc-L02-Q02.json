@@ -1,0 +1,10 @@
+{
+  "tarjeta": "react-interfaces-modernas-y-re-L02-Q02",
+  "curso": "React — Interfaces Modernas y Reutilizables",
+  "leccion": 2,
+  "frente": "¿Qué forma de actualización de estado es segura con valores previos?",
+  "reversa": "setCuenta(c => c + 1)",
+  "explicacion": "La forma funcional garantiza trabajar sobre el estado más reciente (clicks encolados).",
+  "algoritmo": "repaso espaciado: 1d, 3d, 7d, 21d",
+  "generada": "2026-09-18"
+}

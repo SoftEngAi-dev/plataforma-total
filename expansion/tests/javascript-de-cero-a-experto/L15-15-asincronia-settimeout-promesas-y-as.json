@@ -1,0 +1,32 @@
+{
+  "curso": "JavaScript — De Cero a Experto",
+  "leccion": 15,
+  "titulo": "15. Asincronía: setTimeout, promesas y async/await",
+  "total": 2,
+  "aprobado_con": 2,
+  "preguntas": [
+    {
+      "p": "¿Qué devuelve inmediatamente una función async?",
+      "ops": [
+        "El resultado final",
+        "Una promesa",
+        "undefined",
+        "El error"
+      ],
+      "ok": 1,
+      "exp": "async significa 'esto devolverá una promesa'; await desenvuelve su valor."
+    },
+    {
+      "p": "¿Para qué sirve Promise.all?",
+      "ops": [
+        "Cancelar promesas",
+        "Esperar varias promesas EN PARALELO y continuar cuando todas terminan",
+        "Convertir promesas a callbacks",
+        "Una por una"
+      ],
+      "ok": 1,
+      "exp": "Paralelismo de verdad: si son independientes, esperar juntas = mitad del tiempo."
+    }
+  ],
+  "generado": "2026-09-18"
+}

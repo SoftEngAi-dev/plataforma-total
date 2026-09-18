@@ -1,0 +1,10 @@
+{
+  "tarjeta": "swift-el-camino-de-apple-L01-Q01",
+  "curso": "Swift — El Camino de Apple",
+  "leccion": 1,
+  "frente": "¿Qué distingue let de var en Swift?",
+  "reversa": "let = constante inmutable; var = reasignable — igual que val/var de Kotlin",
+  "explicacion": "Swift te empuja a let por defecto: mutación solo cuando la justificas.",
+  "algoritmo": "repaso espaciado: 1d, 3d, 7d, 21d",
+  "generada": "2026-09-18"
+}

@@ -1,0 +1,10 @@
+{
+  "tarjeta": "javascript-de-cero-a-experto-L05-Q01",
+  "curso": "JavaScript — De Cero a Experto",
+  "leccion": 5,
+  "frente": "¿Por qué 0.1 + 0.2 !== 0.3 en JS (y casi todo lenguaje)?",
+  "reversa": "Representación binaria de punto flotante: 0.1 y 0.2 no son exactos en base 2",
+  "explicacion": "Como 1/3 en decimal, algunos decimales son infinitos en binario. Solución: enteros (centavos) o toFixed.",
+  "algoritmo": "repaso espaciado: 1d, 3d, 7d, 21d",
+  "generada": "2026-09-18"
+}

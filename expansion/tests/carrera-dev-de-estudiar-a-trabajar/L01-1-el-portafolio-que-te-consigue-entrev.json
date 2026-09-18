@@ -1,0 +1,32 @@
+{
+  "curso": "Carrera Dev — De Estudiar a Trabajar",
+  "leccion": 1,
+  "titulo": "1. El portafolio que te consigue entrevistas",
+  "total": 2,
+  "aprobado_con": 2,
+  "preguntas": [
+    {
+      "p": "¿Qué proyecto de portafolio vale más para un junior?",
+      "ops": [
+        "El más grande",
+        "El que un HUMANO real utiliza/usa (aunque sea para tu familia/trabajo actual): evidencia de valor real creado",
+        "El de más líneas",
+        "El copiado"
+      ],
+      "ok": 1,
+      "exp": "Problemas reales > tutoriales; un usuario real vale más que mil vistas de código sino utilidad."
+    },
+    {
+      "p": "¿Qué se mira en la presencia GitHub de un junior?",
+      "ops": [
+        "Avatar",
+        "Ritmo de commits reales (consistencia) + calidad README en proyectos destacados",
+        "Solo estrellas",
+        "Nada"
+      ],
+      "ok": 1,
+      "exp": "El gráfico verde con commits de tu aprendizaje historia disciplina: lo mejor del perfil junior sincere."
+    }
+  ],
+  "generado": "2026-09-18"
+}

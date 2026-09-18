@@ -1,0 +1,32 @@
+{
+  "curso": "Linux y Terminal — El Superpoder del Dev",
+  "leccion": 4,
+  "titulo": "4. SSH: tu llave a cualquier servidor",
+  "total": 2,
+  "aprobado_con": 2,
+  "preguntas": [
+    {
+      "p": "¿Por qué llaves SSH en vez de contraseña?",
+      "ops": [
+        "Son más cortas",
+        "Criptografía asimétrica: la privada nunca viaja; contraseñas por red son atacables con fuerza bruta",
+        "Es obligatorio",
+        "No hay diferencia"
+      ],
+      "ok": 1,
+      "exp": "La pública en el server + privada en tu máquina: imposible de robar por sniffing."
+    },
+    {
+      "p": "rsync -avz a/ usuario@IP:~/b/ se usa para...",
+      "ops": [
+        "Imprimir",
+        "Sincronizar carpetas remotas eficientemente (solo cambios, comprime, reanuda)",
+        "Chat remoto",
+        "Ejecutar SQL"
+      ],
+      "ok": 1,
+      "exp": "El caballo de batalla de backups y despliegues artesanales."
+    }
+  ],
+  "generado": "2026-09-18"
+}

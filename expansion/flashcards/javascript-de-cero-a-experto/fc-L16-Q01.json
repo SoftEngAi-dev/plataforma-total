@@ -1,0 +1,10 @@
+{
+  "tarjeta": "javascript-de-cero-a-experto-L16-Q01",
+  "curso": "JavaScript — De Cero a Experto",
+  "leccion": 16,
+  "frente": "¿Cuándo rechaza fetch (lanza error) SIN ayuda tuya?",
+  "reversa": "Solo en errores de red (sin conexión, CORS, DNS)",
+  "explicacion": "Por eso el patrón: chequear resp.ok y lanzar tu propio error en 4xx/5xx.",
+  "algoritmo": "repaso espaciado: 1d, 3d, 7d, 21d",
+  "generada": "2026-09-18"
+}

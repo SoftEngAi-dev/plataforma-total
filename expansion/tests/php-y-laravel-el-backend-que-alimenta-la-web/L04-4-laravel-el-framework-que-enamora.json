@@ -1,0 +1,32 @@
+{
+  "curso": "PHP y Laravel — El Backend Que Alimenta la Web",
+  "leccion": 4,
+  "titulo": "4. Laravel: el framework que enamora",
+  "total": 2,
+  "aprobado_con": 2,
+  "preguntas": [
+    {
+      "p": "¿Qué es Eloquent?",
+      "ops": [
+        "Un lenguaje",
+        "El ORM de Laravel: cada tabla es un Modelo y trabajas datos como objetos php (save, where, all)",
+        "Un motor de vistas",
+        "Una BD"
+      ],
+      "ok": 1,
+      "exp": "Eloquent convierte SQL en interacción con objetos: Tarea::where('hecha', false)->get()."
+    },
+    {
+      "p": "¿Qué incluye la sintaxis {{ $x }} en Blade que la hace segura?",
+      "ops": [
+        "Nada",
+        "Escapa HTML automáticamente (anti-XSS por defecto)",
+        "Español",
+        "SQL"
+      ],
+      "ok": 1,
+      "exp": "{!! !!} imprime crudo e inseguro; {{ }} es lo normal y escapeado."
+    }
+  ],
+  "generado": "2026-09-18"
+}

@@ -1,0 +1,10 @@
+{
+  "tarjeta": "arquitectura-de-software-disen-L02-Q02",
+  "curso": "Arquitectura de Software — Diseñar para Crecer",
+  "leccion": 2,
+  "frente": "¿Cuál antídoto a un if/elif gigante por tipo?",
+  "reversa": "Strategy/Polymorphism: cada caso es su propia clase/objeto elegida de un registro y llamada uniformemente",
+  "explicacion": "Eliminas el switch monster; añadir un tipo nuevo es código NUEVO, no romper el viejo.",
+  "algoritmo": "repaso espaciado: 1d, 3d, 7d, 21d",
+  "generada": "2026-09-18"
+}

@@ -1,0 +1,10 @@
+{
+  "tarjeta": "javascript-de-cero-a-experto-L10-Q01",
+  "curso": "JavaScript — De Cero a Experto",
+  "leccion": 10,
+  "frente": "¿Qué devuelve [2,4,6].filter(n => n > 3)?",
+  "reversa": "[4, 6]",
+  "explicacion": "filter conserva los que cumplen la condición.",
+  "algoritmo": "repaso espaciado: 1d, 3d, 7d, 21d",
+  "generada": "2026-09-18"
+}

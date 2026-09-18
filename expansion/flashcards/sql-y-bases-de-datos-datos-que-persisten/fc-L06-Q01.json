@@ -1,0 +1,10 @@
+{
+  "tarjeta": "sql-y-bases-de-datos-datos-que-L06-Q01",
+  "curso": "SQL y Bases de Datos — Datos que Persisten",
+  "leccion": 6,
+  "frente": "¿Dónde va la FK en una relación 1 a muchos (autor-libros)?",
+  "reversa": "En libros (el lado 'muchos')",
+  "explicacion": "Cada libro apunta a su autor: FK en la tabla del lado N.",
+  "algoritmo": "repaso espaciado: 1d, 3d, 7d, 21d",
+  "generada": "2026-09-18"
+}

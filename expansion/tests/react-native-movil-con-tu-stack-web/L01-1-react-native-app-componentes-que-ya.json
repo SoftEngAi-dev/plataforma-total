@@ -1,0 +1,32 @@
+{
+  "curso": "React Native — Móvil con Tu Stack Web",
+  "leccion": 1,
+  "titulo": "1. React Native: App = componentes que ya sabes",
+  "total": 2,
+  "aprobado_con": 2,
+  "preguntas": [
+    {
+      "p": "¿En qué difiere React Native de una WebView/web app empaquetada?",
+      "ops": [
+        "Son iguales",
+        "RN compila tus componentes a widgets NATIVOS reales (rendimiento verdadero), no embebe una web",
+        "Es HTML nativo",
+        "Usa Flutter"
+      ],
+      "ok": 1,
+      "exp": "RN renderiza UIView/View nativas: por eso se siente app de verdad, no página."
+    },
+    {
+      "p": "¿Qué hace Expo en el flujo RN?",
+      "ops": [
+        "Otro lenguaje",
+        "Toolchain que elimina el setup nativo: QR al teléfono, hot reload, build en la nube",
+        "Una BD",
+        "Un navegador"
+      ],
+      "ok": 1,
+      "exp": "Con Expo arrancas sin Xcode/Android Studio instalado: la puerta de entrada estándar."
+    }
+  ],
+  "generado": "2026-09-18"
+}

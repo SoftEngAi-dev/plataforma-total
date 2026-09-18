@@ -1,0 +1,10 @@
+{
+  "tarjeta": "rust-velocidad-de-c-sin-miedo-L05-Q01",
+  "curso": "Rust — Velocidad de C sin Miedo a los Crashes",
+  "leccion": 5,
+  "frente": "¿Qué hace clap con macros derive?",
+  "reversa": "Genera el parser de argumentos/ayuda de tu CLI desde tus structs automáticamente (--help profesional gratis)",
+  "explicacion": "Derive: Rust's compile-time code generation — CLI args tipados de regalo.",
+  "algoritmo": "repaso espaciado: 1d, 3d, 7d, 21d",
+  "generada": "2026-09-18"
+}

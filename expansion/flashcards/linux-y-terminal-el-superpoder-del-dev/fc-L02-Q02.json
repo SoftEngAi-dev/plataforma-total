@@ -1,0 +1,10 @@
+{
+  "tarjeta": "linux-y-terminal-el-superpoder-L02-Q02",
+  "curso": "Linux y Terminal — El Superpoder del Dev",
+  "leccion": 2,
+  "frente": "¿Diferencia entre > y >>?",
+  "reversa": "> SOBRESCRIBE el archivo; >> AGREGA al final",
+  "explicacion": "Confundirlos = perder archivos (factor real de incidentes).",
+  "algoritmo": "repaso espaciado: 1d, 3d, 7d, 21d",
+  "generada": "2026-09-18"
+}

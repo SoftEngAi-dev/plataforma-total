@@ -1,0 +1,10 @@
+{
+  "tarjeta": "html-y-css-diseno-web-total-L07-Q01",
+  "curso": "HTML y CSS — Diseño Web Total",
+  "leccion": 7,
+  "frente": "¿Qué ventaja da definir colores como variables en :root?",
+  "reversa": "Cambias una línea y actualizas toda la web (sistema de diseño)",
+  "explicacion": "Las variables convierten estilos sueltos en un sistema coherente y mantenible.",
+  "algoritmo": "repaso espaciado: 1d, 3d, 7d, 21d",
+  "generada": "2026-09-18"
+}

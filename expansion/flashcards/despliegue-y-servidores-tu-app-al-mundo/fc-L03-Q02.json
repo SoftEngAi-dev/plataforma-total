@@ -1,0 +1,10 @@
+{
+  "tarjeta": "despliegue-y-servidores-tu-app-L03-Q02",
+  "curso": "Despliegue y Servidores — Tu App al Mundo",
+  "leccion": 3,
+  "frente": "¿Por qué un proceso 'detached' no basta para producción?",
+  "reversa": "Un pipeline nohup se pierde en reboots y caídas no planificadas; systemd/pm2 vigilan y resucitan",
+  "explicacion": "La supervisor de procesos es la diferencia entre hobby y servicio confiable.",
+  "algoritmo": "repaso espaciado: 1d, 3d, 7d, 21d",
+  "generada": "2026-09-18"
+}

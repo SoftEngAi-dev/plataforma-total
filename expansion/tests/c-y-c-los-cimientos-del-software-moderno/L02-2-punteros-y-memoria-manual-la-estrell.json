@@ -1,0 +1,32 @@
+{
+  "curso": "C y C++ — Los Cimientos del Software Moderno",
+  "leccion": 2,
+  "titulo": "2. Punteros y memoria manual: la estrella de C",
+  "total": 2,
+  "aprobado_con": 2,
+  "preguntas": [
+    {
+      "p": "¿Qué significa *p cuando p es puntero?",
+      "ops": [
+        "Multiplicar",
+        "Seguir el puntero: LEER/ESCRIBIR el valor en esa dirección",
+        "Reservar memoria",
+        "Liberar"
+      ],
+      "ok": 1,
+      "exp": "* = dereferenciar; & = sacar dirección. Las dos caras de la memoria manual."
+    },
+    {
+      "p": "¿Qué es una fuga de memoria (memory leak)?",
+      "ops": [
+        "Un virus",
+        "malloc sin free: la memoria reservada nunca se devuelve y el programa crece hasta morir",
+        "Un print raro",
+        "Puntero NULL"
+      ],
+      "ok": 1,
+      "exp": "En C/GestiónManual: cada malloc necesita su free — por eso los lenguajes modernos tienen GC/ownership."
+    }
+  ],
+  "generado": "2026-09-18"
+}

@@ -1,0 +1,10 @@
+{
+  "tarjeta": "javascript-de-cero-a-experto-L16-Q02",
+  "curso": "JavaScript — De Cero a Experto",
+  "leccion": 16,
+  "frente": "¿Qué header obliga al enviar JSON con POST?",
+  "reversa": "Content-Type: application/json",
+  "explicacion": "Sin ese header, muchos servidores no interpretan el body como JSON.",
+  "algoritmo": "repaso espaciado: 1d, 3d, 7d, 21d",
+  "generada": "2026-09-18"
+}

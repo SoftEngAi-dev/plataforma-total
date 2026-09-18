@@ -1,0 +1,10 @@
+{
+  "tarjeta": "docker-en-mi-maquina-si-funcio-L04-Q01",
+  "curso": "Docker — 'En Mi Máquina Sí Funciona' Resuelto",
+  "leccion": 4,
+  "frente": "¿Por qué un contenedor no debe guardar datos importantes adentro?",
+  "reversa": "Es efímero/desmontable: los datos persistentes van en volúmenes",
+  "explicacion": "Contenedor descartable + volumen persistente = patrón sano.",
+  "algoritmo": "repaso espaciado: 1d, 3d, 7d, 21d",
+  "generada": "2026-09-18"
+}

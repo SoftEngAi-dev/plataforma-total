@@ -1,0 +1,10 @@
+{
+  "tarjeta": "entrevistas-tecnicas-demostrar-L02-Q01",
+  "curso": "Entrevistas Técnicas — Demostrar lo que Sabes",
+  "leccion": 2,
+  "frente": "¿Por qué decir PRIMERO la solución fuerza bruta agrea valor?",
+  "reversa": "Muestra que razonas el espacio del problema y luego optimizas: evalúan proceso, no memoria",
+  "explicacion": "Demuestras técnica desde lo simple→optimizado: el entrevistador ve tu mente.",
+  "algoritmo": "repaso espaciado: 1d, 3d, 7d, 21d",
+  "generada": "2026-09-18"
+}

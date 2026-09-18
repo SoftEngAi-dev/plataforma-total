@@ -1,0 +1,32 @@
+{
+  "curso": "Expresiones Regulares — El Lenguaje de Patrones",
+  "leccion": 2,
+  "titulo": "2. Capturar grupos y.los casos reales: validación y extracción",
+  "total": 2,
+  "aprobado_con": 2,
+  "preguntas": [
+    {
+      "p": "¿Qué hace (?P<nombre>...) en Python regex?",
+      "ops": [
+        "Nada especial",
+        "Grupo NOMBRADO: extraes por m.group('nombre') en vez de factores posición brittle",
+        "Ordena",
+        "Exporta"
+      ],
+      "ok": 1,
+      "exp": "Regex autocomentados: los nombres documentan cada parte que capturas."
+    },
+    {
+      "p": "¿Qué logra el lookahead (?=.*[A-Z]) en la contraseña?",
+      "ops": [
+        "Neutro",
+        "VERIFICA sin consumir: exige que exista una mayúscula en lo que sigue sin avanzar el cursor",
+        "Ordena letras",
+        "Es bug"
+      ],
+      "ok": 1,
+      "exp": "Lookaheads = 'debe cumplirse X adelante': validaciones compuestas sin complicar los grupos."
+    }
+  ],
+  "generado": "2026-09-18"
+}

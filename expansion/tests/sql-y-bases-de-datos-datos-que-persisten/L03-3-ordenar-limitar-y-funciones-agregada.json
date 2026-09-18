@@ -1,0 +1,32 @@
+{
+  "curso": "SQL y Bases de Datos — Datos que Persisten",
+  "leccion": 3,
+  "titulo": "3. Ordenar, limitar y funciones agregadas",
+  "total": 2,
+  "aprobado_con": 2,
+  "preguntas": [
+    {
+      "p": "¿Qué devuelve COUNT(*)?",
+      "ops": [
+        "Columnas",
+        "Número TOTAL de filas (incluyendo nulos)",
+        "Promedio",
+        "Suma"
+      ],
+      "ok": 1,
+      "exp": "COUNT(*) cuenta filas; COUNT(columna) omite las NULL."
+    },
+    {
+      "p": "ORDER BY precio DESC LIMIT 5 OFFSET 10 devuelve...",
+      "ops": [
+        "Los 5 más baratos",
+        "Del puesto 11 al 15 en precio descendente",
+        "Todo menos 10",
+        "Error"
+      ],
+      "ok": 1,
+      "exp": "OFFSET salta las primeras N: base de la paginación de APIs y webs."
+    }
+  ],
+  "generado": "2026-09-18"
+}

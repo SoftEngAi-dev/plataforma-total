@@ -1,0 +1,10 @@
+{
+  "tarjeta": "algoritmos-y-estructuras-el-gi-L01-Q01",
+  "curso": "Algoritmos y Estructuras — El Gimnasio del Dev",
+  "leccion": 1,
+  "frente": "¿Es rapidez absoluta lo que mide Big O?",
+  "reversa": "Cómo CRECE el costo al crecer n (escalabilidad), no tiempo exacto",
+  "explicacion": "Es la curva de crecimiento que decide si sirve para 10 datos o para 10 millones.",
+  "algoritmo": "repaso espaciado: 1d, 3d, 7d, 21d",
+  "generada": "2026-09-18"
+}

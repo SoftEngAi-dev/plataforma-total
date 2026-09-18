@@ -1,0 +1,10 @@
+{
+  "tarjeta": "python-de-cero-a-profesional-L11-Q01",
+  "curso": "Python — De Cero a Profesional",
+  "leccion": 11,
+  "frente": "all() y any() con generador hacen...",
+  "reversa": "Lógica declarativa: ¿todos/alguno cumplen? — sin bucles explícitos",
+  "explicacion": "all(x > 0 for x in nums) se lee como español: todos mayores a cero.",
+  "algoritmo": "repaso espaciado: 1d, 3d, 7d, 21d",
+  "generada": "2026-09-18"
+}

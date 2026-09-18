@@ -1,0 +1,32 @@
+{
+  "curso": "Testing — Programar con Red de Seguridad",
+  "leccion": 3,
+  "titulo": "3. Mocks, fixtures y el arte de aislar",
+  "total": 2,
+  "aprobado_con": 2,
+  "preguntas": [
+    {
+      "p": "¿Cuándo usar mock?",
+      "ops": [
+        "Siempre",
+        "Cuando tu función llama a algo EXTERNO (red/BD/tiempo) y quieres probar solo tu lógica con respuestas controladas",
+        "Nunca",
+        "Solo restaurar"
+      ],
+      "ok": 1,
+      "exp": "El mock convierte tu entorno en laboratorio: mismos datos, siempre, instantáneo."
+    },
+    {
+      "p": "¿Qué reutiliza una fixture de pytest?",
+      "ops": [
+        "Nada",
+        "La preparación compartida entre muchos tests (datos de prueba, conexiones, objetos complejos)",
+        "El modal",
+        "Docker"
+      ],
+      "ok": 1,
+      "exp": "Fixture = DRY aplicado a tests: un usuario demo se define una vez y todos lo usan."
+    }
+  ],
+  "generado": "2026-09-18"
+}

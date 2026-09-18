@@ -1,0 +1,10 @@
+{
+  "tarjeta": "angular-el-framework-empresari-L01-Q02",
+  "curso": "Angular — El Framework Empresarial Completo",
+  "leccion": 1,
+  "frente": "¿Qué hacen {{ }} y (click) en un template Angular?",
+  "reversa": "{{ }} interpola valores al HTML; (evento)=\"fn()\" enlaza eventos a métodos del componente",
+  "explicacion": "La sintaxis template de Angular: imprimir con {{}} y escuchar con () encadenado a la clase TS.",
+  "algoritmo": "repaso espaciado: 1d, 3d, 7d, 21d",
+  "generada": "2026-09-18"
+}

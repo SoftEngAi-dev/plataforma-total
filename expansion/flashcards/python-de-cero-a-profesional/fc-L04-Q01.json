@@ -1,0 +1,10 @@
+{
+  "tarjeta": "python-de-cero-a-profesional-L04-Q01",
+  "curso": "Python — De Cero a Profesional",
+  "leccion": 4,
+  "frente": "¿Por qué alumno.get('email') en vez de alumno['email']?",
+  "reversa": "Evita KeyError: devuelve None (o el default) si falta la clave",
+  "explicacion": "get = acceso defensivo sin try/except; úsalo cuando la clave puede faltar.",
+  "algoritmo": "repaso espaciado: 1d, 3d, 7d, 21d",
+  "generada": "2026-09-18"
+}

@@ -1,0 +1,32 @@
+{
+  "curso": "Ruby on Rails — La Felicidad del Desarrollador",
+  "leccion": 3,
+  "titulo": "3. ActiveRecord: tu base de datos con sabor Ruby",
+  "total": 2,
+  "aprobado_con": 2,
+  "preguntas": [
+    {
+      "p": "¿Qué hace validates :titulo, presence: true?",
+      "ops": [
+        "Decora",
+        "Rechaza guardar si falta el título; el objeto retorna valid? false con errores",
+        "Borra",
+        "Imprime"
+      ],
+      "ok": 1,
+      "exp": "Validaciones a nivel MODELO = defensa total (formulario, API, consola)."
+    },
+    {
+      "p": "has_many :posts presupone...",
+      "ops": [
+        "Nada",
+        "Que la tabla posts tiene columna autor_id (convención Rails que la FK sigue el modelo singular+_id)",
+        "Que tiene un índice",
+        "Que son amigos"
+      ],
+      "ok": 1,
+      "exp": "Por convención no tienes que decírselo: la FK es visible: autor_id."
+    }
+  ],
+  "generado": "2026-09-18"
+}

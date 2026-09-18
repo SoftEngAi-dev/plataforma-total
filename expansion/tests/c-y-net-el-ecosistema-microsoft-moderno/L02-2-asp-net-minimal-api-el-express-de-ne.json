@@ -1,0 +1,32 @@
+{
+  "curso": "C# y .NET — El Ecosistema Microsoft Moderno",
+  "leccion": 2,
+  "titulo": "2. ASP.NET Minimal API: el Express de .NET",
+  "total": 2,
+  "aprobado_con": 2,
+  "preguntas": [
+    {
+      "p": "¿Qué es una Minimal API en .NET?",
+      "ops": [
+        "Lento",
+        "El estilo conciso de ASP.NET Core: rutas con lambdas en Program.cs sin controladores pesados",
+        "Una BD",
+        "algo mínimo sin poder"
+      ],
+      "ok": 1,
+      "exp": "Equivalente .NET a Express/Flask: ideal para APIs y microservicios."
+    },
+    {
+      "p": "¿Qué tipo es record Tarea(...)?",
+      "ops": [
+        "Clase estándar",
+        "Tipo de datos inmutable con constructor/equals/desconstruct generados — el DTO perfecto",
+        "Un struct",
+        "Un enum"
+      ],
+      "ok": 1,
+      "exp": "Records = POJOs cómodas: modelos limpios en una línea, igualdad por VALOR."
+    }
+  ],
+  "generado": "2026-09-18"
+}

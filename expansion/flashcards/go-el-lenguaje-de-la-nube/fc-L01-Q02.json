@@ -1,0 +1,10 @@
+{
+  "tarjeta": "go-el-lenguaje-de-la-nube-L01-Q02",
+  "curso": "Go — El Lenguaje de la Nube",
+  "leccion": 1,
+  "frente": "¿Qué hace := en Go?",
+  "reversa": "Declarar variable nueva con tipo INFERIDO (vs var x int explícita para el init)",
+  "explicacion": "x := 5 = declarar+inicializar inferido; var para declaraciones sin valor inicial.",
+  "algoritmo": "repaso espaciado: 1d, 3d, 7d, 21d",
+  "generada": "2026-09-18"
+}

@@ -1,0 +1,10 @@
+{
+  "tarjeta": "pandas-excel-con-superpoderes-L03-Q02",
+  "curso": "Pandas — Excel con Superpoderes en Python",
+  "leccion": 3,
+  "frente": "pd.merge(a, b, on='id', how='left') se comporta como...",
+  "reversa": "LEFT JOIN de SQL: todas las filas de 'a' + datos de 'b' cuando hay coincidencia en id",
+  "explicacion": "merge=JOIN entre DataFrames por clave; how decide qué filas sobreviven.",
+  "algoritmo": "repaso espaciado: 1d, 3d, 7d, 21d",
+  "generada": "2026-09-18"
+}

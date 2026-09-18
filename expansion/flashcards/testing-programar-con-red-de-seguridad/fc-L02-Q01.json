@@ -1,0 +1,10 @@
+{
+  "tarjeta": "testing-programar-con-red-de-s-L02-Q01",
+  "curso": "Testing — Programar con Red de Seguridad",
+  "leccion": 2,
+  "frente": "¿Qué patrón AAA estructura un buen test?",
+  "reversa": "Arrange (preparar datos) → Act (ejecutar lo probado) → Assert (verificar el resultado)",
+  "explicacion": "Estructura legible y consistente: la legibilidad de los tests es deuda evitada.",
+  "algoritmo": "repaso espaciado: 1d, 3d, 7d, 21d",
+  "generada": "2026-09-18"
+}

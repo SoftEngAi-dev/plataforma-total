@@ -1,0 +1,32 @@
+{
+  "curso": "JavaScript — De Cero a Experto",
+  "leccion": 14,
+  "titulo": "14. Eventos: la web reacciona",
+  "total": 2,
+  "aprobado_con": 2,
+  "preguntas": [
+    {
+      "p": "¿Por qué e.preventDefault() en el submit de un formulario?",
+      "ops": [
+        "Acelera el envío",
+        "Evita que el navegador recargue la página para procesarlo con JS",
+        "Valida los campos",
+        "Es opcional sin efecto"
+      ],
+      "ok": 1,
+      "exp": "Sin preventDefault, el formulario navega/recarga y tu lógica JS no corre."
+    },
+    {
+      "p": "¿Qué es delegación de eventos?",
+      "ops": [
+        "Un listener por cada hijo",
+        "Un solo listener en el padre que reacciona según e.target",
+        "Eventos automáticos",
+        "Eventos de red"
+      ],
+      "ok": 1,
+      "exp": "Clave para contenido dinámico: los hijos futuros también funcionan."
+    }
+  ],
+  "generado": "2026-09-18"
+}

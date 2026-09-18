@@ -1,0 +1,32 @@
+{
+  "curso": "Python — De Cero a Profesional",
+  "leccion": 5,
+  "titulo": "5. Strings: métodos que usarás a diario",
+  "total": 2,
+  "aprobado_con": 2,
+  "preguntas": [
+    {
+      "p": "'a-b-c'.split('-') devuelve...",
+      "ops": [
+        "\"a-b-c\"",
+        "['a', 'b', 'c']",
+        "('a','b','c')",
+        "Error"
+      ],
+      "ok": 1,
+      "exp": "split corta en lista; el inverso es '-'.join(lista)."
+    },
+    {
+      "p": "¿Por qué debes reasignar texto = texto.strip()?",
+      "ops": [
+        "Porque strip falla sin ella",
+        "Los strings son inmutables: strip devuelve uno nuevo",
+        "Por velocidad",
+        "No hace falta"
+      ],
+      "ok": 1,
+      "exp": "Métodos de str NUNCA modifican el original."
+    }
+  ],
+  "generado": "2026-09-18"
+}

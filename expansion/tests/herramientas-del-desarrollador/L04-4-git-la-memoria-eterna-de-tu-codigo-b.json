@@ -1,0 +1,32 @@
+{
+  "curso": "Herramientas del Desarrollador",
+  "leccion": 4,
+  "titulo": "4. Git: la memoria eterna de tu código (básico)",
+  "total": 2,
+  "aprobado_con": 2,
+  "preguntas": [
+    {
+      "p": "¿Qué hace git add antes del commit?",
+      "ops": [
+        "Publica en el servidor",
+        "Prepara (stage) los cambios que irán en el próximo commit",
+        "Borra cambios",
+        "Crea una rama"
+      ],
+      "ok": 1,
+      "exp": "Add prepara; commit guarda el punto en la historia."
+    },
+    {
+      "p": "¿Cómo debe ser un buen mensaje de commit?",
+      "ops": [
+        "Largo y detallado siempre",
+        "Corto y describe QUÉ cambió y por qué",
+        "'asdf'",
+        "Con emojis únicamente"
+      ],
+      "ok": 1,
+      "exp": "Tú futuro (y tu equipo) lo leerán: comunica el cambio."
+    }
+  ],
+  "generado": "2026-09-18"
+}

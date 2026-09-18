@@ -1,0 +1,32 @@
+{
+  "curso": "Kotlin — Android y Más Allá",
+  "leccion": 5,
+  "titulo": "5. Proyecto: app mínima con Compose",
+  "total": 2,
+  "aprobado_con": 2,
+  "preguntas": [
+    {
+      "p": "¿Qué hace remember { mutableStateOf(0) }?",
+      "ops": [
+        "Nada",
+        "Estado que Compose observa: al cambiarlo, las funciones que lo leen se redibujan solas",
+        "Guarda en disco",
+        "Es un hilo"
+      ],
+      "ok": 1,
+      "exp": "El equivalente a useState de React pero nativo Android: UI reactiva real."
+    },
+    {
+      "p": "¿Qué difiere Compose de los layouts XML clásicos?",
+      "ops": [
+        "Nada crucial",
+        "UI como código Kotlin declarativo (funciones + estado) en vez de XML + findViewById imperativo",
+        "Es XML igual",
+        "Es más lento"
+      ],
+      "ok": 1,
+      "exp": "Menos glue code, mismo paradigma que React/Flutter: el futuro oficial de Android."
+    }
+  ],
+  "generado": "2026-09-18"
+}

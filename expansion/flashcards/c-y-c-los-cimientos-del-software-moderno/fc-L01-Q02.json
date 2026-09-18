@@ -1,0 +1,10 @@
+{
+  "tarjeta": "c-y-c-los-cimientos-del-softwa-L01-Q02",
+  "curso": "C y C++ — Los Cimientos del Software Moderno",
+  "leccion": 1,
+  "frente": "¿Qué hace printf(\"%d\", x)?",
+  "reversa": "Imprime valores donde %d es el placeholder de un entero (y %s string, %f float...)",
+  "explicacion": "String de formato con marcadores posicionales: el printf-family clásico.",
+  "algoritmo": "repaso espaciado: 1d, 3d, 7d, 21d",
+  "generada": "2026-09-18"
+}

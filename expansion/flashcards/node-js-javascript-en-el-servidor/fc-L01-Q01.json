@@ -1,0 +1,10 @@
+{
+  "tarjeta": "node-js-javascript-en-el-servi-L01-Q01",
+  "curso": "Node.js — JavaScript en el Servidor",
+  "leccion": 1,
+  "frente": "¿Qué es Node.js?",
+  "reversa": "Un runtime que ejecuta JS fuera del navegador (motor V8)",
+  "explicacion": "Mismo motor V8 de Chrome, liberado para servidores y scripts.",
+  "algoritmo": "repaso espaciado: 1d, 3d, 7d, 21d",
+  "generada": "2026-09-18"
+}

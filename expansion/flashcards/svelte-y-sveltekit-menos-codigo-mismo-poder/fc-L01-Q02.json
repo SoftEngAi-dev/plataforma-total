@@ -1,0 +1,10 @@
+{
+  "tarjeta": "svelte-y-sveltekit-menos-codig-L01-Q02",
+  "curso": "Svelte y SvelteKit — Menos Código, Mismo Poder",
+  "leccion": 1,
+  "frente": "¿Qué hace la etiqueta $: en el script?",
+  "reversa": "Declaración reactiva: re-ejecuta la línea automáticamente cuando cambian las variables que usa",
+  "explicacion": "$: doble = cuenta * 2 → doble siempre fresco sin lógica manual. Elegancia mínima.",
+  "algoritmo": "repaso espaciado: 1d, 3d, 7d, 21d",
+  "generada": "2026-09-18"
+}

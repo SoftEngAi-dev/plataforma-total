@@ -1,0 +1,10 @@
+{
+  "tarjeta": "react-interfaces-modernas-y-re-L04-Q02",
+  "curso": "React — Interfaces Modernas y Reutilizables",
+  "leccion": 4,
+  "frente": "¿Cómo sabe el hijo que debe agregar una tarea si el estado está arriba?",
+  "reversa": "Llama a una función que el padre le pasó por props (onAgregar)",
+  "explicacion": "Datos bajan por props; cambios suben ejecutando callbacks que bajaron por props.",
+  "algoritmo": "repaso espaciado: 1d, 3d, 7d, 21d",
+  "generada": "2026-09-18"
+}

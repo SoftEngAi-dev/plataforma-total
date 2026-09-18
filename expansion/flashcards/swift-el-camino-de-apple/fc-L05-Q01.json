@@ -1,0 +1,10 @@
+{
+  "tarjeta": "swift-el-camino-de-apple-L05-Q01",
+  "curso": "Swift — El Camino de Apple",
+  "leccion": 5,
+  "frente": "¿Qué significa text: $nueva en un TextField?",
+  "reversa": "Binding bidireccional: el campo edita el estado y el estado actualiza el campo",
+  "explicacion": "$variable crea un Binding: ida y vuelta automática entre UI y estado.",
+  "algoritmo": "repaso espaciado: 1d, 3d, 7d, 21d",
+  "generada": "2026-09-18"
+}

@@ -1,0 +1,10 @@
+{
+  "tarjeta": "ruta-maestra-como-usar-esta-pl-L03-Q02",
+  "curso": "Ruta Maestra — Cómo Usar Esta Plataforma",
+  "leccion": 3,
+  "frente": "¿Dónde se guarda tu progreso?",
+  "reversa": "En SQLite local: ~/PlataformaTotal/datos/plataforma.db",
+  "explicacion": "Todo tu progreso es local y tuyo — portable y respaldable.",
+  "algoritmo": "repaso espaciado: 1d, 3d, 7d, 21d",
+  "generada": "2026-09-18"
+}

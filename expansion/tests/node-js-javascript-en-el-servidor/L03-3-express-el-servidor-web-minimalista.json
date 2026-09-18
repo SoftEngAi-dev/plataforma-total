@@ -1,0 +1,32 @@
+{
+  "curso": "Node.js — JavaScript en el Servidor",
+  "leccion": 3,
+  "titulo": "3. Express: el servidor web minimalista",
+  "total": 2,
+  "aprobado_con": 2,
+  "preguntas": [
+    {
+      "p": "¿Qué es un middleware en Express?",
+      "ops": [
+        "Una base de datos",
+        "Función que se ejecuta entre la petición y la ruta (JSON, auth, logs...)",
+        "Un tipo de error",
+        "Un plugin de VS Code"
+      ],
+      "ok": 1,
+      "exp": "app.use(express.json()) transforma req.body en datos listos — ejemplo clásico."
+    },
+    {
+      "p": "¿Qué código HTTP corresponde a 'recurso creado'?",
+      "ops": [
+        "200",
+        "201",
+        "400",
+        "404"
+      ],
+      "ok": 1,
+      "exp": "201 Created: convención para POST exitoso de recursos nuevos."
+    }
+  ],
+  "generado": "2026-09-18"
+}

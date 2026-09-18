@@ -1,0 +1,10 @@
+{
+  "tarjeta": "devops-y-ci-cd-de-tu-pc-a-prod-L03-Q02",
+  "curso": "DevOps y CI/CD — De Tu PC a Producción Sin Sudor",
+  "leccion": 3,
+  "frente": "¿Qué debe evitar un test unitario?",
+  "reversa": "Tocar red/BD/reloj reales (úsese mocks/fakes) para ser rápido, repetible y confiable",
+  "explicacion": "Un test que depende del internet es un test que fallará a las 3am cuando menos lo esperas.",
+  "algoritmo": "repaso espaciado: 1d, 3d, 7d, 21d",
+  "generada": "2026-09-18"
+}

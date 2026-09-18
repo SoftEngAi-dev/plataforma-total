@@ -1,0 +1,32 @@
+{
+  "curso": "C# y .NET — El Ecosistema Microsoft Moderno",
+  "leccion": 1,
+  "titulo": "1. C#: lenguaje que ya no es 'de Windows'",
+  "total": 2,
+  "aprobado_con": 2,
+  "preguntas": [
+    {
+      "p": "¿Qué hace el $ antes de una cadena en C#?",
+      "ops": [
+        "Nada",
+        "Habilita interpolación: $\"{variable}\" inserta valores",
+        "Es regex",
+        "Dinero"
+      ],
+      "ok": 1,
+      "exp": "$\"{nombre}\" es la f-string/template literal de C#."
+    },
+    {
+      "p": "LINQ Where(...).Select(...) equivale a...",
+      "ops": [
+        "SQL puro",
+        "filter + map encadenados sobre colecciones, tipo JS/Python",
+        "loops for",
+        "bucles while"
+      ],
+      "ok": 1,
+      "exp": "LINQ es funcional sobre colecciones: es una de las mayores comodidades de C#."
+    }
+  ],
+  "generado": "2026-09-18"
+}

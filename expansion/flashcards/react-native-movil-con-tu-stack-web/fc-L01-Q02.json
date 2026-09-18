@@ -1,0 +1,10 @@
+{
+  "tarjeta": "react-native-movil-con-tu-stac-L01-Q02",
+  "curso": "React Native — Móvil con Tu Stack Web",
+  "leccion": 1,
+  "frente": "¿Qué hace Expo en el flujo RN?",
+  "reversa": "Toolchain que elimina el setup nativo: QR al teléfono, hot reload, build en la nube",
+  "explicacion": "Con Expo arrancas sin Xcode/Android Studio instalado: la puerta de entrada estándar.",
+  "algoritmo": "repaso espaciado: 1d, 3d, 7d, 21d",
+  "generada": "2026-09-18"
+}

@@ -1,0 +1,10 @@
+{
+  "tarjeta": "node-js-javascript-en-el-servi-L05-Q02",
+  "curso": "Node.js — JavaScript en el Servidor",
+  "leccion": 5,
+  "frente": "¿Qué aporta separar app.js de index.js (listen)?",
+  "reversa": "Puedes importar y TESTEAR la app sin abrir puerto; separa configuración de ejecución",
+  "explicacion": "La app testeable se exporta sin listen; en tests corren peticiones contra ella con supertest.",
+  "algoritmo": "repaso espaciado: 1d, 3d, 7d, 21d",
+  "generada": "2026-09-18"
+}

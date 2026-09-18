@@ -1,0 +1,10 @@
+{
+  "tarjeta": "python-de-cero-a-profesional-L01-Q01",
+  "curso": "Python — De Cero a Profesional",
+  "leccion": 1,
+  "frente": "¿Qué delimita los bloques de código en Python?",
+  "reversa": "La indentación (sangría) de 4 espacios",
+  "explicacion": "La sangría forzada hace el código universalmente legible — la idea nuclear de Python.",
+  "algoritmo": "repaso espaciado: 1d, 3d, 7d, 21d",
+  "generada": "2026-09-18"
+}

@@ -1,0 +1,10 @@
+{
+  "tarjeta": "swift-el-camino-de-apple-L03-Q02",
+  "curso": "Swift — El Camino de Apple",
+  "leccion": 3,
+  "frente": "¿Qué permite una extension?",
+  "reversa": "Agregar funcionalidad a tipos existentes sin subclases: incluso a Int, String nativos",
+  "explicacion": "Las extensiones hacen Swift extensible al infinito y súper idiomático.",
+  "algoritmo": "repaso espaciado: 1d, 3d, 7d, 21d",
+  "generada": "2026-09-18"
+}

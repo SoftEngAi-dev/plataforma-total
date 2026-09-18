@@ -1,0 +1,10 @@
+{
+  "tarjeta": "svelte-y-sveltekit-menos-codig-L03-Q02",
+  "curso": "Svelte y SvelteKit — Menos Código, Mismo Poder",
+  "leccion": 3,
+  "frente": "¿Qué es progressive enhancement con form actions?",
+  "reversa": "El formulario funciona sin JavaScript (POST clásico del servidor, JS solo lo acelera cuando existe)",
+  "explicacion": "Robustez por diseño: tu app no se rompe si falla/red no carga el bundle JS.",
+  "algoritmo": "repaso espaciado: 1d, 3d, 7d, 21d",
+  "generada": "2026-09-18"
+}

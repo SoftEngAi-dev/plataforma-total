@@ -1,0 +1,10 @@
+{
+  "tarjeta": "javascript-de-cero-a-experto-L11-Q01",
+  "curso": "JavaScript — De Cero a Experto",
+  "leccion": 11,
+  "frente": "¿Qué hace const { nombre } = alumno?",
+  "reversa": "Extrae alumno.nombre en una variable llamada nombre (destructuring)",
+  "explicacion": "Destructuring: la forma idiomática de extraer propiedades en JS moderno.",
+  "algoritmo": "repaso espaciado: 1d, 3d, 7d, 21d",
+  "generada": "2026-09-18"
+}

@@ -1,0 +1,10 @@
+{
+  "tarjeta": "testing-programar-con-red-de-s-L02-Q02",
+  "curso": "Testing — Programar con Red de Seguridad",
+  "leccion": 2,
+  "frente": "¿Qué hace pytest.raises(ValueError) en with?",
+  "reversa": "Verifica que el código LANZA esa excepción concreta — test del comportamiento de error",
+  "explicacion": "Probar los caminos de error es tan importante (o más) que el camino feliz.",
+  "algoritmo": "repaso espaciado: 1d, 3d, 7d, 21d",
+  "generada": "2026-09-18"
+}

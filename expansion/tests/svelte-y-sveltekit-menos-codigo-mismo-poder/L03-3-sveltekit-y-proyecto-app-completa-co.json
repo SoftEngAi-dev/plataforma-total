@@ -1,0 +1,32 @@
+{
+  "curso": "Svelte y SvelteKit — Menos Código, Mismo Poder",
+  "leccion": 3,
+  "titulo": "3. SvelteKit y proyecto: app completa con rutas",
+  "total": 2,
+  "aprobado_con": 2,
+  "preguntas": [
+    {
+      "p": "¿Qué hace una función load en +page.server.js?",
+      "ops": [
+        "CSS",
+        "Corre en el SERVIDOR antes de renderizar y pasa datos a la página (SSR + SEO + sin flicker)",
+        "Es un test",
+        "Sirve imágenes"
+      ],
+      "ok": 1,
+      "exp": "Datos en el server, HTML listo al llegar: la app rápida y el SEO contento."
+    },
+    {
+      "p": "¿Qué es progressive enhancement con form actions?",
+      "ops": [
+        "Ajax con JS",
+        "El formulario funciona sin JavaScript (POST clásico del servidor, JS solo lo acelera cuando existe)",
+        "No funciona sin JS",
+        "Un alert"
+      ],
+      "ok": 1,
+      "exp": "Robustez por diseño: tu app no se rompe si falla/red no carga el bundle JS."
+    }
+  ],
+  "generado": "2026-09-18"
+}

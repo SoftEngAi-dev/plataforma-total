@@ -1,0 +1,32 @@
+{
+  "curso": "JavaScript — De Cero a Experto",
+  "leccion": 7,
+  "titulo": "7. Bucles: for, while y recorrer colecciones",
+  "total": 2,
+  "aprobado_con": 2,
+  "preguntas": [
+    {
+      "p": "¿Cuál es la forma moderna recomendada de recorrer un array?",
+      "ops": [
+        "for clásico con índice",
+        "for...of",
+        "for...in",
+        "while con contador"
+      ],
+      "ok": 1,
+      "exp": "for...of es directo y seguro; for...in es para CLAVES de objetos, no arrays."
+    },
+    {
+      "p": "¿Qué hace continue?",
+      "ops": [
+        "Rompe el bucle",
+        "Salta a la siguiente iteración",
+        "Termina la función",
+        "Pausa 1 segundo"
+      ],
+      "ok": 1,
+      "exp": "Omite el resto del bloque en esta vuelta y sigue con la próxima."
+    }
+  ],
+  "generado": "2026-09-18"
+}

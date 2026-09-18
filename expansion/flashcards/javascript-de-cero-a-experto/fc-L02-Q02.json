@@ -1,0 +1,10 @@
+{
+  "tarjeta": "javascript-de-cero-a-experto-L02-Q02",
+  "curso": "JavaScript — De Cero a Experto",
+  "leccion": 2,
+  "frente": "¿Qué pasa con const arr = [1]; arr.push(2)?",
+  "reversa": "Funciona: const prohíbe reasignar, no mutar el contenido",
+  "explicacion": "const congela la REFERENCIA, no el objeto: puedes mutar por dentro.",
+  "algoritmo": "repaso espaciado: 1d, 3d, 7d, 21d",
+  "generada": "2026-09-18"
+}

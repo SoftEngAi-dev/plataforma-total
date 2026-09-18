@@ -1,0 +1,10 @@
+{
+  "tarjeta": "git-y-github-tu-historia-nunca-L02-Q02",
+  "curso": "Git y GitHub — Tu Historia Nunca Se Pierde",
+  "leccion": 2,
+  "frente": "¿Por qué ramas cortas de 1-3 días?",
+  "reversa": "Cambios pequeños = conflictos raros y merges simples; la rama eterna deviene imposible de integrar",
+  "explicacion": "La integración continua empieza por ramas efímeras.",
+  "algoritmo": "repaso espaciado: 1d, 3d, 7d, 21d",
+  "generada": "2026-09-18"
+}

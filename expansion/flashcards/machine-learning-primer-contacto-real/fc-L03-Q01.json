@@ -1,0 +1,10 @@
+{
+  "tarjeta": "machine-learning-primer-contac-L03-Q01",
+  "curso": "Machine Learning — Primer Contacto Real",
+  "leccion": 3,
+  "frente": "Train 99%, test 72%. ¿Diagnóstico?",
+  "reversa": "OVERFIT: memorizó el entrenamiento, no generaliza — modelo demasiado complejo para los datos",
+  "explicacion": "La brecha train>>test es el síntoma canónico de sobreajuste.",
+  "algoritmo": "repaso espaciado: 1d, 3d, 7d, 21d",
+  "generada": "2026-09-18"
+}

@@ -1,0 +1,32 @@
+{
+  "curso": "IA Moderna y LLMs — Trabajar con Modelos Locales",
+  "leccion": 2,
+  "titulo": "2. Prompts que funcionan: las 5 recetas",
+  "total": 2,
+  "aprobado_con": 2,
+  "preguntas": [
+    {
+      "p": "¿Por qué el few-shot (dar ejemplos input→output) mejora tanto?",
+      "ops": [
+        "Gasta más",
+        "El modelo imita el FORMATO Y EL PATRÓN de tus ejemplos en vez de adivinar",
+        "Es solo marketing",
+        "Nada"
+      ],
+      "ok": 1,
+      "exp": "2-3 ejemplos concretos enseñan estilo/estructura mejor que 10 instrucciones abstractas."
+    },
+    {
+      "p": "¿Cuál prompt funciona mejor para debugging?",
+      "ops": [
+        "'no anda, fix'",
+        "Pegar el código + el traceback completo + qué esperabas que pasara",
+        "Un emoji",
+        "'mágico'"
+      ],
+      "ok": 1,
+      "exp": "Sin datos concretos el modelo adivina; con contexto real = respuesta de cirujano."
+    }
+  ],
+  "generado": "2026-09-18"
+}

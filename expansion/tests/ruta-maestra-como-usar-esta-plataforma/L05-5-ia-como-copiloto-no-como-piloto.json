@@ -1,0 +1,32 @@
+{
+  "curso": "Ruta Maestra — Cómo Usar Esta Plataforma",
+  "leccion": 5,
+  "titulo": "5. IA como copiloto (no como piloto)",
+  "total": 2,
+  "aprobado_con": 2,
+  "preguntas": [
+    {
+      "p": "¿Cuál es un uso saludable de la IA al aprender?",
+      "ops": [
+        "Generar el proyecto completo",
+        "Copiar soluciones sin leerlas",
+        "Pedir que te haga preguntas y explique causas raíz",
+        "Usarla en tu primera pasada por cada lección"
+      ],
+      "ok": 2,
+      "exp": "La IA que te pregunta y explica causas te educa; la que solo responde te sustituye."
+    },
+    {
+      "p": "¿Qué son los '10 minutos de oro'?",
+      "ops": [
+        "Aspecto premium de la app",
+        "Intentar resolver solo 10 min antes de pedir ayuda",
+        "Descanso de 10 minutos",
+        "Leer 10 minutos antes de codificar"
+      ],
+      "ok": 1,
+      "exp": "La lucha productiva es donde se construye la capacidad de resolver."
+    }
+  ],
+  "generado": "2026-09-18"
+}

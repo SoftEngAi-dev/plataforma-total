@@ -1,0 +1,32 @@
+{
+  "curso": "Git y GitHub — Tu Historia Nunca Se Pierde",
+  "leccion": 6,
+  "titulo": "6. Proyecto final: flujo completo de punta a punta",
+  "total": 2,
+  "aprobado_con": 2,
+  "preguntas": [
+    {
+      "p": "¿Qué hace `git pull` tras hacer merge del PR en la web?",
+      "ops": [
+        "Sube cambios",
+        "Trae e integra los cambios del remoto a tu rama local",
+        "Borra ramas",
+        "Crea un tag"
+      ],
+      "ok": 1,
+      "exp": "La web integró tu PR; tu main local está vieja hasta que pullas."
+    },
+    {
+      "p": "¿Por qué practicar un conflicto a posta?",
+      "ops": [
+        "Por sufrimiento",
+        "Ver los marcadores <<< y resolverlo a mano desmistifica el conflicto real futuro",
+        "No hace falta",
+        "Para romperlo"
+      ],
+      "ok": 1,
+      "exp": "El conflicto es mero texto a decidir: el miedo se cura con práctica."
+    }
+  ],
+  "generado": "2026-09-18"
+}

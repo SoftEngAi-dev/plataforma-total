@@ -1,0 +1,23 @@
+# 🚀 Proyecto 3: Rails: convención sobre configuración
+
+> 📚 Ruby on Rails — La Felicidad del Desarrollador · Ancla: lección «2. Rails: convención sobre configuración» · Apoyo: «3. ActiveRecord: tu base de datos con sabor Ruby»
+> 🍅 Presupuesto: 4-6 pomodoros · Filosofía: aprender construyendo
+
+## 🎯 Mi reto
+Construir un proyecto pequeño pero TERMINADO que use de verdad los dos conceptos ancla.
+Debe tener: entrada → procesamiento → salida visible.
+
+## 📦 Entregables
+- [ ] Código en `proyectos/ruby-on-rails-la-felicidad-del-desarrollador/proyecto-03/`
+- [ ] `LEEME.md` explicando cómo ejecutarlo y qué aprendí
+- [ ] 2 errores documentados (error → causa → fix)
+- [ ] Screenshot o salida de ejemplo
+
+## 🪜 Ruta sugerida
+1. Relee las lecciones ancla y apoyo (10 min, tomando notas).
+2. Escribe el README ANTES del código (define qué construyes).
+3. Versión mínima funcionando → luego mejora.
+4. Pide a la IA local revisión (usa los prompts del módulo ai_prompts/).
+
+## ⏫ Extensión (si quedó fácil)
+Añade una función que NO aparezca en las lecciones: búscala en la documentación oficial.

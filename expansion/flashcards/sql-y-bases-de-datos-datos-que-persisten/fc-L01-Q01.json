@@ -1,0 +1,10 @@
+{
+  "tarjeta": "sql-y-bases-de-datos-datos-que-L01-Q01",
+  "curso": "SQL y Bases de Datos — Datos que Persisten",
+  "leccion": 1,
+  "frente": "¿Qué hace SELECT nombre, precio FROM productos?",
+  "reversa": "Devuelve solo esas dos columnas de la tabla productos",
+  "explicacion": "SELECT = leer columnas elegidas de una tabla: la consulta más básica.",
+  "algoritmo": "repaso espaciado: 1d, 3d, 7d, 21d",
+  "generada": "2026-09-18"
+}

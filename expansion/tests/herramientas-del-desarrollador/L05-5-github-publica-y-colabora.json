@@ -1,0 +1,32 @@
+{
+  "curso": "Herramientas del Desarrollador",
+  "leccion": 5,
+  "titulo": "5. GitHub: publica y colabora",
+  "total": 2,
+  "aprobado_con": 2,
+  "preguntas": [
+    {
+      "p": "¿Qué hace `git push -u origin main`?",
+      "ops": [
+        "Descarga el repo",
+        "Sube tus commits y enlaza la rama local con la remota para futuros pushes",
+        "Borra el repo remoto",
+        "Crea el repositorio en GitHub"
+      ],
+      "ok": 1,
+      "exp": "El -u solo hace falta la primera vez; después, `git push` a secas."
+    },
+    {
+      "p": "¿Qué es un Pull Request?",
+      "ops": [
+        "Un ticket de soporte",
+        "Proponer cambios de una rama para que otros los revisen antes de fusionar",
+        "Un virus",
+        "Una forma de borrar ramas"
+      ],
+      "ok": 1,
+      "exp": "PR = cambio propuesto + revisión + discusión + fusión: la base del trabajo en equipo."
+    }
+  ],
+  "generado": "2026-09-18"
+}

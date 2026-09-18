@@ -1,0 +1,32 @@
+{
+  "curso": "C# y .NET — El Ecosistema Microsoft Moderno",
+  "leccion": 4,
+  "titulo": "4. Proyecto: API .NET completa con EF Core",
+  "total": 2,
+  "aprobado_con": 2,
+  "preguntas": [
+    {
+      "p": "¿Cómo recibe el endpoint la instancia AppDb?",
+      "ops": [
+        "new global",
+        "Inyección de dependencias automática: declaras (AppDb db) en la firma y .NET la entrega",
+        "Static",
+        "No la recibe"
+      ],
+      "ok": 1,
+      "exp": "DI integrada en Minimal APIs: efímero por petición, manejo del ciclo por ti."
+    },
+    {
+      "p": "¿Qué hace FindAsync(id)?",
+      "ops": [
+        "SQL crudo",
+        "Busca por clave primaria devolviendo el objeto o null si no existe",
+        "Borra",
+        "Actualiza"
+      ],
+      "ok": 1,
+      "exp": "La operación básica de lectura-por-id en EF Core — el orElse NotFound a continuación es el patrón."
+    }
+  ],
+  "generado": "2026-09-18"
+}

@@ -1,0 +1,32 @@
+{
+  "curso": "TypeScript — JavaScript con Superpoderes y Seguridad",
+  "leccion": 5,
+  "titulo": "5. Clases en TS: private, readonly e implements",
+  "total": 2,
+  "aprobado_con": 2,
+  "preguntas": [
+    {
+      "p": "¿Qué permite una propiedad private?",
+      "ops": [
+        "Acceso desde任何地方",
+        "Solo acceso dentro de la propia clase",
+        "Solo lectura universal",
+        "Nada, es decorativa"
+      ],
+      "ok": 1,
+      "exp": "Encapsulación: el estado interno solo cambia por métodos controlados."
+    },
+    {
+      "p": "¿Para qué sirve implements?",
+      "ops": [
+        "Copiar código de otra clase",
+        "Obligar a la clase a cumplir el contrato de una interface",
+        "Importar módulos",
+        "Hacer públicas las props"
+      ],
+      "ok": 1,
+      "exp": "El compilador verifica que cumples el contrato — la base de sustituir implementaciones (mocks, DBs)."
+    }
+  ],
+  "generado": "2026-09-18"
+}

@@ -1,0 +1,32 @@
+{
+  "curso": "SQL y Bases de Datos — Datos que Persisten",
+  "leccion": 2,
+  "titulo": "2. SELECT con WHERE: filtrar con precisión",
+  "total": 2,
+  "aprobado_con": 2,
+  "preguntas": [
+    {
+      "p": "¿Cómo verificar si un campo es NULL?",
+      "ops": [
+        "campo = NULL",
+        "campo IS NULL",
+        "campo == NULL",
+        "NULL(campo)"
+      ],
+      "ok": 1,
+      "exp": "NULL no es un valor; solo IS NULL funciona — bug clásico en todo el mundo."
+    },
+    {
+      "p": "SELECT * FROM empleados WHERE nombre LIKE 'Ana%' busca...",
+      "ops": [
+        "Nombres que terminan en Ana",
+        "Nombres que EMPIEZAN por Ana ( % = comodín de caracteres)",
+        "Exactamente 'Ana%'",
+        "Todo lo que no sea Ana"
+      ],
+      "ok": 1,
+      "exp": "% sustituye cualquier secuencia; Ana% = empieza por."
+    }
+  ],
+  "generado": "2026-09-18"
+}

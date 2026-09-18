@@ -1,0 +1,32 @@
+{
+  "curso": "Flutter — Apps Hermosas con Una Sola Base",
+  "leccion": 4,
+  "titulo": "4. Listas con fetch: conecta tu app al mundo",
+  "total": 2,
+  "aprobado_con": 2,
+  "preguntas": [
+    {
+      "p": "¿Qué paquete oficial se usa para HTTP en Flutter?",
+      "ops": [
+        "axios",
+        "http (pub.dev): http.get(Uri.parse(url)) devuelve Future<Response>",
+        "requests",
+        "fetch"
+      ],
+      "ok": 1,
+      "exp": "dart pub add http y Futures con async/await: el estándar de red en Dart."
+    },
+    {
+      "p": "¿Qué renderiza ListView.builder con itemCount?",
+      "ops": [
+        "Todo a la vez",
+        "Las filas BAJO DEMANDA mientras scrolleas (ideal para listas largas)",
+        "Una tabla",
+        "Un formulario"
+      ],
+      "ok": 1,
+      "exp": "Lazy rendering nativo: miles de posts sin matar el rendimiento."
+    }
+  ],
+  "generado": "2026-09-18"
+}

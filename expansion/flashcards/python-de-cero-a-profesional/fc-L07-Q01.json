@@ -1,0 +1,10 @@
+{
+  "tarjeta": "python-de-cero-a-profesional-L07-Q01",
+  "curso": "Python — De Cero a Profesional",
+  "leccion": 7,
+  "frente": "¿Qué aporta enumerate frente a range(len(lista))?",
+  "reversa": "Índice y elemento a la vez, legible y sin errores de off-by-one",
+  "explicacion": "enumerate es el idioma correcto; range(len()) es el acento extranjero.",
+  "algoritmo": "repaso espaciado: 1d, 3d, 7d, 21d",
+  "generada": "2026-09-18"
+}

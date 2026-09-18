@@ -1,0 +1,10 @@
+{
+  "tarjeta": "ia-moderna-y-llms-trabajar-con-L01-Q02",
+  "curso": "IA Moderna y LLMs — Trabajar con Modelos Locales",
+  "leccion": 1,
+  "frente": "¿Qué es 'alucinar' en un LLM?",
+  "reversa": "Generar información INVETNADA con alta confianza aparente (porque es probabilidad, no base de datos de hechos)",
+  "explicacion": "Por esto: todo dato factual importante generado por IA se VERIFICA en fuentes reales.",
+  "algoritmo": "repaso espaciado: 1d, 3d, 7d, 21d",
+  "generada": "2026-09-18"
+}

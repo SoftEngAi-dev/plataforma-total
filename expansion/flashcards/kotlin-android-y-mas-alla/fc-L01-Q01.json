@@ -1,0 +1,10 @@
+{
+  "tarjeta": "kotlin-android-y-mas-alla-L01-Q01",
+  "curso": "Kotlin — Android y Más Allá",
+  "leccion": 1,
+  "frente": "¿Qué diferencia val de var en Kotlin?",
+  "reversa": "val es inmutable (referencia fija); var es reasignable",
+  "explicacion": "Kotlin te empuja a inmutabilidad por defecto: val primero, var solo si hace falta.",
+  "algoritmo": "repaso espaciado: 1d, 3d, 7d, 21d",
+  "generada": "2026-09-18"
+}

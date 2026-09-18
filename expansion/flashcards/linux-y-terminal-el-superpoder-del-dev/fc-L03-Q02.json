@@ -1,0 +1,10 @@
+{
+  "tarjeta": "linux-y-terminal-el-superpoder-L03-Q02",
+  "curso": "Linux y Terminal — El Superpoder del Dev",
+  "leccion": 3,
+  "frente": "¿Cuándo usar kill -9?",
+  "reversa": "Solo cuando kill normal (SIGTERM) falla: -9 no deja limpiar al proceso",
+  "explicacion": "SIGTERM pide cortésmente cerrarse (guardar estado); SIGKILL lo aniquila sin aviso.",
+  "algoritmo": "repaso espaciado: 1d, 3d, 7d, 21d",
+  "generada": "2026-09-18"
+}

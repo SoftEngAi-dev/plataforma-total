@@ -1,0 +1,10 @@
+{
+  "tarjeta": "javascript-de-cero-a-experto-L18-Q02",
+  "curso": "JavaScript — De Cero a Experto",
+  "leccion": 18,
+  "frente": "¿Por qué delegación de eventos en la lista en vez de listener por li?",
+  "reversa": "Los li se recrean en cada render; un solo listener en el ul sigue funcionando siempre",
+  "explicacion": "Contenido dinámico = listener en el padre estable, acción según e.target.",
+  "algoritmo": "repaso espaciado: 1d, 3d, 7d, 21d",
+  "generada": "2026-09-18"
+}

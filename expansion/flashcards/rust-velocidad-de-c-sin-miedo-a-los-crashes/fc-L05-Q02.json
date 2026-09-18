@@ -1,0 +1,10 @@
+{
+  "tarjeta": "rust-velocidad-de-c-sin-miedo-L05-Q02",
+  "curso": "Rust — Velocidad de C sin Miedo a los Crashes",
+  "leccion": 5,
+  "frente": "¿Qué desafío famoso te hará 'sentir' ownership en este proyecto?",
+  "reversa": "Elegir entre String (dueña) y &str (prestada) en structs/funcs: la decisión de propiedad explícita",
+  "explicacion": "Las peleas con el borrow checker te enseñan el modelo: un mes después, es superpoder.",
+  "algoritmo": "repaso espaciado: 1d, 3d, 7d, 21d",
+  "generada": "2026-09-18"
+}

@@ -1,0 +1,32 @@
+{
+  "curso": "APIs REST y HTTP — El Idioma de los Servidores",
+  "leccion": 2,
+  "titulo": "2. Diseñar tu API: recursos, URLs y convenciones",
+  "total": 2,
+  "aprobado_con": 2,
+  "preguntas": [
+    {
+      "p": "¿Cómo es una buena URL de API?",
+      "ops": [
+        "/api/crearTarea",
+        "/api/tareas (sustantivo plural; la ACCIÓN va en el método HTTP, no en la URL)",
+        "/api/tareas.php",
+        "con verbo"
+      ],
+      "ok": 1,
+      "exp": "Recursos=sustantivos; acciones=GET/POST/PATCH/DELETE: esa es la legibilidad REST."
+    },
+    {
+      "p": "¿Por qué responder 201 con el recurso creado en el POST?",
+      "ops": [
+        "Es largo",
+        "El cliente recibe inmediato el objeto recién creado CON su id asignado; sin nueva llamada gratuita",
+        "Hype",
+        "Caché"
+      ],
+      "ok": 1,
+      "exp": "El status informa lo ocurrido + la respuesta entrega el valor resultante."
+    }
+  ],
+  "generado": "2026-09-18"
+}

@@ -1,0 +1,10 @@
+{
+  "tarjeta": "python-de-cero-a-profesional-L08-Q02",
+  "curso": "Python — De Cero a Profesional",
+  "leccion": 8,
+  "frente": "Sin return, una función Python devuelve...",
+  "reversa": "None (¡cuidado al encadenar!)",
+  "explicacion": "Caso clásico: olvidas return y luego el resultado es None donde no esperas.",
+  "algoritmo": "repaso espaciado: 1d, 3d, 7d, 21d",
+  "generada": "2026-09-18"
+}

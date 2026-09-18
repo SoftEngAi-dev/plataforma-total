@@ -1,0 +1,10 @@
+{
+  "tarjeta": "html-y-css-diseno-web-total-L07-Q02",
+  "curso": "HTML y CSS — Diseño Web Total",
+  "leccion": 7,
+  "frente": "¿Cuál es el largo de línea recomendado para texto legible?",
+  "reversa": "~45-75 caracteres (65ch) por línea",
+  "explicacion": "Líneas demasiado largas cansan la vista: limita el ancho del texto.",
+  "algoritmo": "repaso espaciado: 1d, 3d, 7d, 21d",
+  "generada": "2026-09-18"
+}

@@ -1,0 +1,10 @@
+{
+  "tarjeta": "herramientas-del-desarrollador-L05-Q02",
+  "curso": "Herramientas del Desarrollador",
+  "leccion": 5,
+  "frente": "¿Qué es un Pull Request?",
+  "reversa": "Proponer cambios de una rama para que otros los revisen antes de fusionar",
+  "explicacion": "PR = cambio propuesto + revisión + discusión + fusión: la base del trabajo en equipo.",
+  "algoritmo": "repaso espaciado: 1d, 3d, 7d, 21d",
+  "generada": "2026-09-18"
+}

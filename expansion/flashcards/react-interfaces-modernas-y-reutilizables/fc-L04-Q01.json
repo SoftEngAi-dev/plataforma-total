@@ -1,0 +1,10 @@
+{
+  "tarjeta": "react-interfaces-modernas-y-re-L04-Q01",
+  "curso": "React — Interfaces Modernas y Reutilizables",
+  "leccion": 4,
+  "frente": "¿Qué significa input 'controlado'?",
+  "reversa": "Su value viene del estado y onChange lo actualiza: el estado es la fuente de verdad",
+  "explicacion": "Estado ↔ input en bucle controlado. React manda; el DOM obedece.",
+  "algoritmo": "repaso espaciado: 1d, 3d, 7d, 21d",
+  "generada": "2026-09-18"
+}

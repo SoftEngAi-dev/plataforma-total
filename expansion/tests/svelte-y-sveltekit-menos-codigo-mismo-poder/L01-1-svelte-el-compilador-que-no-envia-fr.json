@@ -1,0 +1,32 @@
+{
+  "curso": "Svelte y SvelteKit — Menos Código, Mismo Poder",
+  "leccion": 1,
+  "titulo": "1. Svelte: el compilador que no envía framework",
+  "total": 2,
+  "aprobado_con": 2,
+  "preguntas": [
+    {
+      "p": "¿Cuál es la gran diferencia técnica de Svelte?",
+      "ops": [
+        "Usa Python",
+        "Es un compilador: no hay runtime de framework en el navegador, genera JS vanilla quirúrgico",
+        "Es más lento",
+        "Usa virtual DOM"
+      ],
+      "ok": 1,
+      "exp": "Menos código enviado + actualizaciones DOM precisas = apps veloces y bundles chicos."
+    },
+    {
+      "p": "¿Qué hace la etiqueta $: en el script?",
+      "ops": [
+        "JQuery",
+        "Declaración reactiva: re-ejecuta la línea automáticamente cuando cambian las variables que usa",
+        "Un import",
+        "CSS"
+      ],
+      "ok": 1,
+      "exp": "$: doble = cuenta * 2 → doble siempre fresco sin lógica manual. Elegancia mínima."
+    }
+  ],
+  "generado": "2026-09-18"
+}

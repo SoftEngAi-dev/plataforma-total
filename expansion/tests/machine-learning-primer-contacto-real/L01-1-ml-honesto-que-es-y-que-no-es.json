@@ -1,0 +1,32 @@
+{
+  "curso": "Machine Learning — Primer Contacto Real",
+  "leccion": 1,
+  "titulo": "1. ML honesto: qué es y qué NO es",
+  "total": 2,
+  "aprobado_con": 2,
+  "preguntas": [
+    {
+      "p": "¿Cuál es la REGLA SAGRADA del ML?",
+      "ops": [
+        "Más datos siempre",
+        "Evaluar en datos de TEST separados que el modelo nunca vio en entrenamiento",
+        "Usar más capas",
+        "GPU obligatoria"
+      ],
+      "ok": 1,
+      "exp": "Sin test separado solo mides memoria, no capacidad de generalizar."
+    },
+    {
+      "p": "Precio de una casa según m², zona, habitaciones es...",
+      "ops": [
+        "clasificación",
+        "REGRESIÓN: predecir un NÚMERO (continuo), no una categoría",
+        "clustering",
+        "visión"
+      ],
+      "ok": 1,
+      "exp": "Regresión = número; clasificación = etiqueta/categoría. Letra chica que decide tu modelo."
+    }
+  ],
+  "generado": "2026-09-18"
+}

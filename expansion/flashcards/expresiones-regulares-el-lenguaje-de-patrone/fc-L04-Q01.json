@@ -1,0 +1,10 @@
+{
+  "tarjeta": "expresiones-regulares-el-lengu-L04-Q01",
+  "curso": "Expresiones Regulares — El Lenguaje de Patrones",
+  "leccion": 4,
+  "frente": "¿Qué hace groupdict() sobre un Match?",
+  "reversa": "Devuelve un dictando con grupos NOMBRADOS para cada campo: linea→estructura lista para pandas/procesar",
+  "explicacion": "La puente: texto crudo → registro estructurado con nombres del grupo = pipeline real.",
+  "algoritmo": "repaso espaciado: 1d, 3d, 7d, 21d",
+  "generada": "2026-09-18"
+}

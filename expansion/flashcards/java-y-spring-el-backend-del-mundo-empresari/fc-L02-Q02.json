@@ -1,0 +1,10 @@
+{
+  "tarjeta": "java-y-spring-el-backend-del-m-L02-Q02",
+  "curso": "Java y Spring — El Backend del Mundo Empresarial",
+  "leccion": 2,
+  "frente": "streams en Java se parecen a...",
+  "reversa": "map/filter/reduce encadenados estilo funcional como en JS/Python",
+  "explicacion": "Operaciones declarativas sobre colecciones — Java moderno abraza lo funcional.",
+  "algoritmo": "repaso espaciado: 1d, 3d, 7d, 21d",
+  "generada": "2026-09-18"
+}

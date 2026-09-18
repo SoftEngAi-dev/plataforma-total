@@ -1,0 +1,10 @@
+{
+  "tarjeta": "react-interfaces-modernas-y-re-L08-Q02",
+  "curso": "React — Interfaces Modernas y Reutilizables",
+  "leccion": 8,
+  "frente": "¿Qué dos APIs persisten las notas en esta app?",
+  "reversa": "useState + useEffect dentro de un custom hook useLocalStorage",
+  "explicacion": "Estado + efecto que escribe a localStorage: patrón simple, potente y reutilizable.",
+  "algoritmo": "repaso espaciado: 1d, 3d, 7d, 21d",
+  "generada": "2026-09-18"
+}

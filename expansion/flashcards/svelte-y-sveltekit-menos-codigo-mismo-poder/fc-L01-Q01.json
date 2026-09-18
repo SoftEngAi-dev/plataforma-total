@@ -1,0 +1,10 @@
+{
+  "tarjeta": "svelte-y-sveltekit-menos-codig-L01-Q01",
+  "curso": "Svelte y SvelteKit — Menos Código, Mismo Poder",
+  "leccion": 1,
+  "frente": "¿Cuál es la gran diferencia técnica de Svelte?",
+  "reversa": "Es un compilador: no hay runtime de framework en el navegador, genera JS vanilla quirúrgico",
+  "explicacion": "Menos código enviado + actualizaciones DOM precisas = apps veloces y bundles chicos.",
+  "algoritmo": "repaso espaciado: 1d, 3d, 7d, 21d",
+  "generada": "2026-09-18"
+}

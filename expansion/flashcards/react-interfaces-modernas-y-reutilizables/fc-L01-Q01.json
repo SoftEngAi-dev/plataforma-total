@@ -1,0 +1,10 @@
+{
+  "tarjeta": "react-interfaces-modernas-y-re-L01-Q01",
+  "curso": "React — Interfaces Modernas y Reutilizables",
+  "leccion": 1,
+  "frente": "¿Qué es JSX?",
+  "reversa": "Sintaxis que escribe HTML dentro de JS y llama funciones de React para construir el DOM",
+  "explicacion": "JSX describe la UI; Babel/Vite lo convierte en llamadas a funciones.",
+  "algoritmo": "repaso espaciado: 1d, 3d, 7d, 21d",
+  "generada": "2026-09-18"
+}

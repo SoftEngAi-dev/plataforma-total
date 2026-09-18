@@ -1,0 +1,10 @@
+{
+  "tarjeta": "machine-learning-primer-contac-L05-Q02",
+  "curso": "Machine Learning — Primer Contacto Real",
+  "leccion": 5,
+  "frente": "¿Qué es FEATURE ENGINEERING en este proyecto?",
+  "reversa": "CREAR columnas útiles desde las existentes (ej: sol@ si viajas solo): el 40% de tu mejora suele vivir aquí",
+  "explicacion": "Pequeñas obviedades transformadas en datos = a veces más valor que elegir otro modelo.",
+  "algoritmo": "repaso espaciado: 1d, 3d, 7d, 21d",
+  "generada": "2026-09-18"
+}

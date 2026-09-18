@@ -1,0 +1,32 @@
+{
+  "curso": "Pandas — Excel con Superpoderes en Python",
+  "leccion": 1,
+  "titulo": "1. DataFrames: tablero mental de pandas",
+  "total": 2,
+  "aprobado_con": 2,
+  "preguntas": [
+    {
+      "p": "¿Qué devuelve datos[datos['edad'] > 40]?",
+      "ops": [
+        "Error",
+        "Filas del DataFrame donde la condición booleana es verdadera",
+        "Las edades",
+        "Nada"
+      ],
+      "ok": 1,
+      "exp": "Boolean indexing: la forma panda de decir 'WHERE edad > 40'."
+    },
+    {
+      "p": "¿Cuándo usar datos.loc vs datos.iloc?",
+      "ops": [
+        "Son iguales",
+        "loc: por ETIQUETA/condición; iloc: por POSICIÓN de entero",
+        "loc es de lectura",
+        "iloc es más nuevo"
+      ],
+      "ok": 1,
+      "exp": "loc[[2,3], ['a']] por nombre; iloc[0:2, 0] por posición. Ambos según el índice."
+    }
+  ],
+  "generado": "2026-09-18"
+}

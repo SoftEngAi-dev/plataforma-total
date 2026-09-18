@@ -1,0 +1,10 @@
+{
+  "tarjeta": "react-native-movil-con-tu-stac-L02-Q01",
+  "curso": "React Native — Móvil con Tu Stack Web",
+  "leccion": 2,
+  "frente": "¿Por qué FlatList y no un map dentro de ScrollView?",
+  "reversa": "FlatList virtualiza: solo dibuja filas visibles; ScrollView+map renderiza TODO (mata listas largas)",
+  "explicacion": "El rendimiento de listas = virtualización. Regla: lista > ~20 items → FlatList.",
+  "algoritmo": "repaso espaciado: 1d, 3d, 7d, 21d",
+  "generada": "2026-09-18"
+}

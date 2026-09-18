@@ -1,0 +1,32 @@
+{
+  "curso": "HTML y CSS — Diseño Web Total",
+  "leccion": 10,
+  "titulo": "10. Accesibilidad básica: la web es para todas las personas",
+  "total": 2,
+  "aprobado_con": 2,
+  "preguntas": [
+    {
+      "p": "¿Qué elemento es correcto para acción clickeable accesible?",
+      "ops": [
+        "<div onclick=...>",
+        "<span onclick=...>",
+        "<button>",
+        "cualquiera"
+      ],
+      "ok": 2,
+      "exp": "<button> trae gratis: foco de teclado, Enter/Espacio, y semántica para lectores de pantalla."
+    },
+    {
+      "p": "¿Cuál es el contraste mínimo texto/fondo recomendado?",
+      "ops": [
+        "2:1",
+        "3:1",
+        "4.5:1",
+        "10:1"
+      ],
+      "ok": 2,
+      "exp": "WCAG AA: 4.5:1 para texto normal (3:1 para texto grande)."
+    }
+  ],
+  "generado": "2026-09-18"
+}

@@ -1,0 +1,10 @@
+{
+  "tarjeta": "c-y-c-los-cimientos-del-softwa-L01-Q01",
+  "curso": "C y C++ — Los Cimientos del Software Moderno",
+  "leccion": 1,
+  "frente": "¿Por qué aprender C hoy si 'no lo usaré directo'?",
+  "reversa": "Es el substrato real: memoria, punteros y bajo nivel explican el comportamiento de TODOS los demás lenguajes actuales",
+  "explicacion": "'Entender realmente' qué hace tu lenguaje favorito = haber pasado por C.",
+  "algoritmo": "repaso espaciado: 1d, 3d, 7d, 21d",
+  "generada": "2026-09-18"
+}

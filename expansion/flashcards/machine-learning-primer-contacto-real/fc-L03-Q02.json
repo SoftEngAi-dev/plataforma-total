@@ -1,0 +1,10 @@
+{
+  "tarjeta": "machine-learning-primer-contac-L03-Q02",
+  "curso": "Machine Learning — Primer Contacto Real",
+  "leccion": 3,
+  "frente": "¿Qué aporta cross_val_score(modelo, X, y, cv=5) sobre un solo split?",
+  "reversa": "Evalúa 5 veces con particiones rotadas: medida mucho más estable y robusta de tu desempeño real",
+  "explicacion": "Un solo split puede tener suerte/mala suerte con qué datos tocaron: la CV promedia esa lotería.",
+  "algoritmo": "repaso espaciado: 1d, 3d, 7d, 21d",
+  "generada": "2026-09-18"
+}

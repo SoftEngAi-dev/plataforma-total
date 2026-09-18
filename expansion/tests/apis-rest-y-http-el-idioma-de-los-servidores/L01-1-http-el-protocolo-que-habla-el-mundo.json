@@ -1,0 +1,32 @@
+{
+  "curso": "APIs REST y HTTP — El Idioma de los Servidores",
+  "leccion": 1,
+  "titulo": "1. HTTP: el protocolo que habla el mundo",
+  "total": 2,
+  "aprobado_con": 2,
+  "preguntas": [
+    {
+      "p": "¿Cuál es la diferencia entre 401 y 403?",
+      "ops": [
+        "Ninguna",
+        "401 = falta autenticación (quién eres); 403 = ya sé quién eres pero NO tienes permiso",
+        "404",
+        "500 famila"
+      ],
+      "ok": 1,
+      "exp": "Autenticación vs autorización: la confusión más común en APIs."
+    },
+    {
+      "p": "¿Qué significa que GET sea idempotente?",
+      "ops": [
+        "Es lento",
+        "Repetirlo N veces tiene el mismo efecto que 1: exige NO cambiar estado por definición REST",
+        "Es seguro contra hackers",
+        "Es corto"
+      ],
+      "ok": 1,
+      "exp": "GET/PUT/DELETE= idempotentes; POST no: eso decide reintentos seguros en tu cliente."
+    }
+  ],
+  "generado": "2026-09-18"
+}

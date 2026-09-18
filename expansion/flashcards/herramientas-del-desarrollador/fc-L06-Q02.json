@@ -1,0 +1,10 @@
+{
+  "tarjeta": "herramientas-del-desarrollador-L06-Q02",
+  "curso": "Herramientas del Desarrollador",
+  "leccion": 6,
+  "frente": "¿Qué debe pasar ANTES de intentar arreglar un bug?",
+  "reversa": "Reproducir el error de forma confiable",
+  "explicacion": "Sin reproducción confiable solo estás adivinando.",
+  "algoritmo": "repaso espaciado: 1d, 3d, 7d, 21d",
+  "generada": "2026-09-18"
+}

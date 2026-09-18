@@ -1,0 +1,10 @@
+{
+  "tarjeta": "python-de-cero-a-profesional-L11-Q02",
+  "curso": "Python — De Cero a Profesional",
+  "leccion": 11,
+  "frente": "¿Cuándo usar lambda?",
+  "reversa": "Funciones de una expresión triviales pasadas a key= y similares; en todo otro caso, def",
+  "explicacion": "Si necesita nombre para entenderse, ese nombre es su def.",
+  "algoritmo": "repaso espaciado: 1d, 3d, 7d, 21d",
+  "generada": "2026-09-18"
+}

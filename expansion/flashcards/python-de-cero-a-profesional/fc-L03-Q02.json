@@ -1,0 +1,10 @@
+{
+  "tarjeta": "python-de-cero-a-profesional-L03-Q02",
+  "curso": "Python — De Cero a Profesional",
+  "leccion": 3,
+  "frente": "a, b = b, a hace...",
+  "reversa": "Intercambiar los valores sin variable temporal (desempaquetado)",
+  "explicacion": "La derecha se evalúa como tupla completa antes de asignar: el swap pythónico.",
+  "algoritmo": "repaso espaciado: 1d, 3d, 7d, 21d",
+  "generada": "2026-09-18"
+}

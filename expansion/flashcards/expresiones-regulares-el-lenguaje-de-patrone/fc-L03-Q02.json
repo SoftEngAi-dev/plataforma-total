@@ -1,0 +1,10 @@
+{
+  "tarjeta": "expresiones-regulares-el-lengu-L03-Q02",
+  "curso": "Expresiones Regulares — El Lenguaje de Patrones",
+  "leccion": 3,
+  "frente": "¿Cuándo NO usarías regex?",
+  "reversa": "Para estructuras complejas anidadas como HTML/JSON reales: usa parseadores diseñados, regex se rompe en los bordes",
+  "explicacion": "Zawinski: 'ahora tienes dos problemas'. Texto libre ↔ regex; formato estructurado ↔ parser real.",
+  "algoritmo": "repaso espaciado: 1d, 3d, 7d, 21d",
+  "generada": "2026-09-18"
+}

@@ -1,0 +1,10 @@
+{
+  "tarjeta": "rust-velocidad-de-c-sin-miedo-L01-Q02",
+  "curso": "Rust — Velocidad de C sin Miedo a los Crashes",
+  "leccion": 1,
+  "frente": "¿Qué es cargo en el ecosistema Rust?",
+  "reversa": "El todo en uno: compilar, gestionar dependencias (crates), testear, documentar",
+  "explicacion": "cargo new/run/test/build: el mejor gestor de proyectos del mundo compilado.",
+  "algoritmo": "repaso espaciado: 1d, 3d, 7d, 21d",
+  "generada": "2026-09-18"
+}

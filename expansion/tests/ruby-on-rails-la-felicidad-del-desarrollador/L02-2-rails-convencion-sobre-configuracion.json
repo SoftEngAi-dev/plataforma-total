@@ -1,0 +1,32 @@
+{
+  "curso": "Ruby on Rails — La Felicidad del Desarrollador",
+  "leccion": 2,
+  "titulo": "2. Rails: convención sobre configuración",
+  "total": 2,
+  "aprobado_con": 2,
+  "preguntas": [
+    {
+      "p": "¿Qué es el 'scaffold' de Rails?",
+      "ops": [
+        "Una gema",
+        "Generador del CRUD completo (modelo, migración, controller, vistas, rutas) desde una consola",
+        "Un servidor",
+        "Testing"
+      ],
+      "ok": 1,
+      "exp": "Ideal para aprender el MVC viendo todas las piezas en acción y de una vez."
+    },
+    {
+      "p": "¿Qué significa Convention over Configuration?",
+      "ops": [
+        "Ignora convenciones",
+        "El framework asume estándares sensatos (Post↔posts, id PK...) y tú solo configuras lo distinto",
+        "No hay convenciones",
+        "Toca YAML"
+      ],
+      "ok": 1,
+      "exp": "CoC = menos decisiones triviales = velocidad de desarrollo enorme."
+    }
+  ],
+  "generado": "2026-09-18"
+}

@@ -1,0 +1,32 @@
+{
+  "curso": "Python — De Cero a Profesional",
+  "leccion": 4,
+  "titulo": "4. Diccionarios y sets: clave-valor y unicidad",
+  "total": 2,
+  "aprobado_con": 2,
+  "preguntas": [
+    {
+      "p": "¿Por qué alumno.get('email') en vez de alumno['email']?",
+      "ops": [
+        "Es más rápido",
+        "Evita KeyError: devuelve None (o el default) si falta la clave",
+        "Es más corto",
+        "No hay diferencia"
+      ],
+      "ok": 1,
+      "exp": "get = acceso defensivo sin try/except; úsalo cuando la clave puede faltar."
+    },
+    {
+      "p": "¿Para qué usar set([1,1,2,3])?",
+      "ops": [
+        "Ordenar",
+        "Eliminar duplicados: {1, 2, 3} (los sets no repiten)",
+        "Sumar",
+        "Nada útil"
+      ],
+      "ok": 1,
+      "exp": "Deduplicación instantánea + operaciones matemáticas de conjuntos."
+    }
+  ],
+  "generado": "2026-09-18"
+}

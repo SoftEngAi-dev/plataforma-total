@@ -1,0 +1,10 @@
+{
+  "tarjeta": "arquitectura-de-software-disen-L03-Q02",
+  "curso": "Arquitectura de Software — Diseñar para Crecer",
+  "leccion": 3,
+  "frente": "¿Cuál costo fijo traen los microservicios que no existe en un monolito?",
+  "reversa": "Distribución: red entre servicios, transacciones complejas, logs distribuidos, deployment/orquestación",
+  "explicacion": "Cada petición que antes era una llamada local pasa a ser una operación de red que puede fallar.",
+  "algoritmo": "repaso espaciado: 1d, 3d, 7d, 21d",
+  "generada": "2026-09-18"
+}

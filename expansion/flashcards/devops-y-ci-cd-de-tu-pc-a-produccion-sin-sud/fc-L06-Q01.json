@@ -1,0 +1,10 @@
+{
+  "tarjeta": "devops-y-ci-cd-de-tu-pc-a-prod-L06-Q01",
+  "curso": "DevOps y CI/CD — De Tu PC a Producción Sin Sudor",
+  "leccion": 6,
+  "frente": "¿Por qué romper un test a propósito en el proyecto?",
+  "reversa": "Verificar que el pipeline REALMENTE falla ante errores (red validate que CI funciona)",
+  "explicacion": "Un CI que nunca has visto fallar no es garantía: red/verde/red lo prueba.",
+  "algoritmo": "repaso espaciado: 1d, 3d, 7d, 21d",
+  "generada": "2026-09-18"
+}

@@ -1,0 +1,10 @@
+{
+  "tarjeta": "git-y-github-tu-historia-nunca-L05-Q01",
+  "curso": "Git y GitHub — Tu Historia Nunca Se Pierde",
+  "leccion": 5,
+  "frente": "¿Por qué .env va al .gitignore SIEMPRE?",
+  "reversa": "Contiene secretos (claves, tokens) que jamás deben quedar en la historia pública",
+  "explicacion": "Un secreto subido = filtrado para siempre, aunque lo borres después: hay que rotar la credencial.",
+  "algoritmo": "repaso espaciado: 1d, 3d, 7d, 21d",
+  "generada": "2026-09-18"
+}

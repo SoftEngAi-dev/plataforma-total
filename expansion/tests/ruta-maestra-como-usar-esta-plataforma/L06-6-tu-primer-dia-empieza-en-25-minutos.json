@@ -1,0 +1,32 @@
+{
+  "curso": "Ruta Maestra — Cómo Usar Esta Plataforma",
+  "leccion": 6,
+  "titulo": "6. Tu primer día (empieza en 25 minutos)",
+  "total": 2,
+  "aprobado_con": 2,
+  "preguntas": [
+    {
+      "p": "¿Cuánto debe durar tu primera sesión?",
+      "ops": [
+        "2-3 horas para arrancar bien",
+        "Un pomodoro de 25 minutos",
+        "Lo que aguantes",
+        "15 minutos"
+      ],
+      "ok": 1,
+      "exp": "Pequeño y terminado > grande y abandonado. El pomodoro enmarca la victoria del día."
+    },
+    {
+      "p": "¿Qué es más importante la primera semana?",
+      "ops": [
+        "Terminar un curso",
+        "Construir la racha diaria 🔥",
+        "Instalar todo lo posible",
+        "Leer mucha teoría"
+      ],
+      "ok": 1,
+      "exp": "El hábito precede al conocimiento: sin racha, el plan muere; con racha, es inevitable."
+    }
+  ],
+  "generado": "2026-09-18"
+}

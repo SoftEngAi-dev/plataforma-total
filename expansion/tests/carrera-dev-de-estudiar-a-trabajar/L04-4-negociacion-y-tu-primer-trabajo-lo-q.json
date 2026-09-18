@@ -1,0 +1,32 @@
+{
+  "curso": "Carrera Dev — De Estudiar a Trabajar",
+  "leccion": 4,
+  "titulo": "4. Negociación y tu primer trabajo: lo que nadie dice",
+  "total": 2,
+  "aprobado_con": 2,
+  "preguntas": [
+    {
+      "p": "¿Qué debe importarte MÁS en tu primer trabajo?",
+      "ops": [
+        "El salario inmediato",
+        "La velocidad de APRENDIZAJE: mentoría, feedback, código real. El salario despega tras el primer salto",
+        "El gaming",
+        "El título"
+      ],
+      "ok": 1,
+      "exp": "Tus primeros 1-2 años son capital de aprendizaje; cobras después, una vez has crecido."
+    },
+    {
+      "p": "¿Qué señal da pedir ayuda rápio con una buena estructura?",
+      "ops": [
+        "Debilidad",
+        "Profesionalismo: investiaste 15-20 min, intentaste solo, y haces una pregunta concreta que respeta el tiempo del otro",
+        "Inmadurez",
+        "Nada"
+      ],
+      "ok": 1,
+      "exp": "Saber preguntar bien es una skill reputacional en todo equipo sano."
+    }
+  ],
+  "generado": "2026-09-18"
+}

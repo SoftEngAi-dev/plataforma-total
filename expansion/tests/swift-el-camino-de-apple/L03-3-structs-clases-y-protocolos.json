@@ -1,0 +1,32 @@
+{
+  "curso": "Swift — El Camino de Apple",
+  "leccion": 3,
+  "titulo": "3. Structs, clases y protocolos",
+  "total": 2,
+  "aprobado_con": 2,
+  "preguntas": [
+    {
+      "p": "¿Qué diferencia struct de class en Swift?",
+      "ops": [
+        "Son iguales",
+        "struct = tipo VALOR (se copia); class = tipo REFERENCIA (se comparte) con herencia",
+        "class es gratis",
+        "struct es lenta"
+      ],
+      "ok": 1,
+      "exp": "Structs por defecto = menos bugs de aliasing; class solo para identidad compartida."
+    },
+    {
+      "p": "¿Qué permite una extension?",
+      "ops": [
+        "Herencia múltiple",
+        "Agregar funcionalidad a tipos existentes sin subclases: incluso a Int, String nativos",
+        "Nada especial",
+        "Async"
+      ],
+      "ok": 1,
+      "exp": "Las extensiones hacen Swift extensible al infinito y súper idiomático."
+    }
+  ],
+  "generado": "2026-09-18"
+}

@@ -1,0 +1,32 @@
+{
+  "curso": "Pandas — Excel con Superpoderes en Python",
+  "leccion": 6,
+  "titulo": "6. Proyecto final: EDA completo de un dataset público",
+  "total": 2,
+  "aprobado_con": 2,
+  "preguntas": [
+    {
+      "p": "¿Qué verifica 'Restart Kernel & Run All'?",
+      "ops": [
+        "Nada",
+        "Que tu notebook se ejecute limpio de arriba a abajo en orden — reproducibilidad real de tu análisis",
+        "Es más rápido",
+        "La BIOS"
+      ],
+      "ok": 1,
+      "exp": "Orden del código más importante: tu análisis debe reproducirse sin celdas corridas a desorden."
+    },
+    {
+      "p": "¿Por qué df.groupby('Pclass')['Survived'].mean() da la tasa de supervivencia?",
+      "ops": [
+        "Por casualidad",
+        "El promedio de una columna 0/1 = la proporción/tasa: mean de binarios es tasa universal",
+        "Es solo moda",
+        "Sum()"
+      ],
+      "ok": 1,
+      "exp": "El truco universal de datos: promediar flags 0/1 te da porcentajes directos en una línea."
+    }
+  ],
+  "generado": "2026-09-18"
+}

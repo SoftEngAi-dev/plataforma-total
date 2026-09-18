@@ -1,0 +1,10 @@
+{
+  "tarjeta": "machine-learning-primer-contac-L01-Q01",
+  "curso": "Machine Learning — Primer Contacto Real",
+  "leccion": 1,
+  "frente": "¿Cuál es la REGLA SAGRADA del ML?",
+  "reversa": "Evaluar en datos de TEST separados que el modelo nunca vio en entrenamiento",
+  "explicacion": "Sin test separado solo mides memoria, no capacidad de generalizar.",
+  "algoritmo": "repaso espaciado: 1d, 3d, 7d, 21d",
+  "generada": "2026-09-18"
+}

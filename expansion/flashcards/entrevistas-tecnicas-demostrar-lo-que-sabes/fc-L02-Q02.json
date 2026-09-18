@@ -1,0 +1,10 @@
+{
+  "tarjeta": "entrevistas-tecnicas-demostrar-L02-Q02",
+  "curso": "Entrevistas Técnicas — Demostrar lo que Sabes",
+  "leccion": 2,
+  "frente": "¿Qué es sliding window?",
+  "reversa": "Patrón O(n) que mantiene una ventana de elementos entre dos índices sin recorrer repetidamente para sumas/max de subcadena continuables',",
+  "explicacion": "Substrings continuas: expansión/contracción de dos punteros sin bucles anidados.",
+  "algoritmo": "repaso espaciado: 1d, 3d, 7d, 21d",
+  "generada": "2026-09-18"
+}

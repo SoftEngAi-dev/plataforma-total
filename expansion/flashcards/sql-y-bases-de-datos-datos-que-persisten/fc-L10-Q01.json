@@ -1,0 +1,10 @@
+{
+  "tarjeta": "sql-y-bases-de-datos-datos-que-L10-Q01",
+  "curso": "SQL y Bases de Datos — Datos que Persisten",
+  "leccion": 10,
+  "frente": "¿Por qué CASCADE en comentarios de un post borrado?",
+  "reversa": "No quedan comentarios huérfanos de posts inexistentes",
+  "explicacion": "La integridad referencial gestionada por la base: consistencia siempre.",
+  "algoritmo": "repaso espaciado: 1d, 3d, 7d, 21d",
+  "generada": "2026-09-18"
+}

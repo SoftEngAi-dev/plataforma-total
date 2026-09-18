@@ -1,0 +1,10 @@
+{
+  "tarjeta": "seguridad-para-desarrolladores-L03-Q02",
+  "curso": "Seguridad para Desarrolladores — No Seas la Brecha",
+  "leccion": 3,
+  "frente": "¿Por qué JWT en localStorage es riesgoso?",
+  "reversa": "Cualquier XSS puede JavaScript-leerlo y robar identidad; cookie HttpOnly no es legible por JS",
+  "explicacion": "El trade de seguridad: lo que JavaScript toca, un XSS también toca.",
+  "algoritmo": "repaso espaciado: 1d, 3d, 7d, 21d",
+  "generada": "2026-09-18"
+}

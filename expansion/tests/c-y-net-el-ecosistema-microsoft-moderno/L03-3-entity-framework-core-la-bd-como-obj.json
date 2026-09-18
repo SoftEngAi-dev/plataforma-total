@@ -1,0 +1,32 @@
+{
+  "curso": "C# y .NET — El Ecosistema Microsoft Moderno",
+  "leccion": 3,
+  "titulo": "3. Entity Framework Core: la BD como objetos C#",
+  "total": 2,
+  "aprobado_con": 2,
+  "preguntas": [
+    {
+      "p": "¿Qué es DbContext en EF Core?",
+      "ops": [
+        "Un controller",
+        "La sesión/unidad de trabajo con la BD: DbSets por tabla y SaveChanges como transacción",
+        "Un navegador",
+        "JSON"
+      ],
+      "ok": 1,
+      "exp": "DbContext coordina tracked changes y los persiste con SaveChanges: el corazón del ORM."
+    },
+    {
+      "p": "¿Qué hacen las 'migraciones' de EF Core?",
+      "ops": [
+        "Nada en especial",
+        "Generan/aplican el esquema SQL desde tus clases C# y mantienen su historial versionado",
+        "Solo JSON",
+        "Test"
+      ],
+      "ok": 1,
+      "exp": "El esquema de la BD vive en tu código: cambiar clase → migración → BD nueva consistente."
+    }
+  ],
+  "generado": "2026-09-18"
+}

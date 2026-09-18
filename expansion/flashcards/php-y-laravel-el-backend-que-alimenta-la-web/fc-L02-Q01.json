@@ -1,0 +1,10 @@
+{
+  "tarjeta": "php-y-laravel-el-backend-que-a-L02-Q01",
+  "curso": "PHP y Laravel — El Backend Que Alimenta la Web",
+  "leccion": 2,
+  "frente": "¿Qué hace htmlentities($texto) antes de un echo?",
+  "reversa": "Escapa <script> etc. evitando XSS: HTML inyectado queda como texto inofensivo",
+  "explicacion": "La regla de vida PHP: toda salida con datos del usuario pasa por escaping.",
+  "algoritmo": "repaso espaciado: 1d, 3d, 7d, 21d",
+  "generada": "2026-09-18"
+}

@@ -1,0 +1,10 @@
+{
+  "tarjeta": "html-y-css-diseno-web-total-L03-Q01",
+  "curso": "HTML y CSS — Diseño Web Total",
+  "leccion": 3,
+  "frente": "¿Qué selector tiene más especificidad?",
+  "reversa": "id (#principal)",
+  "explicacion": "id gana sobre clase y etiqueta. Inline style gana sobre todos.",
+  "algoritmo": "repaso espaciado: 1d, 3d, 7d, 21d",
+  "generada": "2026-09-18"
+}

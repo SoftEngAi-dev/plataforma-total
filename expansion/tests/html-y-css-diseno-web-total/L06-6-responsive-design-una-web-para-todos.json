@@ -1,0 +1,32 @@
+{
+  "curso": "HTML y CSS — Diseño Web Total",
+  "leccion": 6,
+  "titulo": "6. Responsive design: una web para todos los tamaños",
+  "total": 2,
+  "aprobado_con": 2,
+  "preguntas": [
+    {
+      "p": "¿Qué hace la meta etiqueta viewport?",
+      "ops": [
+        "Bloquea el zoom para siempre",
+        "Dice al móvil que use el ancho real del dispositivo y no una miniatura",
+        "Mejora el SEO",
+        "Nada en móviles modernos"
+      ],
+      "ok": 1,
+      "exp": "Sin ella, el móvil renderiza como si fuera un desktop de 980px y escala."
+    },
+    {
+      "p": "¿Qué significa mobile-first?",
+      "ops": [
+        "Que movil es más importante que desktop",
+        "Escribir el CSS base para móvil y crecer con min-width media queries",
+        "Testear solo en móvil",
+        "Apps nativas primero"
+      ],
+      "ok": 1,
+      "exp": "Base simple en pantalla chica; complejidad progresiva hacia pantallas grandes."
+    }
+  ],
+  "generado": "2026-09-18"
+}

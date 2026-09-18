@@ -1,0 +1,10 @@
+{
+  "tarjeta": "herramientas-del-desarrollador-L04-Q01",
+  "curso": "Herramientas del Desarrollador",
+  "leccion": 4,
+  "frente": "¿Qué hace git add antes del commit?",
+  "reversa": "Prepara (stage) los cambios que irán en el próximo commit",
+  "explicacion": "Add prepara; commit guarda el punto en la historia.",
+  "algoritmo": "repaso espaciado: 1d, 3d, 7d, 21d",
+  "generada": "2026-09-18"
+}

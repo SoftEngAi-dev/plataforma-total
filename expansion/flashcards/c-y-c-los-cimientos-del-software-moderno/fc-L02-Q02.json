@@ -1,0 +1,10 @@
+{
+  "tarjeta": "c-y-c-los-cimientos-del-softwa-L02-Q02",
+  "curso": "C y C++ — Los Cimientos del Software Moderno",
+  "leccion": 2,
+  "frente": "¿Qué es una fuga de memoria (memory leak)?",
+  "reversa": "malloc sin free: la memoria reservada nunca se devuelve y el programa crece hasta morir",
+  "explicacion": "En C/GestiónManual: cada malloc necesita su free — por eso los lenguajes modernos tienen GC/ownership.",
+  "algoritmo": "repaso espaciado: 1d, 3d, 7d, 21d",
+  "generada": "2026-09-18"
+}

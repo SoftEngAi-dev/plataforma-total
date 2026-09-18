@@ -1,0 +1,10 @@
+{
+  "tarjeta": "python-de-cero-a-profesional-L09-Q02",
+  "curso": "Python — De Cero a Profesional",
+  "leccion": 9,
+  "frente": "¿Cómo guardar y recuperar un dict en JSON?",
+  "reversa": "json.dump() y json.load()",
+  "explicacion": "json es universal multiplataforma; dicts/listas pasan directo.",
+  "algoritmo": "repaso espaciado: 1d, 3d, 7d, 21d",
+  "generada": "2026-09-18"
+}

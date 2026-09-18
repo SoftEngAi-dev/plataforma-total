@@ -1,0 +1,10 @@
+{
+  "tarjeta": "pandas-excel-con-superpoderes-L02-Q02",
+  "curso": "Pandas — Excel con Superpoderes en Python",
+  "leccion": 2,
+  "frente": "¿fillna con la mediana vs dropna?",
+  "reversa": "fillna conserva todas las filas imputando un valor neutro; dropna las elimina — depende del caso",
+  "explicacion": "Poquitas filas → drop; muchas → imputar. La mediana es robusta a outliers.",
+  "algoritmo": "repaso espaciado: 1d, 3d, 7d, 21d",
+  "generada": "2026-09-18"
+}

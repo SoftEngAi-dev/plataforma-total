@@ -1,0 +1,32 @@
+{
+  "curso": "Carrera Dev — De Estudiar a Trabajar",
+  "leccion": 5,
+  "titulo": "5. Proyecto final: tu paquete completo de empleabilidad",
+  "total": 2,
+  "aprobado_con": 2,
+  "preguntas": [
+    {
+      "p": "¿Qué hace los pinned repos en el perfil de GitHub?",
+      "ops": [
+        "Nada",
+        "Decides qué 3 proyectos destacan primero al entrar un reclutador (tu escaparate elegido según ti, no según fecha)",
+        "Más PR",
+        "Orden"
+      ],
+      "ok": 1,
+      "exp": "Tu escaparate manual: evita que el reclutador vea primero tus experimentos viejos en vez de tus mejores proyectos."
+    },
+    {
+      "p": "¿Por qué el portafolio web de 1 PÁGINA es mejor que el sitio complejo?",
+      "ops": [
+        "Es gratis",
+        "Un reclutador con 40 segundos decide rápido: claridad + links tangibles de tus best proyectos superan complejidad innecesaria",
+        "Menos sec",
+        "Móvil"
+      ],
+      "ok": 1,
+      "exp": "El lector con cero contexto elige: claridad = entrevistas; complejidad = scroll y abandono."
+    }
+  ],
+  "generado": "2026-09-18"
+}

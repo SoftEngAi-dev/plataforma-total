@@ -1,0 +1,32 @@
+{
+  "curso": "Swift — El Camino de Apple",
+  "leccion": 1,
+  "titulo": "1. Swift: elegancia tipada de Apple",
+  "total": 2,
+  "aprobado_con": 2,
+  "preguntas": [
+    {
+      "p": "¿Qué distingue let de var en Swift?",
+      "ops": [
+        "Nada",
+        "let = constante inmutable; var = reasignable — igual que val/var de Kotlin",
+        "let es para números",
+        "var es privado"
+      ],
+      "ok": 1,
+      "exp": "Swift te empuja a let por defecto: mutación solo cuando la justificas."
+    },
+    {
+      "p": "¿Cómo interpola strings Swift?",
+      "ops": [
+        "${x}",
+        "\\(x) dentro del string",
+        "f\"\"",
+        "%s"
+      ],
+      "ok": 1,
+      "exp": "\"Hola \\(nombre)\" — la interpolación nativa de Swift."
+    }
+  ],
+  "generado": "2026-09-18"
+}

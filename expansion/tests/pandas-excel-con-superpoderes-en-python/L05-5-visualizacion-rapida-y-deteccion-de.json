@@ -1,0 +1,32 @@
+{
+  "curso": "Pandas — Excel con Superpoderes en Python",
+  "leccion": 5,
+  "titulo": "5. Visualización rápida y detección de historias",
+  "total": 2,
+  "aprobado_con": 2,
+  "preguntas": [
+    {
+      "p": "¿Cuál gráfico muestra relación entre dos numéricos?",
+      "ops": [
+        "bar",
+        "scatterplot: cada punto una observación - revela correlaciones, clusters y outliers de un vistazo",
+        "histograma",
+        "pie"
+      ],
+      "ok": 1,
+      "exp": "Dispersión = radiografía de relaciones: la intuición primera de cualquier análisis bivariado."
+    },
+    {
+      "p": "¿Qué revela un boxplot por categoría que un promedio no?",
+      "ops": [
+        "Nada",
+        "Distribución completa y OUTLIERS por grupo: el promedio solo cuenta la historia central",
+        "Solo máximo",
+        "Solo skew"
+      ],
+      "ok": 1,
+      "exp": "Dos categorías con el mismo mean pueden tener varianzas y outliers mundialmente distintos."
+    }
+  ],
+  "generado": "2026-09-18"
+}

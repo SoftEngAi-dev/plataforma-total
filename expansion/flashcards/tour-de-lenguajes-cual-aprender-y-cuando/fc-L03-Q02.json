@@ -1,0 +1,10 @@
+{
+  "tarjeta": "tour-de-lenguajes-cual-aprende-L03-Q02",
+  "curso": "Tour de Lenguajes — Cuál Aprender y Cuándo",
+  "leccion": 3,
+  "frente": "¿Cuándo C/C++ es la OPCIÓN y no una elección?",
+  "reversa": "Sistemas operativos, drivers, motores gráficos, embebidos, latencia extrema — donde el control hardware es la feature",
+  "explicacion": "Cuando nanosegundos/bytes importan como requisito: C/C++ no es viejo, es el cimiento obligado.",
+  "algoritmo": "repaso espaciado: 1d, 3d, 7d, 21d",
+  "generada": "2026-09-18"
+}

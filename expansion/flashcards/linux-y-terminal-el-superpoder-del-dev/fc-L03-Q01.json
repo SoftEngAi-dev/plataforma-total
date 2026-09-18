@@ -1,0 +1,10 @@
+{
+  "tarjeta": "linux-y-terminal-el-superpoder-L03-Q01",
+  "curso": "Linux y Terminal — El Superpoder del Dev",
+  "leccion": 3,
+  "frente": "chmod +x script.sh permite...",
+  "reversa": "Ejecutarlo directamente (bit de ejecución)",
+  "explicacion": "Sin +x lo corres como ./script.sh solo con bash script.sh; con +x directo.",
+  "algoritmo": "repaso espaciado: 1d, 3d, 7d, 21d",
+  "generada": "2026-09-18"
+}

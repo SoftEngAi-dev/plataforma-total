@@ -1,0 +1,32 @@
+{
+  "curso": "Python — De Cero a Profesional",
+  "leccion": 7,
+  "titulo": "7. Bucles: for, range, enumerate, while",
+  "total": 2,
+  "aprobado_con": 2,
+  "preguntas": [
+    {
+      "p": "¿Qué aporta enumerate frente a range(len(lista))?",
+      "ops": [
+        "Nada",
+        "Índice y elemento a la vez, legible y sin errores de off-by-one",
+        "Más velocidad",
+        "Desempaqueta tuplas"
+      ],
+      "ok": 1,
+      "exp": "enumerate es el idioma correcto; range(len()) es el acento extranjero."
+    },
+    {
+      "p": "range(2, 10, 2) genera...",
+      "ops": [
+        "2..9",
+        "2, 4, 6, 8",
+        "2, 4, 6, 8, 10",
+        "Pares hasta 10 inclusive"
+      ],
+      "ok": 1,
+      "exp": "range(inicio, fin, paso) — fin SIEMPRE excluido."
+    }
+  ],
+  "generado": "2026-09-18"
+}

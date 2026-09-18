@@ -1,0 +1,10 @@
+{
+  "tarjeta": "rust-velocidad-de-c-sin-miedo-L03-Q02",
+  "curso": "Rust — Velocidad de C sin Miedo a los Crashes",
+  "leccion": 3,
+  "frente": "¿En qué consiste la seguridad adicional de Option<T> vs null?",
+  "reversa": "No hay null: la AUSENCIA es parte del TIPO y el compilador EXIGE manejar el caso None",
+  "explicacion": "Null = 'agujero invisible'; None = 'la firma te avisa y obliga'. Billion-dollar mistake corregida.",
+  "algoritmo": "repaso espaciado: 1d, 3d, 7d, 21d",
+  "generada": "2026-09-18"
+}

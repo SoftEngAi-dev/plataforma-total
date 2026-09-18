@@ -1,0 +1,10 @@
+{
+  "tarjeta": "seguridad-para-desarrolladores-L02-Q02",
+  "curso": "Seguridad para Desarrolladores — No Seas la Brecha",
+  "leccion": 2,
+  "frente": "¿Qué defensa da Content-Security-Policy?",
+  "reversa": "Limita de QUÉ orígenes pueden cargarse scripts/recursos: corta de raíz muchísimos XSS",
+  "explicacion": "CSP bien puesta desactiva la ejecución de scripts inyectados inline.",
+  "algoritmo": "repaso espaciado: 1d, 3d, 7d, 21d",
+  "generada": "2026-09-18"
+}

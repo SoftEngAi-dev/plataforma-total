@@ -1,0 +1,32 @@
+{
+  "curso": "Herramientas del Desarrollador",
+  "leccion": 6,
+  "titulo": "6. Debugging: el arte de encontrar lo que rompiste",
+  "total": 2,
+  "aprobado_con": 2,
+  "preguntas": [
+    {
+      "p": "¿Cómo se lee un traceback?",
+      "ops": [
+        "De arriba hacia abajo",
+        "De abajo hacia arriba: tipo de error y mensaje primero",
+        "Ignorando el mensaje",
+        "Solo la primera línea"
+      ],
+      "ok": 1,
+      "exp": "Tipo + mensaje (abajo) te dicen el qué; los frames (arriba) te dicen el dónde."
+    },
+    {
+      "p": "¿Qué debe pasar ANTES de intentar arreglar un bug?",
+      "ops": [
+        "Borrar el código",
+        "Reproducir el error de forma confiable",
+        "Pedir ayuda en foros",
+        "Reescribir todo"
+      ],
+      "ok": 1,
+      "exp": "Sin reproducción confiable solo estás adivinando."
+    }
+  ],
+  "generado": "2026-09-18"
+}

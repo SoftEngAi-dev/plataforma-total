@@ -1,0 +1,10 @@
+{
+  "tarjeta": "kotlin-android-y-mas-alla-L04-Q02",
+  "curso": "Kotlin — Android y Más Allá",
+  "leccion": 4,
+  "frente": "¿Por qué lifecycleScope en Android?",
+  "reversa": "Las corrutinas de UI se cancelan solas al destruirse la pantalla: sin fugas de memoria ni crashes",
+  "explicacion": "Scope atado al ciclo de vida = gestión de concurrencia automática y segura.",
+  "algoritmo": "repaso espaciado: 1d, 3d, 7d, 21d",
+  "generada": "2026-09-18"
+}

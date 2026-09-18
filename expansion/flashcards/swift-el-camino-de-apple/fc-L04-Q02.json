@@ -1,0 +1,10 @@
+{
+  "tarjeta": "swift-el-camino-de-apple-L04-Q02",
+  "curso": "Swift — El Camino de Apple",
+  "leccion": 4,
+  "frente": "¿Qué es '.padding()' al final del VStack?",
+  "reversa": "Un modifier: transforma la vista y devuelve una nueva (estilo encadenado)",
+  "explicacion": "Los modifiers se apilan de afuera hacia dentro: declarativos y componibles.",
+  "algoritmo": "repaso espaciado: 1d, 3d, 7d, 21d",
+  "generada": "2026-09-18"
+}

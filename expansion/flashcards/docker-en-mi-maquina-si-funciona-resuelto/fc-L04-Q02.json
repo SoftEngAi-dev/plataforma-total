@@ -1,0 +1,10 @@
+{
+  "tarjeta": "docker-en-mi-maquina-si-funcio-L04-Q02",
+  "curso": "Docker — 'En Mi Máquina Sí Funciona' Resuelto",
+  "leccion": 4,
+  "frente": "¿Qué ventaja tiene docker compose sobre docker run largos?",
+  "reversa": "Todo el stack (app+db+caché) versionado en un YAML: up/down con una orden",
+  "explicacion": "El stack completo se define, comparte y levanta reproduciblemente — adiós README de 40 pasos.",
+  "algoritmo": "repaso espaciado: 1d, 3d, 7d, 21d",
+  "generada": "2026-09-18"
+}

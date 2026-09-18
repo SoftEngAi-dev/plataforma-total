@@ -1,0 +1,32 @@
+{
+  "curso": "DevOps y CI/CD — De Tu PC a Producción Sin Sudor",
+  "leccion": 5,
+  "titulo": "5. Monitoreo y logs: saber cuando tu app llora",
+  "total": 2,
+  "aprobado_con": 2,
+  "preguntas": [
+    {
+      "p": "¿Qué niveles correctos de logs distinguen?",
+      "ops": [
+        "Solo print",
+        "DEBUG/INFO/WARNING/ERROR — filtras según la gravedad y el ambiente",
+        "Rojo/verde",
+        "único nivel"
+      ],
+      "ok": 1,
+      "exp": "En prod corre INFO+; en dev activas DEBUG. El ruido bien dosificado vale oro."
+    },
+    {
+      "p": "¿Qué verifica un endpoint /health?",
+      "ops": [
+        "La base de datos sola",
+        "Que la aplicación responde (200) — monitores externos lo sondean periódicamente",
+        "Los tests",
+        "La red"
+      ],
+      "ok": 1,
+      "exp": "Healthcheck es el '¿sigues viva?' de toda app desplegada: bases de alertas."
+    }
+  ],
+  "generado": "2026-09-18"
+}

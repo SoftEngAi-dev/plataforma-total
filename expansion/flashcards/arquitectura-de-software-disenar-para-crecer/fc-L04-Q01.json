@@ -1,0 +1,10 @@
+{
+  "tarjeta": "arquitectura-de-software-disen-L04-Q01",
+  "curso": "Arquitectura de Software — Diseñar para Crecer",
+  "leccion": 4,
+  "frente": "¿Qué ley cumple una buena separación en capas?",
+  "reversa": "Las capas INTERNAS (dominio) no conocen las EXTERNAS (web/DB): lo externo se acopla HACIA el negocio, jamás al revés",
+  "explicacion": "Invertir la dirección de dependencia = tu lógica de negocio es testeable pura y viva en cualquier envoltorio.",
+  "algoritmo": "repaso espaciado: 1d, 3d, 7d, 21d",
+  "generada": "2026-09-18"
+}

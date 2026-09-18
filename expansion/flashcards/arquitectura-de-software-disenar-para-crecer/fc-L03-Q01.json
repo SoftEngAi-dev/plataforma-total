@@ -1,0 +1,10 @@
+{
+  "tarjeta": "arquitectura-de-software-disen-L03-Q01",
+  "curso": "Arquitectura de Software — Diseñar para Crecer",
+  "leccion": 3,
+  "frente": "¿Cuál es la mayor ventaja real del monolito modular para una startup?",
+  "reversa": "Velocidad: un despliegue, llamadas internas sin red, debug y refactors baratos mientras el equipo es pequeño",
+  "explicacion": "El tiempo al mercado es el recurso: el monlito bien diseñado desperdicia menos meses iniciales.",
+  "algoritmo": "repaso espaciado: 1d, 3d, 7d, 21d",
+  "generada": "2026-09-18"
+}

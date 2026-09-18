@@ -1,0 +1,10 @@
+{
+  "tarjeta": "javascript-de-cero-a-experto-L11-Q02",
+  "curso": "JavaScript — De Cero a Experto",
+  "leccion": 11,
+  "frente": "¿Cuándo usar alumno[\"nombre\"] en vez de alumno.nombre?",
+  "reversa": "Cuando la clave viene de una variable o tiene espacios",
+  "explicacion": "Los corchetes aceptan expresiones: alumno[variable] resuelve la clave dinámicamente.",
+  "algoritmo": "repaso espaciado: 1d, 3d, 7d, 21d",
+  "generada": "2026-09-18"
+}

@@ -1,0 +1,10 @@
+{
+  "tarjeta": "apis-rest-y-http-el-idioma-de-L03-Q02",
+  "curso": "APIs REST y HTTP — El Idioma de los Servidores",
+  "leccion": 3,
+  "frente": "¿Qué dos cosas vienen GRATIS con FastAPI y ningún otro backend básico?",
+  "reversa": "Swagger interactivo en /docs (probar la API desde el navegador) + validación automática",
+  "explicacion": "Auto-docs + auto-valid: tu API se explica y se respeta sola.",
+  "algoritmo": "repaso espaciado: 1d, 3d, 7d, 21d",
+  "generada": "2026-09-18"
+}

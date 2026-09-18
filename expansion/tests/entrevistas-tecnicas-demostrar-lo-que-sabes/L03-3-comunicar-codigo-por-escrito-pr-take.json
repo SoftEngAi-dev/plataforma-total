@@ -1,0 +1,32 @@
+{
+  "curso": "Entrevistas Técnicas — Demostrar lo que Sabes",
+  "leccion": 3,
+  "titulo": "3. Comunicar código por escrito: PR, take-homes y tu voice técnica",
+  "total": 2,
+  "aprobado_con": 2,
+  "preguntas": [
+    {
+      "p": "¿Qué elemento de un take-home pesa más que la funcionalidad extra perfecta?",
+      "ops": [
+        "Ninguno",
+        "README que explica decisiones + tests reales que pasan +commits limpios: evidencia de profesionalismo",
+        "Server propio",
+        "Colores"
+      ],
+      "ok": 1,
+      "exp": "Lo entregas CÓMO lo entregas: el README y el proceso dicen el 70%."
+    },
+    {
+      "p": "¿Por qué los mensajes de commit importan en evaluación?",
+      "ops": [
+        "No importan",
+        "El historial del repo es leído como evidencia de cómo piensas y trabajas",
+        "Solo en GOOG",
+        "Por orden"
+      ],
+      "ok": 1,
+      "exp": "'cambios x' suena a junior; 'fix: race condition on login retries' suena a colega que quiero."
+    }
+  ],
+  "generado": "2026-09-18"
+}

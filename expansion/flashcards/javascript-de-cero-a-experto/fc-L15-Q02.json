@@ -1,0 +1,10 @@
+{
+  "tarjeta": "javascript-de-cero-a-experto-L15-Q02",
+  "curso": "JavaScript — De Cero a Experto",
+  "leccion": 15,
+  "frente": "¿Para qué sirve Promise.all?",
+  "reversa": "Esperar varias promesas EN PARALELO y continuar cuando todas terminan",
+  "explicacion": "Paralelismo de verdad: si son independientes, esperar juntas = mitad del tiempo.",
+  "algoritmo": "repaso espaciado: 1d, 3d, 7d, 21d",
+  "generada": "2026-09-18"
+}

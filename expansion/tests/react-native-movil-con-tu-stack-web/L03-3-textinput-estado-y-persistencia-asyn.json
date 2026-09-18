@@ -1,0 +1,32 @@
+{
+  "curso": "React Native — Móvil con Tu Stack Web",
+  "leccion": 3,
+  "titulo": "3. TextInput, estado y persistencia (AsyncStorage)",
+  "total": 2,
+  "aprobado_con": 2,
+  "preguntas": [
+    {
+      "p": "¿Cómo se envía texto controlado en RN vs web?",
+      "ops": [
+        "e.target.value",
+        "onChangeText recibe el string directamente: setTexto(nuevoTexto)",
+        "No se puede",
+        "FormData"
+      ],
+      "ok": 1,
+      "exp": "Mismo patrón controlado, pero el callback te da el texto límpio."
+    },
+    {
+      "p": "¿Qué es AsyncStorage?",
+      "ops": [
+        "Una BD SQL",
+        "Almacenamiento clave-valor local (equivalente móvil de localStorage), strings+JSON",
+        "Una nube",
+        "Un caché HTTP"
+      ],
+      "ok": 1,
+      "exp": "Guarda strings; con JSON.stringify/parse persistes objetos entre sesiones de app."
+    }
+  ],
+  "generado": "2026-09-18"
+}

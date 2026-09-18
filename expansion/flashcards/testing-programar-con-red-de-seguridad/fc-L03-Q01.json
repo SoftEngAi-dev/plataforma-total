@@ -1,0 +1,10 @@
+{
+  "tarjeta": "testing-programar-con-red-de-s-L03-Q01",
+  "curso": "Testing — Programar con Red de Seguridad",
+  "leccion": 3,
+  "frente": "¿Cuándo usar mock?",
+  "reversa": "Cuando tu función llama a algo EXTERNO (red/BD/tiempo) y quieres probar solo tu lógica con respuestas controladas",
+  "explicacion": "El mock convierte tu entorno en laboratorio: mismos datos, siempre, instantáneo.",
+  "algoritmo": "repaso espaciado: 1d, 3d, 7d, 21d",
+  "generada": "2026-09-18"
+}

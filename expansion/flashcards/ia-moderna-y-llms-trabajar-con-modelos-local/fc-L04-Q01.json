@@ -1,0 +1,10 @@
+{
+  "tarjeta": "ia-moderna-y-llms-trabajar-con-L04-Q01",
+  "curso": "IA Moderna y LLMs — Trabajar con Modelos Locales",
+  "leccion": 4,
+  "frente": "¿Qué es RAG en términos de este proyecto?",
+  "reversa": "Proveer TUS documentos como contexto en el prompt para que el modelo responda sobre esa realidad, no se invente",
+  "explicacion": "Retrieval + Generation: tu modelo responde anclado a fuentes reales que tú le das.",
+  "algoritmo": "repaso espaciado: 1d, 3d, 7d, 21d",
+  "generada": "2026-09-18"
+}

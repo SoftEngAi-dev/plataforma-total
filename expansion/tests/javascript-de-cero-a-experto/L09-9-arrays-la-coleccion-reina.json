@@ -1,0 +1,32 @@
+{
+  "curso": "JavaScript — De Cero a Experto",
+  "leccion": 9,
+  "titulo": "9. Arrays: la colección reina",
+  "total": 2,
+  "aprobado_con": 2,
+  "preguntas": [
+    {
+      "p": "¿Qué métodos agregan/quitan AL FINAL de un array?",
+      "ops": [
+        "shift/unshift",
+        "push/pop",
+        "slice/splice",
+        "join/split"
+      ],
+      "ok": 1,
+      "exp": "push y pop operan en el extremo final; shift/unshift al inicio."
+    },
+    {
+      "p": "const b = a (arrays) — ¿qué relación tienen?",
+      "ops": [
+        "Copia total",
+        "Apuntan AL MISMO array: mutar uno muta el otro",
+        "b es de solo lectura",
+        "Ninguna"
+      ],
+      "ok": 1,
+      "exp": "Los arrays son referencias. Copia real: [...a] o a.slice()."
+    }
+  ],
+  "generado": "2026-09-18"
+}

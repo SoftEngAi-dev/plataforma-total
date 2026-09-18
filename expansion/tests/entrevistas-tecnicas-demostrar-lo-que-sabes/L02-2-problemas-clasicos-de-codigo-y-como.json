@@ -1,0 +1,32 @@
+{
+  "curso": "Entrevistas Técnicas — Demostrar lo que Sabes",
+  "leccion": 2,
+  "titulo": "2. Problemas clásicos de código y cómo abordarlos",
+  "total": 2,
+  "aprobado_con": 2,
+  "preguntas": [
+    {
+      "p": "¿Por qué decir PRIMERO la solución fuerza bruta agrea valor?",
+      "ops": [
+        "No lo hace",
+        "Muestra que razonas el espacio del problema y luego optimizas: evalúan proceso, no memoria",
+        "Más lento",
+        "Para tests"
+      ],
+      "ok": 1,
+      "exp": "Demuestras técnica desde lo simple→optimizado: el entrevistador ve tu mente."
+    },
+    {
+      "p": "¿Qué es sliding window?",
+      "ops": [
+        "Nada",
+        "Patrón O(n) que mantiene una ventana de elementos entre dos índices sin recorrer repetidamente para sumas/max de subcadena continuables',",
+        "Un hash",
+        "Un stack"
+      ],
+      "ok": 1,
+      "exp": "Substrings continuas: expansión/contracción de dos punteros sin bucles anidados."
+    }
+  ],
+  "generado": "2026-09-18"
+}

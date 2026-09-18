@@ -1,0 +1,10 @@
+{
+  "tarjeta": "go-el-lenguaje-de-la-nube-L04-Q01",
+  "curso": "Go — El Lenguaje de la Nube",
+  "leccion": 4,
+  "frente": "¿Qué incluye el paquete net/http de Go?",
+  "reversa": "Servidor HTTP completo en la stdlib: ninguna librería extra para APIs productivas",
+  "explicacion": "Escuchar y servir HTTP es nativo; por eso Go domina la nube sin framework pesado.",
+  "algoritmo": "repaso espaciado: 1d, 3d, 7d, 21d",
+  "generada": "2026-09-18"
+}

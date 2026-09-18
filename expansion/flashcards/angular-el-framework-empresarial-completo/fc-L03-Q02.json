@@ -1,0 +1,10 @@
+{
+  "tarjeta": "angular-el-framework-empresari-L03-Q02",
+  "curso": "Angular — El Framework Empresarial Completo",
+  "leccion": 3,
+  "frente": "Un computed() es...",
+  "reversa": "Un valor DERIVADO de signals que se recalcula automáticamente cuando cambian sus dependencias",
+  "explicacion": "Estado derivado sin lógica manual: defines la relación, Angular mantiene el valor fresco.",
+  "algoritmo": "repaso espaciado: 1d, 3d, 7d, 21d",
+  "generada": "2026-09-18"
+}

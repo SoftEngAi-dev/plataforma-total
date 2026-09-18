@@ -1,0 +1,32 @@
+{
+  "curso": "JavaScript — De Cero a Experto",
+  "leccion": 18,
+  "titulo": "18. Proyecto final: aplicación completa de tareas (DOM + eventos + JSON)",
+  "total": 2,
+  "aprobado_con": 2,
+  "preguntas": [
+    {
+      "p": "¿Qué dos llamadas sincronizan la app con localStorage?",
+      "ops": [
+        "parse y stringify de JSON",
+        "fetch GET y POST",
+        "push y pop",
+        "querySelector y createElement"
+      ],
+      "ok": 0,
+      "exp": "stringify al guardar, parse al cargar: JSON es el puente."
+    },
+    {
+      "p": "¿Por qué delegación de eventos en la lista en vez de listener por li?",
+      "ops": [
+        "Es más corto",
+        "Los li se recrean en cada render; un solo listener en el ul sigue funcionando siempre",
+        "Es requisito del DOM",
+        "No hay razón"
+      ],
+      "ok": 1,
+      "exp": "Contenido dinámico = listener en el padre estable, acción según e.target."
+    }
+  ],
+  "generado": "2026-09-18"
+}

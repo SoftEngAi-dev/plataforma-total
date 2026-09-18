@@ -1,0 +1,10 @@
+{
+  "tarjeta": "seguridad-para-desarrolladores-L05-Q01",
+  "curso": "Seguridad para Desarrolladores — No Seas la Brecha",
+  "leccion": 5,
+  "frente": "¿Qué descubre pegar <script>alert(1)</script> en un campo y probar?",
+  "reversa": "Si ves el alert: tu app ejecuta código de usuario = XSS confirmado",
+  "explicacion": "La prueba ácida manual del XSS: si JS injectado corre, tu escape no es suficiente.",
+  "algoritmo": "repaso espaciado: 1d, 3d, 7d, 21d",
+  "generada": "2026-09-18"
+}

@@ -1,0 +1,32 @@
+{
+  "curso": "Go — El Lenguaje de la Nube",
+  "leccion": 3,
+  "titulo": "3. Concurrencia: goroutines y canales (el superpoder)",
+  "total": 2,
+  "aprobado_con": 2,
+  "preguntas": [
+    {
+      "p": "¿Qué crea la palabra go delante de una llamada?",
+      "ops": [
+        "Un error",
+        "Una goroutine: la función corre concurrentemente sin bloquear",
+        "Un bucle",
+        "Otro proceso peado"
+      ],
+      "ok": 1,
+      "exp": "go f() = paralelo livianísimo: miles concurrentes con MB de RAM, no GB."
+    },
+    {
+      "p": "¿Para qué sirve un channel en Go?",
+      "ops": [
+        "Imprimir",
+        "Comunicación tipada y segura entre goroutines: enviar/recibir datos sin locks manuales",
+        "Red TCP",
+        "SQL"
+      ],
+      "ok": 1,
+      "exp": "channels = tubería sincronizada entre tareas concurrentes: el camino GOnativo."
+    }
+  ],
+  "generado": "2026-09-18"
+}

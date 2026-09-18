@@ -1,0 +1,10 @@
+{
+  "tarjeta": "ruby-on-rails-la-felicidad-del-L04-Q02",
+  "curso": "Ruby on Rails — La Felicidad del Desarrollador",
+  "leccion": 4,
+  "frente": "¿Qué hace form_with model: @post?",
+  "reversa": "Formulario automático ligado al modelo: crea o edita según el objeto, con token CSRF incluido",
+  "explicacion": "Los helpers sienten la convención: si @post es nuevo → POST /posts; si existe → PATCH.",
+  "algoritmo": "repaso espaciado: 1d, 3d, 7d, 21d",
+  "generada": "2026-09-18"
+}

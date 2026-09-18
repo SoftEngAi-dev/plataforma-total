@@ -1,0 +1,10 @@
+{
+  "tarjeta": "rust-velocidad-de-c-sin-miedo-L01-Q01",
+  "curso": "Rust — Velocidad de C sin Miedo a los Crashes",
+  "leccion": 1,
+  "frente": "¿Qué es diferente de los valores en Rust por defecto?",
+  "reversa": "Inmutables por defecto; declaras mut explícitamente para cambiar valores",
+  "explicacion": "La inmutabilidad por defecto evita enormes clases de bugs en concurrencia.",
+  "algoritmo": "repaso espaciado: 1d, 3d, 7d, 21d",
+  "generada": "2026-09-18"
+}

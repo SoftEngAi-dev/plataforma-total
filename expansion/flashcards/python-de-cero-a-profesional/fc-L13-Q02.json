@@ -1,0 +1,10 @@
+{
+  "tarjeta": "python-de-cero-a-profesional-L13-Q02",
+  "curso": "Python — De Cero a Profesional",
+  "leccion": 13,
+  "frente": "¿Por qué python3 -m src.main y no python3 src/main.py?",
+  "reversa": "Con -m, los imports relativos del paquete funcionan; con ruta directa suelen romperse",
+  "explicacion": "-m ejecuta como módulo del paquete: los from tareas import resuelven bonito.",
+  "algoritmo": "repaso espaciado: 1d, 3d, 7d, 21d",
+  "generada": "2026-09-18"
+}

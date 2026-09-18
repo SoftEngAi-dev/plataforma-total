@@ -1,0 +1,32 @@
+{
+  "curso": "Git y GitHub — Tu Historia Nunca Se Pierde",
+  "leccion": 3,
+  "titulo": "3. Deshacer: checkout, restore, revert, reset (la tabla salvadora)",
+  "total": 2,
+  "aprobado_con": 2,
+  "preguntas": [
+    {
+      "p": "git revert vs git reset — ¿cuál es seguro en commits compartidos?",
+      "ops": [
+        "reset --hard",
+        "revert (crea commit inverso sin reescribir la historia ya publicada)",
+        "igual",
+        "ninguno"
+      ],
+      "ok": 1,
+      "exp": "Reescribir historia compartida rompe a tus compañeros; revert es la forma polite."
+    },
+    {
+      "p": "git stash sirve para...",
+      "ops": [
+        "Borrar todo",
+        "Apartar cambios sin commit y retomarlos luego (stash pop)",
+        "Subir cambios",
+        "Crear rama"
+      ],
+      "ok": 1,
+      "exp": "El cajón rápido: limpio el área, atiendo la urgencia, recupero lo mío."
+    }
+  ],
+  "generado": "2026-09-18"
+}

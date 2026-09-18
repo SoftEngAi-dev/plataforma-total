@@ -1,0 +1,10 @@
+{
+  "tarjeta": "machine-learning-primer-contac-L05-Q01",
+  "curso": "Machine Learning — Primer Contacto Real",
+  "leccion": 5,
+  "frente": "¿Qué hace pd.get_dummies sobre columnas categóricas?",
+  "reversa": "Convierte categorías en columnas binarias 0/1 para que el algoritmo procese números",
+  "explicacion": "Los modelos comen números: género/embarque/categorías → one-hot encoding.",
+  "algoritmo": "repaso espaciado: 1d, 3d, 7d, 21d",
+  "generada": "2026-09-18"
+}

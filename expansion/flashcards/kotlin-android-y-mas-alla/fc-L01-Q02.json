@@ -1,0 +1,10 @@
+{
+  "tarjeta": "kotlin-android-y-mas-alla-L01-Q02",
+  "curso": "Kotlin — Android y Más Allá",
+  "leccion": 1,
+  "frente": "¿Qué hace ?: (operador Elvis)?",
+  "reversa": "Si lo de la izquierda es null, devuelve lo de la derecha",
+  "explicacion": "Elvis porque parece un peinado ?:  — null coalescing con nombre rockero.",
+  "algoritmo": "repaso espaciado: 1d, 3d, 7d, 21d",
+  "generada": "2026-09-18"
+}

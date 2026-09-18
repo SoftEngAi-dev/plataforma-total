@@ -1,0 +1,10 @@
+{
+  "tarjeta": "python-de-cero-a-profesional-L03-Q01",
+  "curso": "Python — De Cero a Profesional",
+  "leccion": 3,
+  "frente": "¿Qué hace numeros[1:3]?",
+  "reversa": "Devuelve los elementos en posiciones 1 y 2 (fin excluido)",
+  "explicacion": "Slices: [inicio:fin) — la mitad de los bugs de principiante vienen del fin excluido.",
+  "algoritmo": "repaso espaciado: 1d, 3d, 7d, 21d",
+  "generada": "2026-09-18"
+}

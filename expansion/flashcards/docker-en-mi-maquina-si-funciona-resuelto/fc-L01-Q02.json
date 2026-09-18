@@ -1,0 +1,10 @@
+{
+  "tarjeta": "docker-en-mi-maquina-si-funcio-L01-Q02",
+  "curso": "Docker — 'En Mi Máquina Sí Funciona' Resuelto",
+  "leccion": 1,
+  "frente": "¿Por qué un contenedor es más liviano que una VM?",
+  "reversa": "Comparte el kernel del SO anfitrión en vez de emular hardware y llevar SO completo",
+  "explicacion": "El aislamiento es por namespaces del kernel: sin hipervisor ni boot de SO.",
+  "algoritmo": "repaso espaciado: 1d, 3d, 7d, 21d",
+  "generada": "2026-09-18"
+}

@@ -1,0 +1,32 @@
+{
+  "curso": "Git y GitHub — Tu Historia Nunca Se Pierde",
+  "leccion": 5,
+  "titulo": "5. .gitignore, tags y limpieza: buen ciudadano del repo",
+  "total": 2,
+  "aprobado_con": 2,
+  "preguntas": [
+    {
+      "p": "¿Por qué .env va al .gitignore SIEMPRE?",
+      "ops": [
+        "Es pequeño",
+        "Contiene secretos (claves, tokens) que jamás deben quedar en la historia pública",
+        "Porque git no los soporta",
+        "Por estilo"
+      ],
+      "ok": 1,
+      "exp": "Un secreto subido = filtrado para siempre, aunque lo borres después: hay que rotar la credencial."
+    },
+    {
+      "p": "¿Qué es un tag v1.0 en git?",
+      "ops": [
+        "Un archivo",
+        "Una marca permanente sobre un commit: la forma de publicar releases/versiones",
+        "Una rama",
+        "Un issue"
+      ],
+      "ok": 1,
+      "exp": "Los tags señalan hitos estables; son referencia para despliegues."
+    }
+  ],
+  "generado": "2026-09-18"
+}

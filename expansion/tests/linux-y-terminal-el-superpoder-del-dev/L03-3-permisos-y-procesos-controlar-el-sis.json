@@ -1,0 +1,32 @@
+{
+  "curso": "Linux y Terminal — El Superpoder del Dev",
+  "leccion": 3,
+  "titulo": "3. Permisos y procesos: controlar el sistema",
+  "total": 2,
+  "aprobado_con": 2,
+  "preguntas": [
+    {
+      "p": "chmod +x script.sh permite...",
+      "ops": [
+        "Leerlo",
+        "Ejecutarlo directamente (bit de ejecución)",
+        "Comprimirlo",
+        "Imprimirlo"
+      ],
+      "ok": 1,
+      "exp": "Sin +x lo corres como ./script.sh solo con bash script.sh; con +x directo."
+    },
+    {
+      "p": "¿Cuándo usar kill -9?",
+      "ops": [
+        "Siempre primero",
+        "Solo cuando kill normal (SIGTERM) falla: -9 no deja limpiar al proceso",
+        "Para todo",
+        "Jamás"
+      ],
+      "ok": 1,
+      "exp": "SIGTERM pide cortésmente cerrarse (guardar estado); SIGKILL lo aniquila sin aviso."
+    }
+  ],
+  "generado": "2026-09-18"
+}

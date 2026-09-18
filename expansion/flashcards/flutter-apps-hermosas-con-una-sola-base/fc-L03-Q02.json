@@ -1,0 +1,10 @@
+{
+  "tarjeta": "flutter-apps-hermosas-con-una-L03-Q02",
+  "curso": "Flutter — Apps Hermosas con Una Sola Base",
+  "leccion": 3,
+  "frente": "¿Dónde inicias un fetch o timer en un StatefulWidget?",
+  "reversa": "En initState (corre una vez al crearse); y liberas sus recursos en dispose",
+  "explicacion": "build se ejecuta muchas veces: inicialización va en initState, limpieza en dispose.",
+  "algoritmo": "repaso espaciado: 1d, 3d, 7d, 21d",
+  "generada": "2026-09-18"
+}

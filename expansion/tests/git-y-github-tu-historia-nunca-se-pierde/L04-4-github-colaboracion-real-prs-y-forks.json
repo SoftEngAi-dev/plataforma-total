@@ -1,0 +1,32 @@
+{
+  "curso": "Git y GitHub — Tu Historia Nunca Se Pierde",
+  "leccion": 4,
+  "titulo": "4. GitHub colaboración real: PRs y forks",
+  "total": 2,
+  "aprobado_con": 2,
+  "preguntas": [
+    {
+      "p": "¿Cuál es el ciclo correcto de contribución?",
+      "ops": [
+        "push directo a main",
+        "rama → commits → push → PR → revisión → merge",
+        "fork del compañero",
+        "mail con el código"
+      ],
+      "ok": 1,
+      "exp": "El PR con revisión es el corazón del trabajo en equipo moderno."
+    },
+    {
+      "p": "¿Cuándo necesitas hacer fork?",
+      "ops": [
+        "Siempre",
+        "Cuando el repo no es tuyo/no tienes permiso de push (open source)",
+        "Para clonar local",
+        "Para borrar"
+      ],
+      "ok": 1,
+      "exp": "Fork = tu copia en tu cuenta, que permite proponer PR al original."
+    }
+  ],
+  "generado": "2026-09-18"
+}

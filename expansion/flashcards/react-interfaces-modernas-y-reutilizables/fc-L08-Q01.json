@@ -1,0 +1,10 @@
+{
+  "tarjeta": "react-interfaces-modernas-y-re-L08-Q01",
+  "curso": "React — Interfaces Modernas y Reutilizables",
+  "leccion": 8,
+  "frente": "¿Cómo editar una nota inmutablemente en un array de estado?",
+  "reversa": "map que devuelve objeto nuevo {...n, texto: x} solo para el id coincidente",
+  "explicacion": "map con spread: reemplazas el objeto con uno NUEVO; referencias nuevas → React entiende y la UI se actualiza.",
+  "algoritmo": "repaso espaciado: 1d, 3d, 7d, 21d",
+  "generada": "2026-09-18"
+}

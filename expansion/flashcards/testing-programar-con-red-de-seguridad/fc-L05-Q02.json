@@ -1,0 +1,10 @@
+{
+  "tarjeta": "testing-programar-con-red-de-s-L05-Q02",
+  "curso": "Testing — Programar con Red de Seguridad",
+  "leccion": 5,
+  "frente": "restar(-2, -3) == 1 es un test de...",
+  "reversa": "CASO BORDE (números negativos): los pros testean fronteras, no solo caminos felices",
+  "explicacion": "Los bugs viven en los bordes: tu suite debe patrullarlos siempre.",
+  "algoritmo": "repaso espaciado: 1d, 3d, 7d, 21d",
+  "generada": "2026-09-18"
+}

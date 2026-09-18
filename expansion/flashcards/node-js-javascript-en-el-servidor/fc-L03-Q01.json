@@ -1,0 +1,10 @@
+{
+  "tarjeta": "node-js-javascript-en-el-servi-L03-Q01",
+  "curso": "Node.js — JavaScript en el Servidor",
+  "leccion": 3,
+  "frente": "¿Qué es un middleware en Express?",
+  "reversa": "Función que se ejecuta entre la petición y la ruta (JSON, auth, logs...)",
+  "explicacion": "app.use(express.json()) transforma req.body en datos listos — ejemplo clásico.",
+  "algoritmo": "repaso espaciado: 1d, 3d, 7d, 21d",
+  "generada": "2026-09-18"
+}

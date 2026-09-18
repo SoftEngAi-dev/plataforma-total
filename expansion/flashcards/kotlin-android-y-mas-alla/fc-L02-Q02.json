@@ -1,0 +1,10 @@
+{
+  "tarjeta": "kotlin-android-y-mas-alla-L02-Q02",
+  "curso": "Kotlin — Android y Más Allá",
+  "leccion": 2,
+  "frente": "En listOf(1,2,3).map { it * 2 }, ¿qué es 'it'?",
+  "reversa": "El parámetro implícito de la lambda cuando hay uno solo",
+  "explicacion": "Lambdas de un parámetro pueden usar 'it' sin declararlo — típico estilo Kotlin.",
+  "algoritmo": "repaso espaciado: 1d, 3d, 7d, 21d",
+  "generada": "2026-09-18"
+}

@@ -1,0 +1,10 @@
+{
+  "tarjeta": "c-y-c-los-cimientos-del-softwa-L04-Q01",
+  "curso": "C y C++ — Los Cimientos del Software Moderno",
+  "leccion": 4,
+  "frente": "¿Cuál es la diferencia .h vs .c en C?",
+  "reversa": ".h declara (interfaz pública) y .c define (implementación): separación contrato/código",
+  "explicacion": "El header es la 'API' del módulo; main lo incluye sin ver su implementación.",
+  "algoritmo": "repaso espaciado: 1d, 3d, 7d, 21d",
+  "generada": "2026-09-18"
+}

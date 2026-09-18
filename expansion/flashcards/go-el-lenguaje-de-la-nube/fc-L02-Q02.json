@@ -1,0 +1,10 @@
+{
+  "tarjeta": "go-el-lenguaje-de-la-nube-L02-Q02",
+  "curso": "Go — El Lenguaje de la Nube",
+  "leccion": 2,
+  "frente": "if err != nil es...",
+  "reversa": "El patrón universal de Go para comprobar y manejar errores devueltos por cada operación fallible",
+  "explicacion": "Todos los libros lo bromean, todos los proyectos sanos lo escriben sin pereza.",
+  "algoritmo": "repaso espaciado: 1d, 3d, 7d, 21d",
+  "generada": "2026-09-18"
+}

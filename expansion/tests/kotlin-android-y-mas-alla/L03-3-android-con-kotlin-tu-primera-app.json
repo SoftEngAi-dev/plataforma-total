@@ -1,0 +1,32 @@
+{
+  "curso": "Kotlin — Android y Más Allá",
+  "leccion": 3,
+  "titulo": "3. Android con Kotlin: tu primera app",
+  "total": 2,
+  "aprobado_con": 2,
+  "preguntas": [
+    {
+      "p": "¿Qué hace findViewById<Button>(R.id.miBoton)?",
+      "ops": [
+        "Crea un botón",
+        "Conecta el código Kotlin con la vista definida en el XML por su id",
+        "Borra la vista",
+        "Abre la cámara"
+      ],
+      "ok": 1,
+      "exp": "El puente código↔layout clásico; con Jetpack Compose ya no se necesita."
+    },
+    {
+      "p": "¿Qué es Jetpack Compose?",
+      "ops": [
+        "Otro lenguaje",
+        "UI declarativa de Android: describes la interfaz con funciones Kotlin y el estado la redibuja",
+        "Un emulador",
+        "Una BD"
+      ],
+      "ok": 1,
+      "exp": "Mismo paradigma que React/Flutter: UI = f(estado) también en Android nativo."
+    }
+  ],
+  "generado": "2026-09-18"
+}

@@ -1,0 +1,10 @@
+{
+  "tarjeta": "javascript-de-cero-a-experto-L06-Q02",
+  "curso": "JavaScript — De Cero a Experto",
+  "leccion": 6,
+  "frente": "¿Qué hace nombre ?? \"invitado\"?",
+  "reversa": "Usa \"invitado\" SOLO si nombre es null o undefined (no si es \"\" o 0)",
+  "explicacion": "?? es el default preciso: || también rechazaría '' y 0 que podrías querer conservar.",
+  "algoritmo": "repaso espaciado: 1d, 3d, 7d, 21d",
+  "generada": "2026-09-18"
+}

@@ -1,0 +1,10 @@
+{
+  "tarjeta": "expresiones-regulares-el-lengu-L02-Q02",
+  "curso": "Expresiones Regulares — El Lenguaje de Patrones",
+  "leccion": 2,
+  "frente": "¿Qué logra el lookahead (?=.*[A-Z]) en la contraseña?",
+  "reversa": "VERIFICA sin consumir: exige que exista una mayúscula en lo que sigue sin avanzar el cursor",
+  "explicacion": "Lookaheads = 'debe cumplirse X adelante': validaciones compuestas sin complicar los grupos.",
+  "algoritmo": "repaso espaciado: 1d, 3d, 7d, 21d",
+  "generada": "2026-09-18"
+}
