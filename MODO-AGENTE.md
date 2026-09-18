@@ -22,6 +22,7 @@
 1. Entrá a **https://app.lemonsqueezy.com/register** → email + contraseña (guardá la contraseña en un gestor).
 2. Verificá el email, nombre de tienda: `plataforma-total`.
 3. `Settings → General`: país **Uruguay**, moneda **USD**.
+   - Si te piden **"Website / Product URL"** (para validar que tenés un producto real): ✅ ya existe → usá `https://softengai-dev.github.io/plataforma-total/` (landing + precios) o `…/plataforma-total/app/` (la web app gratis). Ver **WEB-Y-MOVIL.md §4**.
 4. `Settings → Payouts`: conectá tu cobro (ver **COBROS-UY.md** → banco Santander SWIFT `BSCHUYMMXXX` o PayPal).
 
 ### A2. Crear los 4 productos (10 min, copy-paste exacto)
