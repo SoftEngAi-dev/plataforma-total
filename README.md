@@ -1,3 +1,6 @@
+> # 🚚 PROYECTO MUDADO → [SoftEngAi-dev/plataforma-total-pro](https://github.com/SoftEngAi-dev/plataforma-total-pro)
+> Este repo queda como **histórico** (última versión aquí: v4.1.0). Todo el desarrollo, releases, web y soporte siguen en el repo nuevo.
+
 <p align="center">
   <img src="assets/icono-256.png" width="140" alt="Plataforma Total 🎓">
 </p>
