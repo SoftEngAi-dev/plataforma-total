@@ -1,9 +1,9 @@
 {
   "tienda": "Plataforma Total PRO — Lemon Squeezy",
   "moneda": "USD",
-  "checkout_mensual": "https://softengai-dev.github.io/plataforma-total/#precios",
-  "checkout_anual": "https://softengai-dev.github.io/plataforma-total/#precios",
-  "checkout_lifetime": "https://softengai-dev.github.io/plataforma-total/#precios",
+  "checkout_mensual": "https://softengai-dev.github.io/plataforma-total-pro/#precios",
+  "checkout_anual": "https://softengai-dev.github.io/plataforma-total-pro/#precios",
+  "checkout_lifetime": "https://softengai-dev.github.io/plataforma-total-pro/#precios",
   "precios": {
     "mensual_usd": 7.99,
     "anual_usd": 79,

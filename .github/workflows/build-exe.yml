@@ -1,0 +1,36 @@
+name: 🪟 Build Windows EXE
+on:
+  workflow_dispatch:   # se lanza a mano o vía API tras cada release
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    runs-on: windows-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: 📦 Dependencias
+        run: pip install -U pip customtkinter requests psutil pyinstaller
+
+      - name: 🛠️ Compilar PlataformaTotal.exe (onefile, ventana, icono oficial)
+        run: pyinstaller --noconfirm --clean --onefile --windowed --icon assets/icono.ico --name PlataformaTotal --collect-all customtkinter --add-data "assets;assets" main.py
+
+      - name: ✏️ Renombrar asset para Release
+        run: move dist\PlataformaTotal.exe PlataformaTotal-Windows.exe
+
+      - name: 🏷️ Subir a la Release actual (la del ref usado al despachar)
+        uses: softprops/action-gh-release@v2
+        with:
+          tag_name: ${{ github.ref_name }}
+          files: PlataformaTotal-Windows.exe
+
+      - name: 🧪 Verificación mínima del binario
+        run: |
+          $f = Get-Item PlataformaTotal-Windows.exe
+          Write-Output ("EXE OK: {0:N1} MB" -f ($f.Length/1MB))

@@ -5,7 +5,7 @@ let INDICE = [], CK = {checkout_mensual:'../#precios',checkout_anual:'../#precio
 
 async function boot(){
   INDICE = await (await fetch('data/indice.json')).json();
-  fetch('https://raw.githubusercontent.com/SoftEngAi-dev/plataforma-total/main/monetizacion.json')
+  fetch('https://raw.githubusercontent.com/SoftEngAi-dev/plataforma-total-pro/main/monetizacion.json')
     .then(r=>r.json()).then(d=>{CK=d;}).catch(()=>{});
   window.addEventListener('hashchange', ruta);
   ruta();

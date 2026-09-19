@@ -4,10 +4,10 @@
 
 # 🎓 Plataforma Total — Tu Escuela Local de Programación
 
-[![🏷️ v3.1.0](https://img.shields.io/github/v/release/SoftEngAi-dev/plataforma-total?display_name=tag&label=versi%C3%B3n&color=7c3aed)](https://github.com/SoftEngAi-dev/plataforma-total/releases)
-[![🖥️ Build](https://github.com/SoftEngAi-dev/plataforma-total/actions/workflows/build.yml/badge.svg)](https://github.com/SoftEngAi-dev/plataforma-total/actions)
+[![🏷️ v3.1.0](https://img.shields.io/github/v/release/SoftEngAi-dev/plataforma-total-pro?display_name=tag&label=versi%C3%B3n&color=7c3aed)](https://github.com/SoftEngAi-dev/plataforma-total-pro/releases)
+[![🖥️ Build](https://github.com/SoftEngAi-dev/plataforma-total-pro/actions/workflows/build.yml/badge.svg)](https://github.com/SoftEngAi-dev/plataforma-total-pro/actions)
 [![📜 Licencia MIT](https://img.shields.io/badge/licencia-MIT-22c55e)](LICENSE)
-[![🌐 Web](https://img.shields.io/badge/web-del%20proyecto-f59e0b)](https://softengai-dev.github.io/plataforma-total/)
+[![🌐 Web](https://img.shields.io/badge/web-del%20proyecto-f59e0b)](https://softengai-dev.github.io/plataforma-total-pro/)
 
 **Escuela completa de software que vive 100% en tu máquina. Sin internet, sin cuentas, sin suscripciones — justo tú, 47 cursos y (opcional) tu IA local.**
 
@@ -16,6 +16,7 @@
 Buscador 🔍 · Quizzes 📝 · Pomodoro 🍅 · Racha 🔥 · Certificados 🎓 · Chat IA con memoria 🤖 · Auto-actualización 🔄
 Linux · Windows · macOS · 100% offline · 🔄 Auto-actualización · Ejecutables con icono oficial 🖼️
 🆓 FREE: 15 cursos gratis · 💎 PRO: 32 cursos desde U$S 7,99/mes (ver [MONETIZACION.md](MONETIZACION.md))
+🪟 **Windows**: [descargá PlataformaTotal-Windows.exe](https://github.com/SoftEngAi-dev/plataforma-total-pro/releases/latest/download/PlataformaTotal-Windows.exe) → doble clic y listo · 🌐📱 [web/móvil gratis](https://softengai-dev.github.io/plataforma-total-pro/app/)
 ```
 
 ---
@@ -24,11 +25,11 @@ Linux · Windows · macOS · 100% offline · 🔄 Auto-actualización · Ejecuta
 
 | SO | Archivo | Instrucciones |
 |----|---------|---------------|
-| 🪟 **Windows** | [PlataformaTotal-Windows.zip](https://github.com/SoftEngAi-dev/plataforma-total/releases/latest/download/PlataformaTotal-Windows.zip) | Descomprimir → doble clic en `PlataformaTotal.exe` *(SmartScreen: "Más información" → "Ejecutar de todas formas")* |
-| 🐧 **Linux** | [PlataformaTotal-Linux.tar.gz](https://github.com/SoftEngAi-dev/plataforma-total/releases/latest/download/PlataformaTotal-Linux.tar.gz) | `tar -xzf` → ejecutar `PlataformaTotal/PlataformaTotal` |
-| 🍎 **macOS** | [PlataformaTotal-macOS.tar.gz](https://github.com/SoftEngAi-dev/plataforma-total/releases/latest/download/PlataformaTotal-macOS.tar.gz) | `tar -xzf` → abrir la app |
+| 🪟 **Windows** | [PlataformaTotal-Windows.zip](https://github.com/SoftEngAi-dev/plataforma-total-pro/releases/latest/download/PlataformaTotal-Windows.zip) | Descomprimir → doble clic en `PlataformaTotal.exe` *(SmartScreen: "Más información" → "Ejecutar de todas formas")* |
+| 🐧 **Linux** | [PlataformaTotal-Linux.tar.gz](https://github.com/SoftEngAi-dev/plataforma-total-pro/releases/latest/download/PlataformaTotal-Linux.tar.gz) | `tar -xzf` → ejecutar `PlataformaTotal/PlataformaTotal` |
+| 🍎 **macOS** | [PlataformaTotal-macOS.tar.gz](https://github.com/SoftEngAi-dev/plataforma-total-pro/releases/latest/download/PlataformaTotal-macOS.tar.gz) | `tar -xzf` → abrir la app |
 
-> 🏷️ Enlaces permanentes siempre a la **última versión**. Historial completo: [Releases](https://github.com/SoftEngAi-dev/plataforma-total/releases) · Cambios: [CHANGELOG](CHANGELOG.md)
+> 🏷️ Enlaces permanentes siempre a la **última versión**. Historial completo: [Releases](https://github.com/SoftEngAi-dev/plataforma-total-pro/releases) · Cambios: [CHANGELOG](CHANGELOG.md)
 
 ---
 
@@ -43,7 +44,7 @@ Linux · Windows · macOS · 100% offline · 🔄 Auto-actualización · Ejecuta
 **Código fuente** (necesitas Python 3.10+): los scripts instalan todo solos la primera vez.
 
 ```bash
-git clone https://github.com/SoftEngAi-dev/plataforma-total.git && cd plataforma-total
+git clone https://github.com/SoftEngAi-dev/plataforma-total-pro.git && cd plataforma-total
 ./run.sh        # Linux (o run.bat / run.command)
 ```
 

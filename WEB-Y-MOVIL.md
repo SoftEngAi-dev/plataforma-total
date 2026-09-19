@@ -7,8 +7,8 @@
 
 | Producto | URL | Costo | Qué es |
 |---|---|---|---|
-| 🌐 **Landing** | https://softengai-dev.github.io/plataforma-total/ | $0 (GitHub Pages) | Portada + descargas + 💎 planes + SEO 47 cursos |
-| 🌐 **Web App** | https://softengai-dev.github.io/plataforma-total/app/ | $0 | La plataforma **en el navegador**: buscador, 47 cursos listados, 15 gratis completos (269 lecciones disponibles en las FREE), quizzes interactivos |
+| 🌐 **Landing** | https://softengai-dev.github.io/plataforma-total-pro/ | $0 (GitHub Pages) | Portada + descargas + 💎 planes + SEO 47 cursos |
+| 🌐 **Web App** | https://softengai-dev.github.io/plataforma-total-pro/app/ | $0 | La plataforma **en el navegador**: buscador, 47 cursos listados, 15 gratis completos (269 lecciones disponibles en las FREE), quizzes interactivos |
 | 📱 **App móvil (PWA)** | la misma URL `/app/` desde el celular | $0 | Se instala como app nativa (icono, pantalla completa, modo offline) — sin stores, sin cuentas de desarrollador |
 
 > Arquitectura: una SPA vanilla (sin frameworks, sin build) + JSON estáticos generados desde el mismo contenido de la app de escritorio (`scripts/gen_webapp.py`). Se sirve gratis desde GitHub Pages para siempre.
@@ -20,7 +20,7 @@
 
 ## 3. 📲 Cómo instalarla en el celular (para vos y los usuarios)
 
-- **Android (Chrome):** abrir https://softengai-dev.github.io/plataforma-total/app/ → menú ⋮ → **«Instalar app»** o «Añadir a pantalla principal». Listo: icono, fullscreen y **modo offline** (los 15 cursos gratis quedan en caché).
+- **Android (Chrome):** abrir https://softengai-dev.github.io/plataforma-total-pro/app/ → menú ⋮ → **«Instalar app»** o «Añadir a pantalla principal». Listo: icono, fullscreen y **modo offline** (los 15 cursos gratis quedan en caché).
 - **iPhone (Safari):** abrir la URL → botón **Compartir** → **«Añadir a pantalla de inicio»**.
 - Funciona gracias a `manifest.webmanifest` + `sw.js` (service worker con los cursos gratis en pre-caché).
 
@@ -31,8 +31,8 @@ Cuando LS te pida datos de la tienda/producto, usá:
 | Campo | Valor |
 |---|---|
 | **Store name** | `Plataforma Total` |
-| **Website URL** | `https://softengai-dev.github.io/plataforma-total/` |
-| **Product URL** (si lo pide por producto) | `https://softengai-dev.github.io/plataforma-total/app/` |
+| **Website URL** | `https://softengai-dev.github.io/plataforma-total-pro/` |
+| **Product URL** (si lo pide por producto) | `https://softengai-dev.github.io/plataforma-total-pro/app/` |
 | Descripción corta | "Escuela de programación en español y offline: app de escritorio + web/PWA con 47 cursos (15 gratis). Suscripción PRO mensual/anual/lifetime desbloquea los 32 avanzados." |
 | País | Uruguay 🇺🇾 |
 

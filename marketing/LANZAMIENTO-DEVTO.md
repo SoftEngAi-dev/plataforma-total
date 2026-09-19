@@ -32,11 +32,11 @@ Aprendés en un avión, en el bus, en una escuela rural, con datos agotados. La 
 - Auto-update vía GitHub Releases (compara versión, descarga, reinstala)
 - Paywall por licencia Lemon Squeezy (valida online una vez, luego 100% offline)
 - Precios configurables por un JSON en el repo — sin recompilar
-- Repo abierto: **github.com/SoftEngAi-dev/plataforma-total**
+- Repo abierto: **github.com/SoftEngAi-dev/plataforma-total-pro**
 
 ## Probala
 
-👉 **[Descargar gratis](https://softengai-dev.github.io/plataforma-total/)** — 2 minutos y ya estás programando.
+👉 **[Descargar gratis](https://softengai-dev.github.io/plataforma-total-pro/)** — 2 minutos y ya estás programando.
 
 ¿Feedback? Abrí un issue en GitHub. ¿Te gustó? Una ⭐ en el repo ayuda una barbaridad 🙏
 

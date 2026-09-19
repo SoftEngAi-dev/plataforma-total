@@ -33,7 +33,7 @@ for i, curso in enumerate(main.CURSOS, 1):
     items.append({
         "@type": "Course", "name": nombre, "description": desc,
         "provider": {"@type": "Organization", "name": "Plataforma Total",
-                     "sameAs": "https://github.com/SoftEngAi-dev/plataforma-total"},
+                     "sameAs": "https://github.com/SoftEngAi-dev/plataforma-total-pro"},
         "isAccessibleForFree": gratis, "inLanguage": "es",
         "offers": {"@type": "Offer", "price": 0 if gratis else 79, "priceCurrency": "USD"},
     })

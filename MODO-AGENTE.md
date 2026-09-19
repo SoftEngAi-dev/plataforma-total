@@ -22,7 +22,7 @@
 1. Entrá a **https://app.lemonsqueezy.com/register** → email + contraseña (guardá la contraseña en un gestor).
 2. Verificá el email, nombre de tienda: `plataforma-total`.
 3. `Settings → General`: país **Uruguay**, moneda **USD**.
-   - Si te piden **"Website / Product URL"** (para validar que tenés un producto real): ✅ ya existe → usá `https://softengai-dev.github.io/plataforma-total/` (landing + precios) o `…/plataforma-total/app/` (la web app gratis). Ver **WEB-Y-MOVIL.md §4**.
+   - Si te piden **"Website / Product URL"** (para validar que tenés un producto real): ✅ ya existe → usá `https://softengai-dev.github.io/plataforma-total-pro/` (landing + precios) o `…/plataforma-total/app/` (la web app gratis). Ver **WEB-Y-MOVIL.md §4**.
 4. `Settings → Payouts`: conectá tu cobro (ver **COBROS-UY.md** → banco Santander SWIFT `BSCHUYMMXXX` o PayPal).
 
 ### A2. Crear los 4 productos (10 min, copy-paste exacto)
@@ -57,7 +57,7 @@ Al guardar cada producto → botón **Share** → copiá el **Checkout link** (f
 # 2. Commit + push a main → la web #precios y la app los leen solas (cache 24h)
 git add monetizacion.json && git commit -m "💰 activar checkout real Lemon Squeezy" && git push
 # 3. Verificación end-to-end SIN pagar:
-#    - web: abrir https://softengai-dev.github.io/plataforma-total/#precios → los botones apuntan a LS
+#    - web: abrir https://softengai-dev.github.io/plataforma-total-pro/#precios → los botones apuntan a LS
 #    - app: instalar limpio → abrir curso PRO → paywall muestra planes → botón abre checkout real
 #    - clave OWNER de A3 → activa y desbloquea los 32 cursos (prueba real del paywall)
 # 4. Smoke-test de venta (opcional): compra de prueba en modo test de LS con tarjeta 4242
@@ -85,9 +85,9 @@ Todo el material está **listo y commiteado** — tras el Bloque B solo hay que 
 ## 🧾 PROMPT LISTO PARA PEGAR A CUALQUIER AGENTE
 
 ```
-Sos mi agente de despliegue. Contexto: repo github.com/SoftEngAi-dev/plataforma-total (rama main).
+Sos mi agente de despliegue. Contexto: repo github.com/SoftEngAi-dev/plataforma-total-pro (rama main).
 La app ya tiene paywall (15 cursos gratis, 32 PRO) y lee checkout links de
-https://raw.githubusercontent.com/SoftEngAi-dev/plataforma-total/main/monetizacion.json
+https://raw.githubusercontent.com/SoftEngAi-dev/plataforma-total-pro/main/monetizacion.json
 Mis enlaces de Lemon Squeezy son:
 - mensual: PEGAR_AQUI
 - anual: PEGAR_AQUI

@@ -22,8 +22,8 @@ sys.path.insert(0, str(BASE))
 import contenido_a, contenido_b, contenido_c, contenido_d, contenido_e
 
 # 🔁 Versión instalada — la auto-actualización la compara con GitHub Releases
-VERSION_APP = "4.0.0"
-REPO_GH = "SoftEngAi-dev/plataforma-total"
+VERSION_APP = "4.1.0"
+REPO_GH = "SoftEngAi-dev/plataforma-total-pro"
 _LECCIONES = {}
 for _mod in (contenido_a, contenido_b, contenido_c, contenido_d, contenido_e):
     _LECCIONES.update(_mod.CURSOS_MOD)
@@ -34,9 +34,9 @@ URL_MONETIZACION = f"https://raw.githubusercontent.com/{REPO_GH}/main/monetizaci
 _LS_VALIDATE = "https://api.lemonsqueezy.com/v1/licenses/validate"
 _MONETIZACION_FALLBACK = {
     "tienda": "Lemon Squeezy",
-    "checkout_mensual": "https://softengai-dev.github.io/plataforma-total/#precios",
-    "checkout_anual": "https://softengai-dev.github.io/plataforma-total/#precios",
-    "checkout_lifetime": "https://softengai-dev.github.io/plataforma-total/#precios",
+    "checkout_mensual": "https://softengai-dev.github.io/plataforma-total-pro/#precios",
+    "checkout_anual": "https://softengai-dev.github.io/plataforma-total-pro/#precios",
+    "checkout_lifetime": "https://softengai-dev.github.io/plataforma-total-pro/#precios",
     "nota": "🔑 Tras el pago, tu clave llega a tu email en ~1 minuto.",
 }
 
@@ -568,6 +568,9 @@ class App(ctk.CTk):
                                text_color=("#fbbf24" if es else "gray"))
 
     def _url_asset(self):
+        if getattr(sys, "frozen", False) and sys.platform == "win32":
+            nombre = "PlataformaTotal-Windows.exe"  # 🪟 instalado como .exe → actualiza el .exe
+            return f"https://github.com/{REPO_GH}/releases/latest/download/{nombre}", nombre
         nombre = ("PlataformaTotal-Windows.zip" if sys.platform == "win32"
                   else "PlataformaTotal-macOS.tar.gz" if sys.platform == "darwin"
                   else "PlataformaTotal-Linux.tar.gz")
@@ -611,6 +614,22 @@ class App(ctk.CTk):
         if sys.platform == "darwin":
             webbrowser.open(f"https://github.com/{REPO_GH}/releases/latest")
             messagebox.showinfo("Descargada", f"Nueva versión en:\n{paquete}\n\nEn macOS reemplaza la app manualmente.")
+            return
+        if paquete.lower().endswith(".exe") and sys.platform == "win32":
+            exe_dir = os.path.dirname(os.path.abspath(sys.executable))  # 🪟 .exe suelto: solo se reemplaza el binario
+            try:
+                bat = os.path.join(exe_dir, "_actualizar.bat")
+                with open(bat, "w", encoding="cp850", errors="ignore") as f:
+                    f.write("@echo off\r\n"
+                            "timeout /t 2 /nobreak >nul\r\n"
+                            f"copy /y \"{paquete}\" \"{sys.executable}\" >nul\r\n"
+                            f"del \"{paquete}\"\r\n"
+                            f"start \"\" \"{sys.executable}\"\r\n"
+                            "del \"%~f0\"\r\n")
+                subprocess.Popen(["cmd", "/c", bat], creationflags=getattr(subprocess, "CREATE_NO_WINDOW", 0))
+                self.destroy()
+            except Exception as e:
+                self.lbl_update.configure(text=f"⚠ No se pudo reinstalar: {e}")
             return
         exe_dir = os.path.dirname(os.path.abspath(sys.executable))
         base = os.path.dirname(exe_dir)

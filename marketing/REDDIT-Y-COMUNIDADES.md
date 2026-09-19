@@ -23,8 +23,8 @@ Qué tiene HOY:
 • Código ABIERTO — los 32 cursos avanzados se desbloquean con PRO
   (open-core transparente; si sos técnico podés clonarlo, es MIT-ware)
 
-Web + descarga: https://softengai-dev.github.io/plataforma-total/
-Repo: https://github.com/SoftEngAi-dev/plataforma-total
+Web + descarga: https://softengai-dev.github.io/plataforma-total-pro/
+Repo: https://github.com/SoftEngAi-dev/plataforma-total-pro
 
 Qué les interesaría ver después? ¿App móvil? ¿Sincronización de progreso?
 Toda crítica constructiva es bienvenida 🙌
@@ -37,7 +37,7 @@ Toda crítica constructiva es bienvenida 🙌
 15 full courses free forever, no account, no data usage. 47 courses total,
 538 AI-graded quizzes, XP/streaks/pomodoro, verifiable certs, self-updating.
 Open source (open-core). Would love feedback from folks who teach in
-low-connectivity environments: https://softengai-dev.github.io/plataforma-total/
+low-connectivity environments: https://softengai-dev.github.io/plataforma-total-pro/
 ```
 
 ## 3. freeCodeCamp foros (ES) + r/udemyfreebies NO — mejor r/SideProject
@@ -54,7 +54,7 @@ Mensaje corto en #proyectos (NO en #general):
 ```
 Hola 👋 comparto proyecto open-source: app de escritorio para aprender
 programación en español y SIN INTERNET (15 cursos gratis, quizzes con IA).
-Feedback bienvenido: https://github.com/SoftEngAi-dev/plataforma-total
+Feedback bienvenido: https://github.com/SoftEngAi-dev/plataforma-total-pro
 ```
 
 ## 5. LinkedIn (post personal, tono maker)
