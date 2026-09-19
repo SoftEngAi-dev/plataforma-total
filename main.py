@@ -22,7 +22,7 @@ sys.path.insert(0, str(BASE))
 import contenido_a, contenido_b, contenido_c, contenido_d, contenido_e
 
 # 🔁 Versión instalada — la auto-actualización la compara con GitHub Releases
-VERSION_APP = "4.1.0"
+VERSION_APP = "4.2.0"
 REPO_GH = "SoftEngAi-dev/plataforma-total-pro"
 _LECCIONES = {}
 for _mod in (contenido_a, contenido_b, contenido_c, contenido_d, contenido_e):

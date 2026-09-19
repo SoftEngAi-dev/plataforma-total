@@ -1,5 +1,10 @@
 # Changelog
 
+## [4.2.0] - 2026-09-18
+### 🚚 Mudanza — nuevo repo canónico: SoftEngAi-dev/plataforma-total-pro
+- Todo el proyecto (historial completo, releases, web/PWA, marketing) migrado a **github.com/SoftEngAi-dev/plataforma-total-pro**
+- La app y la web ahora leen actualizaciones, licencias y `monetizacion.json` desde el nuevo hogar
+- Repo anterior queda como histórico (v4.1.0 = última release allí)
 ## [4.1.0] - 2026-09-18
 ### 🪟 ¡Ejecutable Windows de doble clic!
 - **`PlataformaTotal-Windows.exe`** compilado gratis en GitHub Actions (PyInstaller onefile, icono oficial) — descarga y úsala como cualquier app, sin Python
